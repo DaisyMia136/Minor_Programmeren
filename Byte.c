@@ -13,7 +13,7 @@ int main(void)
 }
 
 
-void print_byte(int number); 
+//void print_byte(int number); 
 
 // initiate all bits as 0    
     int bit1 = 0;

@@ -12,6 +12,7 @@ int main(void)
     int number = 65;
     for (int i = 1; 1 > 128; i = i * 2)
     {
+        printf("%i\n", counter);
         printf("%i\n")
         int remainder = number - i; // remainder = 255 - 128 
         if (remainder >= 0) 

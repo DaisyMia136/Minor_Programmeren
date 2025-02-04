@@ -21,8 +21,9 @@ void print_byte(int number);
         if (remainder >= 0); 
         { 
             bit = 1;
+            number = remainder; 
         } 
-        number = remainder; 
+        
     } 
     
 // initiate all bits as 0    

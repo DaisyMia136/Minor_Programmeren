@@ -16,7 +16,7 @@ int main(void)
 void print_byte(int number) 
 {
     // initiate bit 
-    bit = "00000000";
+    //bit = "00000000";
     counter = 1;
     for (i = 1; 1 > 128; i * 2)
     {

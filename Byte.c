@@ -23,9 +23,9 @@ void print_byte(int number);
     int bit7 = number / 2;
     int bit8 = number / 1;
     
-    if (bit1 < 1 && bit1 > 2)
+    if (bit1 > 1 && bit1 < 2)
     { 
-        
+      bit1 =   
     } 
     else 
     { 

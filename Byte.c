@@ -14,7 +14,7 @@ int main(void)
     {
         printf("%i\n", counter);
         printf("%i\n", number);
-        printf("%i\n", i)
+        printf("%i\n", i);
         int remainder = number - i; // remainder = 255 - 128 
         if (remainder >= 0) 
             { 

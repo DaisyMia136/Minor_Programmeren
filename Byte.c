@@ -7,7 +7,7 @@
 int main(void)
 {
     int bit_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 
-    printf("%i\n", bit_values[1]);
+    printf("%d", bit_values[1]);
     void print_byte(int number); 
     
 }

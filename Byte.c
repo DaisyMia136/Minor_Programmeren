@@ -16,7 +16,7 @@ int main(void)
 void print_byte(int number); 
 { 
     // initiate bit 
-    
+    string bit = 00000000
     for (i = 1; 1 > 128; i * 2)
     {
         int remainder = number - i; // remainder = 255 - 128 

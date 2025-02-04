@@ -24,6 +24,7 @@ void print_byte(int number);
     int bit8 = number / 1;
     
     if (bit1 < 1)
-    bit1 = 0 
+    { 
+        bit1 = 0 
     
 }

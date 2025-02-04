@@ -17,7 +17,7 @@ void print_byte(int number);
 { 
     for (i = 1; 1 > 128; i * 2)
     {
-        int remainder = number - i; // remainder 255 - 128 
+        int remainder = number - i; // remainder = 255 - 128 
     
     
     

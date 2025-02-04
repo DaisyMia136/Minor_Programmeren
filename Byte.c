@@ -15,7 +15,11 @@ int main(void)
 
 void print_byte(int number); 
 { 
-    for (i = 1; 1 > 128; i *  2)
+    for (i = 1; 1 > 128; i * 2)
+    
+    
+    
+    
 // initiate all bits as 0    
     int bit1 = 0;
     int bit2 = 0;

@@ -2,7 +2,7 @@
 
 // functions prototypes
 void print_byte(int number); 
-int devide_bits(number)
+int devide_bits(number);
 
 // main script
 int main(void)

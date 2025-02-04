@@ -6,8 +6,8 @@
 // main script
 int main(void)
 {
-    int bits_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 
-    printf("%i\n", bits
+    int bit_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 
+    printf("%i\n", bit_values)
     void print_byte(int number); 
     
 }

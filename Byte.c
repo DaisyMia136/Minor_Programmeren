@@ -26,7 +26,7 @@ void print_byte(int number);
             { 
                 bit[counter] = 1;
                 number = remainder; //127 
-                counter++
+                counter++;
             } 
         
     } 

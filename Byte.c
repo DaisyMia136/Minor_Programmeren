@@ -25,7 +25,8 @@ void print_byte(int number);
     
     if (bit1 > 1 && bit1 < 2)
     { 
-      bit1 = 
+      bit1 = 1
+      
     } 
     else 
     { 

@@ -7,7 +7,7 @@ int devide_bits(number);
 // main script
 int main(void)
 {
-   int value_bits = [int 128, 64, 32]
+   int value_bits = [int 128, int 64, int 32]
    printf("%i\n", value_bits)
    void print_byte(int number); 
     

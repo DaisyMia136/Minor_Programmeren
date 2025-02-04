@@ -8,6 +8,20 @@ int main(void)
 {
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     printf("%d\n", bit[1]);
+     int counter = 0;
+    for (int i = 1; 1 > 128; i = i * 2)
+    {
+        
+        int remainder = number - i; // remainder = 255 - 128 
+        if (remainder >= 0) 
+            { 
+                bit[counter] = 1;
+                number = remainder; //127 
+                counter++;
+                //printf("%i\n", bit);
+            } 
+        
+    } 
     //int bit_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 
     int number = 65;
     void print_byte(int number); 

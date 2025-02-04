@@ -16,7 +16,8 @@ int main(void)
 void print_byte(int number); 
 { 
     for (i = 1; 1 > 128; i * 2)
-    
+    {
+        bit1 = 
     
     
     

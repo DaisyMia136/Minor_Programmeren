@@ -18,7 +18,7 @@ void print_byte(int number)
     // initiate bit 
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     int counter = 0;
-    for (int i = 1; 1 > 128; i * 2)
+    for (int i = 1; 1 > 128; i*2)
     {
         
         int remainder = number - i; // remainder = 255 - 128 

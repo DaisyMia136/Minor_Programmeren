@@ -12,7 +12,7 @@ int main(void)
     int number = 255;
     for (int i = 128; i > 0; i = i / 2 )
     {
-        printf("%i\n", counter);
+        printf("Counter is %i\n", counter);
         printf("%i\n", number);
         printf("%i\n", i);
         int remainder = number - i; // remainder = 255 - 128 

@@ -13,7 +13,7 @@ int main(void)
 }
 
 
-void print_byte(int number); 
+void print_byte(int number) 
 {
     // initiate bit 
     string bit = "00000000";

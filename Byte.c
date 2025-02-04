@@ -31,6 +31,7 @@ void print_byte(int number);
     else 
     { 
         bit1 = 0;
-    } 
+    }
+    
     
 }

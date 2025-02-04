@@ -22,7 +22,7 @@ void print_byte(int number)
     {
         
         int remainder = number - i; // remainder = 255 - 128 
-        if (remainder >= 0); 
+        if (remainder >= 0) 
             { 
                 bit[counter] = 1;
                 number = remainder; //127 

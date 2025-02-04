@@ -21,9 +21,9 @@ int main(void)
             { 
                 bit[counter] = 1;
                 number = remainder; //127 
-                counter++;
                 //printf("%i\n", bit);
             } 
+            counter++;
         
     } 
     //int bit_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 

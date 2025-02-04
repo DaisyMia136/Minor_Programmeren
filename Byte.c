@@ -14,5 +14,5 @@ int main(void)
 void print_byte(int number); 
 {
     int number = 5 
-    
+    number 
 }

@@ -1,3 +1,6 @@
+void print_byte(int number); 
+int devide_bits(number);
+
 
 // functions
 void print_byte(int number); 

@@ -7,7 +7,7 @@
 int main(void)
 {
     //int bit_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 
-    int number = 
+    int number = 201
     void print_byte(int number); 
     
 }

@@ -2,7 +2,7 @@
 
 int times_two(int a);
 void print_int(int a);
-int halves_two(int a);
+int half(int a);
 void print_float(float b);
 float average(float a, float c); 
 float max(float a, float c);

@@ -13,7 +13,7 @@ int main(void)
 // functions
 void print_byte(int number); 
 {
-    number = 5 
+    number = 5; 
     int bit1 = number / 128;
     int bit2 = number / 64;
     int bit3 = number / 32;

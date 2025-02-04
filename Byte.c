@@ -37,4 +37,4 @@ void print_byte(int number);
     
 }
 
-int number 
+int number devide_bits()

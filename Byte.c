@@ -6,7 +6,7 @@ void print_byte(int number);
 // main script
 int main(void)
 {
-   value_bits = 
+   value_bits = []
     void print_byte(int number); 
     
 }

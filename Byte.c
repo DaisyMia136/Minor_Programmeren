@@ -9,7 +9,7 @@ int main(void)
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     //printf("%d\n", bit[1]);
     int counter = 0;
-    int number = 65;
+    int number = 255;
     for (int i = 128; i > 0; i = i / 2 )
     {
         printf("%i\n", counter);

@@ -20,4 +20,5 @@ void print_byte(int number);
     int bit4 = number / 16
     int bit5 = number / 8
     int bit6 = number / 4
+    int bit 7 = number / 2
 }

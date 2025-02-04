@@ -6,6 +6,8 @@ void print_byte(int number);
 // main script
 int main(void)
 {
+    int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
+    printf("%d\n", bit[1]);
     //int bit_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 
     int number = 65;
     void print_byte(int number); 

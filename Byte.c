@@ -14,5 +14,6 @@ int main(void)
 void print_byte(int number); 
 {
     number = 5 
-    bit1 = number / 
+    bit1 = number / 128
+    
 }

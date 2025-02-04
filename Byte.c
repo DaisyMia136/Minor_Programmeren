@@ -7,7 +7,7 @@ void print_byte(int number);
 int main(void)
 {
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
-    printf("%d\n", bit[1]);
+    //printf("%d\n", bit[1]);
     int counter = 0;
     int number = 65;
     for (int i = 1; i < 128; i = i * 2)

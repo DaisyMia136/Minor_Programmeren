@@ -19,7 +19,8 @@ void print_byte(int number);
     {
         int remainder = number - i; // remainder = 255 - 128 
         if (remainder >= 0) 
-        bit = 1 
+        bit = 1;
+        number = remainder; 
     } 
     
 // initiate all bits as 0    

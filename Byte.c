@@ -16,6 +16,7 @@ int main(void)
         printf("%i\n", number);
         printf("%i\n", i);
         int remainder = number - i; // remainder = 255 - 128 
+        
         if (remainder >= 0) 
             { 
                 bit[counter] = 1;

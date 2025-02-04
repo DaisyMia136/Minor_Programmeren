@@ -23,7 +23,7 @@ void print_byte(int number);
     int bit7 = number - 2;
     int bit8 = number - 1;
     
-    if (bit1 > 0)
+    if (bit1 >= 0)
     { 
       
       bit1 = 1

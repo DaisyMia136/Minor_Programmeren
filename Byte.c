@@ -6,7 +6,8 @@ void print_byte(int number);
 // main script
 int main(void)
 {
-   value_bits = []
+   value_bits = [128, 64, 32]
+   printf()
     void print_byte(int number); 
     
 }

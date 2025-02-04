@@ -10,7 +10,7 @@ int main(void)
     //printf("%d\n", bit[1]);
     int counter = 0;
     int number = 65;
-    for (int i = 128; i > 0; i = i * 2)
+    for (int i = 128; i > 0; i = i / 2 )
     {
         printf("%i\n", counter);
         printf("%i\n", number);

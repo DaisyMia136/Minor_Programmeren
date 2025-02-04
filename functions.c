@@ -12,7 +12,7 @@ int main(void)
     int x = 2;
     int y = times_two(x); // y = x times two
     print_int(y); // print int y 
-    int halved = halves_two(x); // halved = x devided by two
+    int halved = half(x); // halved = x devided by two
     print_int(halved); // print int halved 
     
     float e = max(12,15); // e is the maximal number of the inputted floats

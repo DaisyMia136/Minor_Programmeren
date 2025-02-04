@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 // functions prototypes
-
+void print_byte(int number);
 
 // main script
 int main(void)

@@ -23,7 +23,7 @@ int main(void)
                 number = remainder; //127 
                 //printf("%i\n", bit);
             } 
-            counter++;
+        counter++;
         
     } 
     //int bit_values[] = {128, 64, 32, 16, 8, 4, 2, 1}; 

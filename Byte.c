@@ -21,4 +21,4 @@ void print_byte(int number);
     int bit5 = 0;
     int bit6 = 0;
     int bit7 = 0;
-    int bit8 = 0
+    int bit8 = 0;

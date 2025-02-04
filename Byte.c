@@ -29,7 +29,7 @@ void print_byte(int number);
     } 
     else 
     { 
-        bit1 = 1;
+        bit1 = 0;
     } 
     
 }

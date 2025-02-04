@@ -13,5 +13,6 @@ int main(void)
 // functions
 void print_byte(int number); 
 {
+    int number = 5 
     
 }

@@ -27,6 +27,7 @@ void print_byte(int number);
     { 
       int remainder = number - 128
       bit1 = 1
+      
     } 
     else 
     { 

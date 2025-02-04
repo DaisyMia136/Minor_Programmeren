@@ -23,7 +23,7 @@ void print_byte(int number);
     int bit7 = number - 2;
     int bit8 = number - 1;
     
-    if (bit1 
+    if (bit1 > 0)
     { 
       int remainder = number - 128
       bit1 = 1

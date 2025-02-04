@@ -31,7 +31,7 @@ void print_int(int a)
     printf("Value = %i\n", a); // print the inputted int a 
 }
 
-int halves_two(int a)
+int half(int a)
 { 
     return a/2; // use / to divide numbers
 } 

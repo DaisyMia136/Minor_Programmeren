@@ -34,4 +34,4 @@ void print_byte(int number);
     }
 }
 
-int bit 
+int 

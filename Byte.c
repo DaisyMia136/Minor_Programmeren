@@ -22,4 +22,6 @@ void print_byte(int number);
     int bit6 = number / 4;
     int bit7 = number / 2;
     int bit8 = number / 1;
+    
+    
 }

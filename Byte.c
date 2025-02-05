@@ -6,7 +6,7 @@ void print_byte(int number);
 // main script
 int main(void)
 {
-    //int number = 15;
+    int number = 135;
     //void print_byte(int number); 
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     int counter = 0;

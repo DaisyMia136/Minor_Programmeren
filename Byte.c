@@ -7,7 +7,7 @@ void print_byte(int number);
 int main(void)
 {
     int number = 12;
-    //void print_byte(int number); 
+    print_byte(int number); 
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     int counter = 0;
     if (number > 255 || number < 0)

@@ -29,7 +29,7 @@ void print_byte(int number)
         if (remainder >= 0) 
         { 
             bit[counter] = 1;
-            //printf("Current bit is %d\n",bit[counter]);
+            //printf("Current bit is %i\n",bit[counter]);
             number = remainder; //127                     
             printf("%i", bit[counter]);
         } 

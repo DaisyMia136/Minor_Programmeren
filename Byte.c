@@ -21,8 +21,8 @@ void print_byte(int number)
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     int counter = 0;
     for (int i = 128; i >= 1; i = i / 2 )
-        {
-            //printf("Counter is %i\n", counter);
+    {
+        //printf("Counter is %i\n", counter);
             //printf("Number is %i\n", number);
             //printf("i is %i\n", i);
             int remainder = number - i; // remainder = 255 - 128 

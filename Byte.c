@@ -36,7 +36,7 @@ void print_byte(int number)
         } 
         counter++;
             
-        } 
+    } 
 }
 
 

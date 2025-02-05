@@ -6,9 +6,6 @@ void print_byte(int number);
 // main script
 int main(void)
 {
-    
-    //printf("%d\n", bit[0]);
-
     int number = 15;
     
     void print_byte(int number); 

@@ -11,7 +11,7 @@ int main(void)
 
     int number = 15;
     
-    void print_byte(int number); 
+    void print_byte(15); 
     
 }
 

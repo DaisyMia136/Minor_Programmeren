@@ -9,7 +9,7 @@ int main(void)
     int number = 12;
     print_byte(number); 
             
-    } 
+     
 }
 
 

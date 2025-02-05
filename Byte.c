@@ -7,7 +7,7 @@ void print_byte(int number);
 int main(void)
 {
     int number = 12;
-    print_byte(int number); 
+    print_byte(number); 
             
     } 
 }

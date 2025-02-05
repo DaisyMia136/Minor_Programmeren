@@ -28,7 +28,7 @@ void print_byte(int number)
             int remainder = number - i; // remainder = 255 - 128 
             //printf("remainder is %i\n", remainder);
             if (remainder >= 0) 
-                { 
+            { 
                     bit[counter] = 1;
                     //printf("Current bit is %d\n",bit[counter]);
                     number = remainder; //127 

@@ -12,7 +12,7 @@ int main(void)
     int counter = 0;
     if (number > 255)
     { 
-        
+        printf
     for (int i = 128; i >= 1; i = i / 2 )
     {
         //printf("Counter is %i\n", counter);

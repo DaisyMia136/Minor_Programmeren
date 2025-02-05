@@ -6,7 +6,7 @@ void print_byte(int number);
 // main script
 int main(void)
 {
-    int number = 15;
+    int number = 15; // a number between 0 and 255
     
     print_byte(number); 
             

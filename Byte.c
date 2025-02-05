@@ -10,7 +10,7 @@ int main(void)
     //void print_byte(int number); 
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     int counter = 0;
-    if (number > 255)
+    if (number > 255 || number < 0)
     { 
         printf("Please input a number between 0 and 255")
     for (int i = 128; i >= 1; i = i / 2 )

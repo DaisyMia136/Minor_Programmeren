@@ -23,6 +23,7 @@ void print_byte(int number)
         //printf("Counter is %i\n", counter);
         //printf("Number is %i\n", number);
         //printf("i is %i\n", i);
+        
         int remainder = number - i; // remainder = 255 - 128 
         //printf("remainder is %i\n", remainder);
         if (remainder >= 0) 

@@ -10,7 +10,6 @@ int main(void)
     //void print_byte(int number); 
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     int counter = 0;
-    int number = 15;
     for (int i = 128; i >= 1; i = i / 2 )
     {
         //printf("Counter is %i\n", counter);

@@ -29,10 +29,9 @@ void print_byte(int number)
             //printf("remainder is %i\n", remainder);
             if (remainder >= 0) 
             { 
-                    bit[counter] = 1;
-                    //printf("Current bit is %d\n",bit[counter]);
-                    number = remainder; //127 
-                    printf("%d", bit[counter]);
+                bit[counter] = 1;
+                //printf("Current bit is %d\n",bit[counter]);
+                number = remainder; //127                     printf("%d", bit[counter]);
                 } 
             else 
             { 

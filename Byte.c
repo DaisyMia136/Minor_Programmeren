@@ -35,7 +35,7 @@ void print_byte(int number)
         } 
         else 
         { 
-            printf("%d", bit[counter]);
+            printf("%i", bit[counter]);
         } 
         counter++;
             

@@ -12,7 +12,7 @@ int main(void)
     int counter = 0;
     if (number > 255 || number < 0)
     { 
-        printf("Please input a number between 0 and 255");
+        printf("Please input a number between 0 and 255 ");
     } 
     for (int i = 128; i >= 1; i = i / 2 )
     {

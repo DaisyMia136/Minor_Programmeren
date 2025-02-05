@@ -23,21 +23,21 @@ void print_byte(int number)
     for (int i = 128; i >= 1; i = i / 2 )
     {
         //printf("Counter is %i\n", counter);
-            //printf("Number is %i\n", number);
-            //printf("i is %i\n", i);
-            int remainder = number - i; // remainder = 255 - 128 
-            //printf("remainder is %i\n", remainder);
-            if (remainder >= 0) 
-            { 
-                bit[counter] = 1;
-                //printf("Current bit is %d\n",bit[counter]);
-                number = remainder; //127                     printf("%d", bit[counter]);
-            } 
-            else 
-            { 
-                printf("%d", bit[counter]);
-            } 
-            counter++;
+        //printf("Number is %i\n", number);
+        //printf("i is %i\n", i);
+        int remainder = number - i; // remainder = 255 - 128 
+        //printf("remainder is %i\n", remainder);
+        if (remainder >= 0) 
+        { 
+            bit[counter] = 1;
+            //printf("Current bit is %d\n",bit[counter]);
+            number = remainder; //127                     printf("%d", bit[counter]);
+        } 
+        else 
+        { 
+            printf("%d", bit[counter]);
+        } 
+        counter++;
             
         } 
 }

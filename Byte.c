@@ -6,7 +6,6 @@ void print_byte(int number);
 // main script
 int main(void)
 {
-    int number = get_int
     int number = 15;
     
     print_byte(number); 

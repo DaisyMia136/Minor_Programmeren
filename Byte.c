@@ -8,7 +8,7 @@ int main(void)
 {
     //int number = 15;
     //void print_byte(int number); 
-        int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
+    int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};
     int counter = 0;
     for (int i = 128; i >= 1; i = i / 2 )
     {

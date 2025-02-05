@@ -31,7 +31,8 @@ void print_byte(int number)
         { 
             bit[counter] = 1;
             //printf("Current bit is %d\n",bit[counter]);
-            number = remainder; //127                     printf("%d", bit[counter]);
+            number = remainder; //127                     
+            printf("%d", bit[counter]);
         } 
         else 
         { 

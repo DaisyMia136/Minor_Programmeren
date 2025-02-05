@@ -9,7 +9,7 @@ int main(void)
     
     //printf("%d\n", bit[0]);
 
-    int number = 15;
+    //int number = 15;
     
     void print_byte(15); 
     

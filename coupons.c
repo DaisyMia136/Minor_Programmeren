@@ -20,7 +20,7 @@ int main(void)
    float price_coupon_1 = calc_coup_1(product_number, product_cost);
    
    // print de beste prijs
-   printf("Met coupon 1 kost dat ")
+   printf("Met coupon 1 kost dat %")
 }
 
 // functions 

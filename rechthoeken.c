@@ -7,7 +7,7 @@ int do_calc(int recht1_lengte, int recht1_breedte, int recht2_lengte, int recht2
 
 
 
-// main function
+// main script
 int main(void)
 {
     // Vraag lengte en breedte rechthoek 1 en 2 

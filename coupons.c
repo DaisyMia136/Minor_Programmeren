@@ -28,6 +28,7 @@ float calc_coup_1()
 {
     int multiplier = product_number / 3;
     float discount = multiplier * float product_cost;
+    float 
     
     
     return price_coupon_1;

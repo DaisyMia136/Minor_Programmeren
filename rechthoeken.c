@@ -35,7 +35,7 @@ int do_calc(int recht1_lengte, int recht1_breedte, int recht2_lengte, int recht2
     {
         return opp_1;
     } 
-    else if (strcmp(calculation_option, "1") == 0) 
+    else if (strcmp(calculation_option, "2") == 0) 
     {
         return opp_2;
     }

@@ -27,9 +27,14 @@ int main(void)
    { 
        printf("Met coupon 1 kost dat %f\n", price_coupon_1);
    } 
-   else if (lowest_price )
+   else if (lowest_price = price_coupon_2)
+   { 
    printf("Met coupon 2 kost dat %f\n", price_coupon_2);
+   } 
+   else
+   { 
    printf("Met coupon 3 kost dat %f\n", price_coupon_3);
+   }
 }
 
 // functions 

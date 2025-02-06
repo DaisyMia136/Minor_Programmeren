@@ -8,7 +8,7 @@
 int main(void)
 {
     // Vraag lengte en breedte rechthoek 1 en 2 
-    
+    get_int("")
     
     
 }

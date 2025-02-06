@@ -45,9 +45,12 @@ float bereken_coupon2(int aantal_stuks, float prijs)
   { 
       float price_coupon_2 = prijs; 
   } 
-  float fullprice_products = multiplier * prijs; //calculate the price of the full price products
-  float halfprice_products = multiplier * (prijs / 2); //calculate the price of the half price products
-  float price_coupon_2 = fullprice_products + halfprice_products; 
+  else 
+  {
+    float fullprice_products = multiplier * prijs; //calculate the price of the full price products
+    float halfprice_products = multiplier * (prijs / 2); //calculate the price of the half price products
+    float price_coupon_2 = fullprice_products + halfprice_products; 
+  } 
   return price_coupon_2;
 }
 

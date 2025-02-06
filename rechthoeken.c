@@ -33,19 +33,19 @@ int do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calcul
     
     if (char * calculation_option == "1"  || calculation_option == "S") 
     {
-        return opp_1
+        return opp_1;
     } 
     else if (calculation_option == "2" ) 
     {
-        return opp_2
+        return opp_2;
     }
     else if (calculation_option == S) // bereken de som van de twee rechthoeken
     {
-        opp_1 + opp_2
+        opp_1 + opp_2;
     }
     else if (calculation_option == V) // bereken het verschil van de twee rechthoeken
     {
-        opp_1 - opp_2
+        opp_1 - opp_2;
     }
 
 }

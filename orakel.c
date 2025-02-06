@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 // function prototypes
-bool check_answer(bool universal_answer);
+bool check_answer(char * universal_answer);
 
 //main function
 int main(void)

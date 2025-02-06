@@ -1,7 +1,8 @@
 #include <cs50.h>
-
+// function prototype
 bool is_acidic(float value);
 
+//main script
 int main(void)
 {
     float input = get_float("Vul het PH level in: ");

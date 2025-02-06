@@ -34,7 +34,7 @@ int do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calcul
     } 
     else if (calculation_option == 2) // bereken oppervlakte van t tweede rechthoek
     {
-        
+        int opp_2 = int recht2_lengte * int recht2_breedte; 
     }
     else if (calculation_option == S) // bereken de som van de twee rechthoeken
     {

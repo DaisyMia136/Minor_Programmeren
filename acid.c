@@ -10,6 +10,7 @@ int main(void)
     // roep functie aan en print boodschap afhankelijk van het resultaat
 }
 
+// functions
 bool is_acidic(float value)
 {
     // beslis of dit zuur is (ofwel kleiner dan 7.0)

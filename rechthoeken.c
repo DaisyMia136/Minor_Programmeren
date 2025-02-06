@@ -14,6 +14,7 @@ int main(void)
     Recht2_Breedte = get_int("Breedte 2: ");
     
     
+    
 }
 
 // functions 

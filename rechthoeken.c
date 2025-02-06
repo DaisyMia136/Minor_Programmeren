@@ -7,7 +7,8 @@
 // main function
 int main(void)
 {
-    // Ask for 
+    // Vraag lengte en breedte rechthoek 1 en 2 
+    
     
     
 }

@@ -11,7 +11,6 @@ int main(void)
     while (i == 1)
     { 
         int input = get_int("");
-        
     } 
     
 }

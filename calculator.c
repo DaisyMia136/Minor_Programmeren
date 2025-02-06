@@ -27,6 +27,8 @@ int main(void)
                 
             }
             else if (input2 == '*')
+            { 
+            } 
             
         }
        

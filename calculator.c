@@ -15,8 +15,11 @@ int main(void)
         {
             int input1 = input;
         }
-        else if (input == + || input == - || input == / )
+        else if (input == + || input == - || input == / || input == *)
         {
+            int input2 = input
+            if
+            
         } 
         
     } 

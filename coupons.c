@@ -25,7 +25,7 @@ int main(void)
 
 // functions 
 // coupon 1 > elke derde is gratis
-float price_coupon_1 calc_coup_1(int product_number, float product_cost) 
+float calc_coup_1(int product_number, float product_cost) 
 {
     int multiplier = product_number / 3;
     float discount = multiplier * float product_cost;

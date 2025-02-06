@@ -13,6 +13,7 @@ int main(void)
     int recht2_lengte = get_int("Lengte 2: ");
     int recht2_breedte = get_int("Breedte 2: ");
     
+    // vraag welke optie er uitgevoerd moet worden
     char * calculation = get_string("Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? ");
     //printf("%s\n", calculation);
 }

@@ -1,5 +1,5 @@
 #include <cs50.h>
-// function prototype
+// function prototypes
 bool is_acidic(float value);
 
 //main script

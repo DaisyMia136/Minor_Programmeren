@@ -3,7 +3,7 @@
 #include <string.h>
 
 // function prototypes
-float calc_coup_1(int product_number, float product_cost) 
+float calc_coup_1(int product_number, float product_cost);
 //float calc_coup_2();
 //float calc_coup_3();
 

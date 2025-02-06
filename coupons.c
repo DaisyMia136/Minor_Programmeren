@@ -54,7 +54,7 @@ float bereken_coupon2(int aantal_stuks, float prijs)
     int remainder = aantal_stuks - multiplier; // the number of products that don't get a discount 
     printf("%i\n", multiplier);
     printf("%i\n", remainder);
-    printf("%f\n", float);
+    printf("%f\n", prijs);
     float fullprice_products = multiplier * prijs; // calculate the price of the full price products
     float halfprice_products = remainder * (prijs / 2); // calculate the price of the half price products
     float price_coupon_2 = fullprice_products + halfprice_products; 

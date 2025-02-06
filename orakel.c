@@ -22,7 +22,7 @@ int main(void)
 
 
 //functions
-bool check_answer(bool universal_answer)
+bool check_answer(char * universal_answer)
 { 
     //set defaults 
     bool ultimate_knowlegde = false;

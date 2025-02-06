@@ -11,7 +11,7 @@ int main(void)
     while (i == 1)
     { 
         int input = get_int("");
-        if (input == 0
+        if (input == 0 || input == 1 ||
     } 
     
 }

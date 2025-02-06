@@ -9,6 +9,8 @@ int main(void)
 {
    // vraag de hoeveelheid producten
    
+   // vraag de prijs per stuk
+   
    // 
 }
 

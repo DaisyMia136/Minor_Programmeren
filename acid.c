@@ -13,5 +13,7 @@ int main(void)
 // functions
 bool is_acidic(float value)
 {
+    
+    
     // beslis of dit zuur is (ofwel kleiner dan 7.0)
 }

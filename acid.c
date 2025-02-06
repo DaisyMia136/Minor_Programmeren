@@ -1,4 +1,5 @@
-#include 
+#include <cs50.h>
+
 bool is_acidic(float value);
 
 int main(void)

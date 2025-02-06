@@ -21,7 +21,10 @@ int main(void)
     
     if (strcmp(calculation_option, "1") != 0 && strcmp(calculation_option, "2") != 0 && strcmp(calculation_option, "S") != 0 && strcmp(calculation_option, "V")!= 0)
     { 
-        printf("Please enter one of the valid options: 1, 2 , S or V. Please note that the input is capital sensitive.")
+        printf("Please enter one of the valid options: 1, 2 , S or V. Please note that the input is capital sensitive.");
+    } 
+    else 
+    { 
     // Doe de berekening met de ingevoerde opties en gegevens
     int answer = do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option);
     printf("%i\n", answer);

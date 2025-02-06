@@ -22,7 +22,8 @@ int main(void)
 }
 
 // functions 
-float calc_coup_1()
+// coupon 1 > elke derde is gratis
+float calc_coup_1() 
 {
     
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-#include <string.h>
+#include <math.h>
 
 
 // function prototypes
@@ -18,9 +18,26 @@ int main(void)
    float prijs = get_float("Wat is de prijs per stuk? ");
    
    // bereken elke prijs met de verschillende coupons 
+   // coupon 1
    float price_coupon_1 = bereken_coupon1(aantal_stuks, prijs);
+   // Afronden coupon 1
+   float price_coupon_1_100 = price_coupon_1 * 100; //620
+   float price_coupon_1_round = round(price_coupon_1_100);
+   price_coupon_1 = price_coupon_1_round / 100;
+   
+   // coupon 2
    float price_coupon_2 = bereken_coupon2(aantal_stuks, prijs);
+   // afronden coupon 2
+   float price_coupon_2_100 = price_coupon_2 * 100; //620
+   float price_coupon_2_round = round(price_coupon_2_100);
+   price_coupon_2 = price_coupon_2_round / 100;
+   
+   // coupon 3
    float price_coupon_3 = bereken_coupon3(aantal_stuks, prijs);
+   // afronden coupon 3
+   float price_coupon_3_100 = price_coupon_3 * 100; //620
+   float price_coupon_3_round = round(price_coupon_3_100);
+   price_coupon_3 = price_coupon_3_round / 100;
    
    // print de beste prijs
    if (price_coupon_1 < price_coupon_2 && price_coupon_1 < price_coupon_3)
@@ -51,17 +68,11 @@ float bereken_coupon1(int aantal_stuks, float prijs)
 float bereken_coupon2(int aantal_stuks, float prijs)
 { 
     int multiplier = aantal_stuks / 2; // the number of products that get a discount
-    int remainder = aantal_stuks - multiplier; // the number of products that don't get a discount 
-    printf("%i\n", multiplier);
-    printf("%i\n", remainder);
-    printf("%f\n", prijs);
-    
+    int remainder = aantal_stuks - multiplier; // the number of products that don't get a discount
     float fullprice_products = multiplier * prijs; // calculate the price of the full price products
     float halfprice_products = remainder * (prijs / 2); // calculate the price of the half price products
     float price_coupon_2 = fullprice_products + halfprice_products; 
-    printf("%f\n", fullprice_products);
-    printf("%f\n", halfprice_products);
-    printf("%f\n", price_coupon_2);
+    printf("%f\n", price_coupon_2); 
     return price_coupon_2;
 }
 

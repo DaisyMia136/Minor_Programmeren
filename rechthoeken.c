@@ -17,7 +17,7 @@ int main(void)
     int recht2_breedte = get_int("Breedte 2: ");
     
     // vraag welke optie er uitgevoerd moet worden
-    char * calculation_option = get_string("Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? ");
+    string calculation_option = get_string("Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? ");
     
     if (strcmp(calculation_option, "1") != 0 && strcmp(calculation_option, "2") != 0 && strcmp(calculation_option, "S") != 0 && strcmp(calculation_option, "V")!= 0)
     { 

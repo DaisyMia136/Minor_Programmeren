@@ -27,5 +27,5 @@ int main(void)
 float calc_coup_1() 
 {
     float multiplier = product_number / 3;
-    if (multiplier )
+    
 }

@@ -35,7 +35,8 @@ int main(void)
             { 
             } 
         } 
-            
+        
+        intput 3 
         }
        
        

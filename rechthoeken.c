@@ -28,11 +28,11 @@ int main(void)
 // functions 
 int do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option)
 {
-    
+    int opp_1 = int recht1_lengte * int recht1_breedte; 
     
     if (char * calculation_option == "1"  || calculation_option == "S") // bereken oppervlakte van t eerste rechthoek
     {
-        int opp_1 = int recht1_lengte * int recht1_breedte; 
+        
     } 
     else if (calculation_option == "2" ) // bereken oppervlakte van t tweede rechthoek
     {

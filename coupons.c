@@ -41,7 +41,7 @@ float bereken_coupon1(int aantal_stuks, float prijs)
 float bereken_coupon2(int aantal_stuks, float prijs)
 { 
     
-  int multiplier = aantal_stuks / 2; // how many sets of three are in the number of products  
+    int multiplier = aantal_stuks / 2; // how many sets of three are in the number of products  
   if (multiplier == 0)
   { 
       float price_coupon_2 = prijs; 

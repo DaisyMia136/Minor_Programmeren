@@ -12,7 +12,7 @@ float calc_coup_3();
 int main(void) 
 {
    // vraag de hoeveelheid producten
-   
+   get_int
    
    // vraag de prijs per stuk
    

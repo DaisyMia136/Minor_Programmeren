@@ -52,6 +52,9 @@ float bereken_coupon2(int aantal_stuks, float prijs)
 { 
     // set defaults
     float price_coupon_2 = 0;
+    
+    
+    
     int multiplier = aantal_stuks / 2; // how many sets of three are in the number of products  
     if (multiplier == 0)
   { 

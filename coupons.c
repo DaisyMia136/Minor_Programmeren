@@ -5,7 +5,7 @@
 // function prototypes
 float bereken_coupon1(int aantal_stuks, float prijs);
 float bereken_coupon2(int aantal_stuks, float prijs);
-//float bereken_coupon3(int aantal_stuks, float prijs);
+float bereken_coupon3(int aantal_stuks, float prijs);
 
 
 // main script

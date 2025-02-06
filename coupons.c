@@ -30,7 +30,6 @@ int main(void)
    else if (price_coupon_2 < price_coupon_1 && price_coupon_2 < price_coupon_3)
    { 
    printf("Met coupon 2 kost dat %f\n", price_coupon_2);
-   printf("Met coupon 1 kost dat %f\n", price_coupon_1);
    } 
     else if (price_coupon_3 < price_coupon_1 && price_coupon_3 < price_coupon_2)
    { 

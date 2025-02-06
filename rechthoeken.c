@@ -44,7 +44,7 @@ int do_calc(int recht1_lengte, int recht1_breedte, int recht2_lengte, int recht2
         int answer = opp_1 + opp_2;
         return answer;
     }
-    else if (calculation_option == V) // bereken het verschil van de twee rechthoeken
+    else if (strcmp(calculation_option, "V") == 0) // bereken het verschil van de twee rechthoeken
     {
         answer = opp_1 - opp_2;
         return answer;

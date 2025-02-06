@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
+#include <stdlib.h>
 
 // function prototypes
 float bereken_coupon1(int aantal_stuks, float prijs);

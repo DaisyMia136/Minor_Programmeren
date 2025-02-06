@@ -10,7 +10,7 @@ int main(void)
     int i = 1;
     while (i == 1)
     { 
-        input = get_int();
+        int input = get_int();
     } 
     
 }

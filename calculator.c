@@ -1,2 +1,13 @@
 #include <stdio.h>
-#include <
+#include <cs50.h>
+#include <string.h>
+
+// function prototypes
+
+//main script
+int main(void)
+{
+    
+}
+
+//functions

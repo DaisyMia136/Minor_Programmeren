@@ -36,5 +36,10 @@ do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculatio
     {
         
     }
+    else if (calculation_option == S)
+    {
+        
+    }
     else if (calculation_option == )
+    }
 }

@@ -5,7 +5,7 @@
 // function prototypes
 
 // main script
-int main(void)
+int main(void) 
 {
     
 }

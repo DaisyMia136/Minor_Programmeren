@@ -23,6 +23,7 @@ int main(void)
    
    // print de beste prijs
    float lowest_price = min(price_coupon_1, price_coupon_2, price_coupon_3); 
+   if 
    printf("Met coupon 1 kost dat %f\n", price_coupon_1);
    printf("Met coupon 2 kost dat %f\n", price_coupon_2);
    printf("Met coupon 3 kost dat %f\n", price_coupon_3);

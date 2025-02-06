@@ -69,6 +69,6 @@ float bereken_coupon3(int aantal_stuks, float prijs)
         
     }
     float price_coupon_3 = prijs - discount;
-    return price_coupon_3
+    return price_coupon_3;
 
 } 

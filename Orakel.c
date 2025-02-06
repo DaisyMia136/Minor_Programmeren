@@ -7,5 +7,11 @@
 
 int main(void)
 { 
+    
     universal_answer = get("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? \n"); 
 } 
+
+
+//functions
+
+

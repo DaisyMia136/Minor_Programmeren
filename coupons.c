@@ -11,7 +11,7 @@ int main(void)
    
    // vraag de prijs per stuk
    
-   // 
+   // bereken 
    
    // print de beste prijs
 }

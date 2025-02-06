@@ -33,3 +33,5 @@ float calc_coup_1(int aantal_stuks, float prijs)
     return price_coupon_1; // output is the price when coupon 1 is used
 }
 
+// coupon 2 > 
+float bereken_coupon2(int aantal_stuks, float prijs);

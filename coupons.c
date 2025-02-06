@@ -15,8 +15,6 @@ int main(void)
    int product_number = get_int("Hoeveel stuks koop je? ");
    // vraag de prijs per stuk
    float product_cost = get_float("Wat is de prijs per stuk? ");
-   // vraag de 
-   
    
    // vraag de prijs per stuk
    

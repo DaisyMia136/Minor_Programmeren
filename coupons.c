@@ -21,6 +21,7 @@ int main(void)
    
    // print de beste prijs
    printf("Met coupon 1 kost dat %f", price_coupon_1);
+   
 }
 
 // functions 

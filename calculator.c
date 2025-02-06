@@ -36,7 +36,8 @@ int main(void)
             } 
         } 
         
-        intput 3 
+        int intput 3 = get_int("")
+        
         }
        
        

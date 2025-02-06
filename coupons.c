@@ -13,6 +13,7 @@ int main(void)
 {
    // vraag de hoeveelheid producten
    
+   
    // vraag de prijs per stuk
    
    // bereken elke prijs met de verschillende couponsns

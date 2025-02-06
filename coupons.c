@@ -7,7 +7,9 @@
 // main script
 int main(void) 
 {
-    
+   // vraag de hoeveelheid producten
+   
+   // 
 }
 
 // functions 

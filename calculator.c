@@ -7,8 +7,11 @@
 //main script
 int main(void)
 {
-    while ()
-    input = get_int();
+    i = 1;
+    while (i = 1)
+    { 
+        input = get_int();
+    } 
     
 }
 

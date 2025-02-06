@@ -26,5 +26,5 @@ int main(void)
 // coupon 1 > elke derde is gratis
 float calc_coup_1() 
 {
-    
+    int multiplier
 }

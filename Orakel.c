@@ -7,5 +7,5 @@
 
 int main(void)
 { 
-    Universal_answer = get("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? \n"); 
+    universal_answer = get("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? \n"); 
 } 

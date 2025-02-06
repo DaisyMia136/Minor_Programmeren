@@ -24,6 +24,7 @@ int main(void)
    float price_coupon_1_100 = price_coupon_1 * 100; //620
    float price_coupon_1_round = round(price_coupon_1_100);
    price_coupon_1 = price_coupon_1_round / 100;
+   //printf("%f\n", price_coupon_1);
    
    // coupon 2
    float price_coupon_2 = bereken_coupon2(aantal_stuks, prijs);
@@ -31,6 +32,7 @@ int main(void)
    float price_coupon_2_100 = price_coupon_2 * 100; //620
    float price_coupon_2_round = round(price_coupon_2_100);
    price_coupon_2 = price_coupon_2_round / 100;
+   //printf("%f\n", price_coupon_2);
    
    // coupon 3
    float price_coupon_3 = bereken_coupon3(aantal_stuks, prijs);
@@ -38,15 +40,20 @@ int main(void)
    float price_coupon_3_100 = price_coupon_3 * 100; //620
    float price_coupon_3_round = round(price_coupon_3_100);
    price_coupon_3 = price_coupon_3_round / 100;
+   //printf("%f\n", price_coupon_3);
    
    // print de beste prijs
    if (price_coupon_1 < price_coupon_2 && price_coupon_1 < price_coupon_3)
    { 
-       printf("Met coupon 1 kost dat %f\n", price_coupon_1);
+       printf("Met coupon 1 kost dat %.2f\n", price_coupon_1);
+   } 
+   else if (price_coupon_1 == price_coupon_2)
+   { 
+       printf("Met coupon 1 kost dat %.2f\n", price_coupon_1);
    } 
    else if (price_coupon_2 < price_coupon_1 && price_coupon_2 < price_coupon_3)
    { 
-   printf("Met coupon 2 kost dat %f\n", price_coupon_2);
+   printf("Met coupon 2 kost dat %.2f\n", price_coupon_2);
    } 
     else if (price_coupon_3 < price_coupon_1 && price_coupon_3 < price_coupon_2)
    { 
@@ -72,7 +79,6 @@ float bereken_coupon2(int aantal_stuks, float prijs)
     float fullprice_products = multiplier * prijs; // calculate the price of the full price products
     float halfprice_products = remainder * (prijs / 2); // calculate the price of the half price products
     float price_coupon_2 = fullprice_products + halfprice_products; 
-    printf("%f\n", price_coupon_2); 
     return price_coupon_2;
 }
 

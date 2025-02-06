@@ -8,7 +8,7 @@
 int main(void)
 {
     input = get_int();
-    output = 
+    
 }
 
 //functions

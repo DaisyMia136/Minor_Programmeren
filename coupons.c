@@ -3,9 +3,9 @@
 #include <string.h>
 
 // function prototypes
-float calc_coup_1(int aantal_stuks, float prijs);
-float calc_coup_2();
-//float calc_coup_3();
+float bereken_coupon1(int aantal_stuks, float prijs);
+float bereken_coupon2();
+//float bereken_coupon3();
 
 
 // main script

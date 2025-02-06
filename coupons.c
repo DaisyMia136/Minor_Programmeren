@@ -51,7 +51,9 @@ int main(void)
    { 
        printf("Met coupon 1 kost dat %.2f\n", price_coupon_1);
    } 
-   else if 
+   else if (price_coupon_2 == price_coupon_3)
+   { 
+       
    else if (price_coupon_2 < price_coupon_1 && price_coupon_2 < price_coupon_3)
    { 
    printf("Met coupon 2 kost dat %.2f\n", price_coupon_2);

@@ -18,8 +18,12 @@ int main(void)
         else if (input == + || input == - || input == / || input == *)
         {
             int input2 = input
-            if
-            
+            if (input2 == +)
+            {
+            } 
+            else if (input2 == -)
+            { 
+            } 
         } 
         
     } 

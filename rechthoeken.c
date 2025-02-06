@@ -39,7 +39,7 @@ int do_calc(int recht1_lengte, int recht1_breedte, int recht2_lengte, int recht2
     {
         return opp_2;
     }
-    else if (calculation_option == S) // bereken de som van de twee rechthoeken
+    else if (strcmp(calculation_option, "1") == 0) // bereken de som van de twee rechthoeken
     {
         int answer = opp_1 + opp_2;
         return answer;

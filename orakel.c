@@ -28,7 +28,7 @@ bool check_answer(char * universal_answer)
     bool ultimate_knowlegde = false;
     
     // check if universal_answer is correct
-    if (strcmp(universal_answer, "42") == 0 || strcmp(universal_answer, "tweeenenveertig") == true ||  strcmp(universal_answer, "forty two") == true || strcmp(universal_answer, "forty-two") == true)  
+    if (strcmp(universal_answer, "42") == 0 || strcmp(universal_answer, "tweeenenveertig") == 0 ||  strcmp(universal_answer, "forty two") == true || strcmp(universal_answer, "forty-two") == true)  
     { 
         ultimate_knowlegde = true;
     } 

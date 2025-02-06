@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
 // function prototypes
 bool check_answer(char * universal_answer);

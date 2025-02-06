@@ -7,7 +7,7 @@
 //main script
 int main(void)
 {
-    input = get_int
+    input = get_int()
 }
 
 //functions

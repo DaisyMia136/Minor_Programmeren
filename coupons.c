@@ -25,11 +25,11 @@ int main(void)
 
 // functions 
 // coupon 1 > elke derde is gratis
-float calc_coup_1(int product_number, float product_cost) 
+float calc_coup_1(int aantal_stuks, float product_cost) 
 {
-    int multiplier = product_number / 3; // how many sets of three are in the number of products
+    int multiplier = aantal_stuks / 3; // how many sets of three are in the number of products
     float discount = multiplier * product_cost; // calculate the discount by multiplying the number of sets of three by the product cost
-    float price_coupon_1 = product_number * product_cost - discount; // calculate the price when using the first coupon
+    float price_coupon_1 = aantal_stuks * product_cost - discount; // calculate the price when using the first coupon
     return price_coupon_1; // output is the price when coupon 1 is used
 }
 

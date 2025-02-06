@@ -50,5 +50,5 @@ float bereken_coupon2(int aantal_stuks, float prijs)
 // coupon 3 > stapel korting
 float bereken_coupon3(int aantal_stuks, float prijs)
 { 
-    for {int i = 0; i 
+    for {int i = 0; i < 
 } 

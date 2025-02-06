@@ -6,7 +6,7 @@ bool is_acidic(float value);
 int main(void)
 {
     float input = get_float("Vul het PH level in: ");
-    
+    is_acidic(input)
     // roep functie aan en print boodschap afhankelijk van het resultaat
 }
 

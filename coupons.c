@@ -50,8 +50,6 @@ float bereken_coupon1(int aantal_stuks, float prijs)
 // coupon 2 > tweede halve prijs
 float bereken_coupon2(int aantal_stuks, float prijs)
 { 
-    // set defaults
-    float price_coupon_2 = 0;
     
     
     

@@ -13,7 +13,7 @@ int main(void)
      
 }
 
-
+// functions 
 void print_byte(int number) 
 { 
     int bit[] = {0, 0, 0, 0, 0, 0, 0, 0};

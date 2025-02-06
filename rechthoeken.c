@@ -20,7 +20,7 @@ int main(void)
     char * calculation_option = get_string("Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? ");
     
     // Doe de berekening met de ingevoerde opties en gegevens
-    int answer = do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, char * calculation_option);
+    int answer = do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option);
     
     
 }

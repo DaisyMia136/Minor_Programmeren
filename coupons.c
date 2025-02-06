@@ -4,7 +4,7 @@
 
 // function prototypes
 float calc_coup_1(int aantal_stuks, float prijs);
-//float calc_coup_2();
+float calc_coup_2();
 //float calc_coup_3();
 
 

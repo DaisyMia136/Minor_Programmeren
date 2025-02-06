@@ -29,4 +29,8 @@ int main(void)
 do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option)
 {
     if (int calculation_option == 1)
+    {
+        
+    } 
+    }
 }

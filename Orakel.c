@@ -7,5 +7,5 @@
 
 int main(void)
 { 
-    
+    "Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? 
 } 

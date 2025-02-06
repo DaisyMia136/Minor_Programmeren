@@ -8,7 +8,7 @@ bool check_answer(bool universal_answer);
 int main(void)
 {
     char * universal_answer = get_string("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? \n"); 
-    //printf("%s\n", universal_answer);
+    printf("%s\n", universal_answer);
     bool ultimate_knowlegde = check_answer(universal_answer);
     if (ultimate_knowlegde == true)
     {
@@ -28,7 +28,7 @@ bool check_answer(bool universal_answer)
     bool ultimate_knowlegde = false;
     
     // check if universal_answer is correct
-    if (strcmp(universal_answer, "42") == true || strcmp(universal_answer, "tweeenenveertig") == true ||  strcmp(universal_answer, "forty two") == true || strcmp(universal_answer, "forty-two") == true )  
+    if (strcmp(universal_answer, "42") == true || strcmp(universal_answer, "tweeenenveertig") == true ||  strcmp(universal_answer, "forty two") == true || strcmp(universal_answer, "forty-two") == true)  
     { 
         ultimate_knowlegde = true;
     } 

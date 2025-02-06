@@ -53,7 +53,6 @@ float bereken_coupon3(int aantal_stuks, float prijs)
     if (aantal_stuks == 1)
     { 
         float discount = prijs / 20;
-        price_coupon_3 = prijs - discount;
     } 
     else if (aantal_stuks == 2)
     {

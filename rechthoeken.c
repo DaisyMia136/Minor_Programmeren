@@ -30,7 +30,7 @@ do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculatio
 {
     if (char * calculation_option == 1) // bereken oppervlakte van t eerste rechthoek
     {
-        
+        recht1_lengte 
     } 
     else if (calculation_option == 2) // bereken oppervlakte van t tweede rechthoek
     {

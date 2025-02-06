@@ -9,7 +9,6 @@ bool check_answer(char * universal_answer);
 int main(void)
 {
     char * universal_answer = get_string("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? \n"); 
-    //printf("%s\n", universal_answer);
     bool ultimate_knowlegde = check_answer(universal_answer);
     if (ultimate_knowlegde == true)
     {

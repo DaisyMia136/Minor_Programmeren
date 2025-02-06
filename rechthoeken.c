@@ -11,7 +11,8 @@ int main(void)
     Recht1_Lengte = get_int("Lengte 1: ");
     Recht1_Breedte = get_int"Breedte 1:" );
     Recht2_Lengte = get_int("Lengte 2: ");
-    Recht2_Breedte = get_int("Breedte 2: ")
+    Recht2_Breedte = get_int("Breedte 2: ");
+    
     
 }
 

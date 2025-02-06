@@ -18,7 +18,7 @@ int main(void)
    
    // bereken elke prijs met de verschillende coupons 
    float price_coupon_1 = bereken_coupon1(aantal_stuks, prijs);
-   float prive_coupon_2 = bereken_coupon2(int aantal_stuks, float prijs)
+   float prive_coupon_2 = bereken_coupon2(aantal_stuks, prijs)
    
    // print de beste prijs
    printf("Met coupon 1 kost dat %f", price_coupon_1);

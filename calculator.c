@@ -22,7 +22,7 @@ int main(void)
             input2 = input2;
         } 
         
-        
+        int input3 
         
             if (input2 == '+')  
             {

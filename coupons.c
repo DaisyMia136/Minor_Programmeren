@@ -41,6 +41,7 @@ float bereken_coupon1(int aantal_stuks, float prijs)
 float bereken_coupon2(int aantal_stuks, float prijs)
 { 
   int multiplier = aantal_stuks / 2; // how many sets of three are in the number of products  
+  if (multiplier ==
   float fullprice_products = multiplier * prijs; //calculate the price of the full price products
   float halfprice_products = multiplier * (prijs / 2); //calculate the price of the half price products
   float price_coupon_2 = fullprice_products + halfprice_products; 
@@ -66,7 +67,7 @@ float bereken_coupon3(int aantal_stuks, float prijs)
     } 
     else 
     {
-        float discount = prijs / 10 * 3;
+        discount = prijs / 10 * 3;
         
     }
     float price_coupon_3 = prijs - discount;

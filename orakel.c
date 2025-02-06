@@ -5,7 +5,7 @@
 bool check_answer(universal_answer)
 //main function
 
-int main(void);
+int main(void)
 { 
 
     string universal_answer = get_string("Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? \n"); 

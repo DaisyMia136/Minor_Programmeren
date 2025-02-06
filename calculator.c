@@ -41,6 +41,21 @@ int main(void)
             } 
         } 
         
+        
+        if (input2 == '+')  
+            {
+                
+            }
+            else if (input2 == '-') 
+            {
+            }
+            else if (input2 == '/') 
+            {
+                
+            }
+            else if (input2 == '*')
+            { 
+            } 
     } 
     
 }

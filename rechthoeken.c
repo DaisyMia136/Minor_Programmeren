@@ -3,7 +3,7 @@
 #include <string.h>
 
 // function prototypes
-int do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option);
+int do_calc(int recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option);
 
 
 

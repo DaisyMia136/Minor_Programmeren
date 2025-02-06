@@ -44,7 +44,7 @@ float bereken_coupon2(int aantal_stuks, float prijs)
   if (multiplier == 0)
   { 
       multiplier = 1; 
-      
+  } 
   multiplier = (0) ? 1 : multiplier;
   float fullprice_products = multiplier * prijs; //calculate the price of the full price products
   float halfprice_products = multiplier * (prijs / 2); //calculate the price of the half price products

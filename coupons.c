@@ -28,7 +28,7 @@ int main(void)
 float calc_coup_1(int product_number, float product_cost) 
 {
     int multiplier = product_number / 3;
-    float discount = multiplier * float product_cost;
+    float discount = multiplier * product_cost;
     //int paid_products = product_number * multiplier;
     price_coupon_1 = product_number * product_cost - discount;
     

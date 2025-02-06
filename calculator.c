@@ -20,10 +20,6 @@ int main(void)
         if (input2 == '+' || input2 == '-' || input2 == '/' || input2 == '*')
         { 
             input2 = input2;
-        } 
-        
-        int input3 = get_int("");
-        
         
             if (input2 == '+')  
             {

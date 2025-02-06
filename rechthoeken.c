@@ -8,7 +8,7 @@
 int main(void)
 {
     // Vraag lengte en breedte rechthoek 1 en 2 
-    Recht1_Lengte = get_int("")
+    Recht1_Lengte = get_int("Wat is de lengte van het eerste recht")
     
     
 }

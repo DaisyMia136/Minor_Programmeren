@@ -61,6 +61,7 @@ float bereken_coupon2(int aantal_stuks, float prijs)
     float price_coupon_2 = fullprice_products + halfprice_products; 
     printf("%f\n", fullprice_products);
     printf("%f\n", halfprice_products);
+    
     return price_coupon_2;
 }
 

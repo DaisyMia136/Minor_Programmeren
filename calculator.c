@@ -17,7 +17,7 @@ int main(void)
         } 
         
         string input2 = get_string("");
-        
+        if ()
         
             if (input2 == '+')  
             {

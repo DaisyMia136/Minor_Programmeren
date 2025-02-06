@@ -15,7 +15,7 @@ int main(void)
         {
             int input1 = input;
         }
-        else if (input == '+')
+        else if (input == + || input == - || input == / )
         {
         } 
         

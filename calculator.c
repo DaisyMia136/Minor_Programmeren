@@ -7,7 +7,7 @@
 //main script
 int main(void)
 {
-    i = 1;
+    int i = 1;
     while (i = 1)
     { 
         input = get_int();

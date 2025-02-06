@@ -20,20 +20,7 @@ int main(void)
         if (input2 == '+' || input2 == '-' || input2 == '/' || input2 == '*')
         { 
         
-            if (input2 == '+')  
-            {
-                
-            }
-            else if (input2 == '-') 
-            {
-            }
-            else if (input2 == '/') 
-            {
-                
-            }
-            else if (input2 == '*')
-            { 
-            } 
+            
         } 
         
         int intput 3 = get_int("")

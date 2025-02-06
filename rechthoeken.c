@@ -35,7 +35,7 @@ int do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calcul
     {
         
     } 
-    else if (calculation_option == "2" ) // bereken oppervlakte van t tweede rechthoek
+    else if (calculation_option == "2" ) 
     {
         
     }

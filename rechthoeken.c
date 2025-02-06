@@ -31,7 +31,7 @@ int do_calc(int recht1_lengte, int recht1_breedte, int recht2_lengte, int recht2
     int opp_1 = recht1_lengte * recht1_breedte; // bereken oppervlakte van t eerste rechthoek
     int opp_2 = recht2_lengte * recht2_breedte; // bereken oppervlakte van t tweede rechthoek
     
-    if (calculation_option == "1"  || calculation_option == "S") 
+    if (strcmp(calculation_option, "1") == 0  || calculation_option == "S") 
     {
         return opp_1;
     } 

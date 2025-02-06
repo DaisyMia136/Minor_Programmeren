@@ -21,7 +21,7 @@ int main(void)
     
     // Doe de berekening met de ingevoerde opties en gegevens
     int answer = do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option);
-    printf("%i\n")
+    printf("%i\n", answer)
     
 }
 

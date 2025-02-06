@@ -3,8 +3,8 @@
 
 // function prototypes
 bool check_answer(universal_answer)
-//main function
 
+//main function
 int main(void)
 {
 

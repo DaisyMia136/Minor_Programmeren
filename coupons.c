@@ -62,11 +62,5 @@ float bereken_coupon3(int aantal_stuks, float prijs)
     else 
     { 
     }
-    }
-    }
-    
-    for (int i = 0; i < 4; i++)
-    {
-        
-    } 
+
 } 

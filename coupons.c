@@ -22,7 +22,7 @@ int main(void)
 }
 
 // functions 
-float calc_coup_1
+float calc_coup_1()
 {
     
 }

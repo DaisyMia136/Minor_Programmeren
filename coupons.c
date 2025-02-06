@@ -46,3 +46,4 @@ float bereken_coupon2(int aantal_stuks, float prijs)
   return price_coupon_2;
 }
 
+// coupon 3 > stapel korting

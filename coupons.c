@@ -24,8 +24,7 @@ int main(void)
    
    // print de beste prijs
    float lowest_price = min(price_coupon_1, price_coupon_2, price_coupon_3); 
-   if
-   
+   if (price_coupon_1 <)   
    
    
    if (lowest_price = price_coupon_1)

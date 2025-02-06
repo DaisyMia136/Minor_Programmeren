@@ -11,7 +11,8 @@ int main(void)
    
    // vraag de prijs per stuk
    
-   // bereken 
+   // bereken elke prijs met de verschillende coupons
+   
    
    // print de beste prijs
 }

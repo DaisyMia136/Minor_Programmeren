@@ -23,6 +23,10 @@ int main(void)
             {
             }
             else if (input2 == '/') || input2 == '*')
+            {
+                
+            }
+            else if 
             
         }
        

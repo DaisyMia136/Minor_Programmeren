@@ -28,7 +28,7 @@ int main(void)
 // functions 
 do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option)
 {
-    if (char * calculation_option == 1) // calculate 
+    if (char * calculation_option == 1) // calculate area of 
     {
         
     } 

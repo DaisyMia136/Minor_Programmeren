@@ -30,5 +30,5 @@ float calc_coup_1()
     
     
     
-    return price_coupon_1
+    return price_coupon_1;
 }

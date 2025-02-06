@@ -19,7 +19,7 @@ int main(void)
     // vraag welke optie er uitgevoerd moet worden
     char * calculation_option = get_string("Wil je de oppervlakte van rechthoek (1) of (2), of de (S)om of het (V)erschil weten? ");
     
-    if (strcmp(calculation_option, ))
+    if (strcmp(calculation_option, "1"))
     // Doe de berekening met de ingevoerde opties en gegevens
     int answer = do_calc(recht1_lengte, recht1_breedte, recht2_lengte, recht2_breedte, calculation_option);
     printf("%i\n", answer);

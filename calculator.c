@@ -19,7 +19,7 @@ int main(void)
         string input2 = get_string("");
         if (input2 == '+' || input2 == '-' || input2 == '/' || input2 == '*')
         { 
-            
+            input2 = input2; 
         } 
         
         int intput 3 = get_int("")

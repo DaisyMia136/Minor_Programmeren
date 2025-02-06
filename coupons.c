@@ -16,7 +16,7 @@ int main(void)
    // vraag de prijs per stuk
    float product_cost = get_float("Wat is de prijs per stuk? ");
    
-   // bereken elke prijs met de verschillende couponsns
+   // bereken elke prijs met de verschillende coupons 
    
    
    // print de beste prijs

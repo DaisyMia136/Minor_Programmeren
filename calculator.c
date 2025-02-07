@@ -17,7 +17,7 @@ int main(void)
         } 
         
         string input2 = get_string("");
-        if (input2 == '+' || input2 == '-' || input2 == '/' || input2 == '*')
+        if (strcmp(input2 == '+' || input2 == '-' || input2 == '/' || input2 == '*')
         { 
             input2 = input2; 
         } 

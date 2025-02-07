@@ -10,13 +10,13 @@ void print_hash(int input_hash);
 int main(void)
 {
    // ask for input_heigth
-   int heigth =
+   int heigth = 
    
    // print the triangle
 }
 
 // functions
-void print_triangle(heigth)
+void print_triangle(int heigth)
 {
     
 }

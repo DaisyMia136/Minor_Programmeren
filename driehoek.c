@@ -20,6 +20,7 @@ int main(void)
 // functions
 void print_triangle(int heigth)
 {
+    // print each row
     
 }
 

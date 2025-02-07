@@ -3,6 +3,9 @@
 #include <string.h>
 
 // function prototypes
+void print_space(int input_space)
+
+
 
 // main script
 int main(void)

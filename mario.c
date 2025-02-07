@@ -32,10 +32,12 @@ int ask_input()
 // build_pyramid
 void build_pyramid(int input)
 {
+    // set counters and defaults
+    int counter_hash = 0;
+    int counter_space = input;
     for(int i = 0; i < input; i++)
     {
-        int counter_hash = 0;
-        int counter_space = input;
+        
         int number_hash = counter_hash + 1; 
         int number_space = counter_space - 1;
         printf("%i\n", number_hash);

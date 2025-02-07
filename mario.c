@@ -44,7 +44,7 @@ void build_pyramid(int input)
         // print the number of spaces for each row
         for 
         
-        for(int col_space_2 = 0; col_space < counter_space_2; col_space++) 
+        for(int col_space_2 = 0; col_space_2 < counter_space_2; col_space++) 
         { 
             printf(" ");
         } 

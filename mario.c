@@ -60,7 +60,7 @@ void build_pyramid(int input)
             printf(" ");
         }
         
-        
+        // print the number of hash
         // print a new line after each row
         printf("\n");
     }

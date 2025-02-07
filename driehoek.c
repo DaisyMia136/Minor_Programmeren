@@ -10,7 +10,7 @@ void print_hash(int input_hash);
 int main(void)
 {
    // ask for input_heigth
-   int heigth = 
+   int heigth = get_int()
    
    // print the triangle
 }

@@ -60,7 +60,10 @@ void build_pyramid(int input)
             printf(" ");
         }
         
-        // print the number of # for each row
+        // print the number of # of the second 
+        
+        
+        
         // print a new line after each row
         printf("\n");
     }

@@ -21,6 +21,8 @@ int main(void)
         { 
             input2 = input2; 
         } 
+        else 
+        
         
         int intput3 = get_int("")
         

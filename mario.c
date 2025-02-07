@@ -11,3 +11,9 @@ int main(void)
 }
 // functions
 
+void ask_input()
+{ 
+    do 
+    { 
+        
+} 

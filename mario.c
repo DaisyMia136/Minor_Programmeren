@@ -38,6 +38,7 @@ void build_pyramid(int input)
         int number_hash = counter_hash + 1; 
         int number_space = counter_space - 1;
         
+        
     }
     
 }

@@ -31,5 +31,5 @@ int ask_input()
 // build_pyramid
 void build_pyramid(int input)
 {
-    for() 
+    for(int i = input ) 
 }

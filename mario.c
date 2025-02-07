@@ -60,7 +60,7 @@ void build_pyramid(int input)
             printf(" ");
         }
         
-        // print the number of # of the second 
+        // print the number of # of the second pyramid
         
         
         

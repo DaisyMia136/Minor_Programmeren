@@ -18,5 +18,4 @@ int main(void)
     { 
         printf("keep it up");
     } 
-    }
 } 

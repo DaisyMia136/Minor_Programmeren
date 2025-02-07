@@ -38,8 +38,8 @@ void build_pyramid(int input)
     for(int i = 0; i < input; i++)
     {
         
-        int number_hash = counter_hash + 1; 
-        int number_space = counter_space - 1;
+        int counter_hash = counter_hash + 1; 
+        int counter_space_space = counter_space - 1;
         printf("%i\n", number_hash);
         printf("%i\n", number_space);
         

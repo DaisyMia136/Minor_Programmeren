@@ -22,6 +22,9 @@ void print_triangle(int heigth)
 {
     // print each row
     for(row = 0; row > heigth; row++)
+    {
+        
+    }
 }
 
 void print_space(int input_space)

@@ -16,6 +16,7 @@ int main(void)
     } 
     else
     { 
-        printf("keep it up")
+        printf("keep it up");
+    } 
     }
 } 

@@ -46,6 +46,7 @@ int main(void)
                     { 
                         input3 = get_int("");
                     } 
+            }
             else 
             { 
                 input2 = get_int("");

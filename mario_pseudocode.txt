@@ -7,6 +7,8 @@ Depending on the inputted height print the number of #s
 For a number of heigth, print an increasing number of #s with a decreasing number of spaces
 Start with 7 spaces followed by 1 #
 Decrease the number of spaces by 1 and increase the number of # by one
+Repeat until the number of heigth is reached
+
 
 
 

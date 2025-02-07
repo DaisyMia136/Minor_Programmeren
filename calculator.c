@@ -22,6 +22,9 @@ int main(void)
             } 
             
         } 
+        else 
+        { 
+            input1 = get
         
         
         string input2 = get_string("");

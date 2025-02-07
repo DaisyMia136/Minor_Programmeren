@@ -12,7 +12,8 @@ int main(void)
     
     for (int i = 0; i > input_number; i++)
     { 
-        printf("")
+        printf("%s\n", input_number);
+    } 
 }
 
 

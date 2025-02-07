@@ -61,7 +61,10 @@ void build_pyramid(int input)
         }
         
         // print the number of # of the second pyramid
-        
+        for(int col_hash = 0; col_hash < counter_hash_2; col_hash++)
+        {
+            printf("#");    
+        } 
         
         
         // print a new line after each row

@@ -58,52 +58,5 @@ int main(void)
         } 
         
         
-        string input2 = get_string("");
-        if (strcmp(input2, "+") == 0 || strcmp(input2, "-")  == 0 || strcmp(input2, "/")  == 0 || strcmp(input2, "*") == 0)
-        { 
-            // ask for input3
-            int input3 = get_int("")
-        } 
-        else 
-        { 
-            input2 = get_string("");
-        } 
-        
-        
-        
-        }
-       
-       
-       
-       
-        else if (input == + || input == - || input == / || input == *)
-        {
-            int input2 = input
-            if (input2 == +)
-            {
-            } 
-            else if (input2 == -)
-            { 
-            } 
-        } 
-        
-        
-        if (input2 == '+')  
-            {
-                
-            }
-        else if (input2 == '-') 
-            {
-            }
-        else if (input2 == '/') 
-            {
-                
-            }
-        else if (input2 == '*')
-            { 
-            } 
-    } 
-    
-}
 
 //functions

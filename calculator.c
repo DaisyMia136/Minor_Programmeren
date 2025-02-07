@@ -14,7 +14,7 @@ int main(void)
     int i = 1;
     while (i == 1)
     { 
-        if (isdigit(input1) == 1)
+        if (
         {
             // ask for input2
             string input2 = get_string("");

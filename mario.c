@@ -48,6 +48,7 @@ void build_pyramid(int input)
             printf("#");
         } 
         
+        
     }
     
 }

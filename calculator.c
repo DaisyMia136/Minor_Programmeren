@@ -43,7 +43,7 @@ int main(void)
                             {
                                 output = input1 * input3;
                             }
-                            printf("=")
+                            printf("=%")
                             input1 = output;
                             
                         }

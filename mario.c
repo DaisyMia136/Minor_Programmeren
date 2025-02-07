@@ -51,9 +51,9 @@ void build_pyramid(int input)
         
         for(int col_hash = 0; col_hash < counter_hash; col_hash++)
         {
-            
+            printf("#");    
         }
-        
+        printf()
     }
     
 }

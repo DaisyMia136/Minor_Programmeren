@@ -11,3 +11,13 @@ int main(void)
 }
 
 // functions
+void print_space
+{
+    
+}
+
+void print_hash
+{
+    
+}
+

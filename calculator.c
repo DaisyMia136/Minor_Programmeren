@@ -22,7 +22,7 @@ int main(void)
             { 
                 // ask for input3
                 input3 = get_int("");
-                    if (input3 == 0 || input3 == 1 || input3 == 2 || input3 == 3 || input3 == 4 || input3 == 5 || input3 == 6 || input3 == 7 || input3 == 8 || input3 == 9)
+                    if (input1 > 0 || input1 <= 0)
                         {
                             // do calc
                             int output = 0;

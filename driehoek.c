@@ -9,7 +9,9 @@ void print_hash(int input_hash);
 // main script
 int main(void)
 {
-    
+   // ask for input_hash
+   
+   // calculate the 
 }
 
 // functions

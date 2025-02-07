@@ -55,7 +55,7 @@ void build_pyramid(int input)
         }
         
         // print two spaces
-        for ()
+        for(int col_hash = 0; col_hash < counter_hash_2; col_hash++)
         
         
         // print a new line after each row

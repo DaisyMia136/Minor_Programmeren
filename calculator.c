@@ -53,7 +53,7 @@ int main(void)
             }
             else 
             { 
-                input2 = get_int("");
+                input2 = get_string("");
             } 
             
         } 

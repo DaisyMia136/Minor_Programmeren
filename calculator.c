@@ -22,7 +22,20 @@ int main(void)
                     if (input == 0 || input == 1 || input == 2 || input == 3 || input == 4 || input == 5 || input == 6 || input == 7 || input == 8 || input == 9)
                         {
                             // do calc
-                        
+                        if (input2 == '+')  
+            {
+                
+            }
+        else if (input2 == '-') 
+            {
+            }
+        else if (input2 == '/') 
+            {
+                
+            }
+        else if (input2 == '*')
+            { 
+            } 
                             
                         }
                     else

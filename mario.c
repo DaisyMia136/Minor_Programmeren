@@ -33,7 +33,8 @@ void build_pyramid(int input)
 {
     for(int i = 0; i < input; i++)
     {
-        int counter = 1;
+        int counter_hash = 1;
+        int count_space = 
         int number_hash = input - counter; 
         int number_space = counter;
     }

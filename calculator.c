@@ -24,7 +24,7 @@ int main(void)
         } 
         else 
         { 
-            input1 = get
+            input1 = get_int("");
         
         
         string input2 = get_string("");

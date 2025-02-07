@@ -78,11 +78,11 @@ int main(void)
         else if (input2 == '-') 
             {
             }
-            else if (input2 == '/') 
+        else if (input2 == '/') 
             {
                 
             }
-            else if (input2 == '*')
+        else if (input2 == '*')
             { 
             } 
     } 

@@ -21,7 +21,7 @@ int main(void)
 void print_triangle(int heigth)
 {
     // print each row
-    for 
+    for()
 }
 
 void print_space(int input_space)

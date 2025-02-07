@@ -3,5 +3,5 @@ Do not allow numbers higher than 8 or lower than 1
 Use a do {} while () statement for this
 
 Build the pyramid
-Depending on the inputted height print the number of 
+Depending on the inputted height print the number of #s 
 

@@ -13,6 +13,7 @@ int main(void)
    int heigth = get_int("Hoe hoog moet de driehoek zijn? ")
    
    // print the triangle
+   
 }
 
 // functions

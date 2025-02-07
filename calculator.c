@@ -23,7 +23,7 @@ int main(void)
                         {
                             // do calc
                         if (input2 == '+')  
-            {
+                        {
                 
             }
         else if (input2 == '-') 

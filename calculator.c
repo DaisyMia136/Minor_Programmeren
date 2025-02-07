@@ -19,7 +19,7 @@ int main(void)
             { 
                 // ask for intput3
                 int intput3 = get_int("")
-        } 
+            } 
             
         } 
         

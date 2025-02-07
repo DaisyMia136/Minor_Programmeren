@@ -15,10 +15,10 @@ int main(void)
         {
             // ask for input2
             string input2 = get_string("");
-        if (strcmp(input2, "+") == 0 || strcmp(input2, "-")  == 0 || strcmp(input2, "/")  == 0 || strcmp(input2, "*") == 0)
-        { 
-            // ask for intput3
-            int intput3 = get_int("")
+            if (strcmp(input2, "+") == 0 || strcmp(input2, "-")  == 0 || strcmp(input2, "/")  == 0 || strcmp(input2, "*") == 0)
+            { 
+                // ask for intput3
+                int intput3 = get_int("")
         } 
             
         } 

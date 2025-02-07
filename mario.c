@@ -35,7 +35,7 @@ void build_pyramid(int input)
     for(int i = 0; i < input; i++)
     {
         int counter_hash = 0;
-        int count_space = input;
+        int counter_space = input;
         int number_hash = counter_hash + 1; 
         int number_space = counter_space - 1;
         printf("%i\n", number_hash);

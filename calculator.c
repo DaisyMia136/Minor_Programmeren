@@ -26,6 +26,9 @@ int main(void)
                             
                         }
             } 
+            else 
+                { 
+                    input
             
         } 
         else 

@@ -9,8 +9,8 @@ void print_hash(int input_hash);
 // main script
 int main(void)
 {
-   // ask for input_hash
-   
+   // ask for input_heigth
+   int heigth =
    
    // print the triangle
 }

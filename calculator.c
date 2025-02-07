@@ -16,6 +16,7 @@ int main(void)
             int input1 = input;
         } 
         
+        
         string input2 = get_string("");
         if (strcmp(input2, "+") == 0 || strcmp(input2, "-")  == 0 || strcmp(input2, "/")  == 0 || strcmp(input2, "*") == 0)
         { 

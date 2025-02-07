@@ -38,6 +38,8 @@ void build_pyramid(int input)
     for(int row = 0; row < input; row++) // repeat through the rows
     {
         // calculate how many # and spaces are needed per row
+        counter_hash =
+        counter_space =
         counter_hash_2 = counter_hash + 1; // 0 + 1 for row 1 
         counter_space_2 = counter_space - 1; // input - 1 for row 1
         

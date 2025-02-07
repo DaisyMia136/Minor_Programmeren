@@ -23,7 +23,7 @@ int main(void)
                         {
                             // do calc
                             int output = 0;
-                            if (strcmp(input2 == '+')  
+                            if (strcmp(input2, "+") == 0)  
                             {
                                 output = input1 + input3;
                             }

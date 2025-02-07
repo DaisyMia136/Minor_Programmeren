@@ -23,7 +23,8 @@ int main(void)
         } 
         else 
         { 
-            input2 = get_string("")
+            input2 = get_string("");
+        } 
         
         int intput3 = get_int("")
         

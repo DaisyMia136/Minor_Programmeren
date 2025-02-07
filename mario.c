@@ -38,18 +38,18 @@ void build_pyramid(int input)
     for(int row = 0; row < input; row++) // repeat through the rows
     {
         // calculate how many # and spaces are needed per row
-        counter_hash_2 = counter_hash + 1; // 0 + 1 for row 1 
-        counter_space_2 = counter_space - 1; // input - 1 for row 1
+        counter_hash = counter_hash + 1; // 0 + 1 for row 1 
+        counter_space = counter_space - 1; // input - 1 for row 1
         
         // print the number of spaces of the first pyramid
         
-        for(int col_space = 0; col_space < counter_space_2; col_space++) 
+        for(int col_space = 0; col_space < counter_space; col_space++) 
         { 
             printf(" ");
         } 
         
         // print the number of # of the first pyramid
-        for(int col_hash = 0; col_hash < counter_hash_2; col_hash++)
+        for(int col_hash = 0; col_hash < counter_hash; col_hash++)
         {
             printf("#");    
         }
@@ -61,13 +61,10 @@ void build_pyramid(int input)
         }
         
         // print the number of # of the second pyramid
-        for(int col_hash = 0; col_hash < counter_hash_2; col_hash++)
+        for(int col_hash = 0; col_hash < counter_hash; col_hash++)
         {
             printf("#");    
         }
-        
-        
-        
         
         // print a new line after each row
         printf("\n");

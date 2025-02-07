@@ -38,6 +38,7 @@ int main(void)
                             {
                                 output = input1 * input3;
                             }
+                            input1 = 
                             
                         }
                     else

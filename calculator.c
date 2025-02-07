@@ -20,13 +20,14 @@ int main(void)
         if (strcmp(input2, "+") == 0 || strcmp(input2, "-")  == 0 || strcmp(input2, "/")  == 0 || strcmp(input2, "*") == 0)
         { 
             // ask for intput3
+            int intput3 = get_int("")
         } 
         else 
         { 
             input2 = get_string("");
         } 
         
-        int intput3 = get_int("")
+        
         
         }
        

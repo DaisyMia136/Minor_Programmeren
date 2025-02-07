@@ -45,7 +45,6 @@ void build_pyramid(int input)
         
         for(int col_space = 0; col_space < counter_space; col_space++)
         { 
-            
             printf(" ");
         } 
         

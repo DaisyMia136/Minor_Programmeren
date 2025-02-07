@@ -55,7 +55,7 @@ void build_pyramid(int input)
         }
         
         // print two spaces
-        
+        for ()
         
         
         // print a new line after each row

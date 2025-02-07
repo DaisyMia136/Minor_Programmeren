@@ -35,7 +35,7 @@ int main(void)
                             {
                                 output = input1 / input3;                   
                             }
-                            else if (input2 == '*')
+                            else if (strcmp(input2, "*") == 0)
                             {
                                 output = input1 * input3;
                             }

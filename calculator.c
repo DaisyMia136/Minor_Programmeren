@@ -43,7 +43,7 @@ int main(void)
                     else
                     { 
                         input3 = get_int("");
-            } 
+                    } 
             else 
             { 
                 input2 = get_int("");

@@ -32,11 +32,11 @@ int main(void)
                         }
                         else if (input2 == '/') 
                         {
-                            output = input1 / input3                    
+                            output = input1 / input3;                   
                         }
                         else if (input2 == '*')
                         {
-                            
+                            output = input1 * input3;
                         }
                             
                         }

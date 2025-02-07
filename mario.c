@@ -17,5 +17,5 @@ void ask_input()
     { 
         int input = get_int("Positve Number: ")
     } 
-    while()
+    while(input < 0 && input > 8)
 } 

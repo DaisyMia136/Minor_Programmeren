@@ -8,8 +8,8 @@
 int main(void)
 {
     int input1 = 0;
-    int input2
-    int input3
+    int input2 = 0;
+    int input3 = 0;
     int i = 1;
     while (i == 1)
     { 

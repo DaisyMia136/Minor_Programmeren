@@ -24,10 +24,11 @@ int main(void)
                         // do calc
                         if (input2 == '+')  
                         {
-                        output = 
+                            output = input1 + input3
                         }
                         else if (input2 == '-') 
                         {
+                            output = input1 - input3
                         }
                         else if (input2 == '/') 
                         {

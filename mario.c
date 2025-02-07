@@ -40,8 +40,8 @@ void build_pyramid(int input)
         
         int counter_hash = counter_hash + 1; 
         int counter_space_space = counter_space - 1;
-        printf("%i\n", number_hash);
-        printf("%i\n", number_space);
+        printf("%i\n", counter_hash);
+        printf("%i\n", counter_space);
         
     }
     

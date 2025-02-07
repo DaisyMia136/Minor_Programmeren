@@ -43,7 +43,7 @@ void build_pyramid(int input)
         printf("%i\n", counter_hash);
         printf("%i\n", counter_space);
         
-        for(int col_space = 0; col_space < counter_space; col++)
+        for(int col_space = 0; col_space < counter_space; col_space++)
         { 
             
             printf(" ");

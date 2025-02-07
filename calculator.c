@@ -19,7 +19,7 @@ int main(void)
         string input2 = get_string("");
         if (strcmp(input2, "+") == 0 || strcmp(input2, "-")  == 0 || strcmp(input2, "/")  == 0 || strcmp(input2, "*") == 0)
         { 
-            // do calc
+            // ask for intput3
         } 
         else 
         { 

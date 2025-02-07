@@ -55,7 +55,10 @@ void build_pyramid(int input)
         }
         
         // print two spaces
-        for(int space = 0; col_hash < 2; col_hash++)
+        for(int space = 0; space < 2; space++)
+        {
+            printf(" ");
+        }
         
         
         // print a new line after each row

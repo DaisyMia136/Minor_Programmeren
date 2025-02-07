@@ -27,8 +27,9 @@ int main(void)
                         }
             } 
             else 
-                { 
-                    input
+            { 
+                input2
+            } 
             
         } 
         else 

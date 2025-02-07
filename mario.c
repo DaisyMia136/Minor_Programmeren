@@ -11,7 +11,7 @@ void build_pyramid()
 int main(void)
 {
     // ask the user to input a number between 1 and 8
-    ask_input();
+    int input = ask_input();
     
     build_pyramid();
     

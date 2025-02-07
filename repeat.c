@@ -12,7 +12,7 @@ int main(void)
     
     for (int i = 0; i < input_number; i++)
     { 
-        printf("%s\n", input_string);
+        printf("%s", input_string);
     } 
 }
 

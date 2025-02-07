@@ -4,6 +4,8 @@
 
 // function prototypes
 
+void ask_input();
+
 // main script
 int main(void)
 {

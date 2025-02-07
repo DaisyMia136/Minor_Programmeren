@@ -42,7 +42,7 @@ int main(void)
                             {
                                 output = input1 * input3;
                             }
-                            printf("=%i\r\n", output);
+                            printf("=%i", output);
                             input1 = output;
                             
                         }

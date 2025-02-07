@@ -7,6 +7,7 @@
 // main script
 int main(void)
 {
+    string input_string = get_string("");
     
 }
 

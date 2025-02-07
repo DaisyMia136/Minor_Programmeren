@@ -8,7 +8,7 @@
 int main(void)
 {
     // set defaults
-    string input1 = get_string("");
+    char input1 = get_char("");
     printf("%s", input1);
     if (isdigit(input1) == true)
     {

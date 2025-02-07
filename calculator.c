@@ -7,6 +7,7 @@
 //main script
 int main(void)
 {
+    // set defaults
     int input1 = 0;
     int input2 = 0;
     int input3 = 0;

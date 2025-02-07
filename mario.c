@@ -5,7 +5,7 @@
 // function prototypes
 
 int = ask_input();
-void build_pyramid()
+void build_pyramid();
 
 // main script
 int main(void)

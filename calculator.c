@@ -19,11 +19,11 @@ int main(void)
             { 
                 // ask for input3
                 int input3 = get_int("");
-                    if (input == 0 || input == 1 || input == 2 || input == 3 || input == 4 || input == 5 || input == 6 || input == 7 || input == 8 || input == 9)
+                    if (input3 == 0 || input3 == 1 || input3 == 2 || input3 == 3 || input3 == 4 || input3 == 5 || input3 == 6 || input3 == 7 || input3 == 8 || input3 == 9)
                         {
                             // do calc
                             int output = 0;
-                            if (input2 == '+')  
+                            if (input32 == '+')  
                             {
                                 output = input1 + input3;
                             }

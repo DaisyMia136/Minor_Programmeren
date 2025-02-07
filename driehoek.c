@@ -16,7 +16,7 @@ void print_space(input_space)
     
 }
 
-void print_hash
+void print_hash(input_hash)
 {
     
 }

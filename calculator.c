@@ -8,7 +8,7 @@
 int main(void)
 {
     // set defaults
-     input1 = get_int("");
+    string input1 = get_string("");
     int input3 = 0;
     
     int i = 1;

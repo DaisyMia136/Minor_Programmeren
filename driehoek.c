@@ -11,7 +11,7 @@ int main(void)
 {
    // ask for input_hash
    
-   // calculate the 
+   // print the triangle
 }
 
 // functions

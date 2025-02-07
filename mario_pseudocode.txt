@@ -4,4 +4,6 @@ Use a do {} while () statement for this
 
 Build the pyramid
 Depending on the inputted height print the number of #s 
-For the height print 
+For the height print an increasing number of #s 
+
+

@@ -57,6 +57,6 @@ int main(void)
             input1 = get_int("");
         } 
         
-        
+        }    
 
 //functions

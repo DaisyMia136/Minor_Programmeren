@@ -7,7 +7,7 @@
 // main script
 int main(void)
 {
-    string input_string = get_string("What to repeat: ");
+    string input_string = get_string("What to repeat?: ");
     int input_number = get_int("How many times?: ");
     
     for (int i = 0; i < input_number; i++)

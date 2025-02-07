@@ -23,7 +23,7 @@ int main(void)
                         {
                             // do calc
                             int output = 0;
-                            if (input32 == '+')  
+                            if (input2 == '+')  
                             {
                                 output = input1 + input3;
                             }

@@ -24,7 +24,7 @@ int main(void)
                         // do calc
                         if (input2 == '+')  
                         {
-                
+                        output = 
                         }
                         else if (input2 == '-') 
                         {

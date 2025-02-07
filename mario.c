@@ -35,7 +35,7 @@ void build_pyramid(int input)
     // set counters and defaults
     int counter_hash = 0;
     int counter_space = input;
-    for(int i = 0; i < input; i++)
+    for(int row = 0; row < input; row++)
     {
         
         counter_hash = counter_hash + 1; 

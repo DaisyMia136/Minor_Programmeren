@@ -8,6 +8,8 @@
 int main(void)
 {
     string input_string = get_string("");
+    int input_number = get_int("");
+    
     
 }
 

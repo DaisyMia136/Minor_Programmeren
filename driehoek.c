@@ -11,12 +11,12 @@ int main(void)
 }
 
 // functions
-void print_space(input_space)
+void print_space(int input_space)
 {
     
 }
 
-void print_hash(input_hash)
+void print_hash(int input_hash)
 {
     
 }

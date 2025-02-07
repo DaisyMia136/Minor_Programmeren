@@ -22,7 +22,7 @@ int main(void)
             input2 = input2; 
         } 
         
-        int intput 3 = get_int("")
+        int intput3 = get_int("")
         
         }
        

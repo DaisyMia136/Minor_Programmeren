@@ -7,6 +7,8 @@
 //main script
 int main(void)
 {
+    int input1 = 0;
+    
     int i = 1;
     while (i == 1)
     { 

@@ -14,7 +14,6 @@ int main(void)
     int i = 1;
     while (i == 1)
     { 
-        input1 = get_int("");
         if (input1 == 0 || input1 == 1 || input1 == 2 || input1 == 3 || input1 == 4 || input1 == 5 || input1 == 6 || input1 == 7 || input1 == 8 || input1 == 9)
         {
             // ask for input2

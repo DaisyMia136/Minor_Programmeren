@@ -4,7 +4,7 @@
 
 // function prototypes
 
-input = ask_input();
+int = ask_input();
 void build_pyramid()
 
 // main script

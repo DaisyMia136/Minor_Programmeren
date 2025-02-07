@@ -16,4 +16,6 @@ void ask_input()
     do 
     { 
         int input = get_int("Positve Number: ")
+    } 
+    while()
 } 

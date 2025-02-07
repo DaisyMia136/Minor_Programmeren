@@ -9,5 +9,6 @@ int main(void)
 {
     // set defaults
     string input1 = get_string("");
-    printf("%s
+    printf("%s", input1);
+    
 } 

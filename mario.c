@@ -17,7 +17,7 @@ int main(void)
     
 }
 // functions
-
+// ask input
 int ask_input()
 { 
     int input = 0;
@@ -28,3 +28,8 @@ int ask_input()
     while(input < 0 || input > 8);
 } 
 
+// build_pyramid
+void build_pyramid(int input)
+{ 
+    
+}

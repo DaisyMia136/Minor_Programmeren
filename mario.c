@@ -27,3 +27,4 @@ int ask_input()
     } 
     while(input < 0 || input > 8);
 } 
+

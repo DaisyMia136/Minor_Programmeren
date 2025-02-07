@@ -18,7 +18,7 @@ int main(void)
 }
 // functions
 
-void ask_input()
+int ask_input()
 { 
     int input = 0;
     do 

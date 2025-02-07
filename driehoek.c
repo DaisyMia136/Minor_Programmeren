@@ -15,6 +15,10 @@ int main(void)
 }
 
 // functions
+void print_triangle(heigth)
+{
+    
+}
 
 void print_space(int input_space)
 {

@@ -39,7 +39,7 @@ void build_pyramid(int input)
     {
         // calculate how many # and spaces are needed per row
         counter_hash = counter_hash + 1; // 0 + 1 for row 1 
-        counter_space = counter_space - 1; // 
+        counter_space = counter_space - 1; // input - 1 for row 1
         //printf("%i\n", counter_hash);
         //printf("%i\n", counter_space);
         

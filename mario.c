@@ -15,5 +15,5 @@ void ask_input()
 { 
     do 
     { 
-        
+        get_int
 } 

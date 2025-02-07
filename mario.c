@@ -45,9 +45,9 @@ void build_pyramid(int input)
         
         for(int col = 0; col < input; col++)
         { 
+            
             printf("#");
         } 
-        
         
     }
     

@@ -10,10 +10,11 @@ void print_hash(int input_hash);
 int main(void)
 {
    // ask for input_heigth
-   int heigth = get_int("Hoe hoog moet de driehoek zijn? ")
+   int heigth = get_int("Hoe hoog moet de driehoek zijn? ");
    
    // print the triangle
-   print_triangle(heigth)
+   print_triangle(heigth);
+   
 }
 
 // functions

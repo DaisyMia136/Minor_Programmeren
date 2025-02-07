@@ -26,6 +26,7 @@ int ask_input()
         input = get_int("Positve Number: ");
     } 
     while(input < 0 || input > 8);
+    
 } 
 
 // build_pyramid

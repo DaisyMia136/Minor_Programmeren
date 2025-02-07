@@ -11,6 +11,7 @@ int main(void)
     int input_number = get_int("");
     
     
+    for 
 }
 
 

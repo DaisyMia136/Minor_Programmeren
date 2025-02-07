@@ -3,9 +3,8 @@
 #include <string.h>
 
 // function prototypes
-void print_space(int input_space)
-
-
+void print_space(int input_space);
+void print_hash(int input_hash);
 
 // main script
 int main(void)

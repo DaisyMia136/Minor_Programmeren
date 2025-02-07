@@ -50,7 +50,7 @@ void build_pyramid(int input)
         } 
         
         // print the number of # for each row
-        for(int col_hash_2 = 0; col_hash_2 < counter_hash_2; col_hash++)
+        for(int col_hash_2 = 0; col_hash_2 < counter_hash_2; col_hash_2++)
         {
             printf("#");    
         }

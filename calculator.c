@@ -28,7 +28,7 @@ int main(void)
             } 
             else 
             { 
-                input2
+                input2 = get_int("");
             } 
             
         } 

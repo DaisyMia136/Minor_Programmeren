@@ -9,7 +9,7 @@ int main(void)
 {
     // set defaults
     char input1 = get_char("");
-    printf("%c", input1);
+    printf("%include", input1);
     if (isdigit(input1) == true)
     {
         printf("jippie my code works");

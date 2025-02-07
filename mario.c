@@ -53,6 +53,8 @@ void build_pyramid(int input)
         {
             printf("#");    
         }
+        
+        
         // print a new line after each row
         printf("\n");
     }

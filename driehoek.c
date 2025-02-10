@@ -22,14 +22,14 @@ int main(void)
 // print driehoek
 void print_triangle(int heigth)
 {
-    outer_spaces = heigth
+    outer_spaces = heigth;
     int triangle_length = heigth * 2;
     printf("%i", triangle_length);
     // print each row
     for(int row = 0; row < heigth; row++)
     {
         int outer_spaces = outer_spaces - 1;
-        printf("%i", outer_spaces);
+        printf("%i\n", outer_spaces);
         //print_space();
         //print_hash();
         //print_space();

@@ -25,6 +25,8 @@ int calc_owed(int coin)
     while (remain_owed > 0)
     { 
         owed = owed - coin;
+        print = 
+    }
 }
 
 

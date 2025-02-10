@@ -31,7 +31,8 @@ void print_triangle(int heigth)
     for(int row = 0; row < heigth; row++)
     {
         if(row == 0);
-        print_hash(triangle_length)
+        {
+            print_hash(triangle_length)
         outer_spaces = outer_spaces - 1;
         inner_spaces = inner_spaces + 2;
         print_space(outer_spaces);

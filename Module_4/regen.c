@@ -44,3 +44,7 @@ int main(void)
 // calculate average
 
 void average_rain(totaal_regen, aantal_dagen)
+
+
+
+

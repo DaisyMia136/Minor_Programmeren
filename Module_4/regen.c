@@ -26,6 +26,9 @@ int main(void)
                 regen = regen + input; 
             } 
             else 
+            { 
+                eternally = 2;
+            } 
             
         }
     

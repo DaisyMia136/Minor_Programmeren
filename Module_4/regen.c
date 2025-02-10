@@ -13,6 +13,8 @@ int main(void)
     int aantal_dagen = 0;
     int eternally = 1
     input = get_int("Hoevoel: ");
+    if 
+    
     while(eternally == 1)
         { 
             input = get_int("Hoevoel: ");

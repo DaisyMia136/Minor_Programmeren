@@ -8,8 +8,8 @@
 int main(void)
 { 
     // set defaults
-    totaal_regen = 0;
-    
+    int totaal_regen = 0;
+    int aantal_dagen = 0;
     
     while (input != 999)
         { 

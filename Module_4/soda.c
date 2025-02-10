@@ -32,7 +32,7 @@ calc_owed(int coin)
         }
     else
     { 
-        printf("%i cents change\n", owed)
+        printf("%i cents change\n", owed);
     } 
         
 }

@@ -20,7 +20,7 @@ int main(void)
 
 int calc_owed(int coin)
 {
-    owed = 50; 
+    int owed = 50; 
     
     while (remain_owed > 0)
     { 

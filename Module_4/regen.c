@@ -20,7 +20,7 @@ int main(void)
             regen = regen + input; 
         }
     
-    input_counter = aantal_dagen;
+    totaal_regen = regen;
     
 }    
 

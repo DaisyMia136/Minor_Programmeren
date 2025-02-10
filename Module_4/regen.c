@@ -32,6 +32,7 @@ int main(void)
             } 
             else 
             { 
+                int totaal_regen = regen;
                 eternally = 2;
                 average_rain(totaal_regen, aantal_dagen);
             } 

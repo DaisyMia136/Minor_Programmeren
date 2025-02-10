@@ -46,7 +46,7 @@ void print_trapezium(height)
             print_hash(1);
             print_space(inner_spaces);
             print_hash(1);
-            print("\n");
+            printf("\n");
         } 
         
         

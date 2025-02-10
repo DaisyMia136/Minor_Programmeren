@@ -1,13 +1,13 @@
-#include <stdio.h>
 #include <cs50.h>
-#include <string.h>
+#include <stdio.h>
 
-// function prototypes
-
-// main script
 int main(void)
 {
-    
-}
+    // TODO: prompt for start size
 
-// functions 
+    // TODO: prompt for end size
+
+    // TODO: calculate number of years until we reach threshold
+
+    // TODO: print number of years
+}

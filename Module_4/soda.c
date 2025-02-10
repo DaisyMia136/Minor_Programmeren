@@ -41,7 +41,8 @@ void calc_owed()
         }
         else 
         { 
-            printf
+           printf("%i cents owed\n", owed);
+        } 
         
     } 
     

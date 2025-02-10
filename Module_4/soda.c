@@ -20,9 +20,7 @@ int main(void)
 void calc_owed()
 {
     int owed = 50; 
-    int coin = get_int("Insert coin: ");
-    if(coin == 25 || coin == 10 || coin == 5)
-    { 
+    
     
     
     while (owed >= 0)

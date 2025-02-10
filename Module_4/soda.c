@@ -9,7 +9,6 @@ void calc_owed();
 // main script
 int main(void)
 {
-   
     printf("50 cents owed\n");
 
     calc_owed();
@@ -25,7 +24,7 @@ void calc_owed()
     // ask to input coins while owed is larger than 0
     while (owed > 0)
     { 
-        
+        int coin = get_int("Insert coin: "); // ask to input a coin
         
         if(coin == 25 || coin == 10 || coin == 5) // only accept coins with a value of 25, 10 and 5 
         { 

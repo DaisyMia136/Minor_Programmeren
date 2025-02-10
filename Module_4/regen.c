@@ -40,5 +40,4 @@ int main(void)
 
 // functions
 
-
 // calculate average

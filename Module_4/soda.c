@@ -9,7 +9,6 @@ void calc_owed();
 // main script
 int main(void)
 {
-    int coin = get_int("Insert coin: "); // ask to input a coin
     printf("50 cents owed\n");
 
     calc_owed();

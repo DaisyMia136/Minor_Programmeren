@@ -34,5 +34,6 @@ int end_population;
 // functions
 int = llama_calc(int start_population, int end_population)
 {
-    
+    int start_population
+    int end_population
 }

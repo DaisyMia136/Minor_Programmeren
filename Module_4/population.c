@@ -7,8 +7,12 @@
 int main(void)
 {
     // TODO: prompt for start size, not lower than 9
-    int start_population = get_int("Start size: ")
-    int 
+    int start_population; 
+    do 
+    {
+        int start_population = get_int("Start size: ")
+    } 
+    
     
     
     // TODO: prompt for end size

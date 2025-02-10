@@ -20,7 +20,7 @@ int main(void)
         }
     
     int totaal_regen = regen;
-    
+    printf("")
 }    
 
 // functions

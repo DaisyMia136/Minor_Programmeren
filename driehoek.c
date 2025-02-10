@@ -38,9 +38,9 @@ void print_triangle(int heigth)
         { 
             outer_spaces = outer_spaces - 1;
             print_space(outer_spaces);
-            print_hash(2);
-            print_space(outer_spaces);
-            printf("\n");
+            printf("##\n");
+            //print_space(outer_spaces);
+;
         } 
         else
         { 

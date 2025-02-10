@@ -20,7 +20,7 @@ int main(void)
 
 int calc_owed(int coin)
 {
-    
+    owed = 
 }
 
 

@@ -36,4 +36,6 @@ int = llama_calc(int start_population, int end_population)
 {
     int start_population
     int end_population
+    int llama_babies
+    int llama_deaths
 }

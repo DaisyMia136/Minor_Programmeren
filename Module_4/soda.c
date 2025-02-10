@@ -34,9 +34,9 @@ void calc_owed()
                 { 
                 printf("%i cents owed\n", owed);
                 }
-            else
+            else // print the change
             { 
-                printf("%i cents change\n", owed); // print the change
+                printf("%i cents change\n", owed); 
             } 
         }
         

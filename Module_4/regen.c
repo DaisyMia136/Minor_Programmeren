@@ -16,3 +16,5 @@ int main(void)
 }    
 
 // functions
+
+// ask input 

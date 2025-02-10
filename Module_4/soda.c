@@ -9,7 +9,7 @@ int main(void)
 {
     printf("50 cents owed")
     
-    coin = get_int(Insert coin;)
+    coin = get_int("Insert coin: ")
 }
 
 // functions 

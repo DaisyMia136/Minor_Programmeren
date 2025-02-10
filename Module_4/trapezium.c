@@ -43,8 +43,10 @@ void print_trapezium(height)
         } 
         else
         { 
-            print_hash(1)
-            print_space()
+            print_hash(1);
+            print_space(inner_spaces);
+            print_hash(1);
+            
         } 
         
         

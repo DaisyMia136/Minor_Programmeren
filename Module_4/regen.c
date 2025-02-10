@@ -11,9 +11,9 @@ int main(void)
     int regen = 0;
     int input = 0;
     int aantal_dagen = 0;
-    
+    int eternally = 1
     input = get_int("Hoevoel: ");
-    while(input != 999)
+    while(eternally)
         { 
             input = get_int("Hoevoel: ");
             aantal_dagen++;

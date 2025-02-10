@@ -7,7 +7,7 @@
 // main script
 int main(void)
 { 
-    get_int("Hoevoel")
+    get_int("Hoevoel: ")
     
     
 }    

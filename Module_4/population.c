@@ -36,6 +36,7 @@ int llama_calc(int start_population, int end_population)
 {
     int llama_babies = 0;
     int llama_deaths = 0;
+    int years = 0;
     
     while(start_population < end_population)
     {

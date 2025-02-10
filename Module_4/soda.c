@@ -26,9 +26,9 @@ void calc_owed()
     { 
         int coin = get_int("Insert coin: "); // ask to input a coin
         
-        if(coin == 25 || coin == 10 || coin == 5) // only accept 25, 10 and 5 
+        if(coin == 25 || coin == 10 || coin == 5) // only accept coins with a value of 25, 10 and 5 
         { 
-            owed = owed - coin;
+            owed = owed - coin; // calculate how much is owed after 
     
             if (owed > 0)
                 { 

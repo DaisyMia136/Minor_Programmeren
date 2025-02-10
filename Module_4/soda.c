@@ -28,7 +28,7 @@ void calc_owed()
         int coin = get_int("Insert coin: ");
         if(coin == 25 || coin == 10 || coin == 5)
     
-        owed = owed - coin;
+            owed = owed - coin;
     
     if (owed > 0)
         { 

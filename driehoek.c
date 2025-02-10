@@ -26,6 +26,7 @@ void print_triangle(int heigth)
     // print each row
     for(int row = 0; row > heigth; row++)
     {
+        
         print_space();
         print_hash();
         print_space();

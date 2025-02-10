@@ -46,7 +46,7 @@ void print_space(int input_space)
 {
     for(int space_counter = 0; space_counter < input_space; space_counter++)
     {
-        printf(" ");
+        printf(" \n");
     }
 }
 

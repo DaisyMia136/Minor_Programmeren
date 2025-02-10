@@ -40,6 +40,7 @@ void print_triangle(int heigth)
             print_space(outer_spaces);
             print_hash(2);
             print_space(outer_spaces);
+            printf("\n");
         } 
         else
         { 

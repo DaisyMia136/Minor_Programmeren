@@ -40,6 +40,6 @@ int = llama_calc(int start_population, int end_population)
     int llama_deaths
     int current_population
     
-    while(current_population )
+    while(current_population >)
     
 }

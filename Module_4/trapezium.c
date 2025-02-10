@@ -11,7 +11,7 @@ void print_hash(int input_hash);
 int main(void)
 {
     // ask for height of print_trapezium
-    int get_heigth = get_int
+    int heigth = get_int("")
 }
 
 // functions 

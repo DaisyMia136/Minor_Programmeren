@@ -8,6 +8,8 @@
 int main(void)
 {
     printf("50 cents owed")
+    
+    
 }
 
 // functions 

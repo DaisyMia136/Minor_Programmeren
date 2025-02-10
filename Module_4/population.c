@@ -21,7 +21,7 @@ int start_population;
     {
         start_population = get_int("Start size: ");
     } 
-    while(end_population < 9);
+    while(end_population < start_population);
     // TODO: calculate number of years until we reach threshold
 
     // TODO: print number of years

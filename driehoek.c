@@ -35,7 +35,7 @@ void print_triangle(int heigth)
         inner_spaces = inner_spaces + 2;
         printf("%i\n", outer_spaces);
         print_space(outer_spaces);
-        //print_hash();
+        //print_hash("#");
         print_space(inner_spaces);
         //print_hash();
         print_space(outer_spaces); // misschien onnodig

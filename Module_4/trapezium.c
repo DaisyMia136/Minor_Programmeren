@@ -16,8 +16,7 @@ int main(void)
     { 
         height = get_int("Hoe hoog moet het trapezium zijn? ");
     } 
-    else
-    { 
+
         print_trapezium(height);
     } 
 }

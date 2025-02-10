@@ -25,7 +25,6 @@ void calc_owed(int coin)
     while (owed >= 0)
     { 
         owed = owed - coin;
-        printf()
     }
     if (owed > 0)
         { 

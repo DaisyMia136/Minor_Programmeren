@@ -12,6 +12,13 @@ int main(void)
 
 // functions 
 
+// print trapezium
+void print_trapezium
+{
+    
+}
+
+
 // print a number of spaces
 void print_space(int input_space)
 {

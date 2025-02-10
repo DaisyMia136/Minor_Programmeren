@@ -23,7 +23,6 @@ int main(void)
 void print_triangle(int heigth)
 {
     int triangle_length = heigth * 2;
-    
     // print each row
     for(int row = 0; row > heigth; row++)
     {

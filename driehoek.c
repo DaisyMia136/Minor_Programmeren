@@ -29,7 +29,10 @@ void print_triangle(int heigth)
 
 void print_space(int input_space)
 {
-    for(int i = )
+    for(int i = 0; i > input_space; i++)
+    {
+        
+    }
 }
 
 void print_hash(int input_hash)

@@ -9,6 +9,8 @@ int main(void)
 { 
     // ask for inputs 
     
+    // calculate and print average
+    
     
 }    
 

@@ -18,8 +18,10 @@ int main(void)
             input = get_int("Hoevoel: ");
             if (input != 999)
             { 
-            aantal_dagen++;
-            regen = regen + input; 
+                aantal_dagen++;
+                regen = regen + input; 
+            } 
+            else 
             
         }
     

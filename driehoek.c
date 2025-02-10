@@ -35,9 +35,10 @@ void print_triangle(int heigth)
             print_hash(triangle_length);
         } 
         else if (row == 0)
-        outer_spaces = outer_spaces - 1;
+        { 
+            outer_spaces = outer_spaces - 1;
         
-        print_hash(1);
+            print_hash(1);
         else
         { 
             outer_spaces = outer_spaces - 1;

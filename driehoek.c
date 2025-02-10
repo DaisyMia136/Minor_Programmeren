@@ -23,7 +23,7 @@ int main(void)
 void print_triangle(int heigth)
 {
     int triangle_length = heigth * 2;
-    printf("%i", triangle_length)
+    printf("%i", triangle_length);
     // print each row
     for(int row = 0; row > heigth; row++)
     {

@@ -33,6 +33,7 @@ int main(void)
             else 
             { 
                 eternally = 2;
+                
             } 
             
         }

@@ -14,7 +14,8 @@ int main(void)
     int heigth = get_int("Hoe hoog moet het trapezium zijn? ")
     if(heigth < 5 || heigth > 20)
     { 
-        int 
+        heigth = get_int("Hoe hoog moet het trapezium zijn? ")
+ 
 }
 
 // functions 

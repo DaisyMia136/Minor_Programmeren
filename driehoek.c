@@ -30,7 +30,7 @@ void print_triangle(int heigth)
         print_hash();
         print_space();
         print_hash();
-        print_space();
+        print_space(); // misschien onnodig
     }
 }
 

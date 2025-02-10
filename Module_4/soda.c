@@ -22,7 +22,7 @@ void calc_owed(int coin)
 {
     int owed = 50; 
     
-    while (remain_owed >= 0)
+    while (int remain_owed >= 0)
     { 
         owed = owed - coin;
     }

@@ -19,7 +19,7 @@ int main(void)
             regen = regen + input; 
         }
     
-    totaal_regen = regen;
+    int totaal_regen = regen;
     
 }    
 

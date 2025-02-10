@@ -41,6 +41,10 @@ void print_trapezium(height)
         { 
             print_hash(lenght_trapezium); 
         } 
+        else
+        { 
+            
+        } 
         
         
     }

@@ -42,7 +42,8 @@ int = llama_calc(int start_population, int end_population)
     
     while(current_population > end_population)
     {
-        llama_babies = start_population / 4
+        llama_babies = start_population / 3; 
+        
     } 
     
     

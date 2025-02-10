@@ -33,7 +33,8 @@ int main(void)
             else 
             { 
                 eternally = 2;
-                average_rain(int totaal_regen, aantal_dagen)
+                average_rain(totaal_regen, aantal_dagen);
+                printf
             } 
             
         }

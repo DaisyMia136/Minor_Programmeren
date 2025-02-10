@@ -5,3 +5,8 @@
 // functions prototypes
 
 // main script
+int main(void)
+{
+    
+}
+

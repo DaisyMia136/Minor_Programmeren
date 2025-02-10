@@ -26,7 +26,7 @@ int main(void)
 // print trapezium
 void print_trapezium
 {
-    for()
+    for(int col = 0)
 }
 
 

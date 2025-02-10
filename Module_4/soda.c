@@ -15,5 +15,5 @@ int main(void)
 
 // functions 
 
-calc_owed(int coin)
+int owed = calc_owed(int coin)
 calc_change()

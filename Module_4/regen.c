@@ -7,10 +7,7 @@
 // main script
 int main(void)
 { 
-    // ask for inputs 
-    
-    
-    // calculate and print average 
+    get_int("Hoevoel")
     
     
 }    

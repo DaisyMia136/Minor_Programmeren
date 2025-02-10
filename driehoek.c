@@ -17,7 +17,7 @@ int main(void)
         heigth = get_int("Hoe hoog moet de driehoek zijn? ");
     } 
     else 
-    { 
+    {
        // print the triangle
         print_triangle(heigth);
     } 

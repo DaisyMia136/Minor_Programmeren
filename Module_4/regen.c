@@ -12,6 +12,7 @@ int main(void)
     int input = 0;
     int aantal_dagen = 0;
     
+    input = get_int("Hoevoel: ");
     while(input < 999)
         { 
             input = get_int("Hoevoel: ");

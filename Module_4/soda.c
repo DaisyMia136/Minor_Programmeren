@@ -30,16 +30,16 @@ void calc_owed()
         { 
             owed = owed - coin;
     
-    if (owed > 0)
+        if (owed > 0)
+            { 
+            printf("%i cents owed\n", owed);
+            }
+        else
         { 
-        printf("%i cents owed\n", owed);
+            printf("%i cents change\n", owed);
+        } 
+        coin = get_int("Insert coin: ");
         }
-    else
-    { 
-        printf("%i cents change\n", owed);
-    } 
-    coin = get_int("Insert coin: ");
-    }
         
 }
 

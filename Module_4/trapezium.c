@@ -11,12 +11,12 @@ void print_hash(int input_hash);
 int main(void)
 {
     // ask for height of print_trapezium
-
+    int height = 0;
     do 
     { 
-        int height = get_int("Hoe hoog moet het trapezium zijn? ");
+        height = get_int("Hoe hoog moet het trapezium zijn? ");
     } 
-    while(int height < 5 || height > 20)
+    while(height < 5 || height > 20)
 
     print_trapezium(height);
 }

@@ -40,8 +40,5 @@ int main(void)
 
 // functions
 
-// ask input 
-
-
 
 // calculate average

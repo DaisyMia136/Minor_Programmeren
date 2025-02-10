@@ -22,7 +22,7 @@ int main(void)
 void print_triangle(int heigth)
 {
     // print each row
-    for(row = 0; row > heigth; row++)
+    for(int row = 0; row > heigth; row++)
     {
         
     }

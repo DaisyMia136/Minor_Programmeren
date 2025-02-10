@@ -12,7 +12,7 @@ int main(void)
 {
     // ask for height of print_trapezium
     int heigth = get_int("Hoe hoog moet het trapezium zijn? ")
-    
+    if(heigth < 5 || heigth > 20)
 }
 
 // functions 

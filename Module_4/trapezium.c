@@ -12,7 +12,7 @@ int main(void)
 {
     // ask for height of print_trapezium
     int height = get_int("Hoe hoog moet het trapezium zijn? ");
-    while(height < 5 || height > 20)
+    do (height < 5 || height > 20)
     { 
         height = get_int("Hoe hoog moet het trapezium zijn? ");
     } 

@@ -28,8 +28,9 @@ void print_triangle(int heigth)
     {
         print_space();
         print_hash();
-        print_space;
-        print_hash;
+        print_space();
+        print_hash();
+        print_hash();
     }
 }
 

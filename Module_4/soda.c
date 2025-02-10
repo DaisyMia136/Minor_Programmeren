@@ -24,8 +24,9 @@ void calc_owed()
     // ask to input coins while owed is larger than 0
     while (owed > 0)
     { 
-        int coin = get_int("Insert coin: ");
-        if(coin == 25 || coin == 10 || coin == 5)
+        int coin = get_int("Insert coin: "); // ask to input a coin
+        
+        if(coin == 25 || coin == 10 || coin == 5) // only accept 25, 10 and 5 
         { 
             owed = owed - coin;
     

@@ -16,7 +16,7 @@ int main(void)
         { 
             input = get_int("Hoevoel: ");
             input_couter = input_couter++;
-            
+            regen = input + input; 
         }
     
     input_counter = aantal_dagen;

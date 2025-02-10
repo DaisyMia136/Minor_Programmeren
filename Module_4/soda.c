@@ -21,7 +21,7 @@ void calc_owed()
     // set defaults
     int owed = 50; 
     
-    // 
+    // ask to input coins until owed is larger
     while (owed > 0)
     { 
         int coin = get_int("Insert coin: ");

@@ -3,7 +3,7 @@
 #include <cs50.h>
 
 // functions prototypes
-void print_triangle(int heigth);
+void print_trapezium(int heigth);
 void print_space(int input_space);
 void print_hash(int input_hash);
 

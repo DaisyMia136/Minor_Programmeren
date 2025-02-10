@@ -36,14 +36,15 @@ void print_triangle(int heigth)
         } 
         else
         { 
-        outer_spaces = outer_spaces - 1;
-        inner_spaces = inner_spaces + 2;
-        print_space(outer_spaces);
-        print_hash(1);
-        print_space(inner_spaces);
-        print_hash(1);
-        print_space(outer_spaces); // misschien onnodig
-        printf("\n");
+            outer_spaces = outer_spaces - 1;
+            inner_spaces = inner_spaces + 2;
+            print_space(outer_spaces);
+            print_hash(1);
+            print_space(inner_spaces);
+            print_hash(1);
+            print_space(outer_spaces); // misschien onnodig
+            printf("\n");
+        } 
     }
 }
 

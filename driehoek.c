@@ -13,7 +13,8 @@ int main(void)
    // ask for input_heigth
    int heigth = get_int("Hoe hoog moet de driehoek zijn? ");
    if(heigth < 5 || heigth > 20)
-   
+        {int heigth = get_int("Hoe hoog moet de driehoek zijn? ");
+        
    // print the triangle
    print_triangle(heigth);
    

@@ -3,7 +3,7 @@
 #include <string.h>
 
 // function prototypes
-calc_owed(int coin);
+void calc_owed(int coin);
 
 
 // main script
@@ -18,7 +18,7 @@ int main(void)
 
 // functions 
 
-calc_owed(int coin)
+void calc_owed(int coin)
 {
     int owed = 50; 
     

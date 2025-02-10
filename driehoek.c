@@ -30,6 +30,7 @@ void print_triangle(int heigth)
     }
 }
 
+// print a number of spaces
 void print_space(int input_space)
 {
     for(int space_counter = 0; space_counter < input_space; space_counter++)
@@ -38,6 +39,7 @@ void print_space(int input_space)
     }
 }
 
+// print a number of #
 void print_hash(int input_hash)
 {
     for(int hash_counter = 0; hash_counter < input_hash; hash_counter++)

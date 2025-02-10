@@ -21,7 +21,7 @@ int main(void)
         printf("Dat kan niet");
         eternally = 2;
     } 
-    printf("%i", eternally)
+    printf("%i", eternally);
     while(eternally == 1)
         { 
             if (input != 999)

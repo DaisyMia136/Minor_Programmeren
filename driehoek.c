@@ -24,7 +24,7 @@ void print_triangle(int heigth)
 {
     // set counters
     int outer_spaces = heigth;
-    
+    int innter_spaces = 2;
     // set base of the pyramid
     int triangle_length = heigth * 2;
     printf("%i", triangle_length);

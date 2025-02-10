@@ -37,9 +37,7 @@ int main(void)
             
         }
     
-    int totaal_regen = regen;
     
-    average_rain(totaal_regen, aantal_dagen);
 }    
 
 // functions

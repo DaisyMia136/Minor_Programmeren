@@ -16,10 +16,10 @@ int main(void)
     
     // TODO: prompt for end size
 
-int start_population; 
+int end_population; 
     do 
     {
-        start_population = get_int("Start size: ");
+        end_population = get_int("Start size: ");
     } 
     while(end_population < start_population);
     // TODO: calculate number of years until we reach threshold

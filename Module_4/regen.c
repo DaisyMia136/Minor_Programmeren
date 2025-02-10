@@ -41,7 +41,7 @@ int main(void)
 // functions
 
 // ask input 
-totaal_regen 
+
 
 
 // calculate average

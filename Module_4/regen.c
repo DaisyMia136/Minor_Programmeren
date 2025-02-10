@@ -12,6 +12,7 @@ int main(void)
     int input = 0;
     int aantal_dagen = 0;
     int eternally = 1;
+    
     input = get_int("Hoevoel: ");
     if (input == 999)
     { 

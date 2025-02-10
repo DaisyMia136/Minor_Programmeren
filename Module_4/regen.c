@@ -9,6 +9,7 @@ int main(void)
 { 
     // set defaults
     int totaal_regen = 0;
+    int regen = 0;
     int input = 0;
     int aantal_dagen = 0;
     

@@ -32,7 +32,7 @@ void print_triangle(int heigth)
     {
         if(row == 0);
         {
-            print_hash(triangle_length)
+            print_hash(triangle_length);
         } 
         else
         { 

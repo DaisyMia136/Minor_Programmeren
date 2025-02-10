@@ -27,6 +27,7 @@ void print_triangle(int heigth)
     for(int row = 0; row > heigth; row++)
     {
         outer_spaces = heigth - 1
+        printf("%")
         print_space();
         print_hash();
         print_space();

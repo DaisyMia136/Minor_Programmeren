@@ -22,7 +22,6 @@ void calc_owed()
     int owed = 50; 
     int coin = get_int("Insert coin: ");
     
-    
     while (owed >= 0)
     { 
         owed = owed - coin;

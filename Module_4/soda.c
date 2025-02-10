@@ -11,9 +11,15 @@ int main(void)
     
     coin = get_int("Insert coin: ");
     
+    int owed = calc_owed(int coin);
 }
 
 // functions 
 
-int owed = calc_owed(int coin);
+int calc_owed(int coin)
+{
+    
+}
+
+
 calc_change()

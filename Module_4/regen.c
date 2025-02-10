@@ -16,6 +16,7 @@ int main(void)
     while(eternally == 1)
         { 
             input = get_int("Hoevoel: ");
+            if (input )
             aantal_dagen++;
             regen = regen + input; 
             

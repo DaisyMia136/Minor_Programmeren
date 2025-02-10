@@ -29,6 +29,7 @@ int main(void)
     int years = llama_calc(start_population, end_population);
 
     // TODO: print number of years
+    printf("Years: ")
 }
 
 // functions

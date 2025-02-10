@@ -19,6 +19,7 @@ int main(void)
 }
 
 // functions
+// print driehoek
 void print_triangle(int heigth)
 {
     int triangle_length = heigth * 2;

@@ -25,7 +25,7 @@ int end_population;
     
     // TODO: calculate number of years until we reach threshold
 
-    llama_calc()
+    llama_calc(start_population, end_population);
 
     // TODO: print number of years
 }

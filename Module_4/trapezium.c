@@ -37,7 +37,7 @@ void print_trapezium(height)
     {
         outer_spaces = outer_spaces - 1; // every row one outer space less
         print_space(outer_spaces); // print the number of spaces for each row
-        if (row == 0 || row == height)
+        if (row == 0 || row == height - 1)
         { 
             print_hash(lenght_trapezium);
             printf("\n");

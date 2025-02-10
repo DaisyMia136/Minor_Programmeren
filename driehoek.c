@@ -30,6 +30,7 @@ void print_triangle(int heigth)
     // print each row
     for(int row = 0; row < heigth; row++)
     {
+        
         if(row == heigth - 1)
         {
             print_hash(triangle_length);

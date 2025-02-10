@@ -24,7 +24,7 @@ void print_triangle(int heigth)
 {
     // set counters
     int outer_spaces = heigth;
-    int innter_spaces = 2;
+    int inner_spaces = 2;
     // set base of the pyramid
     int triangle_length = heigth * 2;
     printf("%i", triangle_length);
@@ -32,7 +32,7 @@ void print_triangle(int heigth)
     for(int row = 0; row < heigth; row++)
     {
         outer_spaces = outer_spaces - 1;
-        inner_spaces = 
+        inner_spaces = inner_spaces + 2;
         printf("%i\n", outer_spaces);
         print_space(outer_spaces);
         //print_hash();

@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 // functions prototypes
+int = llama_calc(int start_population, int end_population)
 
 // main script
 int main(void)

@@ -13,7 +13,7 @@ int main(void)
     
     coin = get_int("Insert coin: ");
     
-    int remain_owed = calc_owed(int coin);
+    calc_owed(int coin);
 }
 
 // functions 

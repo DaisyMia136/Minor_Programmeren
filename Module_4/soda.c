@@ -29,5 +29,3 @@ int calc_owed(int coin)
     }
 }
 
-
-calc_change()

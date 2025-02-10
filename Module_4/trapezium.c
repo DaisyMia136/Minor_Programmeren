@@ -30,7 +30,7 @@ void print_trapezium(height)
     int lenght_trapezium = height * 2;
     // set counters
     int outer_spaces = height;
-    int inner_spaces = 0
+    int inner_spaces = 8; // maybe unnecessary
     
     
     

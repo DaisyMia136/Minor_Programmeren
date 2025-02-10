@@ -17,7 +17,7 @@ int main(void)
     
     // TODO: prompt for end size
 
-int end_population; 
+    int end_population; 
     do 
     {
         end_population = get_int("End size: ");

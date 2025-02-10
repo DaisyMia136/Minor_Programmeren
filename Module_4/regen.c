@@ -19,6 +19,7 @@ int main(void)
             input_couter = input_couter++;
         }
     
+    input_counter = aantal_dagen;
     
 }    
 

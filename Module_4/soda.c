@@ -30,7 +30,7 @@ void calc_owed()
         { 
             owed = owed - coin; // calculate how much is owed after the coin
     
-            if (owed > 0)
+            if (owed > 0) // if 
                 { 
                 printf("%i cents owed\n", owed);
                 }

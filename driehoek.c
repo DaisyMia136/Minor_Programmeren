@@ -30,6 +30,7 @@ void print_triangle(int heigth)
     // print each row
     for(int row = 0; row < heigth; row++)
     {
+        
         outer_spaces = outer_spaces - 1;
         inner_spaces = inner_spaces + 2;
         print_space(outer_spaces);

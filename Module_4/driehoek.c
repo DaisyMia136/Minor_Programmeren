@@ -36,6 +36,7 @@ void print_triangle(int heigth)
         if(row == heigth - 1)
         {
             print_hash(triangle_length);
+            printf("##\n");
         } 
         else if (row == 0)
         { 

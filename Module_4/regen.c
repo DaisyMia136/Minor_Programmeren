@@ -7,7 +7,7 @@
 // main script
 int main(void)
 { 
-    
+    totaal_
     while (input != 999)
         { 
             int input = get_int("Hoevoel: ");

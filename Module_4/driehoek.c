@@ -75,5 +75,3 @@ void print_hash(int input_hash)
         printf("#");
     }
 }
-
-    

@@ -14,7 +14,7 @@ int main(void)
    
    // print the triangle
    print_triangle(heigth);
-   
+   print_hash(4);
 }
 
 // functions

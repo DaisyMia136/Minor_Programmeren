@@ -10,12 +10,12 @@ int main(void)
     // set defaults
     int totaal_regen = 0;
     int input = 0;
-    int input_counter = 0;
+    int aantal_dagen = 0;
     
     while (input != 999)
         { 
             input = get_int("Hoevoel: ");
-            input_couter = input_couter++;
+            aantal_dagen = aantal_dagen++;
             regen = input + input; 
         }
     

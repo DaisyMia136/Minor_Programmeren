@@ -19,4 +19,4 @@ int main(void)
 
 // ask input 
 
-// calculate 
+// calculate average

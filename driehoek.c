@@ -19,8 +19,8 @@ int main(void)
     else 
     { 
         
-   // print the triangle
-   print_triangle(heigth);
+       // print the triangle
+        print_triangle(heigth);
    
 }
 

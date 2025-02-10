@@ -39,7 +39,8 @@ void print_trapezium(height)
         print_space(outer_spaces); // print the number of spaces for each row
         if (row == 0 || row == height)
         { 
-            print_hash(lenght_trapezium); 
+            print_hash(lenght_trapezium);
+            printf("\n");
         } 
         else
         { 

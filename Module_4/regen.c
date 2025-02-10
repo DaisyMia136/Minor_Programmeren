@@ -36,9 +36,11 @@ int main(void)
     
     int totaal_regen = regen;
     
-    void average_rain(totaal_regen, aantal_dagen)
+    void average_rain(totaal_regen, aantal_dagen);
 }    
 
 // functions
 
 // calculate average
+
+void average_rain(totaal_regen, aantal_dagen)

@@ -31,7 +31,7 @@ void print_space(int input_space)
 {
     for(int i = 0; i > input_space; i++)
     {
-        prinft()
+        prinft(" ");
     }
 }
 

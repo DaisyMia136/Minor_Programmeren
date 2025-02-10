@@ -7,7 +7,10 @@
 // main script
 int main(void)
 { 
-    totaal_
+    // set defaults
+    totaal_regen = 0;
+    
+    
     while (input != 999)
         { 
             int input = get_int("Hoevoel: ");

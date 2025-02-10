@@ -37,7 +37,7 @@ void print_space(int input_space)
 
 void print_hash(int input_hash)
 {
-    for(int hash_counter = 0; hash_counter < input_space; space_counter++)
+    for(int hash_counter = 0; hash_counter < input_hash; hash_counter++)
     {
         prinft(" ");
     }

@@ -32,8 +32,7 @@ void print_trapezium(height)
     int outer_spaces = height;
     int inner_spaces = 8; // maybe unnecessary
     
-    
-    
+    // print each row
     for(int col = 0; col < height; col++)
     {
         

@@ -14,10 +14,6 @@ int main(void)
     } 
     while(start_population < 9);
     
-    
-    
-    
-    
     // TODO: prompt for end size
 
     // TODO: calculate number of years until we reach threshold

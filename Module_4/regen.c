@@ -9,7 +9,7 @@ int main(void)
 { 
     while (input != 999)
         { 
-            input get_int("Hoevoel: ");
+            int input = get_int("Hoevoel: ");
         }
     
     

@@ -40,6 +40,7 @@ void calc_owed()
             } 
             coin = get_int("Insert coin: ");
             }
-        
+    } 
+    
 }
 

@@ -45,7 +45,8 @@ int main(void)
 
 void average_rain(totaal_regen, aantal_dagen)
 { 
-    totaal_regen/aantal_dagen;
+    gemiddelde = totaal_regen/aantal_dagen;
+    printf()
 } 
 
 

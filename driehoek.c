@@ -22,7 +22,7 @@ int main(void)
 // print driehoek
 void print_triangle(int heigth)
 {
-    
+    outer_spaces = heigth
     int triangle_length = heigth * 2;
     printf("%i", triangle_length);
     // print each row

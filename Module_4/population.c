@@ -40,7 +40,7 @@ int = llama_calc(int start_population, int end_population)
     int llama_deaths;
     int current_population;
     
-    while(current_population > end_population)
+    while(start_population > end_population)
     {
         llama_babies = start_population / 3; 
         llama_death = start_population / 4;

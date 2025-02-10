@@ -1,6 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// functions prototypes
+
+// main script
 int main(void)
 {
     // TODO: prompt for start size

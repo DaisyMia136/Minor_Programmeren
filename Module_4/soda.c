@@ -30,13 +30,13 @@ void calc_owed()
         { 
             owed = owed - coin; // calculate how much is owed after the coin
     
-            if (owed > 0) // if 
+            if (owed > 0) // print how much is still owed
                 { 
                 printf("%i cents owed\n", owed);
                 }
             else
             { 
-                printf("%i cents change\n", owed);
+                printf("%i cents change\n", owed); // print the change
             } 
         }
         

@@ -27,7 +27,12 @@ calc_owed(int coin)
         owed = owed - coin;
     }
     if (owed > 0)
+        { 
             printf("%i cents owed\n", owed);
-            
+        }
+    else
+    { 
+        print
+        
 }
 

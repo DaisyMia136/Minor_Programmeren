@@ -7,7 +7,8 @@
 // main script
 int main(void)
 { 
-    get_int("Hoevoel: "
+    while 
+    input get_int("Hoevoel: "); 
     
     
 }    

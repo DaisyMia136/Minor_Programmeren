@@ -32,7 +32,7 @@ void print_space(int input_space)
 {
     for(int space_counter = 0; space_counter < input_space; space_counter++)
     {
-        prinft(" ");
+        printf(" ");
     }
 }
 
@@ -40,7 +40,7 @@ void print_hash(int input_hash)
 {
     for(int hash_counter = 0; hash_counter < input_hash; hash_counter++)
     {
-        prinft("#");
+        printf("#");
     }
 }
 

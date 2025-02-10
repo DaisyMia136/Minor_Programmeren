@@ -22,7 +22,10 @@ int main(void)
 // print driehoek
 void print_triangle(int heigth)
 {
+    // set counters
     int outer_spaces = heigth;
+    
+    // set base of the pyramid 
     int triangle_length = heigth * 2;
     printf("%i", triangle_length);
     // print each row

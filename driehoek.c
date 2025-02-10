@@ -21,6 +21,7 @@ int main(void)
 // functions
 void print_triangle(int heigth)
 {
+    
     // print each row
     for(int row = 0; row > heigth; row++)
     {

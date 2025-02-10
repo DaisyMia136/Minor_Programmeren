@@ -18,7 +18,6 @@ int main(void)
     } 
 
         print_trapezium(height);
-    } 
 }
 
 // functions 

@@ -11,7 +11,6 @@ int main(void)
 {
     printf("50 cents owed\n");
     
-    int coin = get_int("Insert coin: ");
     
     calc_owed(coin);
 }

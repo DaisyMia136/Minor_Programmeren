@@ -35,7 +35,8 @@ int main(void)
         }
     
     int totaal_regen = regen;
-    printf("%i\n", totaal_regen);
+    
+    
 }    
 
 // functions

@@ -19,7 +19,7 @@ int main(void)
     if (input == 999)
     { 
         printf("Dat kan niet");
-        eternally =
+        eternally = 2;
     } 
     while(eternally == 1)
         { 

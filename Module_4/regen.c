@@ -18,7 +18,7 @@ int main(void)
     input = get_int("Hoevoel: ");
     if (input == 999)
     { 
-        printf("Dat kan niet");
+        printf("Dat kan niet\n");
         eternally = 2;
     } 
     

@@ -15,7 +15,8 @@ int main(void)
     input = get_int("Hoevoel: ");
     if (input == 999)
     { 
-        printf
+        printf("Dat kan niet");
+    } 
     while(eternally == 1)
         { 
             input = get_int("Hoevoel: ");

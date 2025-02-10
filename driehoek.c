@@ -15,7 +15,7 @@ int main(void)
    
    // print the triangle
    print_triangle(heigth);
-   print_space(4);
+   
 }
 
 // functions

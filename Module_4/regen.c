@@ -3,6 +3,7 @@
 #include <cs50.h>
 
 // function prototypes
+void average_rain(int totaal_regen, int aantal_dagen);
 
 // main script
 int main(void)

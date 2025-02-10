@@ -29,7 +29,7 @@ void print_triangle(int heigth)
 
 void print_space(int input_space)
 {
-    for(int i = 0; i < input_space; i++)
+    for(int space_counter = 0; space_counter < input_space; space_counter++)
     {
         prinft(" ");
     }

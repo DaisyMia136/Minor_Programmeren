@@ -45,4 +45,3 @@ int llama_calc(int start_population, int end_population)
         start_population = start_population + llama_babies - llama_deaths; 
         printf("Current population is: %i", start_population);
     } 
-}

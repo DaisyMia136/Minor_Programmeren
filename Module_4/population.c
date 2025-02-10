@@ -7,7 +7,7 @@
 int main(void)
 {
     // TODO: prompt for start size, not lower than 9
-    start_population = get_int 
+    start_population = get_int("Start")
     
     
     

@@ -28,11 +28,11 @@ void print_triangle(int heigth)
     {
         int outer_spaces = heigth - 1;
         printf("%i", outer_spaces);
-        print_space();
-        print_hash();
-        print_space();
-        print_hash();
-        print_space(); // misschien onnodig
+        //print_space();
+        //print_hash();
+        //print_space();
+        //print_hash();
+        //print_space(); // misschien onnodig
     }
 }
 

@@ -43,7 +43,7 @@ int main(void)
 
 // calculate average
 
-void average_rain(totaal_regen, aantal_dagen)
+void average_rain(int totaal_regen, int aantal_dagen)
 { 
     int gemiddelde = totaal_regen/aantal_dagen;
     printf("Gemiddeld %i millimeter\n", gemiddelde);

@@ -38,7 +38,6 @@ void calc_owed()
             { 
                 printf("%i cents change\n", owed);
             } 
-            coin = get_int("Insert coin: ");
         }
         
     } 

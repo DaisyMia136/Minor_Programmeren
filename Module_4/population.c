@@ -14,3 +14,5 @@ int main(void)
 
     // TODO: print number of years
 }
+
+// functions

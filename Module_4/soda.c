@@ -9,6 +9,7 @@ void calc_owed();
 // main script
 int main(void)
 {
+   
     printf("50 cents owed\n");
 
     calc_owed();

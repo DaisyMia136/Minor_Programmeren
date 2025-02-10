@@ -28,7 +28,7 @@ void calc_owed()
         
         if(coin == 25 || coin == 10 || coin == 5) // only accept coins with a value of 25, 10 and 5 
         { 
-            owed = owed - coin; // calculate how much is owed after 
+            owed = owed - coin; // calculate how much is owed after the coin
     
             if (owed > 0)
                 { 

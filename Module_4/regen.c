@@ -11,7 +11,7 @@ int main(void)
     int totaal_regen = 0;
     int aantal_dagen = 0;
     int input = 0;
-    int input_counter
+    int input_counter = 0;
     
     while (input != 999)
         { 

@@ -26,9 +26,11 @@ int main(void)
 // print trapezium
 void print_trapezium(height)
 {
+    // set base of trapezium
     int lenght_trapezium = height * 2;
-    
-    // set counters 
+    // set counters
+    int outer_spaces = height;
+    int inner_spaces = 0
     
     
     

@@ -35,10 +35,10 @@ int end_population;
 int llama_calc(int start_population, int end_population)
 {
     start_population;
-    int end_population;
-    int llama_babies;
-    int llama_deaths;
-    int current_population;
+    end_population;
+    llama_babies;
+    llama_deaths;
+    current_population;
     
     while(start_population > end_population)
     {

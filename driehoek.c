@@ -21,7 +21,7 @@ int main(void)
         
        // print the triangle
         print_triangle(heigth);
-   
+    } 
 }
 
 // functions

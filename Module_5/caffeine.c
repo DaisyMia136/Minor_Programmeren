@@ -44,27 +44,23 @@ int caffeine_calculator(int input_milli)
         if (input_milli < 70)
         {
             input_milli = input_milli - 70;
-            printf("1 espresso");
+            printf("1 espresso")
         }
         else if (input_milli < 30)
         {
             input_milli = input_milli - 30;
-            printf("1 black tea");
         }
         else if (input_milli < 20)
         {
             input_milli = input_milli - 20;
-            printf("1 green tea");
         }
         else if (input_milli < 10)
         { 
             input_milli = input_milli - 10;
-            printf("1 cocoa");
         } 
         else if (input_milli < 1)
         {
             input_milli = input_milli - 1;
-            printf("1 piece of chocolate");
         }
         
         

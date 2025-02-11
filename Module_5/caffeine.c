@@ -2,6 +2,7 @@
 #include <string.h>
 #include <cs50.h>
 
+
 // function prototypes
 int gram_to_milligrams(float input);
 void caffeine_calculator(int input_milli);

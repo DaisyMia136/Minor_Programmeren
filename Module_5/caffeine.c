@@ -3,7 +3,7 @@
 #include <cs50.h>
 
 // function prototypes
-int gram_to_milligrams(float input);
+gram_to_milligrams(float input);
 
 // main script
 int main(void)

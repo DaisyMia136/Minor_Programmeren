@@ -52,7 +52,6 @@ void caffeine_calculator(int input_milli)
         {
             input_milli = input_milli - 70;
             espresso_counter++;
-            printf("%i", input_milli);
         }
         else if (input_milli >= 30)
         {
@@ -69,7 +68,7 @@ void caffeine_calculator(int input_milli)
             input_milli = input_milli - 10;
             cocoa_counter++; 
         } 
-        else if (input_milli > 1)
+        else if (input_milli >= 1)
         {
             input_milli = input_milli - 1;
             chocolate_counter++;

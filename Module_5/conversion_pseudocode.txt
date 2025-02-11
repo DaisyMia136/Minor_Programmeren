@@ -3,4 +3,5 @@ get_char voor C of F ook kleine c en f
 get_int voor eenheden
 + vraag voor andere input bij verkeerde input
 // vraag input voor stap grootte
-get_int 
+get_int : moet positief getal zijn
+

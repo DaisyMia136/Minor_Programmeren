@@ -63,7 +63,7 @@ int caffeine_calculator(int input_milli)
             input_milli = input_milli - 1;
         }
         
-        
+        printf("1 espresso")
         drinks_number = drinks_number + 1;
     } 
     int drinks_number = 1;

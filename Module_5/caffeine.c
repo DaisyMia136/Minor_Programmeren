@@ -20,6 +20,6 @@ int main(void)
 
 
 // functions
-gram_to_milligrams
+int gram_to_milligrams(float input)
 
 

@@ -40,7 +40,8 @@ int caffeine_calculator(int input_milli)
     int espresso_counter = 0;
     int blacktea_counter = 0;
     int greentea_counter = 0;
-    int 
+    int cocoa_counter = 0;
+    int chocolate_counter = 0;
     
     while(input_milli < 0)
     { 

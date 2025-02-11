@@ -13,3 +13,4 @@ while (temp < end_temp)
 { 
     i = i + stapgrootte; 
 } 
+

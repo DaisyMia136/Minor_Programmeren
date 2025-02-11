@@ -48,7 +48,7 @@ void caffeine_calculator(int input_milli)
     while(input_milli > 0)
     { 
         // determine which drink is closest to the input
-        if (input_milli > 70)
+        if (input_milli >= 70)
         {
             input_milli = input_milli - 70;
             espresso_counter++;

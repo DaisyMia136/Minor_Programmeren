@@ -74,7 +74,7 @@ int caffeine_calculator(int input_milli)
             chocolate_counter++;
         }   
     } 
-    // print the number of drinks 
+    // print the number of individual drinks 
         printf("%i espresso", espresso_counter);
         printf("%i black tea", blacktea_counter);
         printf("%i green tea", greentea_counter);

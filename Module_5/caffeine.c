@@ -73,8 +73,6 @@ int caffeine_calculator(int input_milli)
             input_milli = input_milli - 1;
             chocolate_counter++;
         }
-        
-
     } 
     // print the number of drinks 
         printf("%i espresso", espresso_counter);

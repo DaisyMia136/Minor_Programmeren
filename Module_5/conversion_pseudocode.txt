@@ -9,7 +9,7 @@
         * Stap 1: print C en F in tabel
         * Stap 2: convert begin temp naar Fahrenheit
         * Stap 3: print input in C/c en print calculated fahrenheit in F
-        * Stap 4: input + stapgrootte
+        * Stap 4: input_temp + stapgrootte
     * Optie 2: input = f/F
         * Stap 1:
 

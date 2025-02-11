@@ -85,7 +85,7 @@ int caffeine_calculator(int input_milli)
     
     
     
-    int drinks_number = 1;
+
     return drinks_number;
     
 } 

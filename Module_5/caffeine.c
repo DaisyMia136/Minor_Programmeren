@@ -45,7 +45,7 @@ void caffeine_calculator(int input_milli)
     int cocoa_counter = 0;
     int chocolate_counter = 0;
     
-    while(input_milli < 0)
+    while(input_milli > 0)
     { 
         // determine which drink is closest to the input
         if (input_milli > 70)

@@ -50,23 +50,19 @@ int caffeine_calculator(int input_milli)
         {
             input_milli = input_milli - 70;
             espresso_counter++
-            drinks_number++;
         }
         else if (input_milli < 30)
         {
             input_milli = input_milli - 30;
             blacktea_counter++;
-            drinks_number++;        }
         else if (input_milli < 20)
         {
             input_milli = input_milli - 20;
             greentea_counter++;
-            drinks_number++;        }
         else if (input_milli < 10)
         { 
             input_milli = input_milli - 10;
             cocoa_counter++; 
-            drinks_number++;
         } 
         else if (input_milli < 1)
         {

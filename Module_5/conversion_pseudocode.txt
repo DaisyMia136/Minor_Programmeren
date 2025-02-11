@@ -5,3 +5,4 @@ get_int voor eenheden
 // vraag input voor stap grootte
 get_int : moet positief getal zijn
 
+// print table met omgerekende eenheden 

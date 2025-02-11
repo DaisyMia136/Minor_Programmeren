@@ -32,4 +32,5 @@ int gram_to_milligrams(float input)
     return input_milli;
 } 
 
-// 
+// calculate which drinks make up the inputted caffeine amount
+

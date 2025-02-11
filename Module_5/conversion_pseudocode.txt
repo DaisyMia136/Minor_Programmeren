@@ -11,7 +11,8 @@ printf("%3d", getal) > print spatie spatie getal (elk getal neemt 3 plektjes in)
 i = 0;
 while (temp < end_temp)
 { 
-    
+    celcius + i;
+    fahrenheit + i;
     calc celcius 
     calc fahrenheit
     i = i + stapgrootte;

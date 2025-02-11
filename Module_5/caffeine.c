@@ -37,6 +37,10 @@ int caffeine_calculator(int input_milli)
 {
     // set defaults 
     int drinks_number = 0;
+    int espresso_counter = 0;
+    int blacktea_counter = 0;
+    int greentea_counter = 0;
+    int 
     
     while(input_milli < 0)
     { 

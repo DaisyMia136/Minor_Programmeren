@@ -51,7 +51,7 @@ int caffeine_calculator(int input_milli)
         }
         else if (input_milli < 20)
         {
-            input_milli = input_milli - 70;
+            input_milli = input_milli - 20;
         }
         else if (input_milli < 10)
         { 

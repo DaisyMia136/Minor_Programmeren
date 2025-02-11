@@ -1,1 +1,2 @@
-//  get input 
+//  get input celcius of Far
+get_char voor C of F

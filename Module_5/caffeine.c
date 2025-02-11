@@ -22,7 +22,7 @@ int main(void)
     printf("%i\n", input_milli);
     
     // calculate caffeine amount + print output
-    caffeine_calculator(input_milli)
+    caffeine_calculator(input_milli);
     
 }
 

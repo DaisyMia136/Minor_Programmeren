@@ -35,9 +35,9 @@ int gram_to_milligrams(float input)
 // calculate which drinks make up the inputted caffeine amount
 int caffeine_calculator(int input_milli)
 {
-    // determine which drink is closest to the input
-    while()
     
+    while()
+    // determine which drink is closest to the input
     
     int drinks_number = 1;
     return drinks_number;

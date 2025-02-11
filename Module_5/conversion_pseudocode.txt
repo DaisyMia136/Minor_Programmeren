@@ -5,7 +5,7 @@
     * Stap (geldige invoer: positief getal)
 
 * Uitvoer
-    * Optie 1:
+    * Optie 1: 
         * Stap 1 van optie 1...
     * Optie 2:
         * Stap 1 van optie 2...

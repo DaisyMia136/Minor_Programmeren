@@ -63,12 +63,12 @@ void caffeine_calculator(int input_milli)
             input_milli = input_milli - 20;
             greentea_counter++;
         }
-        else if (input_milli < 10)
+        else if (input_milli > 10)
         { 
             input_milli = input_milli - 10;
             cocoa_counter++; 
         } 
-        else if (input_milli < 1)
+        else if (input_milli > 1)
         {
             input_milli = input_milli - 1;
             chocolate_counter++;

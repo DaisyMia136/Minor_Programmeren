@@ -6,4 +6,4 @@ Subtract the heighest number of drinks, lower than the input, from the input.
 Print the drinks that were subtract + have count for the non-chocolate options
 Repeat until caffeine amount == 0
 
-Print the total number of 
+Print the total number of drinks 

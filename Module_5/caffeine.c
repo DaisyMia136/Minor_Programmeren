@@ -54,12 +54,12 @@ void caffeine_calculator(int input_milli)
             espresso_counter++;
             printf("%i", input_milli);
         }
-        else if (input_milli > 30)
+        else if (input_milli >= 30)
         {
             input_milli = input_milli - 30;
             blacktea_counter++;
         } 
-        else if (input_milli > 20)
+        else if (input_milli >= 20)
         {
             input_milli = input_milli - 20;
             greentea_counter++;

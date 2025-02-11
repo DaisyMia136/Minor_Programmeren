@@ -72,7 +72,6 @@ int caffeine_calculator(int input_milli)
             chocolate_counter++;
         }
         
-        
         drinks_number = drinks_number + 1;
     } 
     // print the number of drinks 

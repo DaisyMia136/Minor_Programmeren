@@ -8,7 +8,9 @@
 int main(void)
 {
     // ask input 
-    input = 
+    do 
+    { 
+        
 }
 
 // functions

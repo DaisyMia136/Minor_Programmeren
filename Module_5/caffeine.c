@@ -19,7 +19,6 @@ int main(void)
     
     //grams to milligrams
     int input_milli = gram_to_milligrams(input);
-    printf("%i\n", input_milli);
     
     // calculate caffeine amount + print output
     caffeine_calculator(input_milli);

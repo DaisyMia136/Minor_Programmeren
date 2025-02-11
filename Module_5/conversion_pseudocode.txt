@@ -6,9 +6,9 @@
 
 * Uitvoer
     * Optie 1: input = c/C
-        * Stap 1:
+        * Stap 1: 
     * Optie 2: input = f/F
-        * Stap 1 van optie 2...
+        * Stap 1:
 
 
 

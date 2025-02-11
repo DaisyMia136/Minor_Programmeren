@@ -11,7 +11,7 @@ int main(void)
     float input = 0; 
     do 
     { 
-        float input = get_float("Amount in grams: ");
+        input = get_float("Amount in grams: ");
     } 
     while(input < 0.001)
 }

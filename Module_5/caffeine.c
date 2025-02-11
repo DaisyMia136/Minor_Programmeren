@@ -43,7 +43,7 @@ int caffeine_calculator(int input_milli)
         // determine which drink is closest to the input
         if (input_milli < 70)
         {
-            
+            input_milli = input_milli - 70;
         }
         else if (input_milli < 30)
         {

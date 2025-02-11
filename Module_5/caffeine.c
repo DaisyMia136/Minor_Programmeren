@@ -36,7 +36,7 @@ int gram_to_milligrams(float input)
 int caffeine_calculator(int input_milli)
 {
     // set defaults 
-    int drinks_number = 0; 
+    int drinks_number = 0;
     
     while(input_milli < 0)
     { 

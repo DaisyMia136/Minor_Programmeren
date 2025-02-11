@@ -32,7 +32,7 @@ int main(void)
 int gram_to_milligrams(float input)
 { 
     printf("%f\n", input);
-    int input_milli = input * 10000;
+    int input_milli = input * 1000;
     printf("%i\n", input_milli);
     return input_milli;
 } 

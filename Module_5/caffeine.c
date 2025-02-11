@@ -23,7 +23,7 @@ int main(void)
 // functions
 int gram_to_milligrams(float input)
 { 
-    int milli = input * 1000;
+    int input_milli = input * 1000;
     return milli;
 } 
 

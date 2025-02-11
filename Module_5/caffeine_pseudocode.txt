@@ -3,3 +3,4 @@ Ask for input
 Convert input from grams to milligrams
 
 Subtract the heighest number of drinks, lower than the input, from the input. 
+Save the drinks that were 

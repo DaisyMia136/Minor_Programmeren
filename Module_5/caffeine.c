@@ -72,7 +72,7 @@ int caffeine_calculator(int input_milli)
             chocolate_counter++;
         }
         
-        printf("1 espresso")
+        printf(" espresso")
         drinks_number = drinks_number + 1;
     } 
     int drinks_number = 1;

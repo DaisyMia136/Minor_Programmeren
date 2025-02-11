@@ -90,8 +90,4 @@ caffeine_calculator(int input_milli)
             printf("That makes %i drinks in total\n", drinks_number);
         } 
     
-    
-
-    return drinks_number;
-    
-} 
+}

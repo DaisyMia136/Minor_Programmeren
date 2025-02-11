@@ -10,6 +10,7 @@ int main(void)
     // ask input 
     do 
     { 
+        float input = get_float("Amount in grams: ");
         
 }
 

@@ -10,5 +10,5 @@ printf("%3d", getal) > print spatie spatie getal (elk getal neemt 3 plektjes in)
 
 while (temp < end_temp)
 { 
-    i = i + stapgrootte 
+    i = i + stapgrootte;
 } 

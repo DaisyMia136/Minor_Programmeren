@@ -7,7 +7,7 @@
 * Uitvoer
     * Optie 1: input = c/C
         * Stap 1: convert begin temp naar Fahrenheit
-        * Stap 2: 
+        * Stap 2: print 
     * Optie 2: input = f/F
         * Stap 1:
 

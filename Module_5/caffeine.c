@@ -49,7 +49,11 @@ int caffeine_calculator(int input_milli)
         {
             
         }
-        
+        else if (input_milli < 20)
+        {
+            
+        }
+        else if 
         drinks_number = drinks_number + 1;
     } 
     int drinks_number = 1;

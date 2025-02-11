@@ -31,9 +31,7 @@ int main(void)
 // convert grams to milligrams
 int gram_to_milligrams(float input)
 { 
-    printf("%f\n", input);
     int input_milli = round(input * 1000);
-    printf("%i\n", input_milli);
     return input_milli;
 } 
 

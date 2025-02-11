@@ -17,7 +17,8 @@ int main(void)
     while(input < 0.001);
     
     //grams to milligrams
-    int input_milli = gram_to_milligrams(input)
+    int input_milli = gram_to_milligrams(input);
+    printf()
 }
 
 

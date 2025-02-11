@@ -1,4 +1,13 @@
-
+* Invoer
+    * Celcius of Fahrenheit (geldige invoer: c/C/f/F)
+    * Begintemp (geldige invoer: ...)
+    * Eindtemp (geldige invoer: ...)
+    * Stap (geldige invoer: ...)
+* Uitvoer
+    * Optie 1:
+        * Stap 1 van optie 1...
+    * Optie 2:
+        * Stap 1 van optie 2...
 
 
 

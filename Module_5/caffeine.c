@@ -25,9 +25,11 @@ int main(void)
 }
 
 // functions
+// convert grams to milligrams
 int gram_to_milligrams(float input)
 { 
     int input_milli = input * 1000;
     return input_milli;
 } 
 
+// 

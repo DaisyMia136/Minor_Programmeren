@@ -8,6 +8,7 @@
 int main(void)
 {
     // ask input 
+    float input =
     do 
     { 
         float input = get_float("Amount in grams: ");

@@ -17,7 +17,7 @@ while (temp < end_temp)
     fahrenheit + i;
     calc celcius 
     calc fahrenheit
-    row
+    
     i = i + stapgrootte;
 
     print tabel row 

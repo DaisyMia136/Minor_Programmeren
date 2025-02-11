@@ -87,6 +87,10 @@ int caffeine_calculator(int input_milli)
         { 
             printf("That makes 1 drink\n");
         } 
+        else 
+        { 
+            printf("That makes %i drinks in total\n")
+        } 
     
     
 

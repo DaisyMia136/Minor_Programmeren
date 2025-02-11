@@ -6,3 +6,4 @@ get_int voor eenheden
 get_int : moet positief getal zijn
 
 // print table met omgerekende eenheden 
+printf("")

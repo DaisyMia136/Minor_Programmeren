@@ -49,6 +49,7 @@ int caffeine_calculator(int input_milli)
         else if (input_milli < 30)
         {
             input_milli = input_milli - 30;
+            printf("1 espresso");
         }
         else if (input_milli < 20)
         {

@@ -17,6 +17,7 @@ int main(void)
     while(input < 0.001);
     
     //grams to milligrams
+    
 }
 
 

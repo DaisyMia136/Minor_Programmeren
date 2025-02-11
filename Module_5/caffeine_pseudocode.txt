@@ -1,4 +1,4 @@
-Ask for input
+Ask for input + reask if someone doesnt give an answer above 0.001 grams
 
 Convert input from grams to milligrams
 

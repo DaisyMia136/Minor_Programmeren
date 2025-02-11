@@ -16,5 +16,6 @@ while (temp < end_temp)
     calc celcius 
     calc fahrenheit
     i = i + stapgrootte;
+    
 } 
 

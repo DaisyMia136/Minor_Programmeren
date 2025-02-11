@@ -54,11 +54,12 @@ int caffeine_calculator(int input_milli)
         else if (input_milli < 20)
         {
             input_milli = input_milli - 20;
-            printf("1 ");
+            printf("1 green tea");
         }
         else if (input_milli < 10)
         { 
             input_milli = input_milli - 10;
+            printf("1 cocoa");
         } 
         else if (input_milli < 1)
         {

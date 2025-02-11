@@ -6,8 +6,9 @@
 
 * Uitvoer
     * Optie 1: input = c/C
-        * Stap 1: convert begin temp naar Fahrenheit
-        * Stap 2: print 
+        * Stap 1: print C en F in tabel
+        convert begin temp naar Fahrenheit
+        * Stap 2: 
     * Optie 2: input = f/F
         * Stap 1:
 

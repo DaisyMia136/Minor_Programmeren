@@ -11,7 +11,8 @@ int main(void)
     do 
     { 
         float input = get_float("Amount in grams: ");
-        
+    } 
+    while(input)
 }
 
 // functions

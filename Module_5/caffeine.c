@@ -82,7 +82,7 @@ int caffeine_calculator(int input_milli)
         printf("%i piece of chocolate\n", chocolate_counter);
     
     // print the total number of drinks
-        drinks_number = 
+        drinks_number = espresso_counter + blacktea_counter + greentea_counter + cocoa_counter
         if (drinks_number == 1)
         printf("That makes 1 drink\n")
     

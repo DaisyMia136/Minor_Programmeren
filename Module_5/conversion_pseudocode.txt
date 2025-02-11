@@ -1,7 +1,7 @@
 * Invoer
     * Celcius of Fahrenheit (geldige invoer: c/C/f/F)
     * Begintemp (geldige invoer: int )
-    * Eindtemp (geldige invoer: ...)
+    * Eindtemp (geldige invoer: int )
     * Stap (geldige invoer: ...)
 
 * Uitvoer

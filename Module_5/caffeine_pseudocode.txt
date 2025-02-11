@@ -1,4 +1,4 @@
 Ask for input
 
-convert input from grams to milligrams
+Convert input from grams to milligrams
 

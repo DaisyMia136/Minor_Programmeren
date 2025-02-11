@@ -20,4 +20,6 @@ int main(void)
 
 
 // functions
+gram_to_milligrams
+
 

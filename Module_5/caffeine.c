@@ -35,7 +35,7 @@ int gram_to_milligrams(float input)
 // calculate which drinks make up the inputted caffeine amount
 int caffeine_calculator(int input_milli)
 {
-    // determine which drink has the highest 
+    // determine which drink is closest to the input
     
     
     

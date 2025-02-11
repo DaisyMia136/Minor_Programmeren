@@ -52,6 +52,7 @@ void caffeine_calculator(int input_milli)
         {
             input_milli = input_milli - 70;
             espresso_counter++;
+            
         }
         else if (input_milli > 30)
         {

@@ -12,7 +12,7 @@ i = 0;
 row = 0;
 while (temp < end_temp)
 { 
-    row
+    row++;
     celcius + i;
     fahrenheit + i;
     calc celcius 

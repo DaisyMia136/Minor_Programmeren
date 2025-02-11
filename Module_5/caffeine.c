@@ -60,6 +60,7 @@ int caffeine_calculator(int input_milli)
         {
             input_milli = input_milli - 20;
             greentea_counter++;
+        }
         else if (input_milli < 10)
         { 
             input_milli = input_milli - 10;

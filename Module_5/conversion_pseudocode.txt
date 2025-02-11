@@ -6,4 +6,4 @@ get_int voor eenheden
 get_int : moet positief getal zijn
 
 // print table met omgerekende eenheden 
-printf("%3d", getal) > print spatie spatie getal (elk getal neemt 3 )
+printf("%3d", getal) > print spatie spatie getal (elk getal neemt 3 plektjes in)

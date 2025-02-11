@@ -11,7 +11,7 @@
         * Stap 3: print input in C/c en print calculated fahrenheit in F
         * Stap 4: temp = input_temp + stapgrootte
         * Stap 5: convert new temp naar F
-        * Stap 6: Repeat until 
+        * Stap 6: Repeat until new temp >= eind temp
     * Optie 2: input = f/F
         * Stap 1:
 

@@ -40,7 +40,7 @@ int caffeine_calculator(int input_milli)
     { 
         // determine which drink is closest to the input
         
-        
+        drinks_number = drinks_number + 1;
     } 
     int drinks_number = 1;
     return drinks_number;

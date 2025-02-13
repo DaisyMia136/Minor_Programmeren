@@ -40,7 +40,8 @@ int main(void)
         } 
         else
         { 
-            
+                        printf("Player 2 wint! \n")
+
         } 
             
     } 

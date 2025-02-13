@@ -38,7 +38,7 @@ void morse(string input)
             character[signal] = input[input_counter];
             input_counter++;
         } 
-        character[4] = '\0';
+        character[3] = '\0';
         //printf("%c%c%c%c\n", character[0], character[1], character[2], character[3]);
         
         

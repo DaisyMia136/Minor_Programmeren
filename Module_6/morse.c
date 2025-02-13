@@ -11,7 +11,7 @@ int main(void)
     string input = get_string("Geef een morse code: ");
     
     // convert to letters
-    morse();
+    morse(input);
 }
 
 // functions 

@@ -25,6 +25,7 @@ int main(void)
         // first letter word player 2
         char first_letter = word_2[0];
         
+        
     } 
     while (false);
     // while eerste letter input2 == laatste letter input1

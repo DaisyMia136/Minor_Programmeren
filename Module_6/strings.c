@@ -39,6 +39,6 @@ void eek(string input)
     int lengte = strlen(input);
     for(int i = 0; i < lengte; i++)
     {
-        if(strcmp())
+        if(strcmp(input[i], "e"))
     }
 }

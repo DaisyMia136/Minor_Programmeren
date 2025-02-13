@@ -33,3 +33,4 @@ void skip(string input)
         printf("%c", input[i]);
     } 
 } 
+

@@ -23,7 +23,7 @@ int main(void)
         string word_2 = ask_word(2);
         
         // first letter word player 2
-        char first_letter = word_1[word_2[0]];
+        char first_letter = word_2[0];
         
     } 
     while (false);

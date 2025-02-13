@@ -49,5 +49,5 @@ void eek(string input)
             e_counter++;
         }
     }
-    printf("The text %s contains %i e's.\n", input, e_counter)
+    printf("The text %s contains %i e's.\n", input, e_counter);
 }

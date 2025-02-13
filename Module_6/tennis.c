@@ -12,6 +12,7 @@ int main(void)
     // initialise variables
     char last_letter = ' ';
     char first_letter = ' ';
+    
     do 
     { 
         // ask player 1 for input

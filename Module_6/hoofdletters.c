@@ -46,7 +46,7 @@ int count_upper(string text)
     for(int letter = 0; letter < length_text; letter++)
     {
         char character = text[letter];
-        //printf("%c\n", character);
+        printf("%c\n", character);
         if (isblank(character) == 1)
         { 
             char first_letter = text[letter + 1];

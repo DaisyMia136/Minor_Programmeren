@@ -24,3 +24,6 @@ void vertical(string input)
 } 
 
 void skip(string input)
+{
+    
+} 

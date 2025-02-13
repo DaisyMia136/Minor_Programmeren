@@ -17,6 +17,6 @@ void vertical(string input)
     int lengte = strlen(input);
     for(int i = 0; i < lengte; i++)
     {
-        printf("%c", input[])
+        printf("%c", input[i])
     } 
 } 

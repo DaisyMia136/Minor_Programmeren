@@ -33,12 +33,6 @@ int main(void)
     while (first_letter == last_letter);
     
     // print winning message
-    
-    // while eerste letter input2 == laatste letter input1
-        // ask input player 1
-        // var =  last letter
-        // ask input player 2 
-        // var = first letter player 2 
         
         
 }

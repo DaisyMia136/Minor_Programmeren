@@ -7,6 +7,7 @@
 // main script
 int main(void)
 {
+    // ask for input
     
 }
 

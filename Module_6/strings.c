@@ -43,10 +43,10 @@ void eek(string input)
     int e_counter = 0;
     for(int i = 0; i < lengte; i++)
     {
-        if(strcasecmp(input[i], )) == 0)
+        if(strcasecmp(input[i], "e") == 0)
         {
             e_counter++;
         }
     }
-    printf("The text %s contains %i e's.\n", input, e_counter);
+    printf("The text %s contains %i e's.\n", input, e_counter)
 }

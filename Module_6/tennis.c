@@ -10,6 +10,7 @@
 int main(void)
 {
     // while eerste letter input2 == laatste letter input1
+        
 }
 
 // functions

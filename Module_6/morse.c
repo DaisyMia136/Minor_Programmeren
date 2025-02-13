@@ -16,3 +16,8 @@ int main(void)
 
 // functions 
 // convert input to text 
+void morse(string input)
+{
+    
+}
+}

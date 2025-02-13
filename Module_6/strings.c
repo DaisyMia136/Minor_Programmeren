@@ -9,7 +9,7 @@ void vertical(string input);
 // main script
 int main(void)
 {
-    void vertical(string input)
+    void vertical(string input);
 }
 
 // functions 

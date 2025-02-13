@@ -34,11 +34,12 @@ int main(void)
     } 
     while (first_letter == last_letter);
 
+    // print winning message
+    
 printf("Speler 1 wint! \n");
     
     
-    // print winning message
-    
+   
         
         
 }

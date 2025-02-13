@@ -45,7 +45,7 @@ void eek(string input)
     {
         //printf("%c\n",input[i]);
         char character = input[i];
-        if(strcmp(character, "e") == 0 || strcmp(character, "E") == 0)
+        if(input[i] == 'e'
         {
             e_counter++;
         }

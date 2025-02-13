@@ -36,12 +36,9 @@ int main(void)
             // first letter word player 2
             first_letter = word_2[0];
             printf("%c\n", first_letter);
-        } 
-        else
-        { 
-            printf("Player 1 wint! \n");
 
-        } 
+            //printf("Player 1 wint! \n");
+
             
     } 
     while (first_letter == last_letter);

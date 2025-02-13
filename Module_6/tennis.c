@@ -33,8 +33,6 @@ int main(void)
             printf("%c\n", first_letter);
 
             //printf("Player 1 wint! \n");
-
-            
     } 
     while (first_letter == last_letter);
 

@@ -10,7 +10,7 @@ void vertical(string input);
 int main(void)
 {
     string input = "tokyo hotel";
-    void vertical(input);
+    vertical(input);
 }
 
 // functions 

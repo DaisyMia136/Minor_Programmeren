@@ -14,7 +14,7 @@ int main(void)
     { 
         string word = ask_word(1);
     } 
-    while (true);
+    while (false);
     // while eerste letter input2 == laatste letter input1
         // ask input player 1
         // var =  last letter

@@ -19,6 +19,47 @@ int main(void)
 // convert input to text 
 void morse(string input)
 {
-    int input_length = (strlen(input))/3;
-    printf("%i\n", input_length);
+    // calculate how many letters are in the morse code
+    int input_length = strlen(input)/3;
+    
+    // make an empty string with the number letters
+    string morse[input_length];
+
+    // inititalise counters 
+    int input_counter = 0;
+    
+    // loop through all sets of three signals (making up one letter)
+    for(int letters = 0; letters < input_length; letters++)
+    { 
+        // initialise variables
+        string character = "   ";
+        
+        // for every three signals make a variable character containing the three signals as one string
+        for (int signal = 0; signal < 3; signal++)
+        { 
+            character[signal] = input[input_counter];
+            input_counter++;
+        } 
+        
+        // have morse contain the three signals as individual strings
+        morse[letters] = character;
+        
+        // check which character is which letter and print the corresponding letter
+        if(strcmp(morse[letters], "...") ==0)
+        { 
+            printf("S");
+        }
+        else if (strcmp(morse[letters], "---") ==0)
+        { 
+            printf("O");
+        } 
+        else if (strcmp(morse[letters], "-..") ==0)
+        { 
+            printf("D");
+        }
+        else if (strcmp(morse[letters], ".-.") ==0)
+        { 
+            printf("R");
+        } 
+    }
 }

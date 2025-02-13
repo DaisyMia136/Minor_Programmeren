@@ -26,7 +26,7 @@ int main(void)
         } 
         else 
         { 
-            printf("Pla")
+            printf("Player ... wins!")
         // ask player 2 for input
         string word_2 = ask_word(2);
         

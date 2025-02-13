@@ -12,7 +12,7 @@ int main(void)
 }
 
 // functions 
-void vertical(string intput)
+void vertical(string input)
 { 
     int lengte = strlen(input);
     for(int i = 0; i < lengte; i++)

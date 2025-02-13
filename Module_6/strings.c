@@ -37,6 +37,7 @@ void skip(string input)
 void eek(string input)
 {
     int lengte = strlen(input);
+    e_counter = 0;
     for(int i = 0; i < lengte; i++)
     {
         if(strcasecmp(input[i], "e"))

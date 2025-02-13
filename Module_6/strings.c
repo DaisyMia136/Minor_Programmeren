@@ -13,7 +13,7 @@ void bob(string input);
 // main script
 int main(void)
 {
-    string input = "Eek a mouse!";
+    string input = "";
     //vertical(input);
     //skip(input);
     //eek(input);

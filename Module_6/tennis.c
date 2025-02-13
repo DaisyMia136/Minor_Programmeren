@@ -4,7 +4,7 @@
 #include <math.h>
 
 // function prototypes
-
+string ask_word();
 
 // main script
 int main(void)
@@ -23,4 +23,5 @@ int main(void)
 // ask input
 string ask_word()
 { 
+    
 } 

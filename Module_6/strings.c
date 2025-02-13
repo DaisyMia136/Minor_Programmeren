@@ -34,3 +34,7 @@ void skip(string input)
     } 
 } 
 
+void eek(string input)
+{
+    
+}

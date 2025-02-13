@@ -29,13 +29,13 @@ int main(void)
             printf("Player 2 wint! \n")
         } 
         
-        // ask player 2 for input
-        string word_2 = ask_word(2);
-        
-        // first letter word player 2
-        first_letter = word_2[0];
-        printf("%c\n", first_letter);
-        
+            // ask player 2 for input
+            string word_2 = ask_word(2);
+            
+            // first letter word player 2
+            first_letter = word_2[0];
+            printf("%c\n", first_letter);
+            
     } 
     while (first_letter == last_letter);
     

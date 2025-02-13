@@ -19,5 +19,6 @@ int main(void)
 // convert input to text 
 void morse(string input)
 {
-    int input_length = (strlen(input) - 1)/3
+    int input_length = (strlen(input) - 1)/3;
+    printf(input_length)
 }

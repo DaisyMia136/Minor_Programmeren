@@ -28,6 +28,6 @@ void skip(string input)
     int lengte = strlen(input);
     for(int i = 0; i < lengte; i += 2)
     { 
-        printf(input[i]);
+        printf("%c", input[i]);
     } 
 } 

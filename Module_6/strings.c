@@ -46,4 +46,5 @@ void eek(string input)
             e_counter++;
         }
     }
+    printf()
 }

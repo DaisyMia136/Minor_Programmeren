@@ -9,6 +9,7 @@ void vertical(string input);
 // main script
 int main(void)
 {
+    string input = ""
     void vertical(string input);
 }
 

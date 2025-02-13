@@ -61,7 +61,7 @@ void bob(string input)
         { 
             printf("%c", input[i]);
         }
-        
+        printf("\n");
     } 
 
 }

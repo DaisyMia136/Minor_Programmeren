@@ -12,7 +12,7 @@ int main(void)
 }
 
 // functions 
-void vertical(string)
+void vertical(string intput)
 { 
-    strlen(string)
+    lengte = strlen(input);
 } 

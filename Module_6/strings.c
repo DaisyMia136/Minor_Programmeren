@@ -56,11 +56,11 @@ void bob(string input)
     {
         
        
-        else if (i%2 != 0)
+        if (i%2 != 0)
         {
             printf("%c", toupper(input[i]));
         } 
-        else if (i%2 == 0 || i == 0)
+        else 
         { 
             printf("%c", tolower(input[i]));
         }

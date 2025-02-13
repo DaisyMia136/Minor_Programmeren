@@ -35,4 +35,5 @@ string ask_word(int player)
     {
         word = get_string("Speler 2, geef een woord");
     }
+    return word;
 } 

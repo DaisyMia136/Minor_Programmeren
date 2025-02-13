@@ -13,6 +13,7 @@ void bob(string input);
 // main script
 int main(void)
 {
+    
 }
 
 // functions 

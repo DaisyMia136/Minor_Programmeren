@@ -16,6 +16,9 @@ int main(void)
     string word_1 = ask_word(1);
     last_letter = word_1[strlen(word_1) - 1];
     
+    string word_2 = ask_word(2);
+    first_letter = word_2[0];
+
      
     while (first_letter == last_letter)
     { 

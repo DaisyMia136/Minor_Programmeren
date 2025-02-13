@@ -42,7 +42,7 @@ void morse(string input)
             input_counter++;
         } 
         
-        //printf("%c%c%c\n", character[0], character[1], character[2]);
+        printf("%c%c%c\n", character[0], character[1], character[2]);
         
         
         // check which character is which letter and print the corresponding letter

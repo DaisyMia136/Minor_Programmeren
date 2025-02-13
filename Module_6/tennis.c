@@ -31,7 +31,7 @@ int main(void)
         
     } 
     while (first_letter == last_letter);
-    
+    if 
     
     // while eerste letter input2 == laatste letter input1
         // ask input player 1

@@ -35,6 +35,7 @@ int main(void)
 
 
     // print winning message
+    
     printf("Speler 1 wint! \n");
     
     

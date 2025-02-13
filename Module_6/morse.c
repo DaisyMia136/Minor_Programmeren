@@ -49,7 +49,7 @@ void morse(string input)
         { 
             printf("S");
         }
-        else if (strcmp(morse[letters], "---") ==0)
+        else if (strcmp(character, "---") ==0)
         { 
             printf("O");
         } 

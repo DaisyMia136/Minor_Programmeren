@@ -11,8 +11,8 @@ void eek(string input);
 int main(void)
 {
     string input = "Eek a mouse !";
-    vertical(input);
-    skip(input);
+    //vertical(input);
+    //skip(input);
     eek(input);
 }
 

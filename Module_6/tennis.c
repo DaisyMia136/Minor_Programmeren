@@ -15,6 +15,7 @@ int main(void)
     
     do 
     { 
+        
         // ask player 1 for input
         string word_1 = ask_word(1);
         

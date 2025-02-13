@@ -27,7 +27,7 @@ int main(void)
         //printf("%c\n", first_letter);
         
     } 
-    while (false);
+    while (last_letter);
     // while eerste letter input2 == laatste letter input1
         // ask input player 1
         // var =  last letter

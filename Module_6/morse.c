@@ -20,5 +20,5 @@ int main(void)
 void morse(string input)
 {
     int input_length = (strlen(input) - 1)/3;
-    printf("input_length)
+    printf("%i\n", input_length)
 }

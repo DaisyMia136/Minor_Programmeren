@@ -59,8 +59,8 @@ void bob(string input)
     {
         if (i%2 ==0)
         {
-            char output = toupper(input[i])
-            printf("%c")
+            char output = toupper(input[i]);
+            printf("%c", output);
         } 
         else
         { 

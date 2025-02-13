@@ -13,5 +13,5 @@ int main(void)
 // functions 
 void vertical(string)
 { 
-    
+    strlen
 } 

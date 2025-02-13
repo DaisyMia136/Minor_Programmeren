@@ -12,6 +12,8 @@ int main(void)
    string text = get_string("Tekst: ");
    
    int upper_counter = count_upper(text);
+   printf("%i", upper_counter);
+   
    
    if (upper_counter == 1)
    { 

@@ -43,8 +43,6 @@ void eek(string input)
     int e_counter = 0;
     for(int i = 0; i < lengte; i++)
     {
-        //printf("%c\n",input[i]);
-        char character = input[i];
         if(input[i] == 'e' || input[i] == 'E')
         {
             e_counter++;

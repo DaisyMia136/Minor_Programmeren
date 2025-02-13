@@ -13,7 +13,8 @@ int main(void)
     char last_letter = ' ';
     char first_letter = ' ';
     
-    do 
+     
+    while 
     { 
         if (last_letter == first_letter)
         {

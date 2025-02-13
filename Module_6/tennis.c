@@ -25,7 +25,7 @@ int main(void)
         if (last_letter == first_letter)
         {
             // ask player 1 for input
-            string word_1 = ask_word(1);
+            word_1 = ask_word(1);
         
             // last letter word player 1
             last_letter = word_1[strlen(word_1) - 1];

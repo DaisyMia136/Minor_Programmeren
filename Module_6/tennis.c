@@ -21,7 +21,8 @@ int main(void)
 
 // functions
 // ask input
-string ask_word()
+string ask_word(int player)
 { 
+    if (player == 1)
     string word = get_string("Speler 1, geef een woord")
 } 

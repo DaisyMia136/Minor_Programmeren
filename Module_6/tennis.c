@@ -34,9 +34,9 @@ int main(void)
     } 
     while (first_letter == last_letter);
 
+
     // print winning message
-    
-printf("Speler 1 wint! \n");
+    printf("Speler 1 wint! \n");
     
     
    

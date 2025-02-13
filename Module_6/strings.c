@@ -15,5 +15,8 @@ int main(void)
 void vertical(string intput)
 { 
     int lengte = strlen(input);
-    
+    for(int i = 0; i < lengte; i++)
+    {
+        
+    } 
 } 

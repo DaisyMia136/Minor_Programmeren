@@ -24,5 +24,7 @@ int main(void)
 string ask_word(int player)
 { 
     if (player == 1)
-    string word = get_string("Speler 1, geef een woord")
+    {
+        string word = get_string("Speler 1, geef een woord")
+    }
 } 

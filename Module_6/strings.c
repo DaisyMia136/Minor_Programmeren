@@ -58,7 +58,7 @@ void bob(string input)
         {
             printf("%c", toupper(input[i]));
         } 
-        else if (i)
+        else if (i%2 == 0 || i == 0)
         { 
             printf("%c", input[i]);
         }

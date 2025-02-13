@@ -37,6 +37,7 @@ int count_upper(string text)
     printf("%c", text[0]);
     if (isupper(text[0]) == 1)
     { 
+        
         hoofdletter_counter = 1;
     } 
     

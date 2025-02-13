@@ -43,7 +43,7 @@ void eek(string input)
     int e_counter = 0;
     for(int i = 0; i < lengte; i++)
     {
-        char character = input[i];
+        string character = input[i];
         if(strcasecmp(character, "e") == 0)
         {
             e_counter++;

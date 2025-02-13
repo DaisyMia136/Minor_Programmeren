@@ -42,7 +42,7 @@ void morse(string input)
         } 
         
         // have morse contain the three signals as individual strings
-        morse[letters] = character;
+        //morse[letters] = character;
         
         // check which character is which letter and print the corresponding letter
         if(strcmp(character, "...") ==0)

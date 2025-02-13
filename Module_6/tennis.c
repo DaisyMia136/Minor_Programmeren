@@ -39,7 +39,7 @@ int main(void)
         if (last_letter == first_letter)
         {
             // ask player 2 for input
-            string word_2 = ask_word(2);
+            word_2 = ask_word(2);
             
             // first letter word player 2
             first_letter = word_2[0];

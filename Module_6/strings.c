@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
+#include <ctype.h>
 
 // function prototypes
 
@@ -13,5 +14,5 @@ int main(void)
 // functions 
 void vertical(string)
 { 
-    strlen
+    strlen(string)
 } 

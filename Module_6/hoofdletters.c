@@ -33,7 +33,7 @@ int count_upper(string text)
     // initiate counter
     int hoofdletter_counter = 0;
 
-    // if the first letter is a     
+    // if the first letter is a    
     if (isupper(text[0]) == 1)
     { 
         hoofdletter_counter = 1;

@@ -11,7 +11,7 @@ void skip(string input);
 int main(void)
 {
     string input = "Great, gifts";
-    //vertical(input);
+    vertical(input);
     skip(input);
 }
 

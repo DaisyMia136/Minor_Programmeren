@@ -30,7 +30,6 @@ int main(void)
 // functions 
 int count_upper(string text)
 {
-    int length_text = strlen(text);
     
     int hoofdletter_counter = 0;
 
@@ -40,7 +39,10 @@ int count_upper(string text)
         hoofdletter_counter = 1;
     } 
     
+    // decide how long the text is
+    int length_text = strlen(text);
     
+    // loop through all the characters of the text
     for(int letter = 0; letter < length_text; letter++)
     {
         char character = text[letter];

@@ -11,7 +11,7 @@ void skip(string input);
 int main(void)
 {
     string input = "tokyo hotel";
-    vertical(input);
+    //vertical(input);
     skip(input);
 }
 

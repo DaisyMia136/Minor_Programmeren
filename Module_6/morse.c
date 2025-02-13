@@ -23,7 +23,7 @@ void morse(string input)
     int input_length = strlen(input)/3;
     
     // make an empty string with the number letters
-    string morse[input_length];
+    //string morse[input_length];
 
     // inititalise counters 
     int input_counter = 0;
@@ -53,11 +53,11 @@ void morse(string input)
         { 
             printf("O");
         } 
-        else if (strcmp(morse[letters], "-..") ==0)
+        else if (strcmp(character, "-..") ==0)
         { 
             printf("D");
         }
-        else if (strcmp(morse[letters], ".-.") ==0)
+        else if (strcmp(character, ".-.") ==0)
         { 
             printf("R");
         } 

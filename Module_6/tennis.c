@@ -31,8 +31,7 @@ int main(void)
             first_letter = word_2[0];
             printf("%c\n", first_letter);
 
-            printf("Speler 1 wint! \n");
-    } 
+            } 
     while (first_letter == last_letter);
 
     

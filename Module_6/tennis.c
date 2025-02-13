@@ -27,6 +27,7 @@ int main(void)
         else 
         { 
             printf("Player ... wint! \n")
+        } 
         // ask player 2 for input
         string word_2 = ask_word(2);
         

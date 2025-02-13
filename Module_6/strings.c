@@ -12,7 +12,7 @@ int main(void)
 {
     string input = "tokyo hotel";
     vertical(input);
-    skip(input;)
+    skip(input);
 }
 
 // functions 

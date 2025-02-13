@@ -14,7 +14,7 @@ int main(void)
     char first_letter = ' ';
     
      
-    do while (first_letter == last_letter)
+    do 
     { 
         if (last_letter == first_letter)
         {

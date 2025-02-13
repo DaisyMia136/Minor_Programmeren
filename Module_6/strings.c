@@ -36,7 +36,7 @@ void skip(string input)
 
 void eek(string input)
 {
-        int lengte = strlen(input);
+    int lengte = strlen(input);
     for(int i = 0; i < lengte; i++)
 
 }

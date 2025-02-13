@@ -45,7 +45,7 @@ void morse(string input)
         morse[letters] = character;
         
         // check which character is which letter and print the corresponding letter
-        if(strcmp(morse[letters], "...") ==0)
+        if(strcmp(character, "...") ==0)
         { 
             printf("S");
         }

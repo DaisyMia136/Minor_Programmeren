@@ -12,6 +12,7 @@ int main(void)
    string text = get_string("Tekst: ");
    
    int hoofdletter_counter = count_upper(text);
+   
    printf("%i", hoofdletter_counter);
    
    

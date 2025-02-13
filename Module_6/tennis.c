@@ -15,7 +15,7 @@ int main(void)
     
     do 
     { 
-        if 
+        if last_letter ==
         // ask player 1 for input
         string word_1 = ask_word(1);
         

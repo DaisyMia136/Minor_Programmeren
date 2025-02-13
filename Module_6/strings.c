@@ -58,7 +58,7 @@ void bob(string input)
     int lengte = strlen(input);
     for(int i = 0; i < lengte; i++)
     {
-        if (i%2 == 0)
+        if (i%2 != 0)
         {
             char output = toupper(input[i]);
             printf("%c", output);

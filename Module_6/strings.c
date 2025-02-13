@@ -64,7 +64,8 @@ void bob(string input)
         } 
         else
         { 
-            
+            printf("%c", input[i]);
+        }
         
     } 
 

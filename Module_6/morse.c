@@ -32,7 +32,7 @@ void morse(string input)
     for(int letters = 0; letters < input_length; letters++)
     { 
         // initialise variables
-        char character = "   ";
+        char character;
         
         // for every three signals make a variable character containing the three signals as one string
         for (int signal = 0; signal < 3; signal++)

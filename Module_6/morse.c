@@ -61,7 +61,6 @@ void morse(string input)
         { 
             printf("R");
         } 
-    printf("%c%c%c\n", character[0], character[1], character[2]);
 
     }
 }

@@ -46,5 +46,5 @@ void eek(string input)
             e_counter++;
         }
     }
-    printf("The text %s contains 3 e's.")
+    printf("The text %s contains %i e's.", )
 }

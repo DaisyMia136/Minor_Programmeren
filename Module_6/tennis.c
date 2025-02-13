@@ -24,7 +24,7 @@ int main(void)
         
         // first letter word player 2
         char first_letter = word_2[0];
-        
+        printf("%c\n", first_letter);
         
     } 
     while (false);

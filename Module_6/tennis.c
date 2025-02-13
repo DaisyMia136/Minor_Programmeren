@@ -17,7 +17,7 @@ int main(void)
         
         // last letter word player 1
         char last_letter = word_1[strlen(word_1) - 1];
-        printf("%c\n", last_letter);
+        //printf("%c\n", last_letter);
         
         string word_2 = ask_word(2);
         

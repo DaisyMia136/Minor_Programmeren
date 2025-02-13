@@ -13,7 +13,8 @@ int main(void)
     char last_letter = ' ';
     char first_letter = ' ';
     
-     string word_1 = ask_word(1);
+    string word_1 = ask_word(1);
+    
      
     while (first_letter == last_letter)
     { 

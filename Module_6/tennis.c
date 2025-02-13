@@ -31,9 +31,11 @@ int main(void)
             first_letter = word_2[0];
             printf("%c\n", first_letter);
 
-            } 
+    } 
     while (first_letter == last_letter);
 
+printf("Speler 1 wint! \n");
+    
     
     // print winning message
     

@@ -22,9 +22,6 @@ void morse(string input)
     // calculate how many letters are in the morse code
     int input_length = strlen(input)/3;
     //printf("%i\n", input_length);
-    
-    // make an empty string with the number letters
-    //string morse[input_length];
 
     // inititalise counters 
     int input_counter = 0;

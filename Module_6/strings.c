@@ -56,5 +56,8 @@ void bob(string input)
 {
     int lengte = strlen(input);
     for(int i = 0; i < lengte; i++)
+    {
+        
+    } 
 
 }

@@ -34,10 +34,10 @@ int count_upper(string text)
     int hoofdletter_counter = 0;
 
     // if the first letter is upper case > count 1    
-    printf("%c", text[0]);
     if (isupper(text[0]) == 1)
     { 
-        
+        printf("%c", text[0]);
+
         hoofdletter_counter = 1;
     } 
     

@@ -17,7 +17,7 @@ int main(void)
     //vertical(input);
     //skip(input);
     //eek(input);
-    bob
+    bob(input);
 }
 
 // functions 

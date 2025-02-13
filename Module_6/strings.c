@@ -14,5 +14,6 @@ int main(void)
 // functions 
 void vertical(string intput)
 { 
-    lengte = strlen(input);
+    int lengte = strlen(input);
+    
 } 

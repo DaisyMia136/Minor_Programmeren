@@ -55,7 +55,7 @@ void eek(string input)
 void bob(string input)
 {
     int lengte = strlen(input);
-    for(int i = 1; i < lengte; i+=2)
+    for(int i = 0; i < lengte; i++)
     {
         
     } 

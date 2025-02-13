@@ -13,7 +13,10 @@ int main(void)
     do 
     { 
         string word_1 = ask_word(1);
+        // last letter word player 1
         
+        
+        string word_2 = ask_word(2);
         
     } 
     while (false);

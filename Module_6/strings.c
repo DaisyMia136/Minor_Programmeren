@@ -12,7 +12,7 @@ void eek(string input);
 // main script
 int main(void)
 {
-    string input = "Eek a mouse!;
+    string input = "Eek a mouse!";
     //vertical(input);
     //skip(input);
     eek(input);

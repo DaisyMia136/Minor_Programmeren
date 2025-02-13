@@ -3,7 +3,7 @@
 #include <string.h>
 
 // function prototypes
-
+void morse(string input); 
 
 // main script
 int main(void)

@@ -26,7 +26,7 @@ int main(void)
         } 
         else 
         { 
-            printf("Player 2 wint! \n")
+            printf("Player 2 wint! \n");
         } 
         
         if (last_letter == first_letter)
@@ -40,7 +40,7 @@ int main(void)
         } 
         else
         { 
-            printf("Player 1 wint! \n")
+            printf("Player 1 wint! \n");
 
         } 
             

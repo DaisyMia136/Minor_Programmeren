@@ -4,6 +4,7 @@
 #include <ctype.h>
 
 // function prototypes
+void vertical(string input);
 
 // main script
 int main(void)

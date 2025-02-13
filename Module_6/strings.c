@@ -50,3 +50,8 @@ void eek(string input)
     }
     printf("The text \"%s\" contains %i e's.\n", input, e_counter);
 }
+
+void bob(string input)
+{
+    
+}

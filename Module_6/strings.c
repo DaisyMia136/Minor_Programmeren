@@ -11,3 +11,4 @@ int main(void)
 }
 
 // functions 
+void vertical(strin)

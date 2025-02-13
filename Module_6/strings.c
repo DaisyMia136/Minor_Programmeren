@@ -5,6 +5,7 @@
 
 // function prototypes
 void vertical(string input);
+void skip(string input);
 
 // main script
 int main(void)

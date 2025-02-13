@@ -23,7 +23,7 @@ int main(void)
             last_letter = word_1[strlen(word_1) - 1];
             printf("%c\n", last_letter);
 
-
+            
             printf("Player 2 wint! \n");
         
             // ask player 2 for input

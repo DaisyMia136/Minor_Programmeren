@@ -9,8 +9,8 @@ void vertical(string input);
 // main script
 int main(void)
 {
-    string input = ""
-    void vertical(string input);
+    string input = "tokyo hotel";
+    void vertical(input);
 }
 
 // functions 

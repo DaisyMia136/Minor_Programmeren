@@ -13,7 +13,7 @@ void bob(string input);
 // main script
 int main(void)
 {
-    string input = "";
+    string input = "know your meme";
     //vertical(input);
     //skip(input);
     //eek(input);

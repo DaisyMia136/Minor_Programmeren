@@ -61,5 +61,6 @@ void morse(string input)
         { 
             printf("R");
         } 
+        
     }
 }

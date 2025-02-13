@@ -13,6 +13,7 @@ int main(void)
     do 
     { 
         string word = ask_word(1);
+        
     } 
     while (false);
     // while eerste letter input2 == laatste letter input1

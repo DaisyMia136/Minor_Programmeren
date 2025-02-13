@@ -9,7 +9,7 @@
 // main script
 int main(void)
 {
-    // while 
+    // while input2 
 }
 
 // functions

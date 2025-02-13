@@ -55,7 +55,7 @@ void bob(string input)
     for(int i = 0; i < lengte; i++)
     {
         
-        else if (i%2 == 0 || i == 0)
+        if (i%2 == 0 || i == 0)
         { 
             printf("%c", input[i]);
         }

@@ -12,7 +12,7 @@ int main(void)
     
     do 
     { 
-        string word = ask_word(1);
+        string word_1 = ask_word(1);
         
         
     } 

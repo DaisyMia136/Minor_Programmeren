@@ -11,4 +11,7 @@ int main(void)
 }
 
 // functions 
-void vertical(strin)
+void vertical(string)
+{ 
+    
+} 

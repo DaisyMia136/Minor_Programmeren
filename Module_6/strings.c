@@ -61,7 +61,7 @@ void bob(string input)
         if (i%2 != 0)
         {
             char output = toupper(input[i]);
-            printf("%c", output);
+            printf("%c", toupper(input[i]));
         } 
         else
         { 

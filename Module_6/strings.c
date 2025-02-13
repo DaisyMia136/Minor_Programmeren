@@ -13,7 +13,7 @@ void bob(string input);
 // main script
 int main(void)
 {
-    bob("know your meme");
+    bob("Know your meme");
 }
 
 // functions 

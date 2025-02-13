@@ -14,7 +14,7 @@ int main(void)
     { 
         string word_1 = ask_word(1);
         // last letter word player 1
-        
+        length_1 = strlen
         
         string word_2 = ask_word(2);
         

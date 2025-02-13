@@ -8,6 +8,7 @@
 void vertical(string input);
 void skip(string input);
 void eek(string input);
+void bob(string input);
 
 // main script
 int main(void)

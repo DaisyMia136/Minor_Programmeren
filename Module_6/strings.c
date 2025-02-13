@@ -63,5 +63,4 @@ void bob(string input)
         }
 
     } 
-        printf("\n");
 }

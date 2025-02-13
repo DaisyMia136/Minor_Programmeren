@@ -39,7 +39,7 @@ void morse(string input)
             input_counter++;
         } 
         character[4] = '\0';
-        printf("%c%c%c%c\n", character[0], character[1], character[2], character[3]);
+        //printf("%c%c%c%c\n", character[0], character[1], character[2], character[3]);
         
         
         // check which character is which letter and print the corresponding letter

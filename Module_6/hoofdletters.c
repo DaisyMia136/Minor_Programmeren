@@ -21,7 +21,7 @@ int main(void)
    } 
    else 
    { 
-       printf("%i woorden met een hoofdletter", upper_counter);
+       printf("%i woorden met een hoofdletter", hoofdletter_counter);
    } 
    
 }

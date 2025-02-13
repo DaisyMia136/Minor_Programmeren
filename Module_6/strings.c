@@ -16,7 +16,8 @@ int main(void)
     string input = "Eek a mouse!";
     //vertical(input);
     //skip(input);
-    eek(input);
+    //eek(input);
+    bob
 }
 
 // functions 

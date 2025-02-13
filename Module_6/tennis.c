@@ -23,7 +23,7 @@ int main(void)
 // ask input
 string ask_word(int player)
 { 
-    string word = ""
+    string word = " "
     if (player == 1)
     {
         word = get_string("Speler 1, geef een woord");

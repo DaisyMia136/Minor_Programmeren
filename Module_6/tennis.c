@@ -23,5 +23,5 @@ int main(void)
 // ask input
 string ask_word()
 { 
-    string word = get_string("")
+    string word = get_string("Speler 1, geef een woord")
 } 

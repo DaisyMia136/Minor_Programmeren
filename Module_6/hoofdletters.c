@@ -36,8 +36,6 @@ int count_upper(string text)
     // if the first letter is upper case > count 1    
     if (isupper(text[0]) == 1)
     { 
-        printf("%c", text[0]);
-
         hoofdletter_counter = 1;
     } 
     

@@ -54,7 +54,7 @@ int count_upper(string text)
             if (isupper(first_letter) == 1)
             {
                 hoofdletter_counter++;
-                printf("%i", hoofdletter_counter);
+                //printf("%i", hoofdletter_counter);
 
             }
         } 

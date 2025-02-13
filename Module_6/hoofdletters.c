@@ -57,5 +57,7 @@ int count_upper(string text)
         } 
         
     } 
+       printf("%i", hoofdletter_counter);
+
     return hoofdletter_counter;
 }

@@ -30,7 +30,7 @@ int main(void)
 // functions 
 int count_upper(string text)
 {
-    
+    // initiate counter
     int hoofdletter_counter = 0;
 
     

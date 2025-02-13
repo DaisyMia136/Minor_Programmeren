@@ -58,7 +58,12 @@ void bob(string input)
     for(int i = 0; i < lengte; i++)
     {
         if (i%2 ==0)
-        toupper(input[i]
+        {
+            toupper(input[i])
+        } 
+        else
+        { 
+            
         
     } 
 

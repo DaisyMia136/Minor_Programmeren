@@ -21,4 +21,4 @@ int main(void)
 
 // functions
 // ask input
-string = ask_word()
+string ask_word()

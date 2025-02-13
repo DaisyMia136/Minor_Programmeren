@@ -57,7 +57,7 @@ void bob(string input)
         
         if (i%2 == 0 || i == 0)
         { 
-            printf("%c", input[i]);
+            printf("%c", tolower(input[i]);
         }
         else if (i%2 != 0)
         {

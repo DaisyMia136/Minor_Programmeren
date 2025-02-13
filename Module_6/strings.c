@@ -59,7 +59,7 @@ void bob(string input)
     {
         if (i%2 ==0)
         {
-            toupper(input[i])
+            output = toupper(input[i])
         } 
         else
         { 

@@ -30,8 +30,6 @@ int main(void)
             printf("Player 2 wint! \n");
         } 
         
-        if (last_letter == first_letter)
-        {
             // ask player 2 for input
             word_2 = ask_word(2);
             

@@ -41,7 +41,7 @@ void eek(string input)
     {
         if(strcasecmp(input[i], "e"))
         {
-            e_counter 
+            e_counter++;
         }
     }
 }

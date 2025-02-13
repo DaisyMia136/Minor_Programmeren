@@ -41,7 +41,7 @@ void morse(string input)
             input_counter++;
         } 
         
-        printf("%")
+        printf("%c%c%c")
         // check which character is which letter and print the corresponding letter
         if(strcmp(character, "...") ==0)
         { 

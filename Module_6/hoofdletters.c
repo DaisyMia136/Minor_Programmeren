@@ -13,7 +13,7 @@ int main(void)
    
    int hoofdletter_counter = count_upper(text);
    
-   printf("%i", hoofdletter_counter);
+   //printf("%i", hoofdletter_counter);
    
    
    if (hoofdletter_counter == 1)

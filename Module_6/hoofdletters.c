@@ -31,7 +31,6 @@ int main(void)
 int count_upper(string text)
 {
     int length_text = strlen(text);
-    //printf("%i\n", length_text);
     
     int hoofdletter_counter = 0;
 

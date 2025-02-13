@@ -44,6 +44,7 @@ void eek(string input)
     for(int i = 0; i < lengte; i++)
     {
         //printf("%c\n",input[i]);
+        char character = input[i];
         if(strcmp(character, "e") == 0 || strcmp(character, "E") == 0)
         {
             e_counter++;

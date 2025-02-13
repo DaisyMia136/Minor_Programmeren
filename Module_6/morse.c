@@ -11,4 +11,4 @@ int main(void)
 }
 
 // functions 
-// convert 
+// convert input to text 

@@ -22,3 +22,4 @@ void vertical(string input)
         printf("%c\n", input[i]);
     } 
 } 
+

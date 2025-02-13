@@ -12,10 +12,10 @@ int main(void)
    string text = get_string("Tekst: ");
    
    int hoofdletter_counter = count_upper(text);
-   printf("%i", upper_counter);
+   printf("%i", hoofdletter_counter);
    
    
-   if (upper_counter == 1)
+   if (hoofdletter_counter == 1)
    { 
        printf("1 woord met een hoofdletter");
    } 

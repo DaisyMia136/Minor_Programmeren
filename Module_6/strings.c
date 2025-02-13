@@ -43,11 +43,11 @@ void eek(string input)
     int e_counter = 0;
     for(int i = 0; i < lengte; i++)
     {
-        printf("%c\n",input[i];
-        if(strcasecmp(character, "e") == 0)
-        {
-            e_counter++;
-        }
+        printf("%c\n",input[i]);
+        //if(strcasecmp(character, "e") == 0)
+        //{
+        //    e_counter++;
+        //}
     }
     printf("The text %s contains %i e's.\n", input, e_counter);
 }

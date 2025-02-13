@@ -55,14 +55,15 @@ void bob(string input)
     for(int i = 0; i < lengte; i++)
     {
         
-        if (i%2 == 0 || i == 0)
-        { 
-            printf("%c", tolower(input[i]);
-        }
+       
         else if (i%2 != 0)
         {
             printf("%c", toupper(input[i]));
         } 
+        else if (i%2 == 0 || i == 0)
+        { 
+            printf("%c", tolower(input[i]));
+        }
 
     } 
 }

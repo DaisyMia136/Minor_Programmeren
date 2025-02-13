@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
+#include <strings.h>
 #include <ctype.h>
 
 // function prototypes

@@ -10,7 +10,7 @@ void skip(string input);
 // main script
 int main(void)
 {
-    string input = "tokyo hotel";
+    string input = "Great, gifts";
     //vertical(input);
     skip(input);
 }

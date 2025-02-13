@@ -9,6 +9,8 @@ int main(void)
 {
     // ask for input
     input = get_string("Geef een morse code: ");
+    
+    
 }
 
 // functions 

@@ -30,6 +30,6 @@ string ask_word(int player)
     }
     else 
     {
-        
+        word = 
     }
 } 

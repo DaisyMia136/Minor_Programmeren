@@ -37,7 +37,7 @@ void morse(string input)
         // for every three signals make a variable character containing the three signals as one string
         for (int signal = 0; signal < 3; signal++)
         { 
-            character[signal] = input[input_counter];
+            character = input[input_counter];
             input_counter++;
         } 
         

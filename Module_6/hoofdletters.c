@@ -47,7 +47,7 @@ int count_upper(string text)
     {
         char character = text[letter];
         //printf("%c\n", character);
-        if (isblank(character) == 1)
+        if (isblank(character))
         { 
             char first_letter = text[letter + 1];
             //printf("%c", first_letter);

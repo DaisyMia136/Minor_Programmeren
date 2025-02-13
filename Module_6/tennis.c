@@ -9,7 +9,7 @@
 // main script
 int main(void)
 {
-    // while input2 
+    // while eerste letter input2 == laatste letter input1
 }
 
 // functions

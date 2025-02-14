@@ -24,7 +24,7 @@ bool is_priem(int summer)
     } 
     if(priem_counter == summer - 2)
     {
-        priem = ;
+        priem = true;
     } 
     return priem;
 } 

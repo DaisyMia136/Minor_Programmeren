@@ -41,7 +41,7 @@ void goldbach_checker(int input)
 { 
     // initial variables
     priem_1 = false; 
-    priem_2 = ;
+    priem_2 = false;
     
     for(int even_numbers = 2; even_numbers <= input; even_numbers++)
     {   

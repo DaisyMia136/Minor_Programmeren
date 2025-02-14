@@ -9,7 +9,7 @@
 int main(void)
 {
     
-    int priem_1 = is_priem(12);
+    bool priem_1 = is_priem(12);
     if (priem_1 == true)
     {   
         printf("%i, is a prime number", priem_1);

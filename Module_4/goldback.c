@@ -12,4 +12,7 @@ int main(void)
 }
 
 // functions 
-int is_priem(int )
+int is_priem(int sum_1)
+{
+    
+} 

@@ -17,6 +17,8 @@ int is_priem(int summer)
     for(deler = 2; deler < summer; deler++)
     {
         rest = summer % deler;
-        if(deler != 0 )
+        if(deler != 0)
+        { 
+            
     } 
 } 

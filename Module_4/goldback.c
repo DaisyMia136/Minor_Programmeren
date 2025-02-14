@@ -22,5 +22,5 @@ int is_priem(int summer)
             priem_counter++;  
         }
     } 
-    if(priem_counter == )
+    if(priem_counter == summer - 2)
 } 

@@ -39,7 +39,7 @@ bool is_priem(int summer)
 
 void goldbach_checker(int input)
 { 
-    for()    
+    for(int even_numbers = 2; )    
 } 
 
 

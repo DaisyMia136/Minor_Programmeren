@@ -14,5 +14,5 @@ int main(void)
 // functions 
 int is_priem(int sum_1)
 {
-    for(deler = 2; 
+    for(deler = 2; deler < sum_1
 } 

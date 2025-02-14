@@ -9,7 +9,7 @@ bool is_priem(int summer);
 int main(void)
 {
     
-    bool priem_1 = is_priem(5);
+    bool priem_1 = is_priem();
     if (priem_1 == true)
     {   
         printf("5, is a prime number");

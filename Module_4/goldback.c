@@ -12,7 +12,7 @@ int main(void)
     bool priem_1 = is_priem(input);
     if (priem_1 == true)
     {   
-        printf("%i, is a prime number");
+        printf("%i, is a prime number", input);
     } 
 }
 

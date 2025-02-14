@@ -19,6 +19,7 @@ int main(void)
 // functions 
 bool is_priem(int summer)
 {
+    
     priem_counter = 0;
     for(deler = 2; deler < summer; deler++)
     {

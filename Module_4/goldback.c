@@ -10,6 +10,10 @@ int main(void)
 {
     
     priem_1 = is_priem(12);
+    if (priem_1 == true)
+    {   
+        
+    } 
 }
 
 // functions 

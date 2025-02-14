@@ -38,3 +38,6 @@ bool is_priem(int summer)
 } 
 
 void goldbach_checker(int input)
+{ 
+        
+} 

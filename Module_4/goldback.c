@@ -24,7 +24,7 @@ bool is_priem(int summer)
     for(int deler = 2; deler < summer; deler++)
     {
         int rest = summer % deler;
-        printf("%i", rest);
+        //printf("%i", rest);
         if(deler != 0)
         { 
             priem_counter++;  

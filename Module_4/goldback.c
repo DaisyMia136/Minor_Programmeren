@@ -42,10 +42,10 @@ void goldbach_checker(int input)
     for(int even_numbers = 2; even_numbers <= input; even_numbers++)
     {   
         //printf("%i\n", even_numbers);
-        for(int summer_1 = 1; summer_1 >= even_numbers; summer_1++)
+        for(int summer_1 = 1; summer_1 <= even_numbers; summer_1++)
         { 
             //summer_1 = 1;    
-            for(int summer_2 = 1; summer_2 >= even_numbers; summer_2++)
+            for(int summer_2 = 1; summer_2 <= even_numbers; summer_2++)
             { 
                 printf("%i + %i", summer_1, summer_2);
                 sum = summer_1 + summer_2;

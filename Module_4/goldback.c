@@ -59,7 +59,7 @@ void goldbach_checker(int input)
                     
                     if(priem_1 == true || priem_2 == true)
                     { 
-                        prinft()
+                        prinft("%i = %i + %i", )
             }
         }
         

@@ -23,4 +23,7 @@ int is_priem(int summer)
         }
     } 
     if(priem_counter == summer - 2)
+    {
+        
+    } 
 } 

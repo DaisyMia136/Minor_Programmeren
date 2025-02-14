@@ -36,3 +36,4 @@ bool is_priem(int summer)
     return priem;
 } 
 
+goldbach

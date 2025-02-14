@@ -57,6 +57,7 @@ void goldbach_checker(int input)
                     { 
                         printf("%i = %i + %i", even_numbers, summer_1,summer_2);
                     }
+                }
                         
             }
         }

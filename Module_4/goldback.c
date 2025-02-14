@@ -9,7 +9,6 @@ void goldbach_checker(int input);
 // main script
 int main(void)
 {
-
         
 }
 

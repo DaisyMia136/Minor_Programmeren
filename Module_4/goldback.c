@@ -21,7 +21,7 @@ bool is_priem(int summer)
 {
     bool priem = false;
     int priem_counter = 0;
-    for(deler = 2; deler < summer; deler++)
+    for(int deler = 2; deler < summer; deler++)
     {
         rest = summer % deler;
         if(deler != 0)

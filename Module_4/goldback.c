@@ -3,7 +3,7 @@
 #include <string.h>
 
 // function prototypes
-
+bool is_priem(int summer);
 
 // main script
 int main(void)

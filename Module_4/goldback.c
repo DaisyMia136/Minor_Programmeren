@@ -12,7 +12,7 @@ int main(void)
 }
 
 // functions 
-int is_priem(int sum_1)
+int is_priem(int summer_1)
 {
     for(deler = 2; deler < summer_1
 } 

@@ -20,6 +20,7 @@ int is_priem(int summer)
         if(deler != 0)
         { 
             priem_counter++;  
-        } 
+        }
     } 
+    if(priem_counter == )
 } 

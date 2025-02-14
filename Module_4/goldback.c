@@ -12,4 +12,4 @@ int main(void)
 }
 
 // functions 
-is_priem()
+int is_priem()

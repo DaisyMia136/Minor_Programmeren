@@ -57,7 +57,9 @@ void goldbach_checker(int input)
                     bool priem_1 = is_priem(summer_1);
                     bool priem_2 = is_priem(summer_2);
                     
-                    if(priem_1) 
+                    if(priem_1 == true || priem_2 == true)
+                    { 
+                        prinft()
             }
         }
         

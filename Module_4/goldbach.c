@@ -9,7 +9,7 @@ void goldbach_checker(int input);
 // main script
 int main(void)
 {
-    goldbach_checker(50);    
+    goldbach_checker(1000);    
 }
 
 // functions 
@@ -47,14 +47,13 @@ void goldbach_checker(int input)
             //summer_1 = 1;    
             for(int summer_2 = 1; summer_2 <= even_numbers; summer_2++)
             { 
-                //printf("%i + %i", summer_1, summer_2);
+
                 sum = summer_1 + summer_2;
                 if(sum == even_numbers)
                 { 
                     //check if summer_1 en summer_2 priem getallen zijn
                     priem_1 = is_priem(summer_1);
                     priem_2 = is_priem(summer_2);
-                    //printf("%i %i", summer_1, summer_2);
                     
                     if(priem_1 != 0 && priem_2 != 0)
                     { 

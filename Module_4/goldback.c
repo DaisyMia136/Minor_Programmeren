@@ -19,7 +19,7 @@ int is_priem(int summer)
         rest = summer % deler;
         if(deler != 0)
         { 
-              
+            priem_counter++;  
         } 
     } 
 } 

@@ -12,10 +12,10 @@ int main(void)
 }
 
 // functions 
-int is_priem(int summer_1)
+int is_priem(int summer)
 {
-    for(deler = 2; deler < summer_1; deler++)
+    for(deler = 2; deler < summer; deler++)
     {
-        rest = j
+        rest = summer % 
     } 
 } 

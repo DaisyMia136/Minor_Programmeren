@@ -14,5 +14,5 @@ int main(void)
 // functions 
 int is_priem(int sum_1)
 {
-    for 
+    for modul
 } 

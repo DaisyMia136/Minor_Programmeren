@@ -55,6 +55,7 @@ void goldbach_checker(int input)
                     priem_1 = is_priem(summer_1);
                     priem_2 = is_priem(summer_2);
                     
+                    
                     if(priem_1 != 0 && priem_2 != 0)
                     { 
                         printf("%i = %i + %i\n", even_numbers, summer_1,summer_2);

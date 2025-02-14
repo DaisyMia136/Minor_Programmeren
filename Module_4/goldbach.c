@@ -50,7 +50,7 @@ void goldbach_checker(int input)
             { 
 
                 sum = summer_1 + summer_2;
-                if(sum == even_numbers)// && print_counter == 0)
+                if(sum == even_numbers && print_counter == 0)
                 { 
                     //check if summer_1 en summer_2 priem getallen zijn
                     priem_1 = is_priem(summer_1);

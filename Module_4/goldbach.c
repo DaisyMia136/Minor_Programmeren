@@ -54,7 +54,7 @@ void goldbach_checker(int input)
                     //check if summer_1 en summer_2 priem getallen zijn
                     priem_1 = is_priem(summer_1);
                     priem_2 = is_priem(summer_2);
-                    
+                    print_counter++;
                     
                     if(priem_1 != 0 && priem_2 != 0)
                     { 

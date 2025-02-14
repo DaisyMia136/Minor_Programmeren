@@ -42,6 +42,9 @@ void goldbach_checker(int input)
     for(int even_numbers = 2; even_numbers <= input; even_numbers++)
     {   
         for(int summer = 1; summer >= even_numbers; summer++)
+        { 
+                
+        }
         
     } 
 } 

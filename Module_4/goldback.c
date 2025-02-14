@@ -4,6 +4,7 @@
 
 // function prototypes
 bool is_priem(int summer);
+void goldbach_checker(int input); 
 
 // main script
 int main(void)

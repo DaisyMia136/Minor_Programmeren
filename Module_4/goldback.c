@@ -39,7 +39,7 @@ void goldbach_checker(int input)
     bool priem_2 = false;
     int sum = 0;
     
-    for(int even_numbers = 2; even_numbers <= input; even_numbers++)
+    for(int even_numbers = 2; even_numbers <= input; even_numbers )
     {   
         //printf("%i\n", even_numbers);
         for(int summer_1 = 1; summer_1 <= even_numbers; summer_1++)

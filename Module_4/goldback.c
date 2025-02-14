@@ -9,7 +9,7 @@
 int main(void)
 {
     
-    priem_1 = is_priem(int summer);
+    priem_1 = is_priem(12);
 }
 
 // functions 

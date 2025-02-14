@@ -30,7 +30,7 @@ bool is_priem(int summer)
             priem_counter++;  
         }
     } 
-    printf("%i", priem_counter)
+    printf("%i", priem_counter);
     if(priem_counter == summer - 2)
     {
         priem = true;

@@ -12,7 +12,7 @@ int main(void)
 }
 
 // functions 
-int is_priem(int summer)
+bool is_priem(int summer)
 {
     for(deler = 2; deler < summer; deler++)
     {
@@ -24,6 +24,7 @@ int is_priem(int summer)
     } 
     if(priem_counter == summer - 2)
     {
-        priem = summer;
+        priem = ;
     } 
+    return priem;
 } 

@@ -9,7 +9,7 @@ void goldbach_checker(int input);
 // main script
 int main(void)
 {
-    goldbach_checker(1000);    
+    goldbach_checker(100000);    
 }
 
 // functions 

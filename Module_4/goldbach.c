@@ -13,6 +13,7 @@ int main(void)
 }
 
 // functions 
+// check if input summer is a prime number
 bool is_priem(int summer)
 {
     bool priem = false;

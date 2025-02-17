@@ -53,27 +53,27 @@ void message_encrypter(string input)
             printf("%c", 'x');
 
         }
-        else if (input[letter] == 'd' || input[letter] == 'A')
+        else if (input[letter] == 'd' || input[letter] == 'D')
         {
             printf("%c", 'w');
 
         }
-        else if (input[letter] == 'e' || input[letter] == 'A')
+        else if (input[letter] == 'e' || input[letter] == 'E')
         {
             printf("%c", 'v');
 
         }
-        else if (input[letter] == 'f' || input[letter] == 'A')
+        else if (input[letter] == 'f' || input[letter] == 'F')
         {
             printf("%c", 'u');
 
         }
-        else if (input[letter] == 'g' || input[letter] == 'A')
+        else if (input[letter] == 'g' || input[letter] == 'G')
         {
             printf("%c", 't');
 
         }
-        else if (input[letter] == 'h' || input[letter] == 'A')
+        else if (input[letter] == 'h' || input[letter] == 'H')
         {
             printf("%c", 's');
 

@@ -14,7 +14,7 @@ int main(void)
         string pasword = get_string(" Wachtwoord? ");
         bool strong = pasword_checker(pasword);
         if (strong)
-        
+        valid 
     }
     
     // pasword checker

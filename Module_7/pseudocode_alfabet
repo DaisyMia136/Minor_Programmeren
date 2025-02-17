@@ -3,4 +3,6 @@ ask input
 convert both words to lowercase
 
 use ascII to check which word came first 
-    loop through letters until end_counter > 0 
+    loop through letters until end_counter > 0; letters++
+    compare nummeric value of letters 
+    if woord_1 < 

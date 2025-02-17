@@ -21,6 +21,10 @@ int main(void)
 //functions
 void message_encrypter(string input)
 {
+    // initial variables
+    
+    
+    
     // calc input length
     
 }

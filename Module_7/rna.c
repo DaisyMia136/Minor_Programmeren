@@ -15,6 +15,9 @@ int main(void)
     
     //input check
     for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
+    {
+        
+    }
 
     
     // print RNA

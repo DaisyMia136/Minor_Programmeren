@@ -34,7 +34,7 @@ void dictionary_check(string woord_1, string woord_2)
     } 
     else
     {
-        length = length_2;
+        length = length_1;
     }
     
     for (int letter = 0; letter < length || end_counter > 0; letter++)

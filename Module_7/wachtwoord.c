@@ -64,7 +64,7 @@ bool two_char_in_row(string pasword, int length)
 {
     end_counter = 0;
     char letter_1 = ' ';
-    
+    char letter_1 = ' ';
     
     for (int letter = 0; letter < length && end_counter == 0; letter++)
     { 

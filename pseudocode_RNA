@@ -1,3 +1,9 @@
 ask input > get_string
 
-check 
+check input is valid
+loop through string (length - 1)
+if character == U or u 
+return 2
+else if character != A,a,C,c,G,g,T,t
+return 1
+

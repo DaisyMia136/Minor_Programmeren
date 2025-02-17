@@ -30,7 +30,7 @@ void dictionary_check(string woord_1, string woord_2)
     
     if (length_1 > length_2)
     {
-        length = length_1;
+        length = length_2;
     } 
     else
     {

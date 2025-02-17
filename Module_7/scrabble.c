@@ -16,8 +16,8 @@ int main(void)
     string word_2 = get_string("Player 2: ");
     
     // calculate points 
-    calc_scrabble_points(word_1);
-    
+    points_1 = calc_scrabble_points(word_1);
+    points_1 = calc_scrabble_points(word_2);
 
 }
 

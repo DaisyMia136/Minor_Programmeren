@@ -23,5 +23,7 @@ int main(void)
 //functions
 void print_RNA(string DNA)
 {
+    // length input
+    int DNA_length = 
     
 }

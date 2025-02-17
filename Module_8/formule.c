@@ -22,6 +22,7 @@ void bracket_checker(string input)
 {
     // initial variables
     closed_counter = 0;
+    open_counter = 0;
     
     // calc length input
     int length = strlen(input);

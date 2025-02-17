@@ -11,7 +11,7 @@ bool two_char_in_row(string pasword, int length);
 // main script
 int main(void)
 {
-    valid = false; 
+    bool valid = false; 
     
     // ask input 
     do 

@@ -28,8 +28,9 @@ void message_encrypter(string input)
     
     // setup array with the alphabet
     char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-    char alfabet_upper[26] = 
-    printf("%c/n", alfabet[0]);
+    char alfabet_upper[26];
+    
+    for 
     
     
     

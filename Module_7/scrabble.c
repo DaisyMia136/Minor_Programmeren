@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 //function prototypes
-int calc_scrabble_points(string word)
+int calc_scrabble_points(string word);
 
 
 

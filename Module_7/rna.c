@@ -4,6 +4,8 @@
 #include <ctype.h>
 
 // function prototypes
+void print_RNA(string DNA);
+
 
 // main script
 int main(void)

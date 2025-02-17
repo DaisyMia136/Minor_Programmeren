@@ -60,7 +60,7 @@ calc_scrabble_points(string word)
         {
             points =+;
         }
-        else if (word[letter] == 'a' || )
+        else if (word[letter] == '' || )
         
     }
 }

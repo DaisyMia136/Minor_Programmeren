@@ -93,7 +93,7 @@ void print_RNA(string DNA)
         }
         else if (DNA[nucleotide] == 'T' || DNA[nucleotide] == 't')
         {
-            printf("A")
+            printf("A");
         }
  
     }

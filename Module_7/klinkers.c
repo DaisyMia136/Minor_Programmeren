@@ -28,7 +28,7 @@ int vowel_counter(string woord)
     {
         if(woord[letter] == 'a' || woord[letter] == 'e' || woord[letter] == 'u' || woord[letter] == 'i' || woord[letter] == 'o')
         {
-            
+            vowel_counter
         }
     }
     

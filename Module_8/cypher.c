@@ -12,7 +12,7 @@ int main(void)
     string input = get_string("plaintext: ");
     
     //encrypt message 
-    
+    message_encrypter(input)
     
     return 0;
 }

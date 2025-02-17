@@ -27,4 +27,7 @@ int main(void)
 }
 
 // functions
-
+bool pasword_checker(pasword)
+{
+    
+}

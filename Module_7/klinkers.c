@@ -3,6 +3,7 @@
 #include <string.h>
 
 // function prototypes
+int vowel_counter(string);
 
 // main script 
 int main(void)
@@ -17,4 +18,5 @@ int main(void)
 //functions
 int vowel_counter(string)
 {
+    
 }

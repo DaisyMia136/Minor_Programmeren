@@ -4,8 +4,8 @@
 #include <ctype.h>
 
 // function prototypes
-bool pasword_checker(pasword);
-bool two_char_in_row(pasword);
+bool pasword_checker(string pasword);
+bool two_char_in_row(string pasword, int length);
 
 
 // main script

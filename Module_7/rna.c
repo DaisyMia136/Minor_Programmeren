@@ -14,7 +14,7 @@ int main(void)
     //input check
     //main returns 1!!
     
-    // printRNA
+    // print RNA
 }
 
 

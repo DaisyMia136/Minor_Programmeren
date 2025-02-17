@@ -21,5 +21,5 @@ int main(void)
 //functions
 int vowel_counter(string woord)
 {
-    
+    vowel_
 }

@@ -57,6 +57,9 @@ bool two_char_in_row(string pasword, int length)
         letter_1 = pasword[letter];
         letter_2 = pasword[letter + 1];
         
-        if (letter_1 )
+        if (letter_1 == letter_2)
+        {
+            
+        }
     }
 }

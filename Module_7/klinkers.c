@@ -28,6 +28,7 @@ int main(void)
     }
     else
     {
+        printf("%s", vowel_1);
         printf("%s", vowel_2);
     }
 }

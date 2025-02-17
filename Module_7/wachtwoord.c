@@ -52,9 +52,9 @@ bool pasword_checker(pasword)
 
 bool two_char_in_row(string pasword, int length)
 {
+    end_counter = 0;
     
-    
-    for (letter = 0; letter < length && end_counter != 0; letter++)
+    for (int letter = 0; letter < length && end_counter != 0; letter++)
     { 
         letter_1 = pasword[letter];
         letter_2 = pasword[letter + 1];

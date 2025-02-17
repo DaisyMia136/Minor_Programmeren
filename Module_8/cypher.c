@@ -70,7 +70,7 @@ void message_encrypter(string input)
         }
         else if (input[letter] == 'g')
         {
-            printf("%c", 'y');
+            printf("%c", 't');
 
         }
     }

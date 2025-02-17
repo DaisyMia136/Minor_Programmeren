@@ -14,8 +14,10 @@ int main(void)
     string woord_1 = get_string("Woord 1: "); //Bla
     string woord_2 = get_string("Woord 2: "); //Blue
     
+    
+    woord_1[0] = woord_1
     // dictionary check
-    dictionary_check(woord_1, woord_2);
+    //dictionary_check(woord_1, woord_2);
     
 }
 

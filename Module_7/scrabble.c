@@ -40,6 +40,7 @@ calc_scrabble_points(string word)
         }
         
         // calculate points
+        if(word[letter] == 'a' || )
     }
 }
 

@@ -22,7 +22,7 @@ int main(void)
         }
         else
         {
-            printf("")
+            printf("Niet sterk genoeg")
         }
     }
     while(valid = false);

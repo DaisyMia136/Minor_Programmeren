@@ -40,7 +40,7 @@ void message_encrypter(string input)
         }
         
         
-        input[letter] = in
+        input[letter] = input[letter] + 
         
         
         

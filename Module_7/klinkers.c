@@ -45,7 +45,7 @@ int vowel_counter(string woord)
         {
             vowel_counter++;
         }
-        if (woord[letter])
+        if (iswoord[letter])
     }
     return vowel_counter;
     

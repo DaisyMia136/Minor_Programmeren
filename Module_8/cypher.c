@@ -35,7 +35,7 @@ void message_encrypter(string input)
         }
         else
         {
-            
+            printf("%c", input[letter] - 7);
         }
     }
         

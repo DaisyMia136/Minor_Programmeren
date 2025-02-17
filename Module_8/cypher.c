@@ -307,4 +307,5 @@ void message_encrypter(string input)
         }
     
     } 
+    printf("\n");
 }

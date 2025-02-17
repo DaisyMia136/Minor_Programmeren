@@ -66,10 +66,5 @@ void dictionary_check(string woord_1, string woord_2)
     if (end_counter == 0)
     { 
         printf("No need to decide!");
-    }
-    
-    
-    
-    
-    
+    } 
 }

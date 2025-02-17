@@ -59,7 +59,7 @@ bool two_char_in_row(string pasword, int length)
         
         if (letter_1 == letter_2)
         {
-            
+            end_counter++;
         }
     }
 }

@@ -45,7 +45,7 @@ void dictionary_check(string woord_1, string woord_2)
     // loop through the shortest word
     for (int letter = 0; letter < length || end_counter > 0; letter++)
     {
-        if(woord_1[letter] < woord_2(letter))
+        if(woord_1[letter] < woord_2[letter])
         {
             printf("%s\n", woord_1);
             end_counter++;

@@ -22,8 +22,9 @@ int main(void)
 // functions
 void dictionary_check(string woord_1, string woord_2)
 { 
-    // set end_counter
+    // set end_counter and length
     int end_counter = 0;
+    int length = 0;
     
     // get length of both strings
     int length_1 = strlen(woord_1);

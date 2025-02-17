@@ -36,7 +36,7 @@ void message_encrypter(string input)
     
     for (int letter = 0; letter < length; letter++)
     {
-        input[letter] 
+        printf("%cinput[letter] 
     }
     
     

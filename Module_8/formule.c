@@ -51,7 +51,7 @@ void bracket_checker(string input)
     {
         printf("Er worden te weinig haakjes gesloten.\n");
     }
-    else
+    else if 
     {
         printf("Er zijn geen fouten.\n");
     }

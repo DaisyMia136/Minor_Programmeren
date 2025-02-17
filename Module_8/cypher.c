@@ -168,7 +168,7 @@ void message_encrypter(string input)
         }
         else 
         {
-            printf("%c")
+            printf("%c", input[letter]);
         }
     }
     

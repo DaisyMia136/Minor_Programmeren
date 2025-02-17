@@ -22,7 +22,7 @@ int main(void)
 void message_encrypter(string input)
 {
     // initial variables ++ DECLARATE THE VARIABLES :)
-    
+    int counter = 
     
     // calc input length
     int length = strlen(input);

@@ -24,5 +24,5 @@ void dictionary_check(string woord_1, string woord_2)
     woord_1 = tolower(woord_1);
     woord_2 = tolower(woord_2);
     
-    
+    strlen(woord_1)
 }

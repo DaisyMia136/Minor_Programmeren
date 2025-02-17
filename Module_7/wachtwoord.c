@@ -19,6 +19,7 @@ int main(void)
         if (strong)
         { 
                 valid = true;
+                printf("Sterk genoeg!\n");
         }
         else
         {

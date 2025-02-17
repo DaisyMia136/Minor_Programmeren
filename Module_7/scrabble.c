@@ -44,7 +44,7 @@ calc_scrabble_points(string word)
         {
             points++;
         }
-        else if (word[letter] == 'd' || )
+        else if (word[letter] == 'd' || word[letter] == 'g' || word[letter] == 'a' || )
     }
 }
 

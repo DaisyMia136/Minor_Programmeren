@@ -29,7 +29,7 @@ int print_RNA(string DNA)
     // loop through DNA input
     for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
     {
-                // input check
+        // input check
         //if input contains U or other non A, C, G, T value return 1
         //else return 0
         

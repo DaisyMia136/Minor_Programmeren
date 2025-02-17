@@ -43,6 +43,7 @@ void message_encrypter(string input)
         {
             printf("%c", 'z');
         }
+        else()
     }
     
 }

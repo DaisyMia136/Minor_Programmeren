@@ -29,7 +29,7 @@ void print_RNA(string DNA)
     // loop through DNA input
     for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
     {
-            
+        
     }
     
 }

@@ -41,11 +41,11 @@ int vowel_counter(string woord)
     
     for(letter=0; letter <= word_length; letter++)
     {
-        if(woord[letter] == 'a' || woord[letter] == 'e' || woord[letter] == 'u' || woord[letter] == 'i' || woord[letter] == 'o' || woord[letter] == 'A' || woord[letter] == 'E' || woord[letter] == 'U' || woord[letter] == 'I' || woord[letter] == 'O')
+        if (woord[letter] == 'a' || woord[letter] == 'e' || woord[letter] == 'u' || woord[letter] == 'i' || woord[letter] == 'o' || woord[letter] == 'A' || woord[letter] == 'E' || woord[letter] == 'U' || woord[letter] == 'I' || woord[letter] == 'O')
         {
             vowel_counter++;
         }
-        
+        if (woord[letter])
     }
     return vowel_counter;
     

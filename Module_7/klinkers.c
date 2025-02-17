@@ -30,6 +30,7 @@ int vowel_counter(string woord)
         {
             vowel_counter++;
         }
+        
     }
     
 }

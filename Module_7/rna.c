@@ -47,7 +47,7 @@ int DNA_input(string DNA)
             U_counter++;
         }
         
-        else if (DNA[nucleotide] != 'A' || DNA[nucleotide] != 'a' && DNA[nucleotide] != 'G' && DNA[nucleotide] != 'g' && DNA[nucleotide] != 'C' && DNA[nucleotide] != 'c' && DNA[nucleotide] != 'T' && DNA[nucleotide] != 't')
+        else if (DNA[nucleotide] != 'A' || DNA[nucleotide] != 'a'  DNA[nucleotide] != 'G' && DNA[nucleotide] != 'g' && DNA[nucleotide] != 'C' && DNA[nucleotide] != 'c' && DNA[nucleotide] != 'T' && DNA[nucleotide] != 't')
         {
             printf("Invalid DNA");
             non_nucleotide_coutner++;

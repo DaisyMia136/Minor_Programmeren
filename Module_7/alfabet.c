@@ -60,10 +60,6 @@ void dictionary_check(string woord_1, string woord_2)
             printf("%s\n", woord_2);
             end_counter++;
         }
-        else 
-        {
-            
-        }
     }
     
     if (end_counter == 0)

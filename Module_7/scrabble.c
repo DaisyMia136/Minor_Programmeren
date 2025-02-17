@@ -30,6 +30,7 @@ calc_scrabble_points(string word)
     for(int letter = 0; letter < length; letter++)
     { 
         // convert all uppercase letters to lower case
+        if (isupper(word[letter])
     }
 }
 

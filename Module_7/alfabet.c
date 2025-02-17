@@ -47,7 +47,6 @@ void dictionary_check(string woord_1, string woord_2)
         woord_1[letter] = tolower(woord_1[letter]); 
         woord_2[letter] = tolower(woord_2[letter]);
         
-        printf("%i\n", end_counter);
         
         if(woord_1[letter] < woord_2[letter])
         {

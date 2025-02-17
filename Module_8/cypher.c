@@ -53,7 +53,7 @@ void message_encrypter(string input)
             printf("%c", 'y');
 
         }
-        else if (input[letter] == 'A')
+        else if (input[letter] == 'B')
         {
             printf("%c", 'Z');
 

@@ -19,4 +19,7 @@ int main(void)
 
 
 //functions
-
+void print_RNA(string DNA)
+{
+    
+}

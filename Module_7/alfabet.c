@@ -28,10 +28,11 @@ void dictionary_check(string woord_1, string woord_2)
     woord_1 = tolower(woord_1); 
     woord_2 = tolower(woord_2);
     
-    
+    // get length of both strings
     int length_1 = strlen(woord_1);
     int length_2 = strlen(woord_2);
     
+    //
     if (length_1 > length_2)
     {
         length = length_2;

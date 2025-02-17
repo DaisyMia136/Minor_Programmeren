@@ -28,6 +28,9 @@ void bracket_checker(string input)
     // loop through characters
     for (int character = 0; character < length; character++)
     {
-        if(input[character])
+        if(input[character] == '(')
+        {
+            
+        }
     }
 }

@@ -55,7 +55,7 @@ int DNA_input(string DNA)
             
         }
     }
-    printf("%i\n", non_nucleotide_counter);
+    //printf("%i\n", non_nucleotide_counter);
     
     if(non_nucleotide_counter > 0)
     {

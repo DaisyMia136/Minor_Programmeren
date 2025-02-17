@@ -49,7 +49,9 @@ calc_scrabble_points(string word)
             points =+ 2;
         }
         else if (word[letter] == 'b' || word[letter] == 'c' || word[letter] == 'm' || word[letter] == 'p')
-        
+        { 
+            points =+ 3;
+            
     }
 }
 

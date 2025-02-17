@@ -29,8 +29,12 @@ void message_encrypter(string input)
     // loop through letters and encrypt 
     for (int letter = 0; letter < length; letter++)
     {
-        if (input[letter])
-        printf("%c", input[letter] - 7);
+        if (islower(input[letter]))
+        { 
+            printf("%c", input[letter] - 7);
+        }
+        else
+        
     }
         
         

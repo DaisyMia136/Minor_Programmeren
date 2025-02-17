@@ -9,7 +9,7 @@
 int main(void)
 {
     // ask input
-    
+    string DNA = get_string("DNA: ")
 }
 
 

@@ -7,4 +7,4 @@ use ascII to check which word came first
     compare nummeric value of letters 
     if woord_1[letter] < woord_2[letter]
     end_counter++;
-    
+    printf(

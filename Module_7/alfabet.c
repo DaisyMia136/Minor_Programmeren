@@ -43,7 +43,10 @@ void dictionary_check(string woord_1, string woord_2)
         {
             printf("%s\n", woord_1);
         }
-        else if (woord_2[letter] < )
+        else if (woord_2[letter] < woord_1[letter])
+        {
+            printf()
+        }
     }
     
     

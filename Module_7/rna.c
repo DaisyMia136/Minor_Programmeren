@@ -43,7 +43,7 @@ int DNA_input(string DNA)
     //input check
     for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
     {
-        printf("%i\n", nucleotide);
+        printf("nucleotide %i\n", nucleotide);
 
         if (DNA[nucleotide] == 'U' || DNA[nucleotide] == 'u')
         {

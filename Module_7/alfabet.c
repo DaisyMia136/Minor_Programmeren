@@ -45,7 +45,7 @@ void dictionary_check(string woord_1, string woord_2)
     for (int letter = 0; letter < length || end_counter > 0; letter++)
     {
             // convert all characters to lowercase
-        woord_1 = tolower(woord_1); 
+        woord_1[letter] = tolower(woord_1); 
         woord_2 = tolower(woord_2);
         
         if(woord_1[letter] < woord_2[letter])

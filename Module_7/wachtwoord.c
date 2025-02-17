@@ -31,6 +31,7 @@ bool pasword_checker(pasword)
 {
     // check if pasword is 8 characters long 
     
+    
     // check if no two characters are subsequently the same
     
     

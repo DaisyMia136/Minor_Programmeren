@@ -36,7 +36,7 @@ void message_encrypter(string input)
         }
         else 
         {
-            input[letter] = toupper(input[letter]);
+            input[letter] = tolower(input[letter]);
 
         }
         

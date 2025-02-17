@@ -22,7 +22,7 @@ int main(void)
     }
     else if (valid == 2)
     {
-        return 2; // DNA contains U
+        return 0; // DNA contains U
     }
     else
     {

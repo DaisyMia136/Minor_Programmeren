@@ -269,7 +269,7 @@ void message_encrypter(string input)
             printf("%c", 'D');
 
         }
-        else if (input[letter] == 'x' || input[letter] == 'X')
+        else if (input[letter] == 'x')
         {
             printf("%c", 'c');
 
@@ -282,6 +282,11 @@ void message_encrypter(string input)
         else if (input[letter] == 'y' || input[letter] == 'Y')
         {
             printf("%c", 'b');
+
+        }
+        else if (input[letter] == 'A')
+        {
+            printf("%c", 'Z');
 
         }
         else if (input[letter] == 'z' || input[letter] == 'Z')

@@ -21,8 +21,11 @@ int main(void)
 //functions
 
 // calculate points 
-calc_scrabble_points(string word_1)
+calc_scrabble_points(string word)
 {
-    // calc length of words 
+    // calc length of word
+    int length = strlen(word);
+    
+    // 
 }
 

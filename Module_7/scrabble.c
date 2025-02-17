@@ -22,7 +22,11 @@ int main(void)
     // decide the winner
     if (points_1 < points_2)
     {
-        printf("Player 1 ")
+        printf("Player 1 wins!");
+    }
+    else if (points_2 < points_1)
+    {
+        printf("Player 2 wins!")
     }
 
 }

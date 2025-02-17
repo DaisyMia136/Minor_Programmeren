@@ -5,6 +5,8 @@
 
 // function prototypes
 bool pasword_checker(pasword);
+bool two_char_in_row(pasword)
+
 
 // main script
 int main(void)

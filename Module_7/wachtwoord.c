@@ -60,6 +60,7 @@ bool pasword_checker(string pasword)
     }
 }
 
+
 bool two_char_in_row(string pasword, int length)
 {
     // initialise variables

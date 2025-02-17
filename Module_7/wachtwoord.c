@@ -40,7 +40,7 @@ int main(void)
 bool pasword_checker(string pasword)
 {
     // check if pasword is 8 characters long 
-    length = strlen(pasword);
+    int length = strlen(pasword);
     
     if (length < 8)
     {

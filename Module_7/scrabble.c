@@ -64,27 +64,27 @@ int calc_scrabble_points(string word)
         }
         else if (word[letter] == 'd' || word[letter] == 'g')
         {
-            points =+ 2;
+            points += 2;
         }
         else if (word[letter] == 'b' || word[letter] == 'c' || word[letter] == 'm' || word[letter] == 'p')
         { 
-            points =+ 3;
+            points += 3;
         }
         else if (word[letter] == 'f' || word[letter] == 'h' || word[letter] == 'v' || word[letter] == 'w')
         {
-            points =+ 4;
+            points += 4;
         }
         else if (word[letter] == 'k')
         {
-            points =+ 5;
+            points += 5;
         }
         else if (word[letter] == 'j' || word[letter] == 'x')
         { 
-            points =+ 8;
+            points += 8;
         }
         else if (word[letter] == 'q' || word[letter] == 'z')
         {
-            points =+ 10;
+            points += 10;
         }
     }
     return points;

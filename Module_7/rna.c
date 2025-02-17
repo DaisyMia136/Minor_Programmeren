@@ -27,6 +27,6 @@ void print_RNA(string DNA)
     int DNA_length = strlen(DNA);
     
     // loop through DNA input
-    for(RNA)
+    for(int nucleotide = 0; )
     
 }

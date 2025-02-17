@@ -8,6 +8,10 @@
 // main script
 int main(void)
 {
+    // ask input
+    
+    
+    //encrypt message 
     
     return 0;
 }

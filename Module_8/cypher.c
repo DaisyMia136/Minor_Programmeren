@@ -55,7 +55,7 @@ void message_encrypter(string input)
         }
         else if (input[letter] == 'd')
         {
-            printf("%c", 'y');
+            printf("%c", 'w');
 
         }
     }

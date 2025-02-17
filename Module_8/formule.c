@@ -47,5 +47,5 @@ void bracket_checker(string input)
         }
     }
     
-    
+    if open_counter >
 }

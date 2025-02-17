@@ -12,7 +12,7 @@ int main(void)
     string input = get_string("Geef een formule: ");
     
     // haakjes checker
-    
+    bracket_checker(input);
 }
 
 //functions

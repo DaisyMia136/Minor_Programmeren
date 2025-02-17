@@ -27,13 +27,12 @@ void message_encrypter(string input)
     int length = strlen(input);
     
     // setup array with the alphabet
-    char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-    char alfabet_upper[26];
+    char alfabet[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
     for (int i = 0; i <=26; i++)
     {
-        alfabet_lower[26 + i] = toupper(alfabet_lower[i]);
-        printf("%c\n", alfabet_lower[26 + i]);
+        alfabet_lower[26 + i] = toupper(alfabet[i]);
+        printf("%c\n", alfabet[26 + i]);
     }
     
     for (int letter = 0; letter < length; letter++)

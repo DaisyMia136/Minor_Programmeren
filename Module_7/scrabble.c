@@ -58,7 +58,7 @@ calc_scrabble_points(string word)
         }
         else if (word[letter] == 'k')
         {
-            points =+;
+            points =+ 5;
         }
         else if (word[letter] == 'k' || )
         

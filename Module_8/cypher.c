@@ -32,7 +32,7 @@ void message_encrypter(string input)
 
     for (int i = 0; i <=26; i++)
     {
-        alfabet_upper[i] = alfabet_lower
+        alfabet_upper[i] = alfabet_lower[i]
     }
     
     

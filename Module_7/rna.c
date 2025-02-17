@@ -10,8 +10,13 @@ int main(void)
 {
     // ask input
     string DNA = get_string("DNA: ");
-    if (DNA )
+    
+    //input check
+    //main returns 1!!
+    
+    // 
 }
 
 
 //functions
+

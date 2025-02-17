@@ -8,6 +8,8 @@
 // main script
 int main(void)
 {
+    valid = false; 
+    
     // ask input 
     do 
     { 

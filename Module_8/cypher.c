@@ -30,7 +30,11 @@ void message_encrypter(string input)
     char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
     char alfabet_upper[26];
 
-    for (int i = 0; i <)
+    for (int i = 0; i <=26; i++)
+    {
+        alfabet_upper[i] = alfabet_lower
+    }
+    
     
     
     

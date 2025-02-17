@@ -65,4 +65,5 @@ bool two_char_in_row(string pasword, int length)
         }
         
     }
+    if en
 }

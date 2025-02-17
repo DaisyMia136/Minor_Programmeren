@@ -9,7 +9,10 @@
 int main(void)
 {
     // ask input 
-    string input = get_string("")
+    string input = get_string("Geef een formule: ");
+    
+    // haakjes checker
+    
 }
 
 //functions

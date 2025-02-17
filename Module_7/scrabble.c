@@ -17,3 +17,4 @@ int main(void)
 }
 
 //functions
+// calculate points 

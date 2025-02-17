@@ -48,7 +48,7 @@ int DNA_input(string DNA)
         if (DNA[nucleotide] == 'U' || DNA[nucleotide] == 'u')
         {
             U_counter++;
-            printf("%i\n", non_nucleotide_counter);
+            printf("U counter%i\n", U_counter);
 
         }
         

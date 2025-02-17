@@ -31,7 +31,7 @@ bool pasword_checker(pasword)
 {
     // check if pasword is 8 characters long 
     length = strlen(pasword);
-    if length <
+    if length < 8)
     
     // check if no two characters are subsequently the same
     

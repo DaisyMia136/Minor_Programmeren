@@ -54,8 +54,10 @@ bool pasword_checker(string pasword)
     }
     
     // if non of the criteria are hit, return true
-    return true;
-    
+    else
+    { 
+        return true;
+    }
 }
 
 bool two_char_in_row(string pasword, int length)

@@ -124,7 +124,7 @@ void message_encrypter(string input)
         }
         else if (input[letter] == 'r')
         {
-            printf("%c", 'y');
+            printf("%c", '');
 
         }
     }

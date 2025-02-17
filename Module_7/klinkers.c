@@ -18,7 +18,9 @@ int main(void)
     int vowel_2 = vowel_counter(woord_2);
     
     // print result
-    if(vo)
+    if(vowel_1 < vowel_2)
+    { 
+        printf(vowel_2)
 }
 
 //functions

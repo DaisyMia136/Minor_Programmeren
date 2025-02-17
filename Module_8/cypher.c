@@ -129,7 +129,7 @@ void message_encrypter(string input)
             printf("%c", 'R');
 
         }
-        else if (input[letter] == 'j' || input[letter] == 'J')
+        else if (input[letter] == 'j')
         {
             printf("%c", 'q');
 

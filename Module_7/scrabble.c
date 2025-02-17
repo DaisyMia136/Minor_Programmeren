@@ -61,6 +61,8 @@ calc_scrabble_points(string word)
             points =+ 5;
         }
         else if (word[letter] == 'j' || word[letter] == 'x')
+        { 
+            points =+ 8;
         
     }
 }

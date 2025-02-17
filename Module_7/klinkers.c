@@ -24,6 +24,10 @@ int vowel_counter(string woord)
     int vowel_counter = 0;
     int word_length = strlen(woord);
     
-    for(letters=0; )
+    for(letters=0; letters <= word_length; letters++)
+    {
+        
+    }
+    }
     
 }

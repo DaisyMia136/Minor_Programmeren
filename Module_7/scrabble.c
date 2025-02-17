@@ -64,7 +64,10 @@ calc_scrabble_points(string word)
         { 
             points =+ 8;
         }
-        else if (word[letter] == 'q' || word[letter] == 'z' || 
+        else if (word[letter] == 'q' || word[letter] == 'z')
+        {
+            points =+ 10;
+        }
         
     }
 }

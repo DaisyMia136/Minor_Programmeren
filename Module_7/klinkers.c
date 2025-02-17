@@ -26,7 +26,7 @@ int vowel_counter(string woord)
     
     for(letter=0; letter <= word_length; letter++)
     {
-        if(woord[letter] == 'a' || woord[letter] == 'e' ||
+        if(woord[letter] == 'a' || woord[letter] == 'e' || woord[letter] == 'u' || woord[letter] == 'a' ||
     }
     
 }

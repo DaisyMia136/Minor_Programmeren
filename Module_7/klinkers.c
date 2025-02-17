@@ -20,7 +20,7 @@ int main(void)
     // print result
     if(vowel_1 < vowel_2)
     { 
-        printf(vowel_2);
+        printf("%s", vowel_2);
     } 
     else if (vowel_2 < vowel_1)
     { 

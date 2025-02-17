@@ -9,7 +9,7 @@
 int main(void)
 {
     // ask input
-    
+    string input = get_string("plaintext: ")
     
     //encrypt message 
     

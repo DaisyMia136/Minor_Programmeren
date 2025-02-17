@@ -20,5 +20,8 @@ int main(void)
 //functions
 void bracket_checker(string input)
 {
+    // initial variables
+    
+    // calc length input
     
 }

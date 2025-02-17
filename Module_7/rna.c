@@ -50,7 +50,6 @@ int DNA_input(string DNA)
         
         if (DNA[nucleotide] != 'A' && DNA[nucleotide] != 'a' && DNA[nucleotide] != 'G' && DNA[nucleotide] != 'g' && DNA[nucleotide] != 'C' && DNA[nucleotide] != 'c' && DNA[nucleotide] != 'T' && DNA[nucleotide] != 't')
         {
-            
             non_nucleotide_coutner++;
         }
     }

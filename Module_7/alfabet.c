@@ -42,10 +42,12 @@ void dictionary_check(string woord_1, string woord_2)
         if(woord_1[letter] < woord_2(letter))
         {
             printf("%s\n", woord_1);
+            end_counter++;
         }
         else if (woord_2[letter] < woord_1[letter])
         {
             printf("%s\n", woord_2);
+            end_counter++
         }
         else 
         {

@@ -99,7 +99,7 @@ void message_encrypter(string input)
 
         }
         
-        else if (input[letter] == 'g' || input[letter] == 'G')
+        else if (input[letter] == 'g')
         {
             printf("%c", 't');
 

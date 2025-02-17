@@ -20,6 +20,10 @@ int main(void)
         { 
                 valid = true;
         }
+        else
+        {
+            printf("")
+        }
     }
     while(valid = false);
     

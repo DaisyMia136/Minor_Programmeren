@@ -31,6 +31,9 @@ void message_encrypter(string input)
     for (int letter = 0; letter < length; letter++ && counter +=2)
     {
         if (islower(input[letter]))
+        {
+            
+        }
         
         if(input[letter] == 'a')
         {

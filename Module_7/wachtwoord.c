@@ -53,6 +53,7 @@ bool pasword_checker(string pasword)
         return false;
     }
     
+    // if non of the criteria are hit, return true
     return true;
     
 }

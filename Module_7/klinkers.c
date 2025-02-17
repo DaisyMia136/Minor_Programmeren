@@ -24,12 +24,12 @@ int main(void)
     } 
     else if (vowel_2 < vowel_1)
     { 
-        printf("%s", woord_1);
+        printf("%s\n", woord_1);
     }
     else
     {
-        printf("%s", woord_1);
-        printf("%s", woord_2);
+        printf("%s\n", woord_1);
+        printf("%s\n", woord_2);
     }
 }
 

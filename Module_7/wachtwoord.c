@@ -28,7 +28,7 @@ int main(void)
             printf("Niet sterk genoeg!\n");
         }
     }
-    while(valid = false);
+    while(valid == false);
     
     
     

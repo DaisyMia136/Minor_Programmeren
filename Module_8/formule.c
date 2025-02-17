@@ -8,7 +8,8 @@
 // main script
 int main(void)
 {
-    
+    // ask input 
+    string input = get_string("")
 }
 
 //functions

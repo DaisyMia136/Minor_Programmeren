@@ -13,7 +13,7 @@ int main(void)
     // ask input 
     do 
     { 
-        string pasword = get_string(" Wachtwoord? ");
+        string pasword = get_string("Wachtwoord? ");
         bool strong = pasword_checker(pasword);
         if (strong)
         { 

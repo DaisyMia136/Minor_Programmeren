@@ -27,7 +27,7 @@ calc_scrabble_points(string word)
     int length = strlen(word);
     
     //loop through all letters
-    for(int letters = 0; )
+    for(int letter = 0; letter < length)
     
     // convert all uppercase letters to lower case
 }

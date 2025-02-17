@@ -24,7 +24,7 @@ int main(void)
     } 
     else if (vowel_2 < vowel_1)
     { 
-        printf(vo)
+        printf(vowel_1)
     } 
 }
 

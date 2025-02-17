@@ -15,7 +15,8 @@ int main(void)
         bool strong = pasword_checker(pasword);
         if (strong)
         { 
-        valid = true
+                valid = true
+        }
     }
     
     // pasword checker

@@ -7,11 +7,11 @@
 // main script 
 int main(void)
 {
-    //ask input
+    // ask input
     string woord_1 = get_string("Woord 1: ");
     string woord_2 = get_string("Woord 2: ");
     
-    //vowel count
+    // vowel count
 }
 
 //functions

@@ -98,7 +98,7 @@ void message_encrypter(string input)
             printf("%c", 'o');
 
         }
-        else if (input[letter] == 'b')
+        else if (input[letter] == 'm')
         {
             printf("%c", 'y');
 

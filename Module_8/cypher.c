@@ -27,7 +27,7 @@ void message_encrypter(string input)
     int length = strlen(input);
     
     // setup array with the alphabet
-    char alfabet[26] = { a, b, c, d, e, f, h, i, j ,
+    char alfabet[26] = { a, b, c, d, e, f, g, h, i, j ,
     
     
     

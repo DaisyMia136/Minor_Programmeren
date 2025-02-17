@@ -20,6 +20,7 @@ int main(void)
         { 
                 valid = true;
         }
+        
     }
     while(valid = false);
     

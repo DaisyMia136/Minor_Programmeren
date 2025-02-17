@@ -194,6 +194,6 @@ void message_encrypter(string input)
         {
             printf("%c", input[letter]);
         }
-    }
+    
     
 }

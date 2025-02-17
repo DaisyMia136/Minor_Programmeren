@@ -38,5 +38,7 @@ void bracket_checker(string input)
         {
             open_counter++;
         }
+        
+        if 
     }
 }

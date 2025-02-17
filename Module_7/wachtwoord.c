@@ -53,6 +53,8 @@ bool pasword_checker(string pasword)
         return false;
     }
     
+    return true;
+    
 }
 
 bool two_char_in_row(string pasword, int length)

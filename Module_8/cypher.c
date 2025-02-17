@@ -58,6 +58,7 @@ void message_encrypter(string input)
             printf("%c", 'w');
 
         }
+        
     }
     
 }

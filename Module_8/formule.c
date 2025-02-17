@@ -20,5 +20,5 @@ int main(void)
 //functions
 void bracket_checker(string input)
 {
-    while letter < strlen
+    while letter < strlen(input)
 }

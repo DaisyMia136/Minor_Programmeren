@@ -21,5 +21,8 @@ int main(void)
 //functions
 
 // calculate points 
-
+calc_scrabble_points(string word_1, string (word_2))
+{
+    
+}
 

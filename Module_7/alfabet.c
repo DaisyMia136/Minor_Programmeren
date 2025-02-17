@@ -41,7 +41,7 @@ void dictionary_check(string woord_1, string woord_2)
     }
     
     // loop through the shortest word
-    for (int letter = 0; letter > length || end_counter > 0; letter++)
+    for (int letter = 0; letter < length || end_counter > 0; letter++)
     {
         // convert all characters to lowercase
         woord_1[letter] = tolower(woord_1[letter]); 

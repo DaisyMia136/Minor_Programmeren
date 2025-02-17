@@ -21,7 +21,7 @@ int main(void)
 //functions
 
 // calculate points 
-calc_scrabble_points(string word)
+int calc_scrabble_points(string word)
 {
     //initial counter
     int points = 0;

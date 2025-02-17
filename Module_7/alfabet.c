@@ -31,7 +31,6 @@ void dictionary_check(string woord_1, string woord_2)
     int length_2 = strlen(woord_2);
     string woord_lower_1[length_1];
     string woord_lower_2[length_2];
-    printf("%c", woord_lower_1);
     
     // find the shortest word length
     if (length_1 > length_2)
@@ -44,23 +43,23 @@ void dictionary_check(string woord_1, string woord_2)
     }
     
     // loop through the shortest word
-    // for (int letter = 0; letter <= length && end_counter == 0; letter++)
-    // {
-    //     // convert all characters to lowercase
-    //     woord_lower_1[letter] = tolower(woord_1[letter]); 
-    //     woord_lower_2[letter] = tolower(woord_2[letter]);
+    for (int letter = 0; letter <= length && end_counter == 0; letter++)
+    {
+        // convert all characters to lowercase
+        woord_lower_1[letter] = tolower(woord_1[letter]); 
+        woord_lower_2[letter] = tolower(woord_2[letter]);
         
-    //     if(woord_lower_1[letter] < woord_lower_2[letter])
-    //     {
-    //         printf("%s\n", woord_1);
-    //         end_counter++;
-    //     }
-    //     else if (woord_lower_2[letter] < woord_lower_1[letter])
-    //     {
-    //         printf("%s\n", woord_2);
-    //         end_counter++;
-    //     }
-    // }
+        if(woord_lower_1[letter] < woord_lower_2[letter])
+        {
+            printf("%s\n", woord_1);
+            end_counter++;
+        }
+        else if (woord_lower_2[letter] < woord_lower_1[letter])
+        {
+            printf("%s\n", woord_2);
+            end_counter++;
+        }
+    }
     
     if (end_counter == 0)
     { 

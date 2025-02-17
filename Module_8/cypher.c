@@ -35,10 +35,10 @@ void message_encrypter(string input)
         printf("%c", alfabet[26 + i]);
     }
     
-    // for (int letter = 0; letter < length; letter++)
-    // {
-    //     printf("%c", input[letter] + 26);
-    // }
+    for (int letter = 0; letter < length; letter++)
+    {
+        printf("%c", input[letter] + 26);
+    }
     
     
     

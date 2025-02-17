@@ -31,7 +31,7 @@ void message_encrypter(string input)
 
     for (int i = 0; i <=26; i++)
     {
-        alfabet_lower[26 + i] = toupper(alfabet[i]);
+        alfabet[26 + i] = toupper(alfabet[i]);
         printf("%c\n", alfabet[26 + i]);
     }
     

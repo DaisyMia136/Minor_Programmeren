@@ -23,8 +23,11 @@ void dictionary_check(string woord_1, string woord_2)
 { 
     // set end_counter
     int end_counter = 0;
+    
+    // convert all characters to lowercase
     woord_1 = tolower(woord_1); 
     woord_2 = tolower(woord_2);
+    
     
     int length_1 = strlen(woord_1);
     int length_2 = strlen(woord_2);

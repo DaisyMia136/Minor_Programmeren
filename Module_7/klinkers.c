@@ -22,6 +22,7 @@ int main(void)
 int vowel_counter(string woord)
 {
     vowel_counter = 0;
-    word_length = strlen()
+    word_length = strlen(woord);
+    
     
 }

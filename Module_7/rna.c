@@ -39,7 +39,7 @@ int DNA_input(string DNA)
 {
     int DNA_length = strlen(DNA);
     int U_counter = 0;
-    int non_nucleotide_coutner = 0;
+    int non_nucleotide_counter = 0;
     //input check
     for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
     {

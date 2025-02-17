@@ -8,3 +8,6 @@ else if character != A,a,C,c,G,g,T,t
 return 1
 
 if 1 is returned 
+print invalid DNA 
+return 1;
+

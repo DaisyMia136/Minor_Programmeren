@@ -12,13 +12,7 @@ int DNA_input(void);
 int main(void)
 {
     // ask input
-    string DNA = get_string("DNA: ");
     
-    //input check
-    for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
-    {
-        
-    }
 
     
     // print RNA
@@ -28,7 +22,13 @@ int main(void)
 //functions
 int DNA_input(void)
 {
+    string DNA = get_string("DNA: ");
     
+    //input check
+    for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
+    {
+        
+    }
 }
 
 int print_RNA(string DNA)

@@ -24,8 +24,10 @@ int main(void)
     } 
     else if (vowel_2 < vowel_1)
     { 
-        printf("%s", vowel_1)
-    } 
+        printf("%s", vowel_1);
+    }
+    else
+    
 }
 
 //functions

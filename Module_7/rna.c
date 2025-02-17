@@ -53,7 +53,7 @@ int DNA_input(string DNA)
             non_nucleotide_coutner++;
         }
     }
-    printf("%i")
+    printf("%i\n", U_counter);
     
     if(non_nucleotide_coutner > 0)
     {

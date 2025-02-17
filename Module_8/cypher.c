@@ -25,6 +25,9 @@ void message_encrypter(string input)
     
     
     // calc input length
+    int length = strlen(input);
     
+    // loop through letters and encrypt 
+    for (int letter = )
     
 }

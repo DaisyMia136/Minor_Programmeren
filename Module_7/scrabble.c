@@ -52,7 +52,7 @@ calc_scrabble_points(string word)
         { 
             points =+ 3;
         }
-        else if (word[letter] == 'f' || word[letter] == 'h' || word[letter] == 'v' || )
+        else if (word[letter] == 'f' || word[letter] == 'h' || word[letter] == 'v' || word[letter] == 'w' || )
     }
 }
 

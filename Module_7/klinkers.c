@@ -15,7 +15,10 @@ int main(void)
     
     // vowel count
     int vowel_1 = vowel_counter(woord_1);
-    int vowel_2 = vowel_counter(woord_2)
+    int vowel_2 = vowel_counter(woord_2);
+    
+    // print result
+    if(vo)
 }
 
 //functions

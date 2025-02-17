@@ -23,5 +23,7 @@ void bracket_checker(string input)
     // initial variables
     
     // calc length input
-    int length = strlen()
+    int length = strlen(input);
+    
+    
 }

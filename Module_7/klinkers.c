@@ -39,7 +39,7 @@ int vowel_counter(string woord)
     int vowel_counter = 0;
     int word_length = strlen(woord);
     
-    for(letter=0; letter <= word_length; letter++)
+    for(int letter=0; letter <= word_length; letter++)
     {
         if (woord[letter] == 'a' || woord[letter] == 'e' || woord[letter] == 'u' || woord[letter] == 'i' || woord[letter] == 'o' || woord[letter] == 'A' || woord[letter] == 'E' || woord[letter] == 'U' || woord[letter] == 'I' || woord[letter] == 'O')
         {

@@ -53,6 +53,6 @@ void bracket_checker(string input)
     }
     else
     {
-        
+        printf("")
     }
 }

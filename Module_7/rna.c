@@ -25,7 +25,7 @@ int main(void)
 
 
 //functions
-DNA_input(void)
+int DNA_input(void)
 
 int print_RNA(string DNA)
 {

@@ -48,6 +48,7 @@ bool pasword_checker(pasword)
     
     // check if no two characters are subsequently the same
     
+    
 }
 
 bool two_char_in_row(string pasword, int length)

@@ -18,6 +18,7 @@ int main(void)
                 valid = true;
         }
     }
+    while(valid = false);
     
     // pasword checker
     

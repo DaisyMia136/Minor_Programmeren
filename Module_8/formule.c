@@ -47,5 +47,8 @@ void bracket_checker(string input)
         }
     }
     
-    if open_counter > closed_counter)
+    if (open_counter > closed_counter)
+    {
+        printf("")
+    }
 }

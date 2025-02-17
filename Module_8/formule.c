@@ -16,3 +16,7 @@ int main(void)
 }
 
 //functions
+void bracket_checker(string input)
+{
+    
+}

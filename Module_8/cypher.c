@@ -73,17 +73,17 @@ void message_encrypter(string input)
             printf("%c", 't');
 
         }
-        else if (input[letter] == 'h')
+        else if (input[letter] == 'h' || input[letter] == 'A')
         {
             printf("%c", 's');
 
         }
-        else if (input[letter] == 'i')
+        else if (input[letter] == 'i' || input[letter] == 'A')
         {
             printf("%c", 'r');
 
         }
-        else if (input[letter] == 'j')
+        else if (input[letter] == 'j'v)
         {
             printf("%c", 'q');
 

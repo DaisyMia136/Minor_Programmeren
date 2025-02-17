@@ -27,7 +27,9 @@ int main(void)
         printf("%s", vowel_1);
     }
     else
-    
+    {
+        
+    }
 }
 
 //functions

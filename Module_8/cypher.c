@@ -30,7 +30,7 @@ void message_encrypter(string input)
     // loop through letters and encrypt 
     for (int letter = 0; letter < length; letter++ && counter +=2)
     {
-        if (input[letter])
+        if (islower(input[letter])
         
         if(input[letter] == 'a')
         {

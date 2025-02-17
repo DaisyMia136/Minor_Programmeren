@@ -17,7 +17,7 @@ int main(void)
     
     if (valid == 1)
     {
-        printf("Invalid DNA");
+        printf("Invalid DNA\n");
         return 1; // DNA contains non nucleotide
     }
     else if (valid == 2)

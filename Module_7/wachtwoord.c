@@ -12,7 +12,9 @@ int main(void)
     do 
     { 
         string pasword = get_string(" Wachtwoord? ");
-        strong =pasword_checker(pasword);
+        bool strong = pasword_checker(pasword);
+        if (strong)
+        
     }
     
     // pasword checker

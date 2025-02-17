@@ -49,7 +49,7 @@ bool pasword_checker(pasword)
     // check if no two characters are subsequently the same
     if(two_char_in_row(pasword, length))
     {
-        
+        return false;
     }
     
 }

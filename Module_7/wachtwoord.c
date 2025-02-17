@@ -50,7 +50,7 @@ bool pasword_checker(pasword)
     
 }
 
-bool two_char_in_row(pasword, length)
+bool two_char_in_row(string pasword, int length)
 {
     
 }

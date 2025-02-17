@@ -29,27 +29,6 @@ void message_encrypter(string input)
     // loop through letters and encrypt 
     for (int letter = 0; letter < length; letter++)
     {
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         // if (islower(input[letter]))
         // {
         //     input[letter] = toupper(input[letter]);

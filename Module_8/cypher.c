@@ -126,7 +126,7 @@ void message_encrypter(string input)
         }
         else if (input[letter] == 'I')
         {
-            printf("%c", 'Z');
+            printf("%c", 'R');
 
         }
         else if (input[letter] == 'j' || input[letter] == 'J')

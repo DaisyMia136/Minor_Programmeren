@@ -43,7 +43,7 @@ void message_encrypter(string input)
         {
             printf("%c", 'z');
         }
-        else()
+        else(input[letter] == 'a')
     }
     
 }

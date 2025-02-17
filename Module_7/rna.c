@@ -31,6 +31,5 @@ void print_RNA(string DNA)
     {
         
     }
-    }
     
 }

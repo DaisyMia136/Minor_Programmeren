@@ -38,6 +38,7 @@ void message_encrypter(string input)
             input[letter] = tolower(input[letter])
         }
         
+        // flip the alfabet :/
         if(input[letter] == 'a')
         {
             printf("%c", 'z');

@@ -14,7 +14,8 @@ int main(void)
     string DNA = get_string("DNA: ");
     
     //input check
-    //main returns 1!!
+    for(int nucleotide = 0; nucleotide <= DNA_length; nucleotide++)
+
     
     // print RNA
 }

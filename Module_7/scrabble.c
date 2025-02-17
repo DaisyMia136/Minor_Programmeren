@@ -39,7 +39,7 @@ int calc_scrabble_points(string word)
         // convert all uppercase letters to lower case
         if (isupper(word[letter]))
         {
-            word[letter] = word[letter + 32];
+            word[letter] = word[letter] + 32;
         }
         
         // calculate points

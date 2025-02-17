@@ -4,6 +4,7 @@
 #include <ctype.h>
 
 // function prototypes
+bool pasword_checker(pasword);
 
 // main script
 int main(void)

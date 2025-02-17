@@ -25,6 +25,8 @@ int main(void)
 
 
 //functions
+DNA_input()
+
 int print_RNA(string DNA)
 {
     // length input

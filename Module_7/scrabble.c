@@ -25,6 +25,7 @@ calc_scrabble_points(string word)
 {
     // calc length of word
     int length = strlen(word);
+    int points = 0;
     
     //loop through all letters
     for(int letter = 0; letter < length; letter++)
@@ -34,6 +35,8 @@ calc_scrabble_points(string word)
         {
             word[letter] = word[letter + 32];
         }
+        
+        // calculate points
     }
 }
 

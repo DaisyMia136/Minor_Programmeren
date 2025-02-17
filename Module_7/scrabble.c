@@ -18,6 +18,12 @@ int main(void)
     // calculate points 
     points_1 = calc_scrabble_points(word_1);
     points_2 = calc_scrabble_points(word_2);
+    
+    // decide the winner
+    if (points_1 < points_2)
+    {
+        printf("Player 1 ")
+    }
 
 }
 

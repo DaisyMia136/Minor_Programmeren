@@ -30,7 +30,10 @@ void message_encrypter(string input)
     // loop through letters and encrypt 
     for (int letter = 0; letter < length; letter++ && counter +=2)
     {
-        if()
+        if(input[letter] == 'a')
+        {
+            printf("%c", )
+        }
     }
     
 }

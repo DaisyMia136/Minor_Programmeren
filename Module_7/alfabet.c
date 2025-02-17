@@ -29,8 +29,8 @@ void dictionary_check(string woord_1, string woord_2)
     // get length of both strings
     int length_1 = strlen(woord_1);
     int length_2 = strlen(woord_2);
-    string woord_lower_1 = string[length_1];
-    string woord_lower_2 = string[length_2];
+    string woord_lower_1[length_1];
+    string woord_lower_2[length_2];
     
     // find the shortest word length
     if (length_1 > length_2)

@@ -38,11 +38,6 @@ void message_encrypter(string input)
             input[letter] = tolower(input[letter])
         }
         
-        
-        input[letter] = input[letter] + 
-        
-        
-        
         if(input[letter] == 'a')
         {
             printf("%c", 'z');

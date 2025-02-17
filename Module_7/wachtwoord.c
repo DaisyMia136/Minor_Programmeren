@@ -30,7 +30,8 @@ int main(void)
 bool pasword_checker(pasword)
 {
     // check if pasword is 8 characters long 
-    length = 
+    length = strlen(pasword);
+    if length <
     
     // check if no two characters are subsequently the same
     

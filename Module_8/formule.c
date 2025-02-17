@@ -42,6 +42,7 @@ void bracket_checker(string input)
         if (closed_counter > open_counter)
         {
             printf("Er wordt een haakje te vroeg gesloten.\n")
+            end_counter++;
         }
     }
 }

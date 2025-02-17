@@ -40,7 +40,7 @@ calc_scrabble_points(string word)
         }
         
         // calculate points
-        if(word[letter] == 'a' || word[letter] == 'e' || word[letter] == 'i' || word[letter] == 'l' || word[letter] == 'n' || word[letter] == 'n' || word[letter] == 'o' || word[letter] == 'r' || word[letter] == 's' || word[letter] == 't' || word[letter] == '' || )
+        if(word[letter] == 'a' || word[letter] == 'e' || word[letter] == 'i' || word[letter] == 'l' || word[letter] == 'n' || word[letter] == 'n' || word[letter] == 'o' || word[letter] == 'r' || word[letter] == 's' || word[letter] == 't' || word[letter] == 'u' )
     }
 }
 

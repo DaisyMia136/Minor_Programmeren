@@ -68,8 +68,7 @@ int calc_scrabble_points(string word)
         {
             points =+ 10;
         }
-        return points;
-        
     }
+    return points;
 }
 

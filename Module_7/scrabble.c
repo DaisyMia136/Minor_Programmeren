@@ -8,7 +8,8 @@
 // main script
 int main(void)
 {
-    
+    // ask input
+    string word_1 = 
 }
 
 //functions

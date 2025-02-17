@@ -54,6 +54,7 @@ int DNA_input(string DNA)
         }
     }
     
+    
     if(non_nucleotide_counter > 0)
     {
         return 1;

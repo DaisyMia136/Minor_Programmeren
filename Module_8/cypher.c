@@ -103,6 +103,10 @@ void message_encrypter(string input)
         {
             printf("%c", 't');
 
+        }else if (input[letter] == 'A')
+        {
+            printf("%c", 'Z');
+
         }
         else if (input[letter] == 'h' || input[letter] == 'H')
         {

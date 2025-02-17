@@ -26,7 +26,7 @@ void message_encrypter(string input)
     // calc input length
     int length = strlen(input);
     
-    
+    // setup 
     
     
     

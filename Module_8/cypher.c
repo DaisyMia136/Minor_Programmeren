@@ -30,7 +30,7 @@ void message_encrypter(string input)
     // loop through letters and encrypt 
     for (int letter = 0; letter < length; letter++)
     {
-        printf("%c", input[letter] +26)
+        printf("%c", input[letter] + 26)
     }
     
 }

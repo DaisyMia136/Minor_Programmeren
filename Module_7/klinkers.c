@@ -23,6 +23,9 @@ int main(void)
         printf(vowel_2);
     } 
     else if (vowel_2 < vowel_1)
+    { 
+        printf(vo)
+    } 
 }
 
 //functions

@@ -9,9 +9,10 @@
 int main(void)
 {
     // ask input
-    string input = get_string("plaintext: ")
+    string input = get_string("plaintext: ");
     
     //encrypt message 
+    
     
     return 0;
 }

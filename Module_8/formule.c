@@ -21,6 +21,7 @@ int main(void)
 void bracket_checker(string input)
 {
     // initial variables
+    closed_counter = 0;
     
     // calc length input
     int length = strlen(input);
@@ -28,9 +29,10 @@ void bracket_checker(string input)
     // loop through characters
     for (int character = 0; character < length; character++)
     {
-        if(input[character] == '(')
+        if(input[character] == ')')
         {
-            
+            closed_counter++;
         }
+        
     }
 }

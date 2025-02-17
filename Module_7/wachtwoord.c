@@ -67,7 +67,7 @@ bool two_char_in_row(string pasword, int length)
     char letter_1 = ' ';
     char letter_2 = ' ';
     
-    // loop through letters 
+    // loop through letters and check if current letter is the same as the next letter
     for (int letter = 0; letter < length && end_counter == 0; letter++)
     { 
         letter_1 = pasword[letter];

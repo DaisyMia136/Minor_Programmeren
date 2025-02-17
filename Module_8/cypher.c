@@ -4,6 +4,7 @@
 #include <ctype.h>
 
 //function prototypes
+void message_encrypter(string input);
 
 // main script
 int main(void)
@@ -19,3 +20,6 @@ int main(void)
 
 //functions
 void message_encrypter(string input)
+{
+    
+}

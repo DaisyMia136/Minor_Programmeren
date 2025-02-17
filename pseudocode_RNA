@@ -13,4 +13,7 @@ return 1;
 
 else 
 print RNA 
-    
+    loop through string 
+    if character == a or A
+    print U
+    repeat of other nucleotides 

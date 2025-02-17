@@ -274,6 +274,11 @@ void message_encrypter(string input)
             printf("%c", 'c');
 
         }
+        else if (input[letter] == 'X')
+        {
+            printf("%c", 'C');
+
+        }
         else if (input[letter] == 'y' || input[letter] == 'Y')
         {
             printf("%c", 'b');

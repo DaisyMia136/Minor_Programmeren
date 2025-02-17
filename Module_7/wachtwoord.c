@@ -62,7 +62,7 @@ bool pasword_checker(string pasword)
 
 bool two_char_in_row(string pasword, int length)
 {
-    end_counter = 0;
+    int end_counter = 0;
     char letter_1 = ' ';
     char letter_2 = ' ';
     

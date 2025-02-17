@@ -84,6 +84,6 @@ bool two_char_in_row(string pasword, int length)
     
     if (end_counter == 0)
     {
-        return  false; // false because no two the same characters in a row were found
+        return false; // false because no two the same characters in a row were found
     }
 }

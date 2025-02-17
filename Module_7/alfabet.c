@@ -29,6 +29,7 @@ void dictionary_check(string woord_1, string woord_2)
     // get length of both strings
     int length_1 = strlen(woord_1);
     int length_2 = strlen(woord_2);
+    // initiate lower case word 1 and 2 variables
     char woord_lower_1[length_1];
     char woord_lower_2[length_2];
 

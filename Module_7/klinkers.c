@@ -15,4 +15,6 @@ int main(void)
 }
 
 //functions
-int vowel_counter()
+int vowel_counter(string)
+{
+}

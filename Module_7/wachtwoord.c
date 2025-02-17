@@ -37,7 +37,7 @@ int main(void)
 }
 
 // functions
-bool pasword_checker(pasword)
+bool pasword_checker(string pasword)
 {
     // check if pasword is 8 characters long 
     length = strlen(pasword);

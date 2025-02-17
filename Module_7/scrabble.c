@@ -17,7 +17,7 @@ int main(void)
     
     // calculate points 
     points_1 = calc_scrabble_points(word_1);
-    points_1 = calc_scrabble_points(word_2);
+    points_2 = calc_scrabble_points(word_2);
 
 }
 

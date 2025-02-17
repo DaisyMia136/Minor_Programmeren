@@ -3,6 +3,8 @@
 #include <cs50.h>
 
 //function prototypes
+void dictionary_check(string woord_1, string woord_2)
+
 
 // main script
 int main(void)

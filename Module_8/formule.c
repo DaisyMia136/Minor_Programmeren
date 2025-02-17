@@ -39,6 +39,9 @@ void bracket_checker(string input)
             open_counter++;
         }
         
-        if (closed_counter 
+        if (closed_counter > open_counter)
+        {
+            printf("")
+        }
     }
 }

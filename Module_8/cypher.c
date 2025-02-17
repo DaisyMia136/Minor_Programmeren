@@ -80,7 +80,7 @@ void message_encrypter(string input)
         }
         else if (input[letter] == 'i')
         {
-            printf("%c", 'y');
+            printf("%c", 'r');
 
         }
     }

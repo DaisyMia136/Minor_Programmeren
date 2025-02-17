@@ -22,7 +22,7 @@ int main(void)
     { 
         printf(vowel_2);
     } 
-    else if (v)
+    else if (vowel_2 < vowel_1)
 }
 
 //functions

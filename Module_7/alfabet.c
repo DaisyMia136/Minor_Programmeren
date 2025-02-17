@@ -11,7 +11,8 @@ int main(void)
     string woord_1 = get_string("Woord 1: ");
     string woord_2 = get_string("Woord 2: ");
     
-    // dictionairy check
+    // dictionary check
+    
     
 }
 

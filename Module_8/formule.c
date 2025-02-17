@@ -4,6 +4,8 @@
 #include <ctype.h>
 
 //function prototypes
+void bracket_checker(string input);
+
 
 // main script
 int main(void)

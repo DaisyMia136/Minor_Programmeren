@@ -26,8 +26,7 @@ int vowel_counter(string woord)
     
     for(letters=0; letters <= word_length; letters++)
     {
-        
-    }
+        if 
     }
     
 }

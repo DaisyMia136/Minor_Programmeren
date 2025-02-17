@@ -36,7 +36,7 @@ void dictionary_check(string woord_1, string woord_2)
         length = length_2;
     }
     
-    for 
+    for (letter = 0; )
     
     
     

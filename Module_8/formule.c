@@ -49,10 +49,10 @@ void bracket_checker(string input)
     
     if (open_counter > closed_counter)
     {
-        printf("Er worden te weinig haakjes gesloten.")
+        printf("Er worden te weinig haakjes gesloten.\n");
     }
     else
     {
-        printf("Er zijn geen fouten.\n")
+        printf("Er zijn geen fouten.\n");
     }
 }

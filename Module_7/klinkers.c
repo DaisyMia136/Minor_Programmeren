@@ -13,11 +13,12 @@ int main(void)
     string woord_2 = get_string("Woord 2: ");
     
     // vowel count
-    vowel_counter(woord_1);
+    int vowel_1 = vowel_counter(woord_1);
+    int vowel_2 = vowel_counter(woord_2)
 }
 
 //functions
-int vowel_counter(string)
+int vowel_counter(string woord)
 {
     
 }

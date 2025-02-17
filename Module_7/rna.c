@@ -41,7 +41,7 @@ int DNA_input(string DNA)
     int U_counter = 0;
     int non_nucleotide_counter = 0;
     //input check
-    for(int nucleotide = 0; nucleotide <= DNA_length -1; nucleotide++)
+    for(int nucleotide = 0; nucleotide <= DNA_length - 1; nucleotide++)
     {
         printf("nucleotide %i\n", nucleotide);
 

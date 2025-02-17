@@ -3,7 +3,7 @@
 #include <cs50.h>
 
 //function prototypes
-void dictionary_check(string woord_1, string woord_2)
+void dictionary_check(string woord_1, string woord_2);
 
 
 // main script

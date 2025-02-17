@@ -9,6 +9,10 @@
 int main(void)
 {
     // ask input 
+    do 
+    { 
+        string pasword = get_string(" Wachtwoord? ");
+    }
     
     // pasword checker
     

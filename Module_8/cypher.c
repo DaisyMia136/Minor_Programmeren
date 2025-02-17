@@ -143,7 +143,7 @@ void message_encrypter(string input)
         }
         else if (input[letter] == 'v')
         {
-            printf("%c", 'y');
+            printf("%c", 'e');
 
         }
     }

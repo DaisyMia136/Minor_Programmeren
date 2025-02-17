@@ -48,8 +48,7 @@ calc_scrabble_points(string word)
         {
             points =+ 2;
         }
-        
-        
+        else if (word[letter] == 'a' || )
     }
 }
 

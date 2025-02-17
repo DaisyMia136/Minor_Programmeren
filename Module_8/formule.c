@@ -33,6 +33,6 @@ void bracket_checker(string input)
         {
             closed_counter++;
         }
-        else if ()
+        else if (input[character] == ')')
     }
 }

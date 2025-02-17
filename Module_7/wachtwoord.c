@@ -9,6 +9,9 @@
 int main(void)
 {
     // ask input 
+    
+    // paswoord checker
+    
 }
 
 // functions

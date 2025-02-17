@@ -35,7 +35,7 @@ void message_encrypter(string input)
         alfabet_upper[i] = toupper(alfabet_lower[i]);
     }
     
-    
+    for 
     
     
     

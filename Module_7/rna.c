@@ -69,7 +69,7 @@ int DNA_input(string DNA)
 
 }
 
-print_RNA(string DNA)
+void print_RNA(string DNA)
 {
     // length input
     int DNA_length = strlen(DNA);

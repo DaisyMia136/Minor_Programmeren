@@ -21,7 +21,7 @@ int main(void)
 
 
 //functions
-void print_RNA(string DNA)
+int print_RNA(string DNA)
 {
     // length input
     int DNA_length = strlen(DNA);
@@ -32,8 +32,9 @@ void print_RNA(string DNA)
         // print RNA
         
         
-        
-        // input check!
+        // input check
+        //if input contains U or other non A, C, G, T value return 1
+        //else return 0 
     }
     
 }

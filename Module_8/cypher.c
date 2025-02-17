@@ -166,6 +166,10 @@ void message_encrypter(string input)
             printf("%c", 'a');
 
         }
+        else 
+        {
+            printf("%c")
+        }
     }
     
 }

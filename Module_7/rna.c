@@ -5,6 +5,7 @@
 
 // function prototypes
 void print_RNA(string DNA);
+int DNA_input(void);
 
 
 // main script

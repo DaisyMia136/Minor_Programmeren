@@ -48,4 +48,4 @@ bool pasword_checker(pasword)
     
 }
 
-
+bool two_char_in_row()

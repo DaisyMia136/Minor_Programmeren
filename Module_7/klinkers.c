@@ -32,5 +32,6 @@ int vowel_counter(string woord)
         }
         
     }
+    return vowel_counter;
     
 }

@@ -10,4 +10,5 @@ use ascII to check which word came first
     printf(woord_1)
     
     else if woord_1[letter] > woord_2[letter]
-    
+    end_counter++;
+    printf(woord_2)

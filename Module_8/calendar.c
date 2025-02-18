@@ -81,7 +81,7 @@ int number_of_days_from_1800(int year, int month);
     int day_year = days_till_year(year, month);
     
     // calc days between 1st jan and 1st of inputted month
-    void days_till_month(month, year, duration);
+    void days_till_month(year, month, duration);
 
     // check leap years
     

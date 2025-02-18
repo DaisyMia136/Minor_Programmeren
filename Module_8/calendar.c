@@ -117,7 +117,7 @@ bool check_leapyears(int years)
             return true;
         }
     }
-    else if 
+    else if (years % 4 == 0)
     {
         return
     }

@@ -9,7 +9,9 @@
 int main(void)
 {
     // ask input
-    string message = get_string("Message: ")
+    string message = get_string("Message: ");
+    
+    //decrypt
 }
 
 //functions

@@ -19,8 +19,7 @@ int main(void)
 //functions
 void decryptor(string message)
 {
-    // check which letter is most common
-    
+// check which letter is most common
     // message length
     int length = strlen(message);
     

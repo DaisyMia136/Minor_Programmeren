@@ -32,6 +32,7 @@ int main(void) //int argc, char *argv[])
     
 // }
 
+// print calendar
 void display_calendar(int year, int month)
 {
     
@@ -39,7 +40,7 @@ void display_calendar(int year, int month)
     
     display_grid();
 }
-
+// print header
 void display_header(int year, int month)
 {
     // array months

@@ -7,18 +7,20 @@
 void display_calendar(int year, int month);
 void display_header(int year, int month);
 void display_grid(int year, int month);
-int first_day(int year, int month, int duration);
+int first_day(int year, int month);
 int number_of_days_from_1800(int year, int month);
 int days_till_year(int year, int month);
-void days_till_month(int year, int month, int duration);
+int days_till_month(int year, int month);
 bool check_leapyears(int years);
 void space_printer(int first_day);
-void grid_printer(int month, int duration, int first_day);
+void grid_printer(int month, int first_day);
 
 
 
 // constants
 const int start = 3; // the first day of january in 1800 was on a wednesday (3rd day)
+string months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}; 
+int duration[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
 
 // main script
 int main(void)
@@ -45,19 +47,15 @@ void display_calendar(int year, int month)
 // print header
 void display_header(int year, int month)
 {
-    string months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}; 
-    int duration[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
-    printf("          %s %i\n ---------------------------\n Sun Mon Tue Wed Thu Fri Sat Sun\n", months[month-1], year);
+    printf("          %s %i\n ---------------------------\nSun Mon Tue Wed Thu Fri Sat\n", months[month-1], year);
 }
 
 //print grit
 void display_grid(int year, int month)
 {
-    string months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}; 
-    int duration[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
     
     // first day of the month
-    int firstday = first_day(year, month, duration[12]);
+    int firstday = first_day(year, month);
     
     // number of days within month
     int month_days = duration[month - 1];
@@ -65,15 +63,16 @@ void display_grid(int year, int month)
     // print spaces
     space_printer(firstday);
     // print grid
-    grid_printer(month, duration, firstday);
+    grid_printer(month, firstday);
 }
 
-int first_day(int year, int month, int duration)
+int first_day(int year, int month)
 {
     // count number of days between current month and jan 1st number_of_days_from_1800
     int days_between = number_of_days_from_1800(year, month);
     
     int first_day = (days_between + start) % 7;
+    //printf("%i", first_day);
     return first_day;
 }
 
@@ -83,8 +82,8 @@ int number_of_days_from_1800(int year, int month)
     int day_year = days_till_year(year, month);
     
     // calc days between 1st jan and 1st of inputted month
-    int day_month = days_till_month(year, month, duration);
-    days = day_year + day_month;
+    int day_month = days_till_month(year, month);
+    int days = day_year + day_month;
     return days;
 }
 
@@ -92,13 +91,12 @@ int days_till_year(int year, int month)
 {
     // initial variables
     bool leap = false;
-    days = 0;
+    int days = 0;
     
     for(int years = 1800; years < year; years++)
     {
         // check if leap_year
-        leap = check_leapyears(years);
-        if (leap)
+        if (check_leapyears(years))
         {
             days += 366;
         }
@@ -106,25 +104,27 @@ int days_till_year(int year, int month)
         {
             days += 365;
         }
+        
     }
+    //printf("%i\n", days);
     return days;
 }
 
 // days from 1 jan till 1 current month
-void days_till_month(int year, int month, int duration)
+int days_till_month(int year, int month)
 {
     // initial variables
     int days = 0;
     
-    
-    for (int months = 0; months < month; months++)
+    for (int i = 0; i <= month - 2; i++)
     {
-        days += duration[months];
+        days += duration[i];
     }
     if (check_leapyears(year))
     {
         days++;
     }
+    //printf("%i", days);
     return days;
     
 }
@@ -133,21 +133,22 @@ void days_till_month(int year, int month, int duration)
 // check leapyears
 bool check_leapyears(int years)
 {
-    if (years % 400 == 0)
+    // initial variables
+    bool leap = false; 
+    
+    if (years % 100 == 0)
     {
-        if (years & 100 == 0)
+        if (years % 400 == 0)
         {
-            return true;
+            leap = true; 
         }
     }
     else if (years % 4 == 0)
     {
-        return true;
+        leap = true; 
     }
-    else
-    {
-        return false;
-    }
+
+        return leap;
     
 }
 
@@ -155,20 +156,20 @@ bool check_leapyears(int years)
 // print space based on first day 
 void space_printer(int first_day)
 {
-    int number = 4 * first_day;
-    
-    for(i = 0; i < number; i++)
+    int number = first_day - 1;
+    string space = "   ";
+    for(int i = 0; i <= number; i++)
     {
-        printf(" ");
+        printf("%s ", space);
     }
 }
 
 // print grid
-void grid_printer(int month, int duration, int first_day)
+void grid_printer(int month, int first_day)
 {
-    for (int day = 0; day <= duration[month]; day++)
+    for (int day = 1; day <= duration[month - 1]; day++)
     {
-        if ((day + first_day) % 6 == 0)
+        if ((first_day + day) % 7 == 0)
         {
             printf("%3d\n", day);
         }
@@ -178,4 +179,5 @@ void grid_printer(int month, int duration, int first_day)
             
         }
     }
+    printf("\n");
 }

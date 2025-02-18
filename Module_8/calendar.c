@@ -112,6 +112,7 @@ int days_till_year(int year, int month)
 void days_till_month(int month, int duration)
 {
     // initial variables
+    days = 0;
     
     for (int months = 0; months < month; months++)
     {

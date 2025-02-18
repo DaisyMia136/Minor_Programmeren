@@ -154,7 +154,7 @@ bool check_leapyears(int years)
 
 
 // print space based on first day 
-void space_printer(int year int first_day)
+void space_printer(int first_day)
 {
     int number = first_day - 1;
     string space = "   ";

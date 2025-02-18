@@ -88,7 +88,7 @@ int number_of_days_from_1800(int year, int month);
 
 int days_till_year(int year, int month)
 {
-    years_between = year - 1800; 
+    for 
     // count days 
     
     int leap_years = check_leapyears(years_between);

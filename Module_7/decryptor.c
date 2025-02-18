@@ -48,6 +48,8 @@ alfa_sub_lengths[length];
         
         // find current letter as a substring in alfabet_lower
         alfa_sub = strstr(alfabet_lower, message[letter]);
+        
+        // calc length of substring and save it in 
         alfa_sub_lengths[letter] = strlen(alfa_sub);
         
     }

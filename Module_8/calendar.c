@@ -27,10 +27,10 @@ int main(void) //int argc, char *argv[])
 //functions
 
 // ask input
-void input_calendar();
-{
+// void input_calendar();
+// {
     
-}
+// }
 
 void display_calendar(int year, int month)
 {

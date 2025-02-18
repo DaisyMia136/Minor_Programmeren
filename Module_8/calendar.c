@@ -169,7 +169,7 @@ void grid_printer()
     {
         if ((day + first_day) % 6)
         {
-            printf("%3d ", day);
+            printf("%3d\n", day);
         }
         else
     }

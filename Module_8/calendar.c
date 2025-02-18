@@ -165,5 +165,5 @@ void space_printer(int first_day)
 // print grid
 void grid_printer()
 {
-    for (int day =)
+    for (int day = 0; day <= )
 }

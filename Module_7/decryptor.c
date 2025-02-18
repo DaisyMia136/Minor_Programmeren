@@ -23,7 +23,7 @@ void decryptor(string message)
     // message length
     int length = strlen(message);
     
-    for()
+    for(letter )
     
     // calc difference between most common letter and 'e'
     

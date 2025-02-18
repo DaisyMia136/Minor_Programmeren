@@ -77,7 +77,7 @@ int first_day(int year, int month, int duration)
 
 int number_of_days_from_1800();
 {
-    // check years between 1800 and input years
+    // calc years between 1800 and input years 
     
-    // 
+    // calc days between 1st jan  
 }

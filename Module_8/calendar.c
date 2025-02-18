@@ -18,4 +18,8 @@ int main(void)
 //functions
 
 // ask input
-void input_calendar()
+void input_calendar();
+{
+    
+}
+}

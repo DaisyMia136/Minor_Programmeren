@@ -63,4 +63,8 @@ void display_grid(int year, int month, int duration)
     // print grid
 }
 
-int 
+int first_day()
+{
+    
+}
+}

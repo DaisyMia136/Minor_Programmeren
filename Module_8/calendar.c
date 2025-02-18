@@ -112,7 +112,10 @@ bool check_leapyears(int years)
 {
     if (years % 400 == 0)
     {
-        
+        if (years & 100 == 0)
+        {
+            return true;
+        }
     }
     {
         return

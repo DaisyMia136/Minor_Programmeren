@@ -164,3 +164,6 @@ void space_printer(int first_day)
 
 // print grid
 void grid_printer()
+{
+    
+}

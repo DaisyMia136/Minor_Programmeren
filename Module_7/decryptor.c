@@ -23,7 +23,7 @@ void decryptor(string message)
     
     // calc difference between most common letter and 'e'
     
-    // loop through letters and add the difference
+    // loop through letters and add the difference 
 }
 
 

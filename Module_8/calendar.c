@@ -157,7 +157,7 @@ void space_printer()
     
     for(i = 0; i < number; i++)
     {
-        
+        printf(" ");
     }
 }
 

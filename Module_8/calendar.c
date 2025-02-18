@@ -9,7 +9,7 @@ void display_header(int year, int month);
 void display_grid(int year, int month, int duration);
 
 // constants
-
+const 
 
 // main script
 int main(void) //int argc, char *argv[])

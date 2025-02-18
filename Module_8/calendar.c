@@ -110,7 +110,7 @@ int days_till_year(int year, int month)
 }
 
 // days from 1 jan till 1 current month
-void days_till_month(int month, int year, int duration)
+void days_till_month(int year int month, int duration)
 {
     // initial variables
     int days = 0;

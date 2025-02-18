@@ -6,6 +6,7 @@
 //function prototypes
 void display_calendar(int year, int month);
 void display_header(int year, int month);
+void display_grid(int year, int month, int duration);
 
 
 

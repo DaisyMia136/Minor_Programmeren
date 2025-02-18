@@ -155,6 +155,9 @@ void space_printer()
 {
     number = 2 + (4 * first_day);
     
-    for(i = 0; )
+    for(i = 0; i < number; i++)
+    {
+        
+    }
 }
 

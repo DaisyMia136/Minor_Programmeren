@@ -130,7 +130,7 @@ void days_till_month(int year int month, int duration)
     {
         days++;
     }
-    return days
+    return days;
     
 }
 

@@ -7,6 +7,9 @@
 void display_calendar(int year, int month);
 void display_header(int year, int month);
 void display_grid(int year, int month, int duration);
+int first_day(int year, int month, int duration);
+
+
 
 // constants
 const start = 3 // the first day of january in 1800 was on a wednesday (3rd day)
@@ -72,3 +75,4 @@ int first_day(int year, int month, int duration)
     int firstday = (number_of_days_from_1800 + start) % 7;
 }
 
+int

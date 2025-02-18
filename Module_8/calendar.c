@@ -65,7 +65,7 @@ void display_grid(int year, int month)
     // print spaces
     space_printer(firstday);
     // print grid
-    grid_printer(month, duration[12], firstday);
+    grid_printer(month, duration, firstday);
 }
 
 int first_day(int year, int month, int duration)

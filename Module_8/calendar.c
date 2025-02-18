@@ -122,6 +122,7 @@ void days_till_month(int month, int year, int duration)
     {
         days++;
     }
+    return days
     
 }
 

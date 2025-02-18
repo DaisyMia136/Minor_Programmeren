@@ -110,5 +110,6 @@ int days_till_year(int year, int month)
 // check leapyears
 bool check_leapyears(int years)
 {
+    if (years )
     years % 4 = 
 }

@@ -107,6 +107,8 @@ int days_till_year(int year, int month)
     return days;
 }
 
+// days from 1 jan till 1 current month
+
 
 
 // check leapyears

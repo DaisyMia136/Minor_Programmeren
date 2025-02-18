@@ -4,16 +4,23 @@
 #include <ctype.h>
 
 //function prototypes
+void display_calendar(int year, int month);
+void display_header(int year, int month);
+
+
 
 // main script
-int main(void)
+int main(void) //int argc, char *argv[])
 {
     // ask input
+    //int year = argv[1];
+    //int month = argv [2];
+    
     int year = get_int("Year: ");
     int month = get_int("Month: ");
     
     // display calendar
-    display_()
+    display_calendar(year, month);
     
 }
 
@@ -25,3 +32,19 @@ void input_calendar();
     
 }
 
+void display_calendar(int year, int month)
+{
+    
+    display_header(year, month);
+    
+    display_grid();
+}
+
+void display_header(int year, int month)
+{
+    // array months
+    string months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}; 
+    int duration[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
+    
+    printf("          %s %i\n ---------------------------", months[month], year);
+}

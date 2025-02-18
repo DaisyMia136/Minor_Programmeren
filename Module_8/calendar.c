@@ -40,7 +40,7 @@ void display_calendar(int year, int month)
     
     display_header(year, month);
     
-    display_grid(year, month, duration);
+    display_grid(year, month);
 }
 // print header
 void display_header(int year, int month)

@@ -98,6 +98,7 @@ int days_till_year(int year, int month)
         leap = check_leapyears(year);
         if (leap)
         {
+            days += 
     }
     // count days 
     

@@ -181,7 +181,7 @@ void grid_printer(int year, int month, int first_day)
     }
     if (check_leapyears(year) && month == 2)
     {
-        printf("  29");
+        printf(" 29");
     }
     printf("\n");
 }

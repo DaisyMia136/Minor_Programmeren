@@ -59,7 +59,7 @@ void display_header(int year, int month)
 void display_grid(int year, int month, int duration)
 {
     // first day of the month
-    
+    first_day(year, month, duration);
     
     // number of days within month
     

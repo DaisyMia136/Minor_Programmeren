@@ -17,7 +17,7 @@ int main(void)
 }
 
 //functions
-void decryptor(message)
+void decryptor(string message)
 {
     
 }

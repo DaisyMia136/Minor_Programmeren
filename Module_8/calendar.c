@@ -5,7 +5,7 @@
 
 //function prototypes
 void display_calendar(int year, int month);
-void display_header(int year, int month, string months);
+void display_header(int year, int month);
 void display_grid(int year, int month, int duration);
 int first_day(int year, int month, int duration);
 int number_of_days_from_1800(int year, int month);
@@ -37,16 +37,13 @@ int main(void)
 // print calendar
 void display_calendar(int year, int month)
 {
-    // array months
-    string months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}; 
-    int duration[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
-
-    display_header(year, month, months);
+    
+    display_header(year, month);
     
     display_grid(year, month, duration);
 }
 // print header
-void display_header(int year, int month, string months)
+void display_header(int year, int month)
 {
     
     printf("          %s %i\n ---------------------------\n Sun Mon Tue Wed Thu Fri Sat Sun\n", months[month-1], year);

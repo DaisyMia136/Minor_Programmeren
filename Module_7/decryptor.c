@@ -28,6 +28,8 @@ int index = 0;
     // message length
     int length = strlen(message);
     
+    
+    
     for(int letter = 0; letter < length; letter++)
     {
         if (isupper(message[letter]))

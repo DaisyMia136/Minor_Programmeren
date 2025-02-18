@@ -42,13 +42,7 @@ int index = 0;
             character = message[letter];
         }
         
-        for(int alfa = 0; alfa < 26; alfa++)
-        {
-            if (character == alfa)
-            { 
-                index = alfa;
-            }
-        }
+        
         
     }
     

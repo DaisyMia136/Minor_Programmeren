@@ -163,7 +163,7 @@ void space_printer(int first_day)
 }
 
 // print grid
-void grid_printer()
+void grid_printer(int month, int duration, int first_day)
 {
     for (int day = 0; day <= duration[month]; day++)
     {

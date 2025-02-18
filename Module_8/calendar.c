@@ -88,6 +88,7 @@ int number_of_days_from_1800(int year, int month);
 
 int years_between_1800_and_current(int year, int month)
 {
-    years_between = year - 1800;     
+    years_between = year - 1800; 
+    
 }    
 }

@@ -19,7 +19,10 @@ int main(void)
 //functions
 void decryptor(string message)
 {
-// set initial 
+    // message length
+    int length = strlen(message);
+
+// set initials 
 //char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 string alfabet_lower = "abcdefghijklmnopqrstuvwxyz";
 char character = ' ';

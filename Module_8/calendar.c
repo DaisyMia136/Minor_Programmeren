@@ -46,7 +46,7 @@ void display_calendar(int year, int month)
     display_grid(year, month, duration);
 }
 // print header
-void display_header(int year, int month)
+void display_header(int year, int month, string months)
 {
     
     printf("          %s %i\n ---------------------------\n Sun Mon Tue Wed Thu Fri Sat Sun\n", months[month-1], year);

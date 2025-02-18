@@ -179,5 +179,6 @@ void grid_printer(int month, int first_day)
             
         }
     }
+    if ()
     printf("\n");
 }

@@ -118,7 +118,10 @@ void days_till_month(int month, int year, int duration)
     {
         days += duration[months];
     }
-    
+    if (check_leapyears(year))
+    {
+        days++;
+    }
     
 }
 

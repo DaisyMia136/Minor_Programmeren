@@ -10,7 +10,6 @@ int main(void)
 {
     // ask input
     
-    
     // display calendar
     
 }

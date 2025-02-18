@@ -66,7 +66,9 @@ void display_grid(int year, int month, int duration)
 
 int first_day()
 {
-    // count number of days between current month and 
+    // count number of days between current month and jan 1st number_of_days_from_1800
+    
+    
     int firstday = (number_of_days_from_1800 + start) % 7;
 }
 

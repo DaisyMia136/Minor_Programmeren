@@ -85,3 +85,5 @@ int number_of_days_from_1800();
     // check leap years
     
 }
+
+int years_between_1800_and_current(int year, int month)

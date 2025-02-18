@@ -18,7 +18,7 @@ void grid_printer(int month, int duration, int first_day);
 
 
 // constants
-const int start = 3 // the first day of january in 1800 was on a wednesday (3rd day)
+const int start = 3; // the first day of january in 1800 was on a wednesday (3rd day)
 
 // main script
 int main(void)

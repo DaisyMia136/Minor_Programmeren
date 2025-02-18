@@ -51,8 +51,8 @@ void display_header(int year, int month)
 }
 
 //print grit
-void display_grid()
+void display_grid(int year, int month)
 {
-}
+    
 }
 

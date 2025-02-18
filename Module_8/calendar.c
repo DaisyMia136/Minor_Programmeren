@@ -57,7 +57,7 @@ void display_grid(int year, int month)
     int duration[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
     
     // first day of the month
-    int first_day = first_day(year, month, duration);
+    int firstday = first_day(year, month, duration);
     
     // number of days within month
     int month_days = duration[month - 1];

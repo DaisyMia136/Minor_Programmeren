@@ -77,5 +77,5 @@ int first_day(int year, int month, int duration)
 
 int number_of_days_from_1800();
 {
-    
+    //
 }

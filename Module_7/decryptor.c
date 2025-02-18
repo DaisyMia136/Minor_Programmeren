@@ -31,10 +31,6 @@ string alfa_sub;
 int alfa_sub_lengths[length];
 
 // check which letter is most common
-
-    
-    
-    
     for(int letter = 0; letter < length; letter++)
     {
         if (isupper(message[letter]))

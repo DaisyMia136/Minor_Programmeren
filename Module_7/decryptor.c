@@ -26,7 +26,6 @@ char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     // message length
     int length = strlen(message);
     
-    
     for(int letter = 0; letter < length; letter++)
     {
         

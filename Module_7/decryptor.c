@@ -25,7 +25,7 @@ string alfabet_lower = "abcdefghijklmnopqrstuvwxyz";
 char character = ' ';
 int index = 0;
 string alfa_sub;
-lengths 
+alfa_sub_lengths[]
 
 // check which letter is most common
     // message length

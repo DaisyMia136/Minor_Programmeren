@@ -28,7 +28,7 @@ string alfabet_lower = "abcdefghijklmnopqrstuvwxyz";
 char character = ' ';
 int index = 0;
 string alfa_sub;
-alfa_sub_lengths[length]
+alfa_sub_lengths[length];
 
 // check which letter is most common
 

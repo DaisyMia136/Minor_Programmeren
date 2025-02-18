@@ -108,7 +108,7 @@ int days_till_year(int year, int month)
 }
 
 // check leapyears
-bool check_leapyears(year)
+bool check_leapyears(int year)
 {
     
 }

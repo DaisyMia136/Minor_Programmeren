@@ -9,7 +9,7 @@
 int main(void)
 {
     // ask input
-    string message = get_string()
+    string message = get_string("Message: ")
 }
 
 //functions

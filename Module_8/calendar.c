@@ -51,5 +51,5 @@ void display_header(int year, int month)
 }
 
 //print grit
-    
+
 

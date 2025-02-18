@@ -43,7 +43,7 @@ int index = 0;
         }
         
         // find current letter as a substring in alfabet_lower
-        strstr(alfabet_lower, )
+        strstr(alfabet_lower, message[letter]);
         
     }
     

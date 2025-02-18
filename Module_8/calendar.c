@@ -62,7 +62,7 @@ void display_grid(int year, int month, int duration)
     int first_day = first_day(year, month, duration);
     
     // number of days within month
-    
+    month_days = 
     
     // print spaces
     

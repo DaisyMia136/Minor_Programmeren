@@ -57,6 +57,8 @@ void display_grid(int year, int month)
     
     // number of days within month
     
+    // print spaces
     
+    // print grid
 }
 

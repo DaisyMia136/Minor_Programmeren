@@ -43,7 +43,7 @@ void display_calendar(int year, int month)
     
     display_header(year, month);
     
-    display_grid();
+    display_grid(year, month, duration);
 }
 // print header
 void display_header(int year, int month)

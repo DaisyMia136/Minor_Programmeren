@@ -153,7 +153,7 @@ bool check_leapyears(int years)
 // print space based on first day 
 void space_printer(int first_day)
 {
-    number = 2 + (4 * first_day);
+    int number = 2 + (4 * first_day);
     
     for(i = 0; i < number; i++)
     {

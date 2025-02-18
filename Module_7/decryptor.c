@@ -28,7 +28,7 @@ char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     
     for(int letter = 0; letter < length; letter++)
     {
-        if (isupper(message[letter))
+        if (isupper(message[letter]))
         {
             
         }

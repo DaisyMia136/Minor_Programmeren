@@ -28,7 +28,10 @@ char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     
     for(int letter = 0; letter < length; letter++)
     {
-        for 
+        for(int alfa = 0; alfa < 26; alfa++)
+        {
+            
+        }
     }
     
     // calc difference between most common letter and 'e'

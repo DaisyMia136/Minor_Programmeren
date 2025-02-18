@@ -66,6 +66,6 @@ void display_grid(int year, int month, int duration)
 
 int first_day()
 {
-    int firstday = 
+    int firstday = number_
 }
 

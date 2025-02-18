@@ -60,6 +60,7 @@ void display_grid(int year, int month, int duration)
 {
     // first day of the month
     
+    
     // number of days within month
     
     // print spaces

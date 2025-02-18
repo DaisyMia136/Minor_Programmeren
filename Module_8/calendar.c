@@ -118,6 +118,7 @@ void days_till_month(int month, int duration)
     {
         days += duration[months];
     }
+    
 }
 
 

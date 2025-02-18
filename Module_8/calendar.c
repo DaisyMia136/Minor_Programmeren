@@ -172,5 +172,8 @@ void grid_printer()
             printf("%3d\n", day);
         }
         else
+        {
+            
+        }
     }
 }

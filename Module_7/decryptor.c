@@ -54,6 +54,7 @@ int alfa_sub_lengths[length];
         
     }
     
+    
     // calc difference between most common letter and 'e'
     
     // loop through letters and add the difference 

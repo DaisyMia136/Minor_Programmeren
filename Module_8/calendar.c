@@ -153,6 +153,6 @@ bool check_leapyears(int years)
 // print space based on first day 
 void space_printer()
 {
-    
+    number = 2 + ()
 }
 

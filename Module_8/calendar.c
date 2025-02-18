@@ -83,7 +83,9 @@ int number_of_days_from_1800(int year, int month)
     int day_year = days_till_year(year, month);
     
     // calc days between 1st jan and 1st of inputted month
-    int days_till_month(year, month, duration);
+    int day_month = days_till_month(year, month, duration);
+    days = day_year + day_month;
+    return days;
 }
 
 int days_till_year(int year, int month)

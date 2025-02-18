@@ -167,7 +167,7 @@ void grid_printer(int month, int duration, int first_day)
 {
     for (int day = 0; day <= duration[month]; day++)
     {
-        if ((day + first_day) % 6)
+        if ((day + first_day) % 6 == 0)
         {
             printf("%3d\n", day);
         }

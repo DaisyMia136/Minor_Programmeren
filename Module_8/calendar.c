@@ -13,7 +13,7 @@ int days_till_year(int year, int month);
 void days_till_month(int year int month, int duration);
 bool check_leapyears(int years);
 void space_printer(int first_day);
-void grid_printer(int month, int duration, int first_day)
+void grid_printer(int month, int duration, int first_day);
 
 
 

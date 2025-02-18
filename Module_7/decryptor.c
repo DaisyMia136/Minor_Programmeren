@@ -21,6 +21,7 @@ void decryptor(string message)
 {
 // set initial 
 char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+char character = ' ';
 
 // check which letter is most common
     // message length
@@ -30,11 +31,11 @@ char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     {
         if (isupper(message[letter]))
         {
-            character = message[letter];
+            character = tolower(message[letter]);
         }
         else
         {
-            
+            character = message[letter];
         }
         
         for(int alfa = 0; alfa < 26; alfa++)

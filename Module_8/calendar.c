@@ -73,7 +73,7 @@ int first_day(int year, int month, int duration)
     // count number of days between current month and jan 1st number_of_days_from_1800
     int days_between = number_of_days_from_1800(year, month);
     
-    int first_day = (number_of_days_from_1800 + start) % 7;
+    int first_day = (days_between + start) % 7;
     return first_day;
 }
 

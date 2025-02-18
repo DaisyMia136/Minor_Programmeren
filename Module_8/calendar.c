@@ -9,7 +9,7 @@ void display_header(int year, int month);
 void display_grid(int year, int month, int duration);
 
 // constants
-const start = 3 // the first day of 
+const start = 3 // the first day of january in 1800 was on a wednesday 
 
 // main script
 int main(void) //int argc, char *argv[])

@@ -4,6 +4,7 @@
 #include <ctype.h>
 
 //function prototypes
+void decryptor(message)
 
 // main script
 int main(void)

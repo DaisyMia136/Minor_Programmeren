@@ -12,7 +12,7 @@ int main(void)
     string message = get_string("Message: ");
     
     //decrypt
-    
+    decryptor(message)
 }
 
 //functions

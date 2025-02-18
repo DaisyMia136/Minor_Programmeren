@@ -40,7 +40,7 @@ char character = ' ';
         
         for(int alfa = 0; alfa < 26; alfa++)
         {
-            
+            character
         }
     }
     

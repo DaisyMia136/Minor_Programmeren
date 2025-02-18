@@ -8,7 +8,11 @@
 // main script
 int main(void)
 {
+    // ask input
     
+    
+    // display calendar
 }
 
 //functions
+// 

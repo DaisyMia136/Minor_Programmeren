@@ -111,7 +111,7 @@ int days_till_year(int year, int month)
 // days from 1 jan till 1 current month
 void days_till_month(int month, int duration)
 {
-    for ()
+    for (int months =)
 }
 
 

@@ -8,6 +8,7 @@
 // main script
 int main(void)
 {
+    // ask input
     
 }
 

@@ -13,7 +13,7 @@ int main(void)
     int month = get_int("Month: ");
     
     // display calendar
-    display()
+    display_()
     
 }
 

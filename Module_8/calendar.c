@@ -50,4 +50,6 @@ void display_header(int year, int month)
     printf("          %s %i\n ---------------------------", months[month-1], year);
 }
 
+//print grit
+    
 

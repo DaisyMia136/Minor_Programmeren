@@ -41,7 +41,7 @@ char character = ' ';
         for(int alfa = 0; alfa < 26; alfa++)
         {
             if (character == alfa)
-            index = alfa
+            index = alfa 
         }
     }
     

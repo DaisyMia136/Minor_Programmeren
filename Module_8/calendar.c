@@ -105,9 +105,6 @@ int days_till_year(int year, int month)
             days += 365;
         }
     }
-    // count days 
-    
-    int leap_years = check_leapyears(years_between);
 }
 
 // check leapyears

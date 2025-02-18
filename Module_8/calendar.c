@@ -51,7 +51,7 @@ void display_header(int year, int month)
 }
 
 //print grit
-void display_grid(int year, int month)
+void display_grid(int year, int month, int duration)
 {
     // first day of the month
     

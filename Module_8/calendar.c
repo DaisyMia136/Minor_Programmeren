@@ -75,7 +75,7 @@ int first_day(int year, int month, int duration)
     int firstday = (number_of_days_from_1800 + start) % 7;
 }
 
-int number_of_days_from_1800();
+int number_of_days_from_1800(int year, int month);
 {
     // calc years between 1800 and input years 
     
@@ -87,3 +87,7 @@ int number_of_days_from_1800();
 }
 
 int years_between_1800_and_current(int year, int month)
+{
+        
+}    
+}

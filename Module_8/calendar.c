@@ -9,7 +9,7 @@
 int main(void)
 {
     // ask input
-    int year = get_int("")
+    int year = get_int("Year: ")
     
     // display calendar
     

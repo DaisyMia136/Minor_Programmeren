@@ -78,7 +78,7 @@ int first_day(int year, int month, int duration)
     int firstday = (number_of_days_from_1800 + start) % 7;
 }
 
-int number_of_days_from_1800(int year, int month);
+int number_of_days_from_1800(int year, int month)
 {
     // calc years between 1800 and input years 
     int day_year = days_till_year(year, month);

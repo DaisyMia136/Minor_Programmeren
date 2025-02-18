@@ -20,7 +20,7 @@ int main(void)
 void decryptor(string message)
 {
     // check which letter is most common
-    
+    // calc 
     
     // calc difference between most common letter and 'e'
     

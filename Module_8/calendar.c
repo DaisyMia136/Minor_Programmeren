@@ -52,7 +52,7 @@ void display_header(int year, int month)
     string months[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}; 
     int duration[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; 
     
-    printf("          %s %i\n ---------------------------\n Sun Mon Tue Wed Thu Fri Sat Sun", months[month-1], year);
+    printf("          %s %i\n ---------------------------\n Sun Mon Tue Wed Thu Fri Sat Sun\n", months[month-1], year);
 }
 
 //print grit

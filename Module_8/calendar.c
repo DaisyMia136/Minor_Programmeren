@@ -116,7 +116,7 @@ void days_till_month(int month, int duration)
     
     for (int months = 0; months < month; months++)
     {
-        days
+        days 
     }
 }
 

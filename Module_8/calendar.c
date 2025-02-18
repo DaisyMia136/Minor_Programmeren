@@ -53,6 +53,8 @@ void display_header(int year, int month)
 //print grit
 void display_grid(int year, int month)
 {
+    // first day of the month
     
+    // number of days within month
 }
 

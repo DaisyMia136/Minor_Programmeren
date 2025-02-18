@@ -95,7 +95,7 @@ int days_till_year(int year, int month)
     for(int years = 1800; years < year; years++)
     {
         // check if leap_year
-        leap = check_leapyears(year);
+        leap = check_leapyears(years);
         if (leap)
         {
             days += 366;

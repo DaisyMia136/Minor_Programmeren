@@ -28,8 +28,7 @@ string alfa_sub;
 alfa_sub_lengths[length]
 
 // check which letter is most common
-    // message length
-    int length = strlen(message);
+
     
     
     

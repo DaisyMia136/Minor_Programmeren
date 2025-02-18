@@ -43,6 +43,7 @@ char character = ' ';
             if (character == alfa)
             index = alfa 
         }
+        
     }
     
     // calc difference between most common letter and 'e'

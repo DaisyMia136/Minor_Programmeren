@@ -120,7 +120,7 @@ int days_till_month(int year, int month)
     {
         days += duration[i];
     }
-    if (check_leapyears(year))
+    if (check_leapyears(year) && )
     {
         days++;
     }

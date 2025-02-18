@@ -90,12 +90,14 @@ int days_till_year(int year, int month)
 {
     // initial variables
     bool leap = false;
+    days = 0;
     
     for(int years = 1800; years < year; years++)
     {
         // check if leap_year
         leap = check_leapyears(year);
         if (leap)
+        {
     }
     // count days 
     

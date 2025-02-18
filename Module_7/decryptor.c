@@ -30,7 +30,7 @@ char alfabet_lower[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
     {
         for(int alfa = 0; alfa < 26; alfa++)
         {
-            
+            if
         }
     }
     

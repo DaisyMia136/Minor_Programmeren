@@ -89,11 +89,12 @@ int number_of_days_from_1800(int year, int month);
 int years_between_1800_and_current(int year, int month)
 {
     years_between = year - 1800; 
+    
     int leap_years = check_leapyears(years_between);
 }
 
 // check leapyears
-int check_leapyears(years_between)
+bool check_leapyears(years)
 {
     for(int years = 1800; years < year; years++)
     {

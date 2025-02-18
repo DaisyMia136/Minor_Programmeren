@@ -105,6 +105,7 @@ int days_till_year(int year, int month)
             days += 365;
         }
     }
+    return days;
 }
 
 // check leapyears

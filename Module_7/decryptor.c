@@ -42,7 +42,8 @@ int index = 0;
             character = message[letter];
         }
         
-        
+        // find current letter as a substring in alfabet_lower
+        strstr()
         
     }
     

@@ -15,7 +15,7 @@ int main(void)
 }
 
 //functions
-void decryptor
+void decryptor()
 
 
 

@@ -12,4 +12,7 @@ int main(void)
 }
 
 //functions
-
+bool is_palindrome(string word)
+{
+    
+}

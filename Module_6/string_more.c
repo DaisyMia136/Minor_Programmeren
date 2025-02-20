@@ -15,5 +15,7 @@ int main(void)
 //functions
 bool is_palindrome(string word)
 {
-    for(int character = 0; character < length; character)
+    for(int character = 0; character < length; character++)
+    
+    
 }

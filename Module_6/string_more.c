@@ -16,9 +16,11 @@ int main(void)
 bool is_palindrome(string input)
 {
     // calc string length
-    
+    length = strlen(input);
     
     for(int character = 0; character < length; character++)
-    
+    {
+        
+    }
     
 }

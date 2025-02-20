@@ -20,7 +20,7 @@ bool is_palindrome(string input)
     length = strlen(input);
  
     // initial variables
-    
+    backwards_counter = 
     
     for(int character = 0; character < length; character++)
     {

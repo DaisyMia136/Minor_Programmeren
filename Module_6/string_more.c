@@ -4,9 +4,7 @@
 #include <ctype.h>
 
 //function prototypes
-bool is_palindrome(string word)
-
-
+bool is_palindrome(string word);
 
 // main script
 int main(void)

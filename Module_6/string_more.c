@@ -9,7 +9,7 @@ bool is_palindrome(string word);
 // main script
 int main(void)
 {
-    
+    is_palindrome("Blaalb")
 }
 
 //functions

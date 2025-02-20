@@ -13,7 +13,7 @@ int main(void)
 }
 
 //functions
-bool is_palindrome(string word)
+bool is_palindrome(string input)
 {
     // calc string length
     

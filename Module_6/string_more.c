@@ -24,7 +24,7 @@ bool is_palindrome(string input)
     
     for(int character = 0; character < length; character++)
     {
-        
+        if 
     }
     
 }

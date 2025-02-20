@@ -15,8 +15,12 @@ int main(void)
 //functions
 bool is_palindrome(string input)
 {
+    
     // calc string length
     length = strlen(input);
+ 
+    // initial variables
+    
     
     for(int character = 0; character < length; character++)
     {

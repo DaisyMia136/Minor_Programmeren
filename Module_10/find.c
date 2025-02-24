@@ -121,6 +121,7 @@ bool search(int value, int values[], int n)
             // {
             //     values[new_value] = values[new_value];
             // }
+            n = n /2;
             
         }
         else if (value > values[n/2])
@@ -134,7 +135,7 @@ bool search(int value, int values[], int n)
             n = n + n / 2;
             
         }
-        n = n / 2;
+        
         
     }
     while(n > 1);

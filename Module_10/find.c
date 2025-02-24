@@ -113,7 +113,7 @@ bool search(int value, int values[], int n)
     {
         // search in lower half
         int values_halved[n/2];
-        for {int values_lower = 0; vA
+        for {int values_lower = 0; values_lower < n/2; 
     }
     else if (value > values[n/2])
     {

@@ -67,7 +67,7 @@ int main(int argc, string argv[])
     
         for (int j = 0; j < n; j++)
     {
-        printf("%i ", values[j]);
+        printf("%i ", haystack[j]);
     }
     printf("\n");
     

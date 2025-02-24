@@ -108,6 +108,7 @@ bool search(int value, int values[], int n)
     do
     {
         printf("%i\n", n/2);
+        printf("%i\n", values[n/2]);
         
         if (values[(n/2)] == value)
         {

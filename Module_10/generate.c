@@ -19,7 +19,7 @@ int main(int argc, string argv[])
         return 1;
     }
 
-    // TODO: comment me
+    // change the inputted seed from a string to an integer
     int n = atoi(argv[1]);
 
     // TODO: comment me

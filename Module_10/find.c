@@ -168,7 +168,7 @@ void sort(int values[], int n)
     //loop back from 
     for (int i = max; i != 0; i--)
     {
-        if (freq_array[i] == 0)
+        if (freq_array[i] != 0)
         {
             
         }

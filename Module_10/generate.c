@@ -29,7 +29,7 @@ int main(int argc, string argv[])
     }
     else // if the second option is not used
     {
-        srand48((long int) time(NULL)); // do not use a seed 
+        srand48((long int) time(NULL)); // use the current time as seed
     }
 
     // TODO: comment me

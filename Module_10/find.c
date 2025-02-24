@@ -91,9 +91,10 @@ void generate_random_numbers(int arr[], int n)
 void generate_sequential_numbers(int arr[], int n)
 {
     // TODO: implement a sequential number generator
-    for (int i = 0; i < n; i++)
+    for (int j = 0; j < n; j++)
     {
-        arr[i] = i + 1;
+        arr[j] = j + 1;
+        printf("%i\n", arr[j]);
     }
     
     
@@ -104,23 +105,34 @@ void generate_sequential_numbers(int arr[], int n)
 bool search(int value, int values[], int n)
 {
     // TODO: implement the searching algorithm
-    
-    if (values[n/2] == value)
+    do
     {
-        return true;
-    }
-    else if (value < values[n/2])
-    {
-        // search in lower half
-        int values_halved[n/2];
-        for {int values_lower = 0; values_lower < n/2; 
-    }
-    else if (value > values[n/2])
-    {
-        // search in upper half
+        if (values[(n/2)] == value)
+        {
+            return true;
+        }
+        else if (value < values[n/2])
+        {
+            // search in lower half
+            for (int new_value = 0; new_value < n/2; new_value++)
+            {
+                //values[new_value] = values[new_value];
+            }
+            
+        }
+        else if (value > values[n/2])
+        {
+            // search in upper half
+            for (int new_value = 0; new_value < n/2; new_value++)
+            {
+                //values[new_value] = values[n/2 + new_value];
+                //printf("%i", values[new_value]);
+            }
+            
+        }
         
     }
-    
+    while(n != 1);
     
     
     return false;

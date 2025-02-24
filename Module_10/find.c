@@ -177,7 +177,7 @@ void sort(int values[], int n)
         }
     }
     
-    for (int i )
+    for (int j = 0;  )
 
     
     

@@ -97,7 +97,7 @@ void generate_sequential_numbers(int arr[], int n)
     for (int j = 0; j < n; j++)
     {
         arr[j] = j;
-        //printf("%i\n", arr[j]);
+        printf("%i\n", arr[j]);
     }
     
     
@@ -172,7 +172,7 @@ void sort(int values[], int n)
     {
         if (freq_array[i] != 0)
         {
-            number = values[i] - 1;
+            number = pre_fix_array[i] - 1;
             sorted_array[i] = number;
         }
     }

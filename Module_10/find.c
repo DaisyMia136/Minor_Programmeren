@@ -174,7 +174,6 @@ void sort(int values[], int n)
         {
             number = pre_fix_array[i];
             sorted_array[i - 1] = number;
-            printf("%i\n", sorted_array[i-1]);
         }
     }
     

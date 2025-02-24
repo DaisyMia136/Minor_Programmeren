@@ -38,8 +38,6 @@ void sort(int values[], int n)
             
             
         }
-        // replace current value with lowest value
-        values[replace_value] = values[next_value];
     }
     return;
 }

@@ -63,10 +63,10 @@ void generate_random_numbers(int arr[], int n)
 // Sorts array of n values
 void sort(int values[], int n)
 {
-    if (n == 1)
-    {
-        printf("%i", values[0]);
-    }
+    // if (n == 1)
+    // {
+    //     printf("%i", values[0]);
+    // }
 
     int new_value = 0;
     // loop through values (current value)

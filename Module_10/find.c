@@ -141,7 +141,10 @@ void sort(int values[], int n)
     // TODO: implement the sorting algorithm
     freq_array[66536];
     
-    for(int number = 0; )
+    for(int number = 0; number < n; number++)
+    {
+        
+    }
     
     
     return;

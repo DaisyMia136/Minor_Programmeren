@@ -190,7 +190,7 @@ void sort(int values[], int n)
     {
         printf("%i ", sorted_array[j]);
     }
-
+    printf("\n");
     
     
     

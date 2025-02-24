@@ -1,4 +1,4 @@
-// Generates pseudorandom numbers in [0,LIMIT), one per line
+// Generates pseudorandom numbers in (0,LIMIT), one per line
 
 #define _XOPEN_SOURCE
 

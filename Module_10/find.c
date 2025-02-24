@@ -130,6 +130,7 @@ bool search(int value, int values[], int n)
             }
             
         }
+        n = n / 2
         
     }
     while(n > 1);

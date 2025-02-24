@@ -5,7 +5,7 @@
 #include "helpers.h"
 
 // Sorts array of n values
-void sort(int values[], int n)
+void sort(int values[], int n) //haystack and size
 {
     // TODO: implement an O(n^2) sorting algorithm
     return;

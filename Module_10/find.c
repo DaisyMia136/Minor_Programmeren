@@ -141,7 +141,7 @@ void sort(int values[], int n)
     // TODO: implement the sorting algorithm
     
     // make frequency array
-    int freq_array[MAX];
+    int freq_array[66536];
     
     for(int number = 0; number < n; number++)
     {
@@ -150,7 +150,7 @@ void sort(int values[], int n)
         
     }
     
-    int pre_fix_array[MAX];
+    int pre_fix_array[66536];
     // make prefix sum (add the first amount to the second position and continue)
     for(int pre_fix_count = 1; pre_fix_count < MAX; pre_fix_count++)
     {

@@ -14,6 +14,7 @@ int main(void)
     bool valid = false; 
     
     // ask input 
+    counter = 0;
     do 
     { 
         string pasword = get_string("Wachtwoord? ");

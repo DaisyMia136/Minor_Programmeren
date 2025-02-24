@@ -150,8 +150,9 @@ void sort(int values[], int n)
         
     }
     
+    pre_fix_array
     // make prefix sum (add the first amount to the second position and continue)
-    for(int pre_fix_sum = 1; pre_fix_sum < MAX; pre_fix_sum++)
+    for(int pre_fix_count = 1; pre_fix_count < MAX; pre_fix_count++)
     {
         
     }

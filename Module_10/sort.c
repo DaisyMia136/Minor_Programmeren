@@ -83,7 +83,7 @@ void sort(int values[], int n)
             
             
         }
-        printf("%i ", values[replace_value]);
+        //printf("%i ", values[replace_value]);
     }
     return;
 }

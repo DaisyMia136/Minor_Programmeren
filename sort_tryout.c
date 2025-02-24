@@ -29,7 +29,7 @@ void sort(int values[], int n)
     for(int replace_value = 0; replace_value < n - 1; replace_value++)
     {
         // loop through subsequent values (current++)
-        for (int next_value = replace_value + 1; next_value < n; next_value++)
+        for (int next_value = replace_value + 1; next_value <= n; next_value++)
         {
             //printf("counter: %i\n", next_value);
             if (values[replace_value] > values[next_value])

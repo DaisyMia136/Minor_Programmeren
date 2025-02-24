@@ -181,7 +181,7 @@ void sort(int values[], int n)
         if (freq_array[i] != 0)
         {
             number = i;
-            sorted_array[end] = number;
+            values[end] = number;
             end--;
         }
     }

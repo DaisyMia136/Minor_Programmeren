@@ -13,7 +13,7 @@ void sort(int values[], int n) //haystack and size
     for(int current_value = 0; current_value < n; current_value++)
     {
         // loop through subsequent values (current++)
-        for (int lowest_value = current_value + 1; lowest_value < )
+        for (int lowest_value = current_value + 1; lowest_value < n)
             //find lowest value in subsequent values 
             
         // replace current value with lowest value

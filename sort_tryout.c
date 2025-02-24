@@ -19,7 +19,8 @@ void sort(int values[], int n);
 
 int main(void)
 {
-    
+    int values[4] = {
+    sort(values[], 4)
 }
 // Sorts array of n values
 void sort(int values[], int n)

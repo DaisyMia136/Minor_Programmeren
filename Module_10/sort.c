@@ -65,15 +65,14 @@ void sort(int values[], int n)
 {
     // TODO: implement an O(n^2) sorting algorithm
     // loop through values (current value)
-    for(int current_value = 0; current_value < n - 1; current_value++)
+    for(int replace_value = 0; replace_value < n - 1; replace_value++)
     {
         // loop through subsequent values (current++)
-        for (int pos_lowest_value = current_value + 1; pos_lowest_value < n; pos_lowest_value++)
+        for (int next_value = replace_value + 1; next_value < n; next_value++)
         {
-            //find lowest value in subsequent values
-            if (values[pos_lowest_value] < pos_lowest_value + 1)
+            if (values[replace_value] < values[next_value])
             {
-                    
+                values[replace_value] = values[next_value];
             }
             
             

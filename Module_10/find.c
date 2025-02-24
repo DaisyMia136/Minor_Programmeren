@@ -132,7 +132,7 @@ bool search(int value, int values[], int n)
         }
         
     }
-    while(n != 1);
+    while(n > 1);
     
     
     return false;

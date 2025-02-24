@@ -27,9 +27,9 @@ int main(int argc, string argv[])
     {
         srand48((long int) atoi(argv[2])); // use the inputted number as a seed 
     }
-    else
+    else // if the second option is not used
     {
-        srand48((long int) time(NULL));
+        srand48((long int) time(NULL)); // do not use a seed 
     }
 
     // TODO: comment me

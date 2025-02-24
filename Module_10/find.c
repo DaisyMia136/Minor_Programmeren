@@ -157,13 +157,13 @@ void sort(int values[], int n)
     
     // make frequency array
     for(int numbers = 0; numbers < n; numbers++)
-    {
-        freq_array[values[numbers]] = freq_array[values[numbers]] + 1;
-        pre_fix_array[values[numbers]] = pre_fix_array[values[numbers]] + 1;
+    // {
+    //     freq_array[values[numbers]] = freq_array[values[numbers]] + 1;
+    //     pre_fix_array[values[numbers]] = pre_fix_array[values[numbers]] + 1;
         
-        printf("%i\n",pre_fix_array[values[numbers]]); 
+    //     printf("%i\n",pre_fix_array[values[numbers]]); 
         
-    }
+    // }
     
     // make prefix sum (add the first amount to the second position and continue)
     pre_fix_array[0] = freq_array[0];

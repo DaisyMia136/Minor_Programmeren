@@ -93,7 +93,7 @@ void generate_sequential_numbers(int arr[], int n)
     // TODO: implement a sequential number generator
     for (int j = 0; j < n; j++)
     {
-        arr[j] = j + 1;
+        arr[j] = j;
         //printf("%i\n", arr[j]);
     }
     

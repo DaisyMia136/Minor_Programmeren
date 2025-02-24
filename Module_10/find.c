@@ -160,6 +160,6 @@ void sort(int values[], int n)
         //printf("%i\n", pre_fix_array[pre_fix_count]);
         freq_array[pre_fix_count] = freq_array[pre_fix_count - 1] + freq_array[pre_fix_count];
     }
-    printf("%i\n", freq_array[65535]);
+    printf("%i\n", freq_array[10]);
     return;
 }

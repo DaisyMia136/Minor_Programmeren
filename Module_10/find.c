@@ -84,6 +84,8 @@ void generate_random_numbers(int arr[], int n)
     {
         // random number between 0 and LIMIT
         arr[i] = (int) (drand48() * LIMIT);
+        //printf("%i\n", arr[j]);
+
     }
 }
 

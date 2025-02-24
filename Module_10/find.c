@@ -73,7 +73,7 @@ int main(int argc, string argv[])
     }
     else
     {
-        //printf("Didn't find needle in haystack.\n\n");
+        printf("Didn't find needle in haystack.\n\n");
         return 1;
     }
 }

@@ -27,7 +27,7 @@ void sort(int values[], int n)
 {
     int new_value = 0;
     // loop through values (current value)
-    for(int replace_value = 0; replace_value < n - 1; replace_value++)
+    for(int replace_value = 0; replace_value <= n - 1; replace_value++)
     {
     //printf("replace counter: %i\n", replace_value);
 

@@ -32,8 +32,8 @@ int main(int argc, string argv[])
         srand48((long int) time(NULL)); // use the current time as seed
     }
 
-    // TODO: comment me
-    for (int i = 0; i < n; i++)
+    // Loop for n times
+    for (int i = 0; i < n; i++) 
     {
         printf("%i\n", (int) (drand48() * LIMIT));
     }

@@ -164,7 +164,7 @@ void sort(int values[], int n)
     }
     //printf("%i\n", pre_fix_array[10]);
     
-    //
+    //loop back 
     pre_fix_array[0]
 
     

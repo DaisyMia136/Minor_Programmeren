@@ -186,12 +186,7 @@ void sort(int values[], int n)
         }
     }
     
-    for (int j = 0; j < n; j++)
-    {
-        printf("%i ", values[j]);
-    }
-    printf("\n");
-    
+
     
     
     return;

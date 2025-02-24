@@ -105,6 +105,13 @@ bool search(int value, int values[], int n)
 {
     // TODO: implement the searching algorithm
     
+    if (values[n/2] == value)
+    {
+        return true;
+    }
+    else if 
+    
+    
     
     return false;
 }

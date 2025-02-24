@@ -139,6 +139,8 @@ bool search(int value, int values[], int n)
 void sort(int values[], int n)
 {
     // TODO: implement the sorting algorithm
+    
+    // make frequency array
     int freq_array[66536];
     
     for(int number = 0; number < n; number++)

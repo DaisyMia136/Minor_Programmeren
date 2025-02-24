@@ -111,7 +111,13 @@ bool search(int value, int values[], int n)
     }
     else if (value < values[n/2])
     {
-        // search in 
+        // search in lower half
+        
+    }
+    else if (value > values[n/2])
+    {
+        // search in upper half
+        
     }
     
     

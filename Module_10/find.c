@@ -121,13 +121,11 @@ bool search(int value, int values[], int n)
         {
             // search in lower half
             n = n / 2;
-            
         }
         else if (value > values[n/2])
         {
             // search in upper half
             n = n + (n / 4);
-            
         }
     counter++;    
         

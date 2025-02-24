@@ -182,6 +182,7 @@ void sort(int values[], int n)
         {
             number = i;
             sorted_array[end] = number;
+            end--;
         }
     }
     

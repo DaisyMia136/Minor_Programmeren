@@ -144,8 +144,8 @@ void sort(int values[], int n)
     // TODO: implement the sorting algorithm
     
     // make frequency array
-    int freq_array[65536];
-    int pre_fix_array[65536];
+    int freq_array[MAX];
+    int pre_fix_array[MAX];
     
     for(int number = 0; number < n; number++)
     {

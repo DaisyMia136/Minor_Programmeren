@@ -1,47 +1,68 @@
-/**
- * Prompts user for as many as MAX values until EOF is reached,
- * then prints the values in sorted order. Used to test `sort`.
- *
- * Usage: ./sort
- *
- */
+// Sorts n numbers and prints them out
 
 #include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
-#include "helpers.h"
+// maximum value of random numbers
+#define LIMIT 65536
 
-// maximum amount of hay
-const int MAX = 65536;
+// maximum array size
+#define MAX 65536
+
+// Fills array of size n with random numbers
+void generate_random_numbers(int arr[], int n);
+
+// Sorts array of n values
+void sort(int values[], int n);
 
 int main(int argc, string argv[])
 {
-    fprintf(stderr, "RUNNING SORT\n"); // print RUNNING SORT to file (?) stderr
-    
-    // fill haystack
-    int size;
-    int haystack[MAX];
-    for (size = 0; size < MAX; size++)
+    // Ensure proper usage
+    if (argc != 2)
     {
-        // wait for hay until EOF (end of file)
-        int straw = get_int("item: ");
-        if (straw == INT_MAX)
-        {
-            break;
-        }
-
-        // add hay to stack
-        haystack[size] = straw;
+        printf("Usage: ./sort <n>\n");
+        return 1;
     }
-    printf("\n");
 
-    // sort the haystack
+    int size = atoi(argv[1]);
+    if (size <= 1 || size > MAX)
+    {
+        printf("Please enter a valid size between 1 and %d\n", MAX);
+        return 1;
+    }
+
+    // seed the random number generator
+    srand48((long int) time(NULL));
+
+    // generate random numbers
+    int haystack[size];
+    generate_random_numbers(haystack, size);
+
+    // sort the array
     sort(haystack, size);
 
-    // print the haystack, one item per line
+    // print the sorted array
     for (int i = 0; i < size; i++)
     {
         printf("%i\n", haystack[i]);
     }
+}
+
+// Fills array of size n with random numbers
+void generate_random_numbers(int arr[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        // random number between 0 and LIMIT
+        arr[i] = (int) (drand48() * LIMIT);
+    }
+}
+
+// Sorts array of n values
+void sort(int values[], int n)
+{
+    // TODO: implement an O(n^2) sorting algorithm
+    return;
 }

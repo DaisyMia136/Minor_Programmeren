@@ -24,7 +24,6 @@ int main(void)
 // Sorts array of n values
 void sort(int values[], int n)
 {
-    // TODO: implement an O(n^2) sorting algorithm
     // loop through values (current value)
     for(int replace_value = 0; replace_value < n - 1; replace_value++)
     {

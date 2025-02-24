@@ -73,6 +73,7 @@ void sort(int values[], int n)
             //find lowest value in subsequent values
             
             
+            
         }
         // replace current value with lowest value
         values[current_value] = values[lowest_value];

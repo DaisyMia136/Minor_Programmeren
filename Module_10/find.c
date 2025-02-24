@@ -130,7 +130,7 @@ bool search(int value, int values[], int n)
             //     values[new_value] = values[n/2 + new_value];
             //     //printf("%i", values[new_value]);
             // }
-            n = n
+            n = n 
             
         }
         n = n / 2;

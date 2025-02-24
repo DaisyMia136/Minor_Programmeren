@@ -175,7 +175,7 @@ void sort(int values[], int n)
     //printf("%i\n", pre_fix_array[5]);
     
     //loop back from 
-    int end = n;
+    int end = n-1;
     for (int i = max; i != 0; i--)
     {
         if (freq_array[i] != 0)

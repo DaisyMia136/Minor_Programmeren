@@ -140,8 +140,7 @@ bool search(int value, int values[], int n)
         
     }
     while(n > 0);
-    
-    
+
     return false;
 }
 

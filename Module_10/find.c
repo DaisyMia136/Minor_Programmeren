@@ -120,10 +120,6 @@ bool search(int value, int values[], int n)
         else if (value < values[n/2])
         {
             // search in lower half
-            // for (int new_value = 0; new_value < n/2; new_value++)
-            // {
-            //     values[new_value] = values[new_value];
-            // }
             n = n / 2;
             
         }

@@ -64,13 +64,6 @@ int main(int argc, string argv[])
 
     // Sort the haystack
     sort(haystack, size);
-    
-        for (int j = 0; j < size; j++)
-    {
-        printf("%i ", haystack[j]);
-    }
-    printf("\n");
-    
 
     // Try to find needle in haystack
     if (search(needle, haystack, size))
@@ -193,7 +186,12 @@ void sort(int values[], int n)
         }
     }
     
-
+    for (int j = 0; j < n; j++)
+    {
+        printf("%i ", values[j]);
+    }
+    printf("\n");
+    
     
     
     return;

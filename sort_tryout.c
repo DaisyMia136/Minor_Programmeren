@@ -19,7 +19,7 @@ void sort(int values[], int n);
 
 int main(void)
 {
-    int values[4] = {3,0,1,2};
+    int values[4] = {50, 60, 23, 12};
     sort(values, 4);
 }
 // Sorts array of n values

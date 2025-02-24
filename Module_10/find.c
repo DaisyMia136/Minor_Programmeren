@@ -149,10 +149,10 @@ void sort(int values[], int n)
     int sorted_array[n];
     int number = 0;
     
-    for(int number = 0; number < n; number++)
+    for(int numbers = 0; numbers < n; numbers++)
     {
-        freq_array[values[number]] = freq_array[values[number]] + 1;
-        pre_fix_array[values[number]] = pre_fix_array[values[number]] + 1;
+        freq_array[values[numbers]] = freq_array[values[numbers]] + 1;
+        pre_fix_array[values[numbers]] = pre_fix_array[values[numbers]] + 1;
         
         //printf("%i\n",freq_array[values[number]]); 
         

@@ -172,7 +172,7 @@ void sort(int values[], int n)
         //printf("%i\n", pre_fix_array[pre_fix_count]);
         pre_fix_array[pre_fix_count] = pre_fix_array[pre_fix_count - 1] + pre_fix_array[pre_fix_count];
     }
-    //printf("%i\n", pre_fix_array[max]);
+    printf("%i\n", pre_fix_array[0]);
     
     //loop back from 
     for (int i = max; i != 0; i--)

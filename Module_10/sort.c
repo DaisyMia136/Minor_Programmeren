@@ -63,22 +63,27 @@ void generate_random_numbers(int arr[], int n)
 // Sorts array of n values
 void sort(int values[], int n)
 {
-    // TODO: implement an O(n^2) sorting algorithm
+    int new_value = 0;
     // loop through values (current value)
-    for(int replace_value = 0; replace_value < n - 1; replace_value++)
+    for(int replace_value = 0; replace_value < n; replace_value++)
     {
+    //printf("replace counter: %i\n", replace_value);
+
         // loop through subsequent values (current++)
         for (int next_value = replace_value + 1; next_value < n; next_value++)
         {
-            if (values[replace_value] < values[next_value])
+            //printf("counter: %i\n", next_value);
+            if (values[replace_value] > values[next_value])
             {
+                new_value = values[replace_value];
                 values[replace_value] = values[next_value];
+                values[next_value] = new_value;
+                //printf("%i\n", values[replace_value]);
             }
             
             
         }
-        // replace current value with lowest value
-        values[current_value] = values[lowest_value];
+        printf("%i ", values[replace_value]);
     }
     return;
 }

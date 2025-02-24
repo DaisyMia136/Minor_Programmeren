@@ -143,12 +143,13 @@ void sort(int values[], int n)
 {
     // TODO: implement the sorting algorithm
     
-    // make frequency array
+
     int freq_array[max];
     int pre_fix_array[max];
     int sorted_array[n];
     int number = 0;
     
+    // make frequency array
     for(int numbers = 0; numbers < n; numbers++)
     {
         freq_array[values[numbers]] = freq_array[values[numbers]] + 1;

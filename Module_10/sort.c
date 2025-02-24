@@ -71,7 +71,7 @@ void sort(int values[], int n)
         for (int pos_lowest_value = current_value + 1; pos_lowest_value < n; pos_lowest_value++)
         {
             //find lowest value in subsequent values
-            if (pos_lowest_value < pos_lowest_value + 1)
+            if (values[pos_lowest_value] < pos_lowest_value + 1)
             {
                     
             }

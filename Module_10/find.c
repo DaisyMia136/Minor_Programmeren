@@ -134,6 +134,7 @@ bool search(int value, int values[], int n)
             // }
             n = (n / 2) + (n / 4);
             
+            
         }
         
         

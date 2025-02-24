@@ -175,13 +175,13 @@ void sort(int values[], int n)
     //printf("%i\n", pre_fix_array[5]);
     
     //loop back from 
-    end = 
+    int end = n;
     for (int i = max; i != 0; i--)
     {
         if (freq_array[i] != 0)
         {
             number = i;
-            sorted_array[n] = number;
+            sorted_array[end] = number;
         }
     }
     

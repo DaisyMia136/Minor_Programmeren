@@ -146,11 +146,11 @@ void sort(int values[], int n)
 
     int freq_array[max];
     int pre_fix_array[max];
-    // for (int array = 0; array < max; array++)
-    // {
-    //     freq_array[array] = 0;
-    //     pre_fix_array[array] = 0;
-    // }
+    for (int array = 0; array < max; array++)
+    {
+        freq_array[array] = 0;
+        pre_fix_array[array] = 0;
+    }
     
     int sorted_array[n];
     int number = 0;

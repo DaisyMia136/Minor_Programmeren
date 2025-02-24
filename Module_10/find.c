@@ -110,7 +110,7 @@ bool search(int value, int values[], int n)
         printf("n: %i\n", n/2);
         printf("values: %i\n", values[n/2]);
         
-        if (n/2 == 1)
+        if (n/2 == 1 || )
         {
             return false;
         }

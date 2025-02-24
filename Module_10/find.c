@@ -177,6 +177,7 @@ void sort(int values[], int n)
         }
     }
     
+    for (int i )
 
     
     

@@ -37,7 +37,7 @@ void sort(int values[], int n)
             if (values[replace_value] > values[next_value])
             {
                 values[replace_value] = values[next_value];
-                
+                values[next_value] = values = 
                 printf("%i\n", values[replace_value]);
             }
             

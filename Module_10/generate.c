@@ -25,7 +25,7 @@ int main(int argc, string argv[])
     // TODO: comment me
     if (argc == 3) // if the second option is used
     {
-        srand48((long int) atoi(argv[2]));
+        srand48((long int) atoi(argv[2])); // use the inputted number as a seed 
     }
     else
     {

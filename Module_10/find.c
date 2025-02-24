@@ -105,6 +105,7 @@ void generate_sequential_numbers(int arr[], int n)
 bool search(int value, int values[], int n)
 {
     // TODO: implement the searching algorithm
+    int counter = 0;
     do
     {
         printf("n: %i\n", n/2);

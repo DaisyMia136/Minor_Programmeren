@@ -154,7 +154,7 @@ void sort(int values[], int n)
     // make prefix sum (add the first amount to the second position and continue)
     for(int pre_fix_count = 1; pre_fix_count < MAX; pre_fix_count++)
     {
-        printf("%i\n", pre_fix_array[pre_fix_count]);
+        //printf("%i\n", pre_fix_array[pre_fix_count]);
         pre_fix_array[pre_fix_count] = freq_array[pre_fix_count - 1] + freq_array[pre_fix_count];
     }
     printf("%i\n", pre_fix_array[66535]);

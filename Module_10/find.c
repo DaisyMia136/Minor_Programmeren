@@ -149,7 +149,7 @@ void sort(int values[], int n)
     for (int array = 0; array < max; array++)
     {
         freq_array[array] = 0;
-        pre_fix_array[array];
+        pre_fix_array[array] = 0;
     }
     
     int sorted_array[n];

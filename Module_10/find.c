@@ -166,7 +166,10 @@ void sort(int values[], int n)
     //printf("%i\n", pre_fix_array[10]);
     
     //loop back from 
-    for (int i = max; i )
+    for (int i = max; i != 0; i--)
+    {
+        
+    }
 
     
     

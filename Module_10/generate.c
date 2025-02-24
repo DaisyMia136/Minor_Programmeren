@@ -34,7 +34,7 @@ int main(int argc, string argv[])
 
     // Loop for n times
     for (int i = 0; i < n; i++) 
-    {
+    {   // print 
         printf("%i\n", (int) (drand48() * LIMIT));
     }
 

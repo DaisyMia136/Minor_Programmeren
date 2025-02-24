@@ -38,7 +38,7 @@ void sort(int values[], int n)
             
             
         }
-        printf("")
+        printf("%i", values[replace_value]);
     }
     return;
 }

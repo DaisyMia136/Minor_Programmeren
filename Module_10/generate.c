@@ -12,7 +12,7 @@
 
 int main(int argc, string argv[])
 {
-    // Error message if input is incorrect
+    // Error message if input arguments are incorrect
     if (argc != 2 && argc != 3)
     {
         printf("Usage: generate n [s]\n");

@@ -38,7 +38,7 @@ void sort(int values[], int n)
             {
                 new_value = values[replace_value];
                 values[replace_value] = values[next_value];
-                values[next_value] = values = 
+                values[next_value] = new_value;
                 printf("%i\n", values[replace_value]);
             }
             

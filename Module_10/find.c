@@ -91,6 +91,12 @@ void generate_random_numbers(int arr[], int n)
 void generate_sequential_numbers(int arr[], int n)
 {
     // TODO: implement a sequential number generator
+    for (int i = 0; i < n; i++)
+    {
+        
+    }
+    
+    
     return;
 }
 

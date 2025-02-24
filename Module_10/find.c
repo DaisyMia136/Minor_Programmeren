@@ -179,7 +179,7 @@ void sort(int values[], int n)
     
     for (int j = 0; j < n; j++)
     {
-        printf("%i", )
+        printf("%i", sorted_array[j]);
     }
 
     

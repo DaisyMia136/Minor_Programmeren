@@ -24,7 +24,7 @@ int main(int argc, string argv[])
     int haystack[MAX];
     for (size = 0; size < MAX; size++)
     {
-        // wait for hay until EOF
+        // wait for hay until EOF (end of file)
         int straw = get_int("item: ");
         if (straw == INT_MAX)
         {

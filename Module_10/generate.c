@@ -23,7 +23,7 @@ int main(int argc, string argv[])
     int n = atoi(argv[1]);
 
     // TODO: comment me
-    if (argc == 3)
+    if (argc == 3) // if the second option is used 
     {
         srand48((long int) atoi(argv[2]));
     }

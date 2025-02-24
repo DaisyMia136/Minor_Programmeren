@@ -144,6 +144,7 @@ void sort(int values[], int n)
     
     // make frequency array
     int freq_array[65536];
+    int pre_fix_array[65536];
     
     for(int number = 0; number < n; number++)
     {

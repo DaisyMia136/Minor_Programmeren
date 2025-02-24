@@ -163,5 +163,8 @@ void sort(int values[], int n)
         pre_fix_array[pre_fix_count] = pre_fix_array[pre_fix_count - 1] + pre_fix_array[pre_fix_count];
     }
     printf("%i\n", pre_fix_array[10]);
+    
+    
+    
     return;
 }

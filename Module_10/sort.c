@@ -17,7 +17,7 @@ const int MAX = 65536;
 
 int main(int argc, string argv[])
 {
-    fprintf(stderr, "RUNNING SORT\n");
+    fprintf(stderr, "RUNNING SORT\n"); // print RUNNING SORT to file (?) stderr
     // fill haystack
     int size;
     int haystack[MAX];

@@ -173,7 +173,7 @@ void sort(int values[], int n)
         if (freq_array[i] != 0)
         {
             index = pre_fix_array[i];
-            sorted_array[index] = 
+            sorted_array[i] = 
         }
     }
 

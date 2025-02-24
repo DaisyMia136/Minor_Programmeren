@@ -34,13 +34,13 @@ void sort(int values[], int n)
         // loop through subsequent values (current++)
         for (int next_value = replace_value + 1; next_value < n; next_value++)
         {
-            printf("counter: %i\n", next_value);
+            //printf("counter: %i\n", next_value);
             if (values[replace_value] > values[next_value])
             {
                 new_value = values[replace_value];
                 values[replace_value] = values[next_value];
                 values[next_value] = new_value;
-                printf("%i\n", values[replace_value]);
+                //printf("%i\n", values[replace_value]);
             }
             
             

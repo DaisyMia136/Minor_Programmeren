@@ -150,7 +150,7 @@ void sort(int values[], int n)
         
     }
     
-    // 
+    // make prefix sum (add the first amount to the second )
     
     return;
 }

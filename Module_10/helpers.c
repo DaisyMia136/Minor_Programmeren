@@ -11,7 +11,7 @@ void sort(int values[], int n) //haystack and size
     
     // loop through values (current value)
     
-        // loop through remaining values (current + 1)
+        // loop through remaining values (current++)
             //check if current 
     
     

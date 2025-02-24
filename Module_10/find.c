@@ -151,7 +151,7 @@ void sort(int values[], int n)
     }
     
     // make prefix sum (add the first amount to the second position and continue)
-    for(int pre_fix_sum = 0; pre_fix_sum < MAX; pre_fix_sum++)
+    for(int pre_fix_sum = 1; pre_fix_sum < MAX; pre_fix_sum++)
     
     return;
 }

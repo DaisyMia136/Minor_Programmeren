@@ -13,7 +13,6 @@ void sort(int values[], int n) //haystack and size
 
         // loop through subsequent values (current++)
             //find lowest value in subsequent values 
-                // if subsequnt value 
             
     
     

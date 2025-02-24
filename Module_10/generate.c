@@ -22,7 +22,7 @@ int main(int argc, string argv[])
     // change the inputted seed from a string to an integer
     int n = atoi(argv[1]);
 
-    // Check if 
+    // Check if a seed is inputted
     if (argc == 3) // if the second option is used
     {
         srand48((long int) atoi(argv[2])); // use the inputted number as a seed 

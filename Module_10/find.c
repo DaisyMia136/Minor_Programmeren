@@ -143,7 +143,7 @@ void sort(int values[], int n)
     
     for(int number = 0; number < n; number++)
     {
-        freq_array[]
+        freq_array[values[number]]
     }
     
     

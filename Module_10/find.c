@@ -144,7 +144,7 @@ void sort(int values[], int n)
     for(int number = 0; number < n; number++)
     {
         freq_array[values[number]] = freq_array[values[number]] + 1;
-        printf("%i",freq_array[values[number]]); 
+        printf("%i\n",freq_array[values[number]]); 
         
     }
     

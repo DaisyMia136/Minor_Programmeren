@@ -14,7 +14,7 @@ int main(void)
     bool valid = false; 
     
     // ask input 
-    counter = 0;
+    int counter = 0;
     do 
     { 
         string pasword = get_string("Wachtwoord? ");
@@ -27,7 +27,9 @@ int main(void)
         else
         {
             printf("Niet sterk genoeg!\n");
+            counter++
         }
+        printf("%i", counter);
     }
     while(valid == false);
     

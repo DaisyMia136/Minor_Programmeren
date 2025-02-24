@@ -65,7 +65,7 @@ int main(int argc, string argv[])
     // Sort the haystack
     sort(haystack, size);
     
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < size; j++)
     {
         printf("%i ", haystack[j]);
     }

@@ -150,7 +150,6 @@ void sort(int values[], int n)
         
     }
     
-    int pre_fix_array[65536];
     // make prefix sum (add the first amount to the second position and continue)
     pre_fix_array[0] = freq_array[0];
     for(int pre_fix_count = 1; pre_fix_count < MAX; pre_fix_count++)

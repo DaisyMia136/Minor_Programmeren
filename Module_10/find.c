@@ -127,7 +127,6 @@ bool search(int value, int values[], int n)
             // search in upper half
             n = n + (n / 4);
         }
-    counter++;    
         
     }
     while(n > 0);

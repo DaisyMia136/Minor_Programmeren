@@ -165,7 +165,7 @@ void sort(int values[], int n)
     //printf("%i\n", pre_fix_array[10]);
     
     //
-        pre_fix_array[0] = freq_array[0];
+    pre_fix_array[0] = freq_array[0];
 
     
     

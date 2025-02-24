@@ -10,9 +10,10 @@ void sort(int values[], int n) //haystack and size
     // TODO: implement an O(n^2) sorting algorithm
     
     // loop through values (current value)
-    
-        // loop through remaining values (current++)
-            //check if current is lower than subsequent values
+
+        // loop through subsequent values (current++)
+            //find lowest value in subsequent values 
+                
             
     
     

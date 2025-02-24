@@ -12,7 +12,7 @@
 // maximum array size
 #define MAX 65536
 
-const int MAX = 65536;
+const int max = 65536;
 // Fills array of size n with random numbers
 void generate_random_numbers(int arr[], int n);
 

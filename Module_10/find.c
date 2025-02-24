@@ -109,7 +109,7 @@ bool search(int value, int values[], int n)
     {
         printf("%i", n/2);
         
-        if (values[(n/2)] == value)
+        if (values[(n/2) -1] == value)
         {
             return true;
         }

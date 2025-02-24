@@ -12,7 +12,8 @@ void sort(int values[], int n) //haystack and size
     // loop through values (current value)
     
         // loop through remaining values (current++)
-            //check if current 
+            //check if current is lower than subsequent values
+            
     
     
     return;

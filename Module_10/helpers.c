@@ -17,5 +17,6 @@ void sort(int values[], int n) //haystack and size
             
         // replace current value with lowest value
         
+        }
     return;
 }

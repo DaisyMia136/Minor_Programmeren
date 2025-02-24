@@ -27,7 +27,7 @@ int main(void)
         else
         {
             printf("Niet sterk genoeg!\n");
-            counter++
+            counter++;
         }
         printf("%i", counter);
     }

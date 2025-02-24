@@ -65,7 +65,7 @@ void sort(int values[], int n)
 {
     if (n == 1)
     {
-        printf("%i", values[])
+        printf("%i", values[0]);
     }
 
     int new_value = 0;

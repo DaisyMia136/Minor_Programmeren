@@ -129,6 +129,7 @@ bool vote(int voter, int rank, string name)
     
     preferences[voter][rank] = 1;
     printf("%i", preferences[voter][rank]);
+    
     return false;
 }
 

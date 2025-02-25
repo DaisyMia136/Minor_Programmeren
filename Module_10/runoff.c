@@ -128,7 +128,7 @@ bool vote(int voter, int rank, string name, int candidate_count)
 {
     
     preferences[voter][rank] == name;
-    printf()
+    printf("")
     return false;
 }
 

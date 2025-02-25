@@ -17,8 +17,7 @@ typedef struct
 } candidate;
 
 // Array of candidates
-static candidate candidates[MAX_CANDIDATES];
-
+static candidate candidates[MAX_CANDIDATES]
 // Numbers of voters and candidates
 int voter_count = 0;
 int candidate_count = 0;

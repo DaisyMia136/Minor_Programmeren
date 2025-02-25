@@ -124,7 +124,7 @@ int main(int argc, string argv[])
 }
 
 // Record preference if vote is valid
-bool vote(int voter, int rank, string name, int candidate_count)
+bool vote(int voter, int rank, string name)
 {
     
     preferences[voter][rank] = name;

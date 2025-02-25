@@ -71,7 +71,7 @@ int main(int argc, string argv[])
             string name = get_string("Rank %i: ", j + 1);
 
             // Record vote, unless it's invalid
-            if (!vote(i, j, name))
+            if (!vote(i, j, name, candidate_count))
             {
                 printf("Invalid vote.\n");
                 return 4;
@@ -124,7 +124,7 @@ int main(int argc, string argv[])
 }
 
 // Record preference if vote is valid
-bool vote(int voter, int rank, string name)
+bool vote(int voter, int rank, string name, int candidate_count)
 {
     
     preferences[voter][rank] = ;//candidate index;

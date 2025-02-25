@@ -127,7 +127,7 @@ int main(int argc, string argv[])
 bool vote(int voter, int rank, string name)
 {
     
-    preferences[voter][rank] = name;
+    //preferences[voter][rank] = name;
     printf("%s", preferences[voter][rank]);
     return false;
 }

@@ -132,11 +132,6 @@ bool vote(int voter, int rank, string name)
     {
         
     }
-    if (counter == (argc - 1))
-    {
-        return true;
-    }
-    
     return false;
 }
 

@@ -131,10 +131,7 @@ bool vote(int voter, int rank, string name)
     // check if name is a part of candidates.names
     for (int check = 0; check < ; check++)
     {
-        if (name == candidates[check].name)
-        {
-            counter++;
-        }
+        
     }
     if (counter == (argc - 1))
     {

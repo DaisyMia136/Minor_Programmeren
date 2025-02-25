@@ -49,7 +49,7 @@ int main(int argc, string argv[])
     }
     for (int i = 0; i < candidate_count; i++)
     {
-        candidates[i].name = argv[i + 1];
+        candidates[i].name = argv[i + 1]; // plus one, otherwise the function name will be the first candidate name
         candidates[i].votes = 0;
         candidates[i].eliminated = false;
     }

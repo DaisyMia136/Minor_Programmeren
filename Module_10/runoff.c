@@ -127,7 +127,9 @@ int main(int argc, string argv[])
 bool vote(int voter, int rank, string name)
 {
     // TODO
-    // check if name is a part of 
+    // check if name is a part of candidates.names
+    
+    
     return false;
 }
 

@@ -130,7 +130,7 @@ bool vote(int voter, int rank, string name)
     // check if name is a part of candidates.names
     for (int check = 0; check < argc; check++)
     {
-        if (name = )
+        if (name = candidates[check])
     }
     
     return false;

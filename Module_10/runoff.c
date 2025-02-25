@@ -135,7 +135,10 @@ bool vote(int voter, int rank, string name)
             counter++;
         }
     }
-    if (counter == argc - 1))
+    if (counter == (argc - 1))
+    {
+        
+    }
     
     return false;
 }

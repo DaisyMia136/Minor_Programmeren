@@ -129,7 +129,7 @@ bool vote(int voter, int rank, string name)
     
     //preferences[voter][rank] = name;
     printf("%i", preferences[voter][rank]);
-    return false;
+    return true;
 }
 
 // Tabulate votes for non-eliminated candidates

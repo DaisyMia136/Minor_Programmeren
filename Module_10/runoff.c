@@ -208,6 +208,7 @@ int find_min(void)
     // loop through candidates
     
         // check if candidate is not eliminated
+            // 
         
     
     return 0;

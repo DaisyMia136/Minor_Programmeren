@@ -208,9 +208,8 @@ int find_min(void)
     // loop through candidates
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {
-        
         // check if candidate is not eliminated
-            
+        if (candidates[current_candidate].)    
             // check if value is lowest 
             
     }    

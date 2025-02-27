@@ -177,7 +177,7 @@ void tabulate(void)
 bool print_winner(void)
 {
     // TODO
-    
+    for()
     
     if (counted_votes > 50%)
     {

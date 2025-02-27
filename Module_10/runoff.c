@@ -161,7 +161,7 @@ void tabulate(void)
     {
         int index = preferences[voter][0];
         
-        candidates.votes[index]++;
+        candidates[index].votes++;
     }
     
     return;

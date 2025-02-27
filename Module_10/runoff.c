@@ -266,7 +266,7 @@ void eliminate(int min)
     // TODO
     for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
-        
+        if ()
     }
     
     return;

@@ -220,7 +220,7 @@ int find_min(void)
                 if (candidates[current_candidate].votes < candidates[next_candidate].votes)
                 {
                     smallest_counter++;
-                    
+                    printf("%i", smallest_counter);
                 }
             }
             next_candidate = 0;

@@ -206,7 +206,7 @@ int find_min(void)
 {
     // TODO
     // loop through candidates
-    
+    for 
         // check if candidate is not eliminated
             
             // check if value is lowest 

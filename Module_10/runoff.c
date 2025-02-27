@@ -162,7 +162,7 @@ void tabulate(void)
     {
         index = preferences[voter][0];
         candidates[index].votes++;
-        //printf("%i", candidates[index].votes);
+        printf("%i", candidates[index].votes);
     }
     
     return;

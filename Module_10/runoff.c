@@ -24,7 +24,7 @@ int voter_count = 0;
 int candidate_count = 0;
 
 // Function prototypes
-bool vote(int voter, int rank, string name, int candidate_count);
+bool vote(int voter, int rank, string name);
 void tabulate(void);
 bool print_winner(void);
 int find_min(void);

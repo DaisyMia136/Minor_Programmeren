@@ -171,10 +171,6 @@ void tabulate(void)
                 //printf("voter %i: %i", voter, index);
                 candidates[index].votes++;
             }
-            else
-            {
-                counter_eliminated++;
-            }
         }    
     }
     

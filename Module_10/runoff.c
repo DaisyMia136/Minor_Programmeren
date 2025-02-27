@@ -177,7 +177,10 @@ void tabulate(void)
 bool print_winner(void)
 {
     // TODO
-    for(int current_candidate = 0; current_candidate < )
+    for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
+    {
+        
+    }
     
     if (counted_votes > 50%)
     {

@@ -161,7 +161,7 @@ void tabulate(void)
     int index = 0;
     int counter_eliminated = 0;
     // TODO
-    for(int voter = 0; voter <= voter_count; voter++)
+    for(int voter = 0; voter < voter_count; voter++)
     {
         index = preferences[voter][counter_eliminated];
         printf("voter %i: %i", voter = 1, index);

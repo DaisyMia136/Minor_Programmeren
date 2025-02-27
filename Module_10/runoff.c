@@ -187,7 +187,7 @@ bool print_winner(void)
     //printf("%i", candidates[1].votes);
     
     
-    for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
+    for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
         if(candidates[current_candidate].eliminated == false)
         {

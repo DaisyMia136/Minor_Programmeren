@@ -244,6 +244,7 @@ int find_min(void)
 bool is_tie(int min)
 {
     int tie_counter =0;
+    int counter_eliminated
     // TODO
     for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
@@ -253,6 +254,10 @@ bool is_tie(int min)
             {
                 tie_counter++;
             }
+        }
+        else 
+        {
+            eliminated_counter++;
         }
     }
     if (tie_counter == candidate_count)

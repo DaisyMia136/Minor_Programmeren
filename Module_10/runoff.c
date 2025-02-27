@@ -220,7 +220,7 @@ int find_min(void)
             {
                 next_counter++;
             }
-            
+            }
             
         }    
     } 

@@ -235,6 +235,7 @@ bool is_tie(int min)
             tie_counter++:
         }
     }
+    if (tie_counter = )
     return false;
 }
 

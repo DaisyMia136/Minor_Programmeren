@@ -166,6 +166,7 @@ void tabulate(void)
         {
             candidates[index].votes++;
         }
+        counter_eliminated++;
     }
     
     return;

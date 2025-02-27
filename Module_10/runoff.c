@@ -181,7 +181,7 @@ bool print_winner(void)
     {
         if(candidates[current_candidate].eliminated != true)
         {
-            
+            // count votes 
         }
     }
     

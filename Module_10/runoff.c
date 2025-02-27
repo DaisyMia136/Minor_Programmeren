@@ -177,12 +177,14 @@ void tabulate(void)
 bool print_winner(void)
 {
     // TODO
+    
+    // calc votes needed for more than 50%
+    
+    
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {
         if(candidates[current_candidate].eliminated != true)
         {
-            // count votes 
-            
         }
     }
     

@@ -215,11 +215,11 @@ int find_min(void)
         {
             for (int next_candidate = 0; next_candidate < candidate_count - 1; next_candidate++)
             {
-            // check if value is lowest 
-            if (candidates[current_candidate].votes < candidates[current_candidate + next_counter].votes)
-            {
-                next_counter++;
-            }
+                // check if value is lowest 
+                if (candidates[current_candidate].votes < candidates[current_candidate + next_counter].votes)
+                {
+                    next_counter++;
+                }
             }
             
         }    

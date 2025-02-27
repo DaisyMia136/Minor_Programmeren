@@ -232,7 +232,7 @@ bool is_tie(int min)
     {
         if (candidates[current_candidate].votes == min)
         {
-            tie_counter++:
+            tie_counter++;
         }
     }
     if (tie_counter == candidate_count)

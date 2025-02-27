@@ -219,6 +219,7 @@ int find_min(void)
                 next_counter++;
             }
             
+            
         }    
     } 
     printf("%i", min);

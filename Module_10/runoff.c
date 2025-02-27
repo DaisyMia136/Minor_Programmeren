@@ -141,7 +141,7 @@ void tabulate(void)
     {
         preferences[voter][0]
         
-        candidates.name
+        candidates.votes
     }
     
     return;

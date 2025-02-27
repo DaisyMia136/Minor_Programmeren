@@ -139,7 +139,9 @@ void tabulate(void)
     // TODO
     for(int voter = 0; voter < voter_count; voter++)
     {
+        preferences[voter]
         
+        candidates.name
     }
     
     return;

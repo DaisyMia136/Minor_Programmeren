@@ -221,7 +221,7 @@ int find_min(void)
             {
                 min = candidates[current_candidate + 1].votes;
             }
-            candidates[current_candidate].votes = min;
+            
         }    
     }    
     printf("%i\n", min);

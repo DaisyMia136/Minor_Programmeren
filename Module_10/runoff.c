@@ -187,7 +187,7 @@ bool print_winner(void)
         {
                 if (candidates[current_candidate].votes > votes_50)
                 {
-                    printf("")
+                    printf("%s", candidates[current_candidate].name)
                     return true;
                 }
         }

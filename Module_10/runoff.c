@@ -181,7 +181,7 @@ bool print_winner(void)
     
     // calc votes needed for more than 50%
     int votes_50 = round(voter_count / 2); 
-    printf("%i", votes_50);
+    //printf("%i", votes_50);
     printf("%i", candidates[1].votes);
     
     

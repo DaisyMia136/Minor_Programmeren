@@ -208,7 +208,7 @@ int find_min(void)
     int min = 0;
     int next_counter = 1;
     // loop through candidates
-    for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
+    for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
         // check if candidate is not eliminated
         if (candidates[current_candidate].eliminated == false)

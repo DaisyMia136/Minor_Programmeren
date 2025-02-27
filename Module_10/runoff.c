@@ -213,7 +213,7 @@ int find_min(void)
             
             // check if value is lowest 
             
-        
+    }    
     
     return 0;
 }

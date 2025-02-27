@@ -206,7 +206,7 @@ int find_min(void)
 {
     // TODO
     int min = 0;
-    int next_counter = 0;
+    int smallest_counter = 0;
     // loop through candidates
     for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
@@ -218,7 +218,7 @@ int find_min(void)
                 // check if value is lowest 
                 if (candidates[current_candidate].votes < candidates[next_candidate].votes)
                 {
-                    
+                    smallest_counter++;
                 }
             }
             

@@ -221,6 +221,7 @@ int find_min(void)
                     smallest_counter++;
                 }
             }
+            next_candidate 
             if (smallest_counter == candidate_count - 1)
             {
                 min = candidates[current_candidate].votes;

@@ -179,7 +179,7 @@ bool print_winner(void)
     // TODO
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {
-        if(candidates[c])
+        if(candidates[current_candidate].)
     }
     
     if (counted_votes > 50%)

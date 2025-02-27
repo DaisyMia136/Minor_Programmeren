@@ -164,7 +164,7 @@ void tabulate(void)
     for(int voter = 0; voter < voter_count; voter++)
     {
         index = preferences[voter][counter_eliminated];
-        //printf("voter %i: %i", voter = 1, index);
+        //printf("voter %i: %i", voter, index);
         if (candidates[index].eliminated == false)
         {
             candidates[index].votes++;

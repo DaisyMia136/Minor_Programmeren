@@ -179,7 +179,7 @@ bool print_winner(void)
     // TODO
     
     // calc votes needed for more than 50%
-    votes_50 = 
+    int votes_50 = voter_count / 2; 
     
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {

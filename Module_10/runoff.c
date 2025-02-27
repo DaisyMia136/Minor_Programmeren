@@ -209,7 +209,6 @@ int find_min(void)
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {
         
-    }
         // check if candidate is not eliminated
             
             // check if value is lowest 

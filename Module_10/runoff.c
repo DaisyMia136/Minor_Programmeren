@@ -178,7 +178,7 @@ bool print_winner(void)
 {
     // TODO
     
-    if (vote_)
+    if (counted_votes > )
     return false;
 }
 

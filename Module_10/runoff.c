@@ -197,10 +197,6 @@ bool print_winner(void)
                     return true;
                 }
         }
-        else
-        {
-            break;
-        }
     }
     return false;
 }

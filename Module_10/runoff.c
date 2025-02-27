@@ -158,7 +158,7 @@ void tabulate(void)
 {
     int index = 0;
     // TODO
-    for(int voter = 0; voter < voter_count; voter++)
+    for(int voter = 0; voter <= voter_count; voter++)
     {
         index = preferences[voter][0];
         candidates[index].votes++;

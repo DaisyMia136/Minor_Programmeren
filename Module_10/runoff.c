@@ -185,6 +185,14 @@ bool print_winner(void)
     {
         if(candidates[current_candidate].eliminated != true)
         {
+                if (counted_votes > 50%)
+    {
+        return true;
+    }
+    else 
+    {
+        return false;
+    }
         }
     }
     

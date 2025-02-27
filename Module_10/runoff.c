@@ -180,7 +180,9 @@ bool print_winner(void)
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {
         if(candidates[current_candidate].eliminated != true)
-        
+        {
+            
+        }
     }
     
     if (counted_votes > 50%)

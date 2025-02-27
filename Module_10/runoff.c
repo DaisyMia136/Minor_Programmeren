@@ -183,6 +183,7 @@ bool print_winner(void)
     int votes_50 = round(voter_count / 2); 
     printf("%i", votes_50);
     
+    
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {
         if(candidates[current_candidate].eliminated == false)

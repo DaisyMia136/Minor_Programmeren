@@ -237,6 +237,7 @@ bool is_tie(int min)
     }
     if (tie_counter == candidate_count)
     {
+        printf("tie!\n");
         return  true;
     }
     return false;

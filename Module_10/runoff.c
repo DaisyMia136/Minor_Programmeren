@@ -221,7 +221,7 @@ int find_min(void)
                     smallest_counter++;
                 }
             }
-        if (smallest_counter == )
+        if (smallest_counter == candidate_count)
             
         }    
     } 

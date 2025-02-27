@@ -237,7 +237,7 @@ bool is_tie(int min)
     }
     if (tie_counter == candidate_count)
     {
-        
+        return  true;
     }
     return false;
 }

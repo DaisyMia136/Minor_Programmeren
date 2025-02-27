@@ -214,7 +214,7 @@ int find_min(void)
             // check if value is lowest 
             if (candidates[current_candidate].votes < candidates[current_candidate + 1].votes)
             {
-                min = 
+                min = candidates[current_candidate]. votes
             }
         }    
     }    

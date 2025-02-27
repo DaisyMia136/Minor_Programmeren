@@ -164,13 +164,16 @@ void tabulate(void)
     for(int voter = 0; voter < voter_count; voter++)
     {
         index = preferences[voter][counter_eliminated];
-        //printf("voter %i: %i", voter, index);
         if (candidates[index].eliminated == false)
         {
+            //printf("voter %i: %i", voter, index);
             candidates[index].votes++;
-            break;
         }
-        counter_eliminated++;
+        else
+        {
+            counter_eliminated++;    
+        }
+        
     }
     
     return;
@@ -182,18 +185,17 @@ bool print_winner(void)
     // TODO
     
     // calc votes needed for more than 50%
-    int votes_50 = round(voter_count / 2); 
+    int votes_50 = round(voter_count / 2.0); 
     //printf("%i", votes_50);
-    //printf("%i", candidates[1].votes);
     
     
     for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
         if(candidates[current_candidate].eliminated == false)
         {
-                if (candidates[current_candidate].votes > votes_50)
+                if (candidates[current_candidate].votes >= votes_50)
                 {
-                    printf("%s", candidates[current_candidate].name);
+                    printf("%s\n", candidates[current_candidate].name);
                     return true;
                 }
         }
@@ -208,6 +210,7 @@ int find_min(void)
     int min = 0;
     int smallest_counter = 0;
     int next_candidate =0; 
+    int same_counter =0;
     // loop through candidates
     for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
@@ -220,17 +223,21 @@ int find_min(void)
                 if (candidates[current_candidate].votes < candidates[next_candidate].votes)
                 {
                     smallest_counter++;
-                    printf("%i", smallest_counter);
+                    printf("%i", candidates[current_candidate].votes);
+                }
+                else if (candidates[current_candidate].votes == candidates[next_candidate].votes)
+                {
+                    same_counter++;
                 }
             }
             next_candidate = 0;
-            if (smallest_counter == candidate_count)
+            if (smallest_counter == candidate_count - 1 || same_counter == candidate_count)
             {
                 min = candidates[current_candidate].votes;
-            }    
+            } 
         }    
     } 
-    printf("%i", min);
+    //printf("%i", min);
     return min;
 }
 
@@ -248,12 +255,11 @@ bool is_tie(int min)
     }
     if (tie_counter == candidate_count)
     {
-        printf("tie!\n");
+        //printf("tie!\n");
         return  true;
     }
     return false;
 }
-
 // Eliminate the candidate (or candidates) in last place
 void eliminate(int min)
 {

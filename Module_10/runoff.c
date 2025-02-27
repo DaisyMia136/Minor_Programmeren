@@ -160,7 +160,7 @@ void tabulate(void)
     / TODO
     for(int voter = 0; voter < voter_count; voter++)
     {
-        int index = preferences[voter][0];
+        index = preferences[voter][0];
         printf("%i", index);
         candidates[index].votes++;
         //printf("%i", candidates[index].votes);

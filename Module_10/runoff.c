@@ -178,6 +178,7 @@ bool print_winner(void)
 {
     // TODO
     
+    
     if (counted_votes > 50%)
     {
         return true;

@@ -205,7 +205,10 @@ bool print_winner(void)
 int find_min(void)
 {
     // TODO
+    // loop through candidates
     
+        // check if candidate is not eliminated
+        
     
     return 0;
 }

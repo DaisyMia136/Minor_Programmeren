@@ -268,7 +268,7 @@ void eliminate(int min)
     {
         if (candidates[current_candidate].votes == min)
         {
-            
+            candidates[current_candidate].eliminated = true; 
         }
     }
     

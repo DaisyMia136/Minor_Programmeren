@@ -206,6 +206,7 @@ int find_min(void)
 {
     // TODO
     int min = 0;
+    int next_counter = 0;
     // loop through candidates
     for(int current_candidate = 0; current_candidate < candidate_count; candidate_count++)
     {

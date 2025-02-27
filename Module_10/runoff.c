@@ -221,7 +221,7 @@ int find_min(void)
             
         }    
     }    
-    //printf("%i\n", min);
+    printf("%i\n", min);
     return 0;
 }
 

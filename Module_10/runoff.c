@@ -165,17 +165,17 @@ void tabulate(void)
     {
         for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
         {
-        index = preferences[voter][counter_eliminated];
-        if (candidates[index].eliminated == false)
-        {
-            //printf("voter %i: %i", voter, index);
-            candidates[index].votes++;
-        }
-        else
-        {
-            counter_eliminated++;
-        }
-        
+            index = preferences[voter][counter_eliminated];
+            if (candidates[index].eliminated == false)
+            {
+                //printf("voter %i: %i", voter, index);
+                candidates[index].votes++;
+            }
+            else
+            {
+                counter_eliminated++;
+            }
+            
     }
     
     return;

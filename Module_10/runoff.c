@@ -178,8 +178,14 @@ bool print_winner(void)
 {
     // TODO
     
-    if (counted_votes > )
-    return false;
+    if (counted_votes > 50%)
+    {
+        return true;
+    }
+    else 
+    {
+        return false;
+    }
 }
 
 // Return the minimum number of votes any remaining candidate has

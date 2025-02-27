@@ -198,7 +198,6 @@ bool print_winner(void)
                     printf("%s\n", candidates[current_candidate].name);
                     return true;
                 }
-                
         }
     }
     return false;

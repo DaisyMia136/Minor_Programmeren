@@ -217,6 +217,7 @@ int find_min(void)
             {
                 min = candidates[current_candidate].votes;
             }
+            
         }    
     }    
     

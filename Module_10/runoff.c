@@ -170,6 +170,7 @@ void tabulate(void)
             {
                 //printf("voter %i: %i", voter, index);
                 candidates[index].votes++;
+                break;
             }
         }    
     }

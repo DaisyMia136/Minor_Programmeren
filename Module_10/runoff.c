@@ -247,10 +247,12 @@ bool is_tie(int min)
     // TODO
     for(int current_candidate = 0; current_candidate < candidate_count; current_candidate++)
     {
-        if (candidates[c])
-        if (candidates[current_candidate].votes == min)
+        if (candidates[current_candidate].eliminated == false)
         {
-            tie_counter++;
+            if (candidates[current_candidate].votes == min)
+            {
+                tie_counter++;
+            }
         }
     }
     if (tie_counter == candidate_count)

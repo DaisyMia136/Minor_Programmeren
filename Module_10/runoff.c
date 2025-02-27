@@ -224,7 +224,7 @@ int find_min(void)
             candidates[current_candidate].votes = min;
         }    
     }    
-    
+    printf("%i\n", min);
     return 0;
 }
 

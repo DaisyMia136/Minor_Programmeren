@@ -189,10 +189,6 @@ bool print_winner(void)
                 {
                     return true;
                 }
-                else 
-                {
-                    return false;
-                }
         }
     }
 }

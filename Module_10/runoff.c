@@ -221,10 +221,10 @@ int find_min(void)
                     smallest_counter++;
                 }
             }
-        if (smallest_counter == candidate_count - 1)
-        {
-            
-        }    
+            if (smallest_counter == candidate_count - 1)
+            {
+                
+            }    
         }    
     } 
     printf("%i", min);

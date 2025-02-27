@@ -260,7 +260,7 @@ bool is_tie(int min)
             eliminated_counter++;
         }
     }
-    if (tie_counter == candidate_count - el)
+    if (tie_counter == candidate_count - eliminated_counter)
     {
         //printf("tie!\n");
         return  true;

@@ -175,7 +175,7 @@ void tabulate(void)
             {
                 counter_eliminated++;
             }
-            
+        }    
     }
     
     return;

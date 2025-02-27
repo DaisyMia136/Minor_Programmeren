@@ -193,14 +193,14 @@ bool print_winner(void)
     {
         if(candidates[current_candidate].eliminated == false)
         {
-                if (candidates[current_candidate].votes >= votes_50)
+                if (candidates[current_candidate].votes > votes_50)
                 {
                     printf("%s\n", candidates[current_candidate].name);
                     return true;
                 }
+                
         }
     }
-    
     return false;
 }
 

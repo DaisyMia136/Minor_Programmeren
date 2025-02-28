@@ -29,6 +29,8 @@ void init_board(void);
 bool move(int tile);
 bool is_won(void);
 
+
+// global variables 
 static int board[DIM_MAX][DIM_MAX];
 int d = 0;
 

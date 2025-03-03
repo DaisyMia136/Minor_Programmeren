@@ -28,10 +28,11 @@ int main(void)
     
     // while (true)
     
+    
         // clear board
         clear_board();
         
-        // update scene 
+       
         
             
             move_snowflake();    

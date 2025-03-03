@@ -41,7 +41,7 @@ int main(void)
 // functions 
 void init_scene(void)
 {
-    for ()    
+    for (int x = )    
 }
 
 

@@ -46,6 +46,7 @@ void move_snowflack(void)
     
     
     int x_snowflack = random();
+    printf()
             
             // print snowflack * 
             

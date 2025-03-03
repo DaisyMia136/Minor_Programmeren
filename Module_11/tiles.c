@@ -274,9 +274,12 @@ bool move(int tile)
     }
     
     // check if _ is adjecent to tile
-    // check if x coordinate of _ is adjacent 
+    // check if x coordinate of _ is adjacent to tile
     if (_x == tile_x + 1 || _x == tile_x - 1)
-    
+    {
+        // check if y coordinate of _ is adjacent to tile
+        if ()
+    }
     
     
     if ((_x == tile_x + 1 && _y != tile_y + 1 && _y != tile_y - 1) || (_x == tile_x - 1 && _y != tile_y - 1 && _y != tile_y + 1) || (_y == tile_y + 1 && _x != tile_x + 1 && _x != tile_x - 1) || (_y == tile_y - 1 && _x != tile_x - 1 && _x != tile_x + 1))

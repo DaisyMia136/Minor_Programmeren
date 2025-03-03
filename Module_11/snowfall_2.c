@@ -37,9 +37,11 @@ int main(void)
         // clear scene
         clear_scene();
         // ensure everything is printed
-    fflush(stdout);
+        fflush(stdout);
         // print scene
         print_scene();
+        // ensure everything is printed
+        fflush(stdout);
         terra_sleep(50);
         // add time point 
         timestep++;

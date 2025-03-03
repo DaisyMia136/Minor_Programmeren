@@ -71,7 +71,7 @@ void move_snowflack(void)
     int x_snowflake = random() / ((double) RAND_MAX + 1) * X_MAX; 
     //printf("%i", x_snowflake);
             
-// print snowflack * 
+// print snowflake * 
     for (int y_snowflake = Y_MAX; y_snowflake > 0; y_snowflake--)
     {
         printf("\033[%d;%dH*", y_snowflake, x_snowflake);

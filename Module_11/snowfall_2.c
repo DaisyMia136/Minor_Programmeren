@@ -59,6 +59,11 @@ void update_scene(void)
         // add new snowflake
     }
     
-    // if 
+    // loop through all snow flakes
+        // if one is found in the air, move it down
+        
+        // if one is found on the ground keep it there
+        
+        // if one is found on top of another keep it there
 }
     

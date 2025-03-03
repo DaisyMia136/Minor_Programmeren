@@ -246,9 +246,13 @@ void draw_tile(int value)
 bool move(int tile)
 {
     // TODO
+    // initial variables 
+    
     // find coordinates of tile  
-    
-    
+    for (int heigth = 0; heigth < d && value> 0; heigth++)
+    {
+        
+    }
     
     
     return false;

@@ -253,7 +253,7 @@ bool move(int tile)
     {
         for (int length = 0; length < d && value > 0; length++)
         {
-            
+            if 
         }
     }
     

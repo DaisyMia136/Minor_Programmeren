@@ -42,7 +42,9 @@ int main(void)
 void init_scene(void)
 {
     for (int x = 0; x < X_MAX; x++)
-    []
+    {
+        
+    }
 }
 
 

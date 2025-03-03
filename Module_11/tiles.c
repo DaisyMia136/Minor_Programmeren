@@ -264,6 +264,7 @@ bool move(int tile)
                 //printf("%i \n %i \n\n", tile_x, tile_y);
                 break;
             }
+            else 
         }
     }
     

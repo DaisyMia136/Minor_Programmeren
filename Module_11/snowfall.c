@@ -78,7 +78,7 @@ void move_snowflack(void)
         terra_sleep();
         printf("\033[%d;%dH ", y_snowflake, x_snowflake);
     }
-            // move snowflack down    
+            // move snowflake down    
 }
 
 

@@ -247,6 +247,8 @@ bool move(int tile)
 {
     // TODO
     // initial variables 
+    int value = d*d - 1;
+
     
     // find coordinates of tile  
     for (int heigth = 0; heigth < d && value> 0; heigth++)

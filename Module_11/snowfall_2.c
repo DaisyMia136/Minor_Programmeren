@@ -16,6 +16,9 @@
 void init_scene(void);
 void update_scene(void);
 void clear_scene(void);
+void print_scene(void)
+
+
 
 
 // structs 
@@ -84,7 +87,7 @@ void clear_scene(void)
     printf("\033[%d;%dH", 0, 0);
 }
     
-void print_scene(void)
+
 {
     for (int x = 0; x < X_MAX; x++)
     {
@@ -96,7 +99,7 @@ void print_scene(void)
     }
 }
 
-void print_snowflake(int flake)
+
 {
     if (flake == 1)
     {

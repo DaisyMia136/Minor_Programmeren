@@ -90,6 +90,10 @@ void move_snowflake(void)
     
     print_scene();
     
+    // move snowflake down
+    
+    
+    // update scene 
     
 }
 

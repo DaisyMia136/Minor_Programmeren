@@ -175,6 +175,7 @@ void init_board(void)
     if(d%2 == 0)
     {
         value = 0;
+        max_value = 
         // loop through 2D matrix to fill the squar
         for (int length = 0; length < d; length++)
         {

@@ -70,7 +70,7 @@ void add_snowflake(void)
     // intitial variables
     
     // generate random snowflake location > generate random x coordinate 
-    srandom(time(NULL));
+    srandom(time(NULL));     // use the current time to pick a seed for the random number generator
     // generate a random number between 0 and 80
     int x_snowflake = random() / ((double) RAND_MAX + 1) * X_MAX; 
     

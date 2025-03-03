@@ -270,7 +270,6 @@ bool move(int tile)
                 _x = heigth;
                 _y = length;
             }
-            value--;
         }
         
     }

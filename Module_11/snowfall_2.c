@@ -20,4 +20,6 @@ static int scene[X_MAX][Y_MAX];
 int main(void)
 {
     
+}
+
     

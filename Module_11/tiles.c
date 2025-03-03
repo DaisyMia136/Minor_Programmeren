@@ -287,7 +287,7 @@ bool move(int tile)
             
             return true;
         }
-    else if ()
+    else if (_y == tile_y + 1 || _y == tile_y - 1)
     }
     
     

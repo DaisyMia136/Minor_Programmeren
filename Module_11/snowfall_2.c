@@ -18,7 +18,7 @@ void add_snowflake(void);
 void clear_scene(void);
 void print_scene(void);
 void print_snowflake(int flake);
-void terra_sleep(void);
+void terra_sleep(int m);
 
 // structs 
 static int scene[X_MAX][Y_MAX];

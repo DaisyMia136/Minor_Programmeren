@@ -5,8 +5,8 @@
 #include <time.h>
 
 // global variables
-    #define X_MAX 20
-    #define Y_MAX 20
+    #define X_MAX 5
+    #define Y_MAX 5
     #define new_snow 50
     #define COLOR "\033[32m"
     int timestep = 0;

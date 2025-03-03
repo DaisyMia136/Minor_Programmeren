@@ -34,7 +34,7 @@ int main(void)
           
             
         // print scene
-        print_scene();
+        
         
         // move snowflake down
         move_snowflake();

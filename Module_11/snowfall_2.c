@@ -28,9 +28,12 @@ int main(void)
     
         // update scene
         
-    // clear scene
+        // clear scene
     
-    // print scene
+        // print scene
+        
+        // add time point 
+        timestep++;
     
 }
 

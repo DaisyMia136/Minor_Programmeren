@@ -8,6 +8,7 @@
 void clear_board(void);
 void move_snowflack(void);
 void terra_sleep(void);
+void init_scene(void);
 
 // global variables
     // edges of the board?

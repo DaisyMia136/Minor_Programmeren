@@ -53,7 +53,7 @@ void move_snowflack(void)
     //printf("%i", x_snowflack);
             
 // print snowflack * 
-    for (int y_snowflak = Y_MAX; y > 0; y--)
+    for (int y_snowflake = Y_MAX; y > 0; y--)
     {
         printf("\033[")
     }

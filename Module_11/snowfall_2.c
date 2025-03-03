@@ -112,7 +112,7 @@ void print_snowflake(int flake)
     {
         printf("*");
     }
-    else 
+    else if (flake == 0)
     {
         printf(" ");
     }

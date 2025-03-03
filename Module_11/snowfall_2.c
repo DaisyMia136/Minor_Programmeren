@@ -97,8 +97,6 @@ void update_scene(void)
 
 void clear_scene(void)
 {
-    // ensure everxthing is printed
-    fflush(stdout);
     printf("\033[2J");
     printf("\033[%d;%dH", 0, 0);
     

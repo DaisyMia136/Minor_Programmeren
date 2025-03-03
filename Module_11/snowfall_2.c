@@ -106,7 +106,10 @@ void print_snowflake(int flake)
     {
         printf("*");
     }
-    else ()
+    else 
+    {
+        printf(" ");
+    }
 }
 
 void terra_sleep(void)

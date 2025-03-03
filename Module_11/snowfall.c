@@ -7,6 +7,7 @@ void clear_board(void);
 // global variables
     // edges of the board?
 
+// structs 
 
 // main script
 int main(void)

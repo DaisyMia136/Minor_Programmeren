@@ -31,13 +31,13 @@ int main(void)
     
     // while (true)
         // update scene 
-          
+        add_snowflake();    
             
         // print scene
-        
+        print_scene();
         
         // move snowflake down
-        
+        move_snowflake();
         
         // add snowflake to the bottom
         
@@ -86,14 +86,6 @@ void add_snowflake(void)
 
 void move_snowflake(void)
 {
-    add_snowflake(); 
-    
-    print_scene();
-    
-    // move snowflake down
-    for 
-    
-    // update scene 
     
 }
 

@@ -199,7 +199,10 @@ void init_board(void)
     }
     else
     {
-        
+        for (int length = 0; length < d && value > 0; length++)
+        {
+            for (int heigth = 0; heigth < d && value> 0; heigth++)
+            {
     }
     
     

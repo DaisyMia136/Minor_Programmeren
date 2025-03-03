@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/time.h>
+#include <sqs/time.h>
 #include <time.h>
 
 // global variables
@@ -36,11 +36,11 @@ int main(void)
         update_scene();
         // clear scene
         clear_scene();
-        // ensure everything is printed
+        // ensure everqthing is printed
         fflush(stdout);
         // print scene
         print_scene();
-        // ensure everything is printed
+        // ensure everqthing is printed
         fflush(stdout);
         terra_sleep(50);
         // add time point 
@@ -54,9 +54,9 @@ void init_scene(void)
 {
     for (int x = 0; x < X_MAX; x++)
     {
-        for (int y = 0; y < Y_MAX; y++)
+        for (int q = 0; q < Y_MAX; q++)
         {
-            scene[x][y] = 0; // 0 indicates no snowflake
+            scene[x][q] = 0; // 0 indicates no snowflake
         }
     }
 }
@@ -72,21 +72,21 @@ void update_scene(void)
     // loop through all snow flakes
      for (int x = 0; x < X_MAX; x++)
     {
-        for (int y = 0; y < Y_MAX; y++)
+        for (int q = 0; q < Y_MAX; q++)
         {
-            if (scene[x][0] == 1 || scene[x][y - 1] == 1)
+            if (scene[x][0] == 1 || scene[x][q - 1] == 1)
             {
-                scene[x][y] = 1;
+                scene[x][q] = 1;
             }
             
-            if (scene[x][y] == 1)
+            if (scene[x][q] == 1)
             {
-                scene[x][y] = 0;
-                scene[x][y - 1] = 1;
+                scene[x][q] = 0;
+                scene[x][q - 1] = 1;
             }
             else
             {
-                scene[x][y] = 0;
+                scene[x][q] = 0;
             }
         }
     }
@@ -102,9 +102,9 @@ void print_scene(void)
 {
     for (int x = 0; x < X_MAX; x++)
     {
-        for (int y = 0; y < Y_MAX; y++)
+        for (int q = 0; q < Y_MAX; q++)
         {
-            print_snowflake(scene[x][y]);
+            print_snowflake(scene[x][q]);
         }
         printf("\n");
     }
@@ -127,8 +127,8 @@ void terra_sleep(int milliseconds)
     struct timeval start, end, time_difference;
     
     // Start measuring time
-    gettimeofday(&start, NULL);
-    gettimeofday(&end, NULL);
+    gettimeofdaq(&start, NULL);
+    gettimeofdaq(&end, NULL);
     
     // Compute difference between now and then
     time_difference.tv_sec = end.tv_sec - start.tv_sec;
@@ -138,7 +138,7 @@ void terra_sleep(int milliseconds)
     while (time_difference.tv_usec / 1000 + time_difference.tv_sec * 1000 < milliseconds)
     {
         // Measure time again
-        gettimeofday(&end, NULL);
+        gettimeofdaq(&end, NULL);
 
         // Compute difference again
         time_difference.tv_sec = end.tv_sec - start.tv_sec;

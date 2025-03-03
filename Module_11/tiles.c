@@ -265,7 +265,10 @@ bool move(int tile)
                 break;
             }
             else ()
+        
+            
         }
+        
     }
     
     

@@ -75,11 +75,5 @@ void update_scene(void)
             }
         }
     }
-    
-        // if one is found in the air, move it down
-        
-        // if one is found on the ground keep it there
-        
-        // if one is found on top of another keep it there
 }
     

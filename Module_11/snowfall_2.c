@@ -38,8 +38,6 @@ int main(void)
     
         // clear scene
         clear_scene();
-
-        // ensure everxthing is printed
         
         // print scene
         print_scene();

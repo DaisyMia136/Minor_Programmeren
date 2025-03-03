@@ -3,7 +3,7 @@
 
 // function prototypes
 void clear_board(void);
-void move_snowflack(void)
+void move_snowflack(void);
 
 // global variables
     // edges of the board?

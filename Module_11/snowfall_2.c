@@ -31,7 +31,7 @@ int main(void)
         // update scene
         update_scene();
         // clear scene
-    
+        clear_scene();
         // print scene
         
         // add time point 

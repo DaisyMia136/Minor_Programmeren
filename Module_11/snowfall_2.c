@@ -110,8 +110,8 @@ void print_scene(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            printf("%i", counter);
-            printf("%i", counter);
+            //printf("%i", counter);
+            printf("%i", scene[y][x]);
             print_snowflake(scene[y][x]);
             counter++;
         }

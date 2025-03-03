@@ -9,7 +9,7 @@
     #define Y_MAX 40
     #define milliseconds 999
     #define COLOR "\033[32m"
-        int timestep = 0;
+    int timestep = 0;
 
 // function prototypes
 void init_scene(void);

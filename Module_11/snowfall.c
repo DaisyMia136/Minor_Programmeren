@@ -84,7 +84,7 @@ void add_snowflake(void)
     
     for (y = Y_MAX; y >= 0; y--)
     {
-        print_snowflake()
+        print_snowflake(scene[x])
     }
 }
 

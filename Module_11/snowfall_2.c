@@ -84,3 +84,22 @@ void clear_scene(void)
     printf("\033[%d;%dH", 0, 0);
 }
     
+void print_scene(void)
+{
+    for (int x = 0; x < X_MAX; x++)
+    {
+        for (int y = 0; y < Y_MAX; y++)
+        {
+            print_snowflake(scene[x][y]);
+        }
+        printf("\n");
+    }
+}
+
+void print_snowflake(int flake)
+{
+    if (flake == 1)
+    {
+        printf("*");
+    }
+}

@@ -278,7 +278,7 @@ bool move(int tile)
     
     
     
-    || _x == tile_x - 1) && (_y == tile_y + 1 || _y == tile_y - 1))
+    //|| _x == tile_x - 1) && (_y == tile_y + 1 || _y == tile_y - 1))
     {
         // set the inputted tile to 0, representing '_'
         board[tile_x][tile_y] = 0;

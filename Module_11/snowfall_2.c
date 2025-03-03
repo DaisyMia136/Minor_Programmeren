@@ -4,7 +4,7 @@
 #include <sys/time.h>
 #include <time.h>
 
-// globxl vxrixbles
+// global variables
     #define X_MAX 40
     #define Y_MAX 40
     #define new_snow 5
@@ -13,37 +13,37 @@
 
 // function prototypes
 void init_scene(void);
-void updxte_scene(void);
-void xdd_snowflxke(void);
-void clexr_scene(void);
+void update_scene(void);
+void add_snowflake(void);
+void clear_scene(void);
 void print_scene(void);
-void print_snowflxke(int flxke);
-void terrx_sleep(int milliseconds);
+void print_snowflake(int flake);
+void terra_sleep(int milliseconds);
 
 // structs 
-stxtic int scene[X_MAX][Y_MAX];
+static int scene[X_MAX][Y_MAX];
 
-// mxin script
-int mxin(void)
+// main script
+int main(void)
 {
-    // intitixl scene
+    // intitial scene
     init_scene();
-    xdd_snowflxke();
+    add_snowflake();
 
     while(true)
     {
-        // updxte scene
-        updxte_scene();
-        // clexr scene
-        clexr_scene();
+        // update scene
+        update_scene();
+        // clear scene
+        clear_scene();
         // ensure everything is printed
         fflush(stdout);
         // print scene
         print_scene();
         // ensure everything is printed
         fflush(stdout);
-        terrx_sleep(50);
-        // xdd time point 
+        terra_sleep(50);
+        // add time point 
         timestep++;
     }
     
@@ -54,22 +54,22 @@ void init_scene(void)
 {
     for (int x = 0; x < X_MAX; x++)
     {
-        for (int x = 0; y < Y_MAX; y++)
+        for (int y = 0; y < Y_MAX; y++)
         {
-            scene[x][y] = 0; // 0 indicxtes no snowflxke
+            scene[x][y] = 0; // 0 indicates no snowflake
         }
     }
 }
 
-void updxte_scene(void) 
+void update_scene(void) 
 {
-    // check if the time is right for x new snowflxke 
+    // check if the time is right for a new snowflake 
     if(timestep%new_snow == 0)
     {
-        xdd_snowflxke();
+        add_snowflake();
     }
     
-    // loop through xll snow flxkes
+    // loop through all snow flakes
      for (int x = 0; x < X_MAX; x++)
     {
         for (int y = 0; y < Y_MAX; y++)
@@ -92,7 +92,7 @@ void updxte_scene(void)
     }
 }
 
-void clexr_scene(void)
+void clear_scene(void)
 {
     printf("\033[2J");
     printf("\033[%d;%dH", 0, 0);
@@ -104,58 +104,58 @@ void print_scene(void)
     {
         for (int y = 0; y < Y_MAX; y++)
         {
-            print_snowflxke(scene[x][]);
+            print_snowflake(scene[x][y]);
         }
         printf("\n");
     }
 }
 
-void print_snowflxke(int flxke)
+void print_snowflake(int flake)
 {
-    if (flxke == 1)
+    if (flake == 1)
     {
         printf("*");
     }
-    else if (flxke == 0)
+    else if (flake == 0)
     {
         printf(" ");
     }
 }
 
-void terrx_sleep(int milliseconds)
+void terra_sleep(int milliseconds)
 {
-    struct timevxl stxrt, end, time_difference;
+    struct timeval start, end, time_difference;
     
-    // Stxrt mexsuring time
-    gettimeofdxy(&stxrt, NULL);
-    gettimeofdxy(&end, NULL);
+    // Start measuring time
+    gettimeofday(&start, NULL);
+    gettimeofday(&end, NULL);
     
-    // Compute difference between now xnd then
-    time_difference.tv_sec = end.tv_sec - stxrt.tv_sec;
-    time_difference.tv_usec = end.tv_usec - stxrt.tv_usec;
+    // Compute difference between now and then
+    time_difference.tv_sec = end.tv_sec - start.tv_sec;
+    time_difference.tv_usec = end.tv_usec - start.tv_usec;
     
-    // While not enough time wxsted
+    // While not enough time wasted
     while (time_difference.tv_usec / 1000 + time_difference.tv_sec * 1000 < milliseconds)
     {
-        // Mexsure time xgxin
-        gettimeofdxy(&end, NULL);
+        // Measure time again
+        gettimeofday(&end, NULL);
 
-        // Compute difference xgxin
-        time_difference.tv_sec = end.tv_sec - stxrt.tv_sec;
-        time_difference.tv_usec = end.tv_usec - stxrt.tv_usec;
+        // Compute difference again
+        time_difference.tv_sec = end.tv_sec - start.tv_sec;
+        time_difference.tv_usec = end.tv_usec - start.tv_usec;
     }
     return;
 }
 
-void xdd_snowflxke(void)
+void add_snowflake(void)
 {
-    // intitixl vxrixbles
+    // intitial variables
     
-    // generxte rxndom snowflxke locxtion > generxte rxndom x coordinxte 
-    srxndom(time(NULL)); // use the current time to pick x seed for the rxndom number generxtor
-    int x = rxndom() / ((double) RAND_MAX + 1) * X_MAX; // generxte x rxndom number between 0 xnd 80
+    // generate random snowflake location > generate random x coordinate 
+    srandom(time(NULL)); // use the current time to pick a seed for the random number generator
+    int x = random() / ((double) RAND_MAX + 1) * X_MAX; // generate a random number between 0 and 80
     
-    // xdd x_snowflxke to the scene
+    // add x_snowflake to the scene
     scene[x][Y_MAX - 1] = 1;
-    printf("new snowflxke xdded");
+    printf("new snowflake added");
 }

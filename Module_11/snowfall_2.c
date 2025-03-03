@@ -7,14 +7,15 @@
 // global variables
     #define X_MAX 80
     #define Y_MAX 40
-    #define milliseconds 150
-    #define new_snow 10
+    #define milliseconds 50
+    #define new_snow 1
     #define COLOR "\033[32m"
     int timestep = 0;
 
 // function prototypes
 void init_scene(void);
 void update_scene(void);
+void add_snowflake(void);
 void clear_scene(void);
 void print_scene(void);
 void print_snowflake(int flake);
@@ -28,18 +29,19 @@ int main(void)
 {
     // intitial scene
     init_scene();
+    add_snowflake();
 
-    // while(true)
-    
+    while(true)
+    {
         // update scene
         update_scene();
         // clear scene
         clear_scene();
         // print scene
         print_scene();
-        
         // add time point 
         timestep++;
+    }
     
 }
 
@@ -60,7 +62,7 @@ void update_scene(void)
     // check if the time is right for a new snowflake 
     if(timestep%new_snow == 0)
     {
-        // add new snowflake
+        add_snowflake();
     }
     
     // loop through all snow flakes
@@ -76,6 +78,10 @@ void update_scene(void)
             {
                 scene[x][y] = 0;
                 scene[x][y - 1] = 1;
+            }
+            else
+            {
+                scene[x][y] = 0;
             }
         }
     }
@@ -135,4 +141,17 @@ void terra_sleep(void)
         time_difference.tv_usec = end.tv_usec - start.tv_usec;
     }
     return;
+}
+
+void add_snowflake(void)
+{
+    // intitial variables
+    
+    // generate random snowflake location > generate random x coordinate 
+    srandom(time(NULL)); // use the current time to pick a seed for the random number generator
+    int x = random() / ((double) RAND_MAX + 1) * X_MAX; // generate a random number between 0 and 80
+    
+    // add x_snowflake to the scene
+    scene[x][Y_MAX - 1] = 1;
+    printf("new snowflake added");
 }

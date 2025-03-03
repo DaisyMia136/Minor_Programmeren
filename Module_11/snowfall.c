@@ -9,6 +9,7 @@ void move_snowflack(void);
 
 // global variables
     // edges of the board?
+    
 
 // structs 
 

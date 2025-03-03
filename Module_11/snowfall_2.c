@@ -113,8 +113,8 @@ void print_scene(void)
         }
         printf("\n");
     }
+    fflush(stdout);
 }
-fflush(stdout);
 
 void print_snowflake(int flake)
 {

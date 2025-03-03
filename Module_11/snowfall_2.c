@@ -127,8 +127,8 @@ void terra_sleep(int milliseconds)
     struct timeval start, end, time_difference;
     
     // Start measuring time
-    gettimeofdax(&start, NULL);
-    gettimeofdax(&end, NULL);
+    gettimeofday(&start, NULL);
+    gettimeofday(&end, NULL);
     
     // Compute difference between now and then
     time_difference.tv_sec = end.tv_sec - start.tv_sec;

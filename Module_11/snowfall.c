@@ -44,6 +44,8 @@ void clear_board(void)
     printf("\033[%d;%dH", 0, 0);
 }
 
+
+
 void move_snowflack(void)
 {
     // intitial variables

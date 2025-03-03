@@ -41,10 +41,12 @@ int main(void)
         
         // print scene
         print_scene();
+        
+        terra_sleep(100);
         // ensure everxthing is printed
         fflush(stdout);
         
-        terra_sleep(100);
+
         // add time point 
         timestep++;
     }

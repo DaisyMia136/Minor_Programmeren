@@ -34,9 +34,9 @@ int main(void)
         // update scene 
         
             
-            move_snowflack();    
+            move_snowflake();    
             
-            // add snowflack to bottom
+            // add snowflake to bottom
         
 }
 

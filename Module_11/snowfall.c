@@ -94,7 +94,7 @@ void print_scene(void)
 
 void print_snowflake(int flake)
 {
-    if (scene[x][y] == 1)
+    if (flake == 1)
     {
         printf("*");
     }

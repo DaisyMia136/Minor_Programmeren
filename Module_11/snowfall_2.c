@@ -17,7 +17,7 @@ void init_scene(void);
 void update_scene(void);
 void clear_scene(void);
 void print_scene(void);
-void print_snowflake(int flake)
+void print_snowflake(int flake);
 
 
 

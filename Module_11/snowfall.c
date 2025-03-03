@@ -27,7 +27,8 @@ int main(void)
         // clear board
         clear_board();
         
-        // print bottom snowflacks 
+        // update scene 
+        
         
         // move snowflack down 
         move_snowflack();    

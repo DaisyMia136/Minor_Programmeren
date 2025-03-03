@@ -85,6 +85,7 @@ void print_scene(void)
         {
             print_snowflake(scene[x][y]);
         }
+        printf("\n");
     }
 }
 

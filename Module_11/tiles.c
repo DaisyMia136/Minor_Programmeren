@@ -278,7 +278,7 @@ bool move(int tile)
     // check if _ is adjecent to tile
     if (_x == tile_x + 1 || _x == tile_x - 1 || _y == tile_y + 1 || _y == tile_y - 1)
     {
-        board[_x][_y] = tile;
+        board[_x][_y] = 0 + tile;
         board[tile_x][tile_y] = 0;
         
         return true;

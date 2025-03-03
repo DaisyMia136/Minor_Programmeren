@@ -117,7 +117,7 @@ void print_snowflake(int flake)
     }
 }
 
-void terra_sleep(void)
+void terra_sleep(int milliseconds)
 {
     struct timeval start, end, time_difference;
     

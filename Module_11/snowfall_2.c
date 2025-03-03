@@ -162,6 +162,6 @@ void add_snowflake(void)
     int x = random() / ((double) RAND_MAX + 1) * X_MAX; // generate a random number between 0 and MAX
     
     // add y_snowflake to the scene
-    scene[0][x] = 1;
+    scene[][x] = 1;
     //printf("new snowflake added");
 }

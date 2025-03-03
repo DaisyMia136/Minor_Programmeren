@@ -38,6 +38,7 @@ int main(void)
         clear_scene();
         // ensure everxthing is printed
         fflush(stdout);
+        
         // print scene
         print_scene();
         // ensure everxthing is printed

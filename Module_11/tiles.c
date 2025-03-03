@@ -280,7 +280,12 @@ bool move(int tile)
         // check if y coordinate of _ is not adjacent to tile
         if (_y == tile_y)
         {
-            
+            // set the inputted tile to 0, representing '_'
+        board[tile_x][tile_y] = 0;
+        // set the '_' to the value of the inputted tile
+        board[_x][_y] = tile;
+        
+        return true;
         }
     }
     

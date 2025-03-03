@@ -36,6 +36,9 @@ int main(void)
         // print scene
         print_scene();
         
+        // move snowflake down
+        
+        
             // add snowflake to bottom
         
     

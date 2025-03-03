@@ -182,6 +182,9 @@ void init_board(void)
             for (int heigth = 0; heigth < d && value> 0; heigth++ && value--)
             {
                 if (value == 2)
+                {
+                    
+                }
                 board[length][heigth] = value;
                 
                 

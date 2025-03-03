@@ -17,6 +17,7 @@ int main(void)
     // while (true)
     
         // clear board
+        clear_board();
         
         // print bottom snowflacks 
         

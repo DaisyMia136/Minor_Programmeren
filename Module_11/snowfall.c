@@ -11,6 +11,7 @@ void move_snowflack(void);
     // edges of the board?
     #define X_MAX 80
     #define Y_MAX 40
+    #define milliseconds 50
 
 // structs 
 

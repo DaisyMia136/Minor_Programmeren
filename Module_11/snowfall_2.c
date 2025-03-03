@@ -72,9 +72,9 @@ void update_scene(void)
     }
     
     // loop through all snow flakes
-     for (int y = 0; y < X_MAX; y++)
+     for (int y = Y_MAX; y < 0; y++)
     {
-        for (int x = 0; x < Y_MAX; x++)
+        for (int x = X_MAX; x < ; x++)
         {
             if (scene[y][x] == 1 || scene[y + 1][x] == 1)
             {

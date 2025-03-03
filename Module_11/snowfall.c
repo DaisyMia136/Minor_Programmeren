@@ -90,7 +90,7 @@ void print_scene(void)
 
 void print_snowflake(void)
 {
-    
+    if 
 }
 
 void terra_sleep(void)

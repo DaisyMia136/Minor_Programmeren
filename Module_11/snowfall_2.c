@@ -73,7 +73,7 @@ void update_scene(void)
     }
     
     // loop through scene 
-    for (int y = Y_MAX - 1; y <= 0; y--)
+    for (int y = Y_MAX - 1; y >= 0; y--)
     {
         for (int x = X_MAX - 1; x <= 0; x--)
         {

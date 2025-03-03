@@ -37,9 +37,10 @@ int main(void)
         print_scene();
         
         // move snowflake down
+        move_snowflake();
         
+        // add snowflake to the bottom
         
-            // add snowflake to bottom
         
     
         // clear board

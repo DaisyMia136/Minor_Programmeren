@@ -30,5 +30,15 @@ int main(void)
     // print scene
     
 }
-
+// functions 
+void init_scene(void)
+{
+    for (int x = 0; x < X_MAX; x++)
+    {
+        for (int y = 0; y < Y_MAX; y++)
+        {
+            scene[x][y] = 0; // 0 indicates no snowflake
+        }
+    }
+}
     

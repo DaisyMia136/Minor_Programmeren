@@ -100,7 +100,7 @@ void clear_scene(void)
     }
 }
 
-
+void print_snowflake(int flake)
 {
     if (flake == 1)
     {

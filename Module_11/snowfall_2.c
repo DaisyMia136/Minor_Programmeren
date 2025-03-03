@@ -64,7 +64,7 @@ void update_scene(void)
     {
         for (int y = 0; y < Y_MAX; y++)
         {
-            if (scene[])
+            if (scene[x][y])
         }
     }
     

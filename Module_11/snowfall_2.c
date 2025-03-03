@@ -54,7 +54,7 @@ int main(void)
 // functions 
 void init_scene(void)
 {
-    for (int y = 0; y < X_MAX; y++)
+    for (int y = 0; y < Y_MAX; y++)
     {
         for (int x = 0; x < Y_MAX; x++)
         {

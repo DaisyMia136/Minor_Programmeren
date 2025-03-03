@@ -172,9 +172,9 @@ void init_board(void)
 {
     // TODO
     // check if input is even or odd
-    if(d%2 == 0 )
+    if(d%2 == 0)
     {
-        
+        // loop through 2D matrix to fill the 
     }
     else
     {

@@ -8,6 +8,7 @@
     #define X_MAX 80
     #define Y_MAX 40
     #define milliseconds 999
+    #define new_snow 
     #define COLOR "\033[32m"
     int timestep = 0;
 

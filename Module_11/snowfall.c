@@ -44,7 +44,7 @@ void move_snowflack(void)
     // use the current time to pick a seed for the random number generator
     srandom(time(NULL));
     
-    int x_snowflack = 
+    int x_snowflack = random
             
             // print snowflack * 
             

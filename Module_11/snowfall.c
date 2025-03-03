@@ -64,7 +64,7 @@ void move_snowflake(void)
 {
     // intitial variables
     
-// generate random snowflack location > generate random x coordinate 
+// generate random snowflake location > generate random x coordinate 
     // use the current time to pick a seed for the random number generator
     srandom(time(NULL));
     // generate a random number between 0 and 80

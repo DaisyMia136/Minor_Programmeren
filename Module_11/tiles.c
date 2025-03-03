@@ -250,6 +250,8 @@ bool move(int tile)
     int value = d*d - 1;
     int tile_x;
     int tile_y;
+    int _x;
+    int _y;
 
     
     // find coordinates of tile  

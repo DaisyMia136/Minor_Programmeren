@@ -266,7 +266,7 @@ bool move(int tile)
             }
             else ()
             
-            
+            value--;
             
         }
         

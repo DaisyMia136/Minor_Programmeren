@@ -183,7 +183,6 @@ void init_board(void)
             for (int heigth = 0; heigth < d && value < max_value; heigth++ && value++)
             {
                 board[length][heigth] = value;
-                value++
             }
         }
     }

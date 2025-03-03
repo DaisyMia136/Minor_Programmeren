@@ -29,7 +29,7 @@ int main(void)
     // while(true)
     
         // update scene
-        
+        update_scene();
         // clear scene
     
         // print scene

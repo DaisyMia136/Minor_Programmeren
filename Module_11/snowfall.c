@@ -37,6 +37,11 @@ int main(void)
 }
 
 // functions 
+void init_scene(void)
+
+
+
+
 void clear_board(void)
 {
     printf("\033[2J");

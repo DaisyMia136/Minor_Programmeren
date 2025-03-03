@@ -109,3 +109,28 @@ void print_snowflake(int flake)
         printf("*");
     }
 }
+
+void terra_sleep(void)
+{
+    struct timeval start, end, time_difference;
+    
+    // Start measuring time
+    gettimeofday(&start, NULL);
+    gettimeofday(&end, NULL);
+    
+    // Compute difference between now and then
+    time_difference.tv_sec = end.tv_sec - start.tv_sec;
+    time_difference.tv_usec = end.tv_usec - start.tv_usec;
+    
+    // While not enough time wasted
+    while (time_difference.tv_usec / 1000 + time_difference.tv_sec * 1000 < milliseconds)
+    {
+        // Measure time again
+        gettimeofday(&end, NULL);
+
+        // Compute difference again
+        time_difference.tv_sec = end.tv_sec - start.tv_sec;
+        time_difference.tv_usec = end.tv_usec - start.tv_usec;
+    }
+    return;
+}

@@ -74,7 +74,7 @@ void update_scene(void)
     {
         for (int x = 0; x < Y_MAX; x++)
         {
-            if (scene[Y_MAX][x] == 1 || scene[Y_MAX - 1][x] == 1)
+            if (scene[Y_MAX - 1][x] == 1 || scene[Y_MAX - 1][x] == 1)
             {
                 scene[y][x] = 1;
             }

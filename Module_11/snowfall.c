@@ -21,7 +21,7 @@ int main(void)
         // generate random snowflack location > generate random x coordinate 
         
         // move snowflack down 
-            
+            // 
         
         // add snowflack to bottom
 }

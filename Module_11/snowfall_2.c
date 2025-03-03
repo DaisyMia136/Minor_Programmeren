@@ -25,8 +25,6 @@ int main(void)
 {
     // intitial scene
     init_scene();
-    
-    // initial timestep
 
     // while(true)
     

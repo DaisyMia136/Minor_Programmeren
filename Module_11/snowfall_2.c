@@ -18,6 +18,7 @@ void update_scene(void);
 void clear_scene(void);
 void print_scene(void);
 void print_snowflake(int flake);
+void terra_sleep(void);
 
 
 

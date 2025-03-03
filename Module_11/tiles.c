@@ -257,7 +257,7 @@ bool move(int tile)
     {
         for (int length = 0; length < d && value > 0; length++)
         {
-            if (value == tile)
+            if (board[heigth][length] == tile)
             {
                 tile_x = heigth;
                 tile_y = length;

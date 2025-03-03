@@ -70,7 +70,9 @@ void update_scene(void)
             }
             
             if (scene[x][y] == 1)
-            
+            {
+                
+            }
         }
     }
     

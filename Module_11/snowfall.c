@@ -24,6 +24,7 @@ static int scene[X_MAX][Y_MAX];
 int main(void)
 {
     // initiate scene
+    init_scene();
     
     // while (true)
     

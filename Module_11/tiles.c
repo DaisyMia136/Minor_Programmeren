@@ -277,10 +277,12 @@ bool move(int tile)
     if (_x == tile_x + 1 || _x == tile_x - 1 || _y == tile_y + 1 || _y == tile_y)
     {
         
+        
+        return true;
     }
     else
     {
-        
+        return false;
     }
     
     

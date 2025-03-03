@@ -13,7 +13,7 @@ void terra_sleep(void);
     // edges of the board?
     #define X_MAX 80
     #define Y_MAX 40
-    #define milliseconds 1500
+    #define milliseconds 50
     #define COLOR "\033[32m"
 // structs 
 

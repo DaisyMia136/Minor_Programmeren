@@ -34,6 +34,7 @@ int main(void)
     {
         // update scene
         update_scene();
+        
         // clear scene
         clear_scene();
         // ensure everxthing is printed

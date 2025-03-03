@@ -174,7 +174,7 @@ void init_board(void)
     // check if input is even or odd
     if(d%2 == 0)
     {
-                value = d*d - 1;
+        int value = d*d - 1;
         
         // loop through 2D matrix to fill the squar
         for (int length = 0; length < d && value > 0; length++)

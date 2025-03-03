@@ -105,7 +105,7 @@ void clear_scene(void)
     
 void print_scene(void)
 {
-    counter = 0;
+    int counter = 0;
     for (int y = 0; y < Y_MAX; y++)
     {
         for (int x = 0; x < X_MAX; x++)

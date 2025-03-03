@@ -19,3 +19,5 @@ static int scene[X_MAX][Y_MAX];
 // main script
 int main(void)
 {
+    
+    

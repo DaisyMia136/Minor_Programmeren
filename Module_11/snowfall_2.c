@@ -52,11 +52,11 @@ int main(void)
 // functions 
 void init_scene(void)
 {
-    for (int x = 0; x < X_MAX; x++)
+    for (int a = 0; a < X_MAX; a++)
     {
         for (int y = 0; y < Y_MAX; y++)
         {
-            scene[x][y] = 0; // 0 indicates no snowflake
+            scene[a][y] = 0; // 0 indicates no snowflake
         }
     }
 }
@@ -70,23 +70,23 @@ void update_scene(void)
     }
     
     // loop through all snow flakes
-     for (int x = 0; x < X_MAX; x++)
+     for (int a = 0; a < X_MAX; a++)
     {
         for (int y = 0; y < Y_MAX; y++)
         {
-            if (scene[x][0] == 1 || scene[x][y - 1] == 1)
+            if (scene[a][0] == 1 || scene[a][y - 1] == 1)
             {
-                scene[x][y] = 1;
+                scene[a][y] = 1;
             }
             
-            if (scene[x][y] == 1)
+            if (scene[a][y] == 1)
             {
-                scene[x][y] = 0;
-                scene[x][y - 1] = 1;
+                scene[a][y] = 0;
+                scene[a][y - 1] = 1;
             }
             else
             {
-                scene[x][y] = 0;
+                scene[a][y] = 0;
             }
         }
     }
@@ -100,11 +100,11 @@ void clear_scene(void)
     
 void print_scene(void)
 {
-    for (int x = 0; x < X_MAX; x++)
+    for (int a = 0; a < X_MAX; a++)
     {
         for (int y = 0; y < Y_MAX; y++)
         {
-            print_snowflake(scene[x][]);
+            print_snowflake(scene[a][]);
         }
         printf("\n");
     }
@@ -151,11 +151,11 @@ void add_snowflake(void)
 {
     // intitial variables
     
-    // generate random snowflake location > generate random x coordinate 
+    // generate random snowflake location > generate random a coordinate 
     srandom(time(NULL)); // use the current time to pick a seed for the random number generator
-    int x = random() / ((double) RAND_MAX + 1) * X_MAX; // generate a random number between 0 and 80
+    int a = random() / ((double) RAND_MAX + 1) * X_MAX; // generate a random number between 0 and 80
     
-    // add x_snowflake to the scene
-    scene[x][Y_MAX - 1] = 1;
+    // add a_snowflake to the scene
+    scene[a][Y_MAX - 1] = 1;
     printf("new snowflake added");
 }

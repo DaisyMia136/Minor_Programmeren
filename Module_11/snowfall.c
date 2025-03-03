@@ -66,7 +66,7 @@ void init_scene(void)
     }
 }
 
-void clear_board(void)
+void clear_scene(void)
 {
     printf("\033[2J");
     printf("\033[%d;%dH", 0, 0);

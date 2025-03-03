@@ -87,6 +87,7 @@ void update_scene(void)
             {
                  scene[y][x] = 1;
             }
+            
         }
     }
 }

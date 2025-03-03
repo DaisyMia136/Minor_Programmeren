@@ -11,6 +11,7 @@ void terra_sleep(void);
 void init_scene(void);
 void print_scene(void);
 void print_snowflake(int flake);
+void move_snowflake(void);
 
 
 // global variables

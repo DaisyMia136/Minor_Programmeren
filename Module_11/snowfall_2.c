@@ -36,6 +36,8 @@ int main(void)
         update_scene();
         // clear scene
         clear_scene();
+        // ensure everything is printed
+    fflush(stdout);
         // print scene
         print_scene();
         terra_sleep(50);

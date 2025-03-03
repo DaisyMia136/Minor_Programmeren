@@ -26,7 +26,7 @@ int main(void)
     init_scene();
     
     // initial timestep
-    int timestep = 0;
+
     // while(true)
     
         // update scene

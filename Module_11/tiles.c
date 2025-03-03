@@ -273,6 +273,8 @@ bool move(int tile)
         
     }
     
+    // check if _ is adjecent to tile
+    
     
     
     return true;

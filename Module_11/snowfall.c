@@ -12,7 +12,7 @@ void clear_board(void);
 // main script
 int main(void)
 {
-    
+    // initiate board
 }
 
 // functions 

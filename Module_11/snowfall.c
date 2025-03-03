@@ -75,7 +75,7 @@ void move_snowflake(void)
     int x_snowflake = random() / ((double) RAND_MAX + 1) * X_MAX; 
     
     // add x_snowflake to the scene
-    scene[x_snowflake][]
+    scene[x_snowflake][Y_MAX] = 1;
             
 // print snowflake * 
             // move snowflake down    

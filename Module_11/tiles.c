@@ -247,7 +247,6 @@ bool move(int tile)
 {
     // TODO
     // initial variables 
-    int value = d*d - 1;
     int tile_x;
     int tile_y;
     int _x;

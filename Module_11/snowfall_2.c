@@ -112,6 +112,7 @@ void print_scene(void)
         {
             printf("")
             print_snowflake(scene[y][x]);
+            counter++;
         }
         printf("\n");
     }

@@ -279,7 +279,7 @@ bool move(int tile)
     if (_x == tile_x + 1 || _x == tile_x - 1 || _y == tile_y + 1 || _y == tile_y - 1)
     {
         board[_x][_y] = 0 + tile;
-        // set the 
+        // set the inputted tile to 
         board[tile_x][tile_y] = 0;
         
         return true;

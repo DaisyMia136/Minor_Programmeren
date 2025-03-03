@@ -291,7 +291,10 @@ bool move(int tile)
     {
         if (_x == tile_x)
         {
-            
+            // set the inputted tile to 0, representing '_'
+            board[tile_x][tile_y] = 0;
+            // set the '_' to the value of the inputted tile
+            board[_x][_y] = tile;
         }
     }
     }

@@ -63,8 +63,8 @@ void move_snowflack(void)
     for (int y_snowflake = Y_MAX; y_snowflake > 0; y_snowflake--)
     {
         printf("\033[%d;%dH*", y_snowflake, x_snowflake);
-        //terra_sleep();
-        //printf("\033[%d;%dH ", y_snowflake, x_snowflake);
+        terra_sleep();
+        printf("\033[%d;%dH ", y_snowflake, x_snowflake);
     }
             // move snowflack down    
 }

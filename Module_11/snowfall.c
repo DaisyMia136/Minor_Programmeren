@@ -6,7 +6,7 @@
 
 // function prototypes
 void clear_board(void);
-void move_snowflake(void);
+void add_snowflake(void);
 void terra_sleep(void);
 void init_scene(void);
 void print_scene(void);

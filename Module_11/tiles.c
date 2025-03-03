@@ -183,9 +183,18 @@ void init_board(void)
             {
                 if (value == 2)
                 {
-                     board[length][heigth] = 1;
+                    board[length][heigth] = 1;
                 }
-                else if ()
+                else if (value == 1)
+                {
+                     board[length][heigth] = 2;
+                }
+                else 
+                {
+                    
+                }
+                
+                
                 board[length][heigth] = value;
                 
                 

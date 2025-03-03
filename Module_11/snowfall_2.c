@@ -88,9 +88,6 @@ void update_scene(void)
                 scene[y][x] = 0;
                 scene[y + 1][x] = 1;
             }
-            
-            
-            
         }
     }
 }

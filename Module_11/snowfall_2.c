@@ -7,7 +7,6 @@
 // global variables
     #define X_MAX 80
     #define Y_MAX 40
-    #define milliseconds 50
     #define new_snow 1
     #define COLOR "\033[32m"
     int timestep = 0;

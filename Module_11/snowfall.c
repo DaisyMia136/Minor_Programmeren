@@ -38,6 +38,8 @@ void clear_board(void)
 
 void move_snowflack(void)
 {
+    // intitial variables
+    
 // generate random snowflack location > generate random x coordinate 
             
             // print snowflack * 

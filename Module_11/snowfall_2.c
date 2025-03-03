@@ -71,7 +71,7 @@ void update_scene(void)
         add_snowflake();
     }
     
-    // loop through all snow flakes
+    // loop through scene
      for (int y = Y_MAX; y < 0; y--)
     {
         for (int x = X_MAX; x < 0; x--)

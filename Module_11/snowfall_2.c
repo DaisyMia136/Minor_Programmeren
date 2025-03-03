@@ -100,7 +100,6 @@ void print_scene(void)
         for (int y = 0; y < Y_MAX; y++)
         {
             print_snowflake(scene[x][y]);
-            terra_sleep(50);
         }
         printf("\n");
     }

@@ -38,7 +38,7 @@ int main(void)
         // clear scene
         clear_scene();
         // print scene
-        
+        print_scene()
         // add time point 
         timestep++;
     

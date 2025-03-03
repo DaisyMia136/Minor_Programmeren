@@ -86,7 +86,6 @@ void update_scene(void)
             // {
             //     scene[y][x] = 1;
             // }
-            printf("%i", scene[y][x]);
             if (scene[y][x] == 1)
             {
                 scene[y][x] = 0;

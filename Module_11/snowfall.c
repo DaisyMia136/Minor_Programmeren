@@ -12,7 +12,7 @@ void move_snowflack(void);
     #define X_MAX 80
     #define Y_MAX 40
     #define milliseconds 50
-
+    #define COLOR "\033[32m"
 // structs 
 
 // main script

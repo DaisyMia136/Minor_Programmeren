@@ -54,6 +54,7 @@ void init_scene(void)
 
 void update_scene(void) 
 {
-    
+    // check if the time is right for a new snowflake 
+    if()
 }
     

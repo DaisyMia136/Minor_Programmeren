@@ -47,7 +47,7 @@ void move_snowflack(void)
 // generate random snowflack location > generate random x coordinate 
     // use the current time to pick a seed for the random number generator
     srandom(time(NULL));
-    int x_snowflack = random() / double(RAND_MAX + 1)) * EDGE_MAX;
+    int x_snowflack = random() / (double(RAND_MAX + 1)) * EDGE_MAX;
     printf("%i", x_snowflack);
             
             // print snowflack * 

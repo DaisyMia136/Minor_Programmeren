@@ -66,8 +66,10 @@ void update_scene(void)
         {
             if (scene[x][y - 1] == 1)
             {
-                scene[x]
+                scene[x][y] = 1;
             }
+            
+            if (scene)
             
         }
     }

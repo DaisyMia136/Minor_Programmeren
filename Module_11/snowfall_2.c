@@ -42,6 +42,7 @@ int main(void)
         fflush(stdout);       
         // print scene
         print_scene();
+        
 
         
         terra_sleep(100);

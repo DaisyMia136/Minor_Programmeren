@@ -19,6 +19,15 @@ static int scene[X_MAX][Y_MAX];
 // main script
 int main(void)
 {
+    // intitial scene
+    
+    // while(true)
+    
+        // update scene
+        
+    // clear scene
+    
+    // print scene
     
 }
 

@@ -94,6 +94,7 @@ void update_scene(void)
             }
         }
     }
+    return;
 }
 
 void clear_scene(void)

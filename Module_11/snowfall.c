@@ -13,6 +13,12 @@ void clear_board(void);
 int main(void)
 {
     // initiate board
+    
+    // while (true)
+    
+        // clear board
+        
+        // 
 }
 
 // functions 

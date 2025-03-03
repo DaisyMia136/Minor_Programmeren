@@ -1,5 +1,6 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 // function prototypes
 void clear_board(void);

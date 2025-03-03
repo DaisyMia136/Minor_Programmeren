@@ -177,7 +177,7 @@ void init_board(void)
         // loop through 2D matrix to fill the squar
         for (int length = 0; length < d; length++)
         {
-            for (int height = 0; height < d; height)
+            for (int height = 0; heigth < d; heigth)
         }
     }
     else

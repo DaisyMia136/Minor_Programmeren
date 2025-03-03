@@ -245,7 +245,6 @@ void draw_tile(int value)
 // If tile borders empty space, moves tile and returns true, else returns false
 bool move(int tile)
 {
-    printf("%i",tile);
     // TODO
     // initial variables 
     int value = d*d - 1;

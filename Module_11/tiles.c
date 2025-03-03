@@ -172,7 +172,14 @@ void init_board(void)
 {
     // TODO
     // check if input is even or odd
-    if(d)
+    if(d%2 == 0 )
+    {
+        
+    }
+    else
+    {
+        
+    }
     
     
 }

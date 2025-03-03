@@ -268,7 +268,7 @@ bool move(int tile)
     }
     
     
-    return false;
+    return true;
 }
 
 // Returns true if game is won (i.e., board is in winning configuration), else false

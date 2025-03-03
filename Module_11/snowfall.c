@@ -49,7 +49,7 @@ void move_snowflack(void)
     srandom(time(NULL));
     // generate a random number between 0 and 80
     int x_snowflack = random() / ((double) RAND_MAX + 1) * EDGE_MAX; 
-    printf("%i", x_snowflack);
+    //printf("%i", x_snowflack);
             
             // print snowflack * 
             

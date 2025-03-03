@@ -30,7 +30,7 @@ int main(void)
         // update scene 
         
         
-        // move snowflack down 
+        // 1 
         move_snowflack();    
             
         

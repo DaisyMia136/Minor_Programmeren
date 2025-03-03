@@ -85,6 +85,7 @@ int main(int argc, string argv[])
 
         // Log the requested move for testing purposes
         log_move(tile);
+        
 
         // Move if possible, else report illegality
         if (!move(tile))

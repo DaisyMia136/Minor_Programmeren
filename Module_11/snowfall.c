@@ -84,6 +84,8 @@ void add_snowflake(void)
     
 }
 
+void 
+
 void print_scene(void)
 {
     for (int x = 0; x < X_MAX; x++)

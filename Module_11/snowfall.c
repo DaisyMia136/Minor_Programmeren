@@ -88,6 +88,7 @@ void move_snowflake(void)
 {
     add_snowflake(); 
     
+    print_scene();
     
 }
 

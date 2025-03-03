@@ -82,7 +82,10 @@ void update_scene(void)
             {
                  scene[y][x] = 1;
             }
-            if(scene[y + 1][x] == 1 && )
+            if(scene[y][x] == 1 && scene[y + 1][x])
+            {
+                scene[y][x] = 1;
+            }
             
             if (scene[y][x] == 1)
             {

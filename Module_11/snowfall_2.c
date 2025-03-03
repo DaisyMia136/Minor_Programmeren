@@ -114,6 +114,7 @@ void print_scene(void)
         printf("\n");
     }
 }
+    fflush(stdout);
 
 void print_snowflake(int flake)
 {

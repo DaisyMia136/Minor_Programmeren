@@ -266,7 +266,8 @@ bool move(int tile)
             }
             else (board[heigth][length] == '_')
             {
-                
+                _x = heigth;
+                _y = length;
             }
             
             value--;

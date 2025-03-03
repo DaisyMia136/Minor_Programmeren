@@ -55,7 +55,7 @@ void move_snowflack(void)
 // print snowflack * 
     for (int y_snowflake = Y_MAX; y_snowflake > 0; y_snowflake--)
     {
-        printf("\033[%d;%d")
+        printf("\033[%d;%dH")
     }
             // move snowflack down    
 }

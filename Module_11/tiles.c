@@ -282,7 +282,7 @@ bool move(int tile)
         board[_x][_y] = 0 + tile;
         
         // set the inputted tile to 0, representing '_'
-        board[tile_y][tile_x] = 0;
+        board[tile_x][tile_y] = 0;
         
         return true;
     }

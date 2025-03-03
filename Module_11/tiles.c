@@ -257,7 +257,7 @@ bool move(int tile)
         {
             if (value == tile)
             {
-                
+                tile_
             }
         }
     }

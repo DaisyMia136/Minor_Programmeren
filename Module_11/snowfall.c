@@ -9,8 +9,8 @@ void move_snowflack(void);
 
 // global variables
     // edges of the board?
-    #define EDGE_MAX 80
-    #define 
+    #define X_MAX 80
+    #define Y_MAX 40
 
 // structs 
 

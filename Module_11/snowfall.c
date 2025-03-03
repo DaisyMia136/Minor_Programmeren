@@ -82,7 +82,10 @@ void add_snowflake(void)
     // add x_snowflake to the scene
     scene[x_snowflake][Y_MAX -1] = 1;
     
-    for (y = Y_MAX; y > 0;)
+    for (y = Y_MAX; y >= 0; y--)
+    {
+        print_scene
+    }
 }
 
 void move_snowflake(void)

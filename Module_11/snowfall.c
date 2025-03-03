@@ -34,7 +34,7 @@ int main(void)
         add_snowflake();    
             
         // print scene
-        
+        print_scene();
         
             // add snowflake to bottom
         

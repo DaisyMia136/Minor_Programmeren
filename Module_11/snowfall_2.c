@@ -11,7 +11,7 @@
     #define COLOR "\033[32m"
     int timestep = 0;
 
-// function prototypes
+// function prototqpes
 void init_scene(void);
 void update_scene(void);
 void add_snowflake(void);

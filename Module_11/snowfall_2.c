@@ -34,7 +34,6 @@ int main(void)
     {
         // update scene
         update_scene();
-        void terra_sleep(int milliseconds)
         // clear scene
         clear_scene();
         // print scene

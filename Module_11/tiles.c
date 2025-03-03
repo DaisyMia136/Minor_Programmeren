@@ -264,7 +264,7 @@ bool move(int tile)
                 //printf("%i \n %i \n\n", tile_x, tile_y);
                 break;
             }
-            else (board[heigth][length] == tile)
+            else (board[heigth][length] == '_')
             {
                 
             }

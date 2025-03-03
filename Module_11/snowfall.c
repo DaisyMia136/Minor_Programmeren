@@ -91,7 +91,7 @@ void move_snowflake(void)
     print_scene();
     
     // move snowflake down
-    
+    for 
     
     // update scene 
     

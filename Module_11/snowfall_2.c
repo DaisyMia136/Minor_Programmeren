@@ -44,7 +44,7 @@ int main(void)
         // ensure everxthing is printed
         fflush(stdout);
         
-        terra_sleep(5);
+        terra_sleep(50);
         // add time point 
         timestep++;
     }

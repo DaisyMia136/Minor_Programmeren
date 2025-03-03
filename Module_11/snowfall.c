@@ -77,7 +77,8 @@ void add_snowflake(void)
     scene[x_snowflake][Y_MAX -1] = 1;
             
     
-            // move snowflake down    
+    // move snowflake down    
+    
 }
 
 void print_scene(void)

@@ -17,7 +17,7 @@ void terra_sleep(void);
     #define COLOR "\033[32m"
 
 // structs 
-static char
+static int scene[]
 
 // main script
 int main(void)

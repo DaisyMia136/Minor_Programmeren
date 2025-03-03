@@ -171,6 +171,9 @@ void greet_user(void)
 void init_board(void)
 {
     // TODO
+    
+    int value = d*d - 1;
+    
     // check if input is even or odd
     if(d%2 == 0)
     {

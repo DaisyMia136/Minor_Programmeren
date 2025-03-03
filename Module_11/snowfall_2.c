@@ -60,7 +60,10 @@ void update_scene(void)
     }
     
     // loop through all snow flakes
-    for()
+     for (int x = 0; x < X_MAX; x++)
+    {
+        for (int y = 0; y < Y_MAX; y++)
+        {
     
         // if one is found in the air, move it down
         

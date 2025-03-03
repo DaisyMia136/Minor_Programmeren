@@ -41,7 +41,9 @@ void move_snowflack(void)
     // intitial variables
     
     // generate random snowflack location > generate random x coordinate 
-    
+    // use the current time to 
+    srandom(time(NULL));
+
             
             // print snowflack * 
             

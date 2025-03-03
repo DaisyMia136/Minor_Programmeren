@@ -64,7 +64,7 @@ void clear_board(void)
     printf("\033[%d;%dH", 0, 0);
 }
 
-void move_snowflake(void)
+void add_snowflake(void)
 {
     // intitial variables
     

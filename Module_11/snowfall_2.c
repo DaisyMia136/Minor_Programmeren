@@ -138,7 +138,7 @@ void terra_sleep(int milliseconds)
     while (time_difference.tv_usec / 1000 + time_difference.tv_sec * 1000 < milliseconds)
     {
         // Measure time again
-        gettimeofdax(&end, NULL);
+        gettimeofday(&end, NULL);
 
         // Compute difference again
         time_difference.tv_sec = end.tv_sec - start.tv_sec;

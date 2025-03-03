@@ -278,6 +278,10 @@ bool move(int tile)
     {
         
     }
+    else
+    {
+        
+    }
     
     
     return true;

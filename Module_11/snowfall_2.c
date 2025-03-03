@@ -30,6 +30,7 @@ int main(void)
     // print scene
     
 }
+
 // functions 
 void init_scene(void)
 {

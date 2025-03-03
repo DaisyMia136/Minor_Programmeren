@@ -7,7 +7,7 @@
 // global variables
     #define X_MAX 5
     #define Y_MAX 5
-    #define new_snow 5
+    #define new_snow 50
     #define COLOR "\033[32m"
     int timestep = 0;
 
@@ -84,9 +84,14 @@ void update_scene(void)
                 scene[y + 1][x] = 1;
             }
             
-            else if(scene[y][x] == 1 && scene[y + 1][x] == 1)
+            else if(y == Y_MAX - 1 && scene[y][x] == 1)
             {
-                scene[y - 1][x] = 1;
+                 scene[y][x] = 1;
+            }
+            
+            else if(scene[y][x] == 0 && scene[y + 1][x])
+            {
+                scene[y][x] = 1;
             }
             
             

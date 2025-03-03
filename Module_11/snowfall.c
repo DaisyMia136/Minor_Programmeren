@@ -83,7 +83,7 @@ void add_snowflake(void)
     // add x_snowflake to the scene
     scene[x_snowflake][Y_MAX -1] = 1;
     
-    for (y = Y_MAX; y >= 0; y--)
+    for (int y = Y_MAX; y >= 0; y--)
     {
         print_snowflake(scene[x_snowflake][y]);
     }

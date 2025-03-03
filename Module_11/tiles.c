@@ -175,7 +175,7 @@ void init_board(void)
     if(d%2 == 0)
     {
         // loop through 2D matrix to fill the squar
-        
+        for 
     }
     else
     {

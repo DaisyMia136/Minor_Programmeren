@@ -90,6 +90,7 @@ void move_snowflake(void)
     
     print_scene();
     
+    move_snowflake();
 }
 
 void print_scene(void)

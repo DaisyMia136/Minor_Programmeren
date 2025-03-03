@@ -259,6 +259,7 @@ bool move(int tile)
             {
                 tile_x = heigth;
                 tile_y = length;
+                printf("%i \n %i", tile_x, t)
                 break;
             }
         }

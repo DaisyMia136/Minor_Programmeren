@@ -45,7 +45,7 @@ int main(void)
         
 
         
-        terra_sleep(1000);
+        terra_sleep(100);
         // add time point 
         timestep++;
     }

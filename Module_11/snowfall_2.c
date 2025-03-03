@@ -42,7 +42,7 @@ int main(void)
         print_scene();
         // ensure everxthing is printed
         fflush(stdout);
-        terra_sleep(50);
+        terra_sleep(150);
         // add time point 
         timestep++;
     }

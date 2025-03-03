@@ -64,6 +64,7 @@ void update_scene(void)
     {
         for (int y = 0; y < Y_MAX; y++)
         {
+            
     
         // if one is found in the air, move it down
         

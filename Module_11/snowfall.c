@@ -38,7 +38,9 @@ int main(void)
 
 // functions 
 void init_scene(void)
-
+{
+    
+}
 
 
 

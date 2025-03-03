@@ -193,7 +193,7 @@ void init_board(void)
                 {
                     board[length][heigth] = value;
                 }
-                value--
+                value--;
             }
         }
     }

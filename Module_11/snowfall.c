@@ -53,6 +53,6 @@ void move_snowflack(void)
     //printf("%i", x_snowflack);
             
 // print snowflack * 
-    
+    for ()
             // move snowflack down    
 }

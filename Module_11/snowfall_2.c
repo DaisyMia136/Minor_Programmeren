@@ -11,6 +11,8 @@
     #define milliseconds 999
     #define COLOR "\033[32m"
 
+// function prototypes
+void init_scene(void);
 
 
 // structs 

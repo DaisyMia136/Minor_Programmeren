@@ -15,9 +15,9 @@ void terra_sleep(void);
     #define Y_MAX 40
     #define milliseconds 999
     #define COLOR "\033[32m"
-    
-    
+
 // structs 
+static char
 
 // main script
 int main(void)

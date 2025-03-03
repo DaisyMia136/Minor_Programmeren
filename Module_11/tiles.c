@@ -257,7 +257,9 @@ bool move(int tile)
         {
             if (value == tile)
             {
-                tile_x = heigth
+                tile_x = heigth;
+                tile_y = length;
+                break;
             }
         }
     }

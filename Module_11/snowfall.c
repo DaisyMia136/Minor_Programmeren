@@ -10,7 +10,7 @@ void move_snowflake(void);
 void terra_sleep(void);
 void init_scene(void);
 void print_scene(void);
-void print_snowflake(void);
+void print_snowflake(int flake);
 
 
 // global variables
@@ -92,7 +92,7 @@ void print_scene(void)
     }
 }
 
-void print_snowflake(void)
+void print_snowflake(int flake)
 {
     if (scene[x][y] == 1)
     {

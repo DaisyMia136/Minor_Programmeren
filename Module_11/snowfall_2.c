@@ -13,6 +13,7 @@
 
 // function prototypes
 void init_scene(void);
+void update_scene(void);
 
 
 // structs 

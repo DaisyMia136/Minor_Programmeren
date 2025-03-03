@@ -174,13 +174,12 @@ void init_board(void)
     // check if input is even or odd
     if(d%2 == 0)
     {
-        value = 0;
-        max_value = d*d - 1;
+                value = d*d - 1;
         
         // loop through 2D matrix to fill the squar
         for (int length = 0; length < d && value < max_value; length++)
         {
-            for (int heigth = 0; heigth < d && value < max_value; heigth++ && value++)
+            for (int heigth = 0; heigth < d && value < max_value; heigth++ && value--)
             {
                 board[length][heigth] = value;
                 

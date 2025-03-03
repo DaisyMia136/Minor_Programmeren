@@ -257,7 +257,7 @@ bool move(int tile)
     // find coordinates of tile  
     for (int heigth = 0; heigth < d; heigth++)
     {
-        for (int length = 0; length < d && value > 0; length++)
+        for (int length = 0; length < d; length++)
         {
             if (board[heigth][length] == tile)
             {

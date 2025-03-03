@@ -29,6 +29,7 @@ int main(void)
     // while (true)
         // update scene 
         
+        
     
         // clear board
         clear_board();

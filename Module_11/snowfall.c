@@ -18,6 +18,8 @@ int main(void)
     
         // clear board
         
+        // print 
+        
         // move snowflack down 
             // generate random snowflack location > generate random x coordinate 
             

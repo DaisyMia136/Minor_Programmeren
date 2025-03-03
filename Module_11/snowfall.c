@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 // function prototypes
+void clear_board(void);
 
 // global variables
 

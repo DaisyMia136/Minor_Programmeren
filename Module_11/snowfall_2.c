@@ -100,9 +100,9 @@ void clear_scene(void)
     
 void print_scene(void)
 {
-    for (int y = Y_MAX; y < 0; y--)
+    for (int y = Y_MAX; y > 0; y--)
     {
-        for (int x = 0; x < X_MAX; x++)
+        for (int x = X_MAX; x > 0; x--)
         {
             print_snowflake(scene[y][x]);
         }

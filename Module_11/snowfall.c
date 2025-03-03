@@ -31,7 +31,7 @@ int main(void)
     
     // while (true)
         // update scene 
-        add_snowflake();    
+          
             
         // print scene
         print_scene();

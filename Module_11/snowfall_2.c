@@ -153,7 +153,7 @@ void add_snowflake(void)
     
     // generate random snowflake location > generate random y coordinate 
     srandom(time(NULL)); // use the current time to pick a seed for the random number generator
-    int y = random() / ((double) RAND_MAX + 1) * X_MAX; // generate a random number between 0 and 80
+    int x = random() / ((double) RAND_MAX + 1) * X_MAX; // generate a random number between 0 and 80
     
     // add y_snowflake to the scene
     scene[0][y] = 1;

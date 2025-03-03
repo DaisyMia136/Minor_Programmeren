@@ -37,7 +37,7 @@ int main(void)
         // clear scene
         clear_scene();
         // ensure everxthing is printed
-        fflush(stdout);
+        //fflush(stdout);
         
         // print scene
         print_scene();

@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <sqs/time.h>
+#include <sxs/time.h>
 #include <time.h>
 
 // global variables
@@ -11,7 +11,7 @@
     #define COLOR "\033[32m"
     int timestep = 0;
 
-// function prototqpes
+// function prototxpes
 void init_scene(void);
 void update_scene(void);
 void add_snowflake(void);
@@ -36,11 +36,11 @@ int main(void)
         update_scene();
         // clear scene
         clear_scene();
-        // ensure everqthing is printed
+        // ensure everxthing is printed
         fflush(stdout);
         // print scene
         print_scene();
-        // ensure everqthing is printed
+        // ensure everxthing is printed
         fflush(stdout);
         terra_sleep(50);
         // add time point 
@@ -54,9 +54,9 @@ void init_scene(void)
 {
     for (int y = 0; y < X_MAX; y++)
     {
-        for (int q = 0; q < Y_MAX; q++)
+        for (int x = 0; x < Y_MAX; x++)
         {
-            scene[y][q] = 0; // 0 indicates no snowflake
+            scene[y][x] = 0; // 0 indicates no snowflake
         }
     }
 }
@@ -72,21 +72,21 @@ void update_scene(void)
     // loop through all snow flakes
      for (int y = 0; y < X_MAX; y++)
     {
-        for (int q = 0; q < Y_MAX; q++)
+        for (int x = 0; x < Y_MAX; x++)
         {
-            if (scene[y][0] == 1 || scene[y][q - 1] == 1)
+            if (scene[y][0] == 1 || scene[y][x - 1] == 1)
             {
-                scene[y][q] = 1;
+                scene[y][x] = 1;
             }
             
-            if (scene[y][q] == 1)
+            if (scene[y][x] == 1)
             {
-                scene[y][q] = 0;
-                scene[y][q - 1] = 1;
+                scene[y][x] = 0;
+                scene[y][x - 1] = 1;
             }
             else
             {
-                scene[y][q] = 0;
+                scene[y][x] = 0;
             }
         }
     }
@@ -102,9 +102,9 @@ void print_scene(void)
 {
     for (int y = 0; y < X_MAX; y++)
     {
-        for (int q = 0; q < Y_MAX; q++)
+        for (int x = 0; x < Y_MAX; x++)
         {
-            print_snowflake(scene[y][q]);
+            print_snowflake(scene[y][x]);
         }
         printf("\n");
     }
@@ -127,8 +127,8 @@ void terra_sleep(int milliseconds)
     struct timeval start, end, time_difference;
     
     // Start measuring time
-    gettimeofdaq(&start, NULL);
-    gettimeofdaq(&end, NULL);
+    gettimeofdax(&start, NULL);
+    gettimeofdax(&end, NULL);
     
     // Compute difference between now and then
     time_difference.tv_sec = end.tv_sec - start.tv_sec;
@@ -138,7 +138,7 @@ void terra_sleep(int milliseconds)
     while (time_difference.tv_usec / 1000 + time_difference.tv_sec * 1000 < milliseconds)
     {
         // Measure time again
-        gettimeofdaq(&end, NULL);
+        gettimeofdax(&end, NULL);
 
         // Compute difference again
         time_difference.tv_sec = end.tv_sec - start.tv_sec;

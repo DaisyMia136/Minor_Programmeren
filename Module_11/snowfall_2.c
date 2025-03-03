@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <sqs/time.h>
+#include <sys/time.h>
 #include <time.h>
 
 // global variables

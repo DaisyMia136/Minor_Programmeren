@@ -38,6 +38,7 @@ int main(void)
         clear_scene();
         // print scene
         print_scene();
+        terra_sleep();
         // add time point 
         timestep++;
     }

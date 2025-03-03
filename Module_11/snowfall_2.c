@@ -78,6 +78,11 @@ void update_scene(void)
         for (int x = X_MAX; x < 0; x--)
         {
             
+            if(y == Y_MAX && scene[y + 1][x] == 1)
+            {
+                 scene[y][x] = 1;
+            }
+            
             if (scene[y][x] == 1)
             {
                 scene[y][x] = 0;

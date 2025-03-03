@@ -110,7 +110,7 @@ void print_scene(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            printf("")
+            printf("%i", counter)
             print_snowflake(scene[y][x]);
             counter++;
         }

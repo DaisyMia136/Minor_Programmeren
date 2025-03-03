@@ -179,7 +179,7 @@ void init_board(void)
         {
             for (int heigth = 0; heigth < d; heigth++)
             {
-                board[]
+                board[length][heigth] = value;
             }
         }
     }

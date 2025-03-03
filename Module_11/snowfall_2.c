@@ -88,7 +88,7 @@ void clear_scene(void)
     printf("\033[%d;%dH", 0, 0);
 }
     
-
+void print_scene(void)
 {
     for (int x = 0; x < X_MAX; x++)
     {

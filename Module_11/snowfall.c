@@ -5,6 +5,8 @@
 void clear_board(void);
 
 // global variables
+    // edges of the board?
+
 
 // main script
 int main(void)

@@ -20,7 +20,9 @@ int main(void)
         
         // generate random snowflack location
         
-        // 
+        // move snowflack
+        
+        // add snowflack to bottom
 }
 
 // functions 

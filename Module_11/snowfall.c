@@ -33,6 +33,7 @@ int main(void)
         // update scene 
             add_snowflake();    
             
+            
             // add snowflake to bottom
         
     

@@ -18,8 +18,9 @@ int main(void)
     
         // clear board
         
-        // generate random snowflack
+        // generate random snowflack location
         
+        // 
 }
 
 // functions 

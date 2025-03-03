@@ -51,7 +51,7 @@ void move_snowflack(void)
     int x_snowflack = random() / ((double) RAND_MAX + 1) * EDGE_MAX; 
     //printf("%i", x_snowflack);
             
-            // print snowflack * 
+    // print snowflack * 
             
             // move snowflack down    
 }

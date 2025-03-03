@@ -191,13 +191,8 @@ void init_board(void)
                 }
                 else 
                 {
-                    
+                    board[length][heigth] = value;
                 }
-                
-                
-                board[length][heigth] = value;
-                
-                
             }
         }
     }

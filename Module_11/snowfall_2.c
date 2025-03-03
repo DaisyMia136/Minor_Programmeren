@@ -40,11 +40,11 @@ int main(void)
         // clear scene
         clear_scene();
 
-        
+        // ensure everxthing is printed
+        fflush(stdout);       
         // print scene
         print_scene();
-        // ensure everxthing is printed
-        fflush(stdout);
+
         
         terra_sleep(100);
         // add time point 

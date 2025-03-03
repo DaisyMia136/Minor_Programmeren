@@ -90,7 +90,10 @@ void print_scene(void)
 
 void print_snowflake(void)
 {
-    if 
+    if (scene[x][y] == 1)
+    {
+        printf("*");
+    }
 }
 
 void terra_sleep(void)

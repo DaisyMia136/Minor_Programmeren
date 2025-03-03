@@ -74,7 +74,7 @@ void move_snowflake(void)
     // generate a random number between 0 and 80
     int x_snowflake = random() / ((double) RAND_MAX + 1) * X_MAX; 
     
-    
+    // add 
             
 // print snowflake * 
             // move snowflake down    

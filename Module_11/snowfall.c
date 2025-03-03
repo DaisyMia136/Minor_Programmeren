@@ -63,7 +63,7 @@ void move_snowflack(void)
 }
 
 
-void terra_sleep(int milliseconds)
+void terra_sleep(void)
 {
     struct timeval start, end, time_difference;
     

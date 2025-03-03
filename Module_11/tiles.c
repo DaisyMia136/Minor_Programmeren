@@ -285,6 +285,7 @@ bool move(int tile)
             
             return true;
         }
+    }
     else
     {
         return false;

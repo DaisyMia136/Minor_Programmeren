@@ -87,6 +87,8 @@ void add_snowflake(void)
 void move_snowflake(void)
 {
     add_snowflake(); 
+    
+    
 }
 
 void print_scene(void)

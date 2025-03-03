@@ -41,3 +41,6 @@ void clear_board(void)
 }
 
 void move_snowflack(void)
+{
+    
+}

@@ -26,6 +26,7 @@ static int scene[Y_MAX][X_MAX];
 // main script
 int main(void)
 {
+    srandom(time(NULL)); // use the current time to pick a seed for the random number generator
     // intitial scene
     init_scene();
     add_snowflake();

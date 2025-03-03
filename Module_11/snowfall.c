@@ -25,6 +25,7 @@ int main(void)
         // print bottom snowflacks 
         
         // move snowflack down 
+        move_snowflack();    
             
         
         // add snowflack to bottom

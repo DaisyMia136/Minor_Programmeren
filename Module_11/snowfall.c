@@ -37,7 +37,7 @@ int main(void)
         
         
         // move snowflake down
-        move_snowflake();
+        
         
         // add snowflake to the bottom
         

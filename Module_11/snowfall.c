@@ -83,7 +83,7 @@ void print_scene(void)
     {
         for (int y = 0; y < Y_MAX; y++)
         {
-            print_snowflake()
+            print_snowflake[]
         }
     }
 }

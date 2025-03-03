@@ -44,7 +44,7 @@ void clear_board(void)
     printf("\033[%d;%dH", 0, 0);
 }
 
-void init_board(void)
+void init_scene(void)
 {
     
 }

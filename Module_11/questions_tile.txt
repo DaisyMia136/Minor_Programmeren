@@ -1,4 +1,4 @@
 1. Besides 4x4, the programm allows 3x3, 5x5, 6x6, 7x7, 8x8 and 9x9
 2. The games board is represented with an int
 3. The board uses the value of 0 to represent an empty space
-4. 
+4. I need to  implement 

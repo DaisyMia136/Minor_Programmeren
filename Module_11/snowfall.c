@@ -40,10 +40,11 @@ void move_snowflack(void)
 {
     // intitial variables
     
-    // generate random snowflack location > generate random x coordinate 
-    // use the current time to 
+// generate random snowflack location > generate random x coordinate 
+    // use the current time to pick a seed for the random number generator
     srandom(time(NULL));
-
+    
+    
             
             // print snowflack * 
             

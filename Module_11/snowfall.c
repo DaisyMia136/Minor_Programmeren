@@ -70,6 +70,8 @@ void move_snowflake(void)
     //printf("%i", x_snowflake);
             
 // print snowflake * 
+    
+    
     for (int y_snowflake = Y_MAX; y_snowflake > 0; y_snowflake--)
     {
         printf("\033[%d;%dH*", y_snowflake, x_snowflake);

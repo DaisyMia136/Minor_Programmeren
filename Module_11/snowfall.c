@@ -20,7 +20,7 @@ void terra_sleep(void);
 // main script
 int main(void)
 {
-    // initiate board
+    // initiate scene
     
     // while (true)
     

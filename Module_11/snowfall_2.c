@@ -83,7 +83,6 @@ void update_scene(void)
                 scene[y][x] = 0;
                 scene[y + 1][x] = 1;
             }
-            printf("%i", y);
             
             if(y == Y_MAX - 1 && scene[y][x] == 1)
             {

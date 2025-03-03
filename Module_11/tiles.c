@@ -263,7 +263,7 @@ bool move(int tile)
                 tile_y = length;
                 //printf("%i \n %i \n\n", tile_x, tile_y);
             }
-            else (board[heigth][length] == '_')
+            else if (board[heigth][length] == '_')
             {
                 _x = heigth;
                 _y = length;

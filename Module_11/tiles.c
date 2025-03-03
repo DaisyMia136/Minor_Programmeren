@@ -274,7 +274,7 @@ bool move(int tile)
     }
     
     // check if _ is adjecent to tile
-    if ((_x == tile_x + 1 && _y != tile_y + 1) || (_x == tile_x - 1 && _y != tile_y - 1) || (_y == tile_y + 1 && _x != tile_x + 1) || _y == tile_y + 1 && _x != tile_x - 1
+    if ((_x == tile_x + 1 && _y != tile_y + 1) || (_x == tile_x - 1 && _y != tile_y - 1) || (_y == tile_y + 1 && _x != tile_x + 1) || _y == tile_y - 1 && _x != tile_x - 1)
     
     
     

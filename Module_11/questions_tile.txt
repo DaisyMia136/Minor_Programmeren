@@ -1,2 +1,2 @@
 1. Besides 4x4, the programm allows 3x3, 5x5, 6x6, 7x7, 8x8 and 9x9
-2. 
+2. The games board is 

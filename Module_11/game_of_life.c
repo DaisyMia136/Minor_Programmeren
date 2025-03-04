@@ -148,7 +148,7 @@ int adjacent_pixels(int y, int x)
             }
         }
     }
-    return adjacent_counter;
+    return adjacent_counter - 1;
 }
 
 

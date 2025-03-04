@@ -133,7 +133,7 @@ void update_board(void)
     }
 }
 
-int adjacent_pixels(int y, int x);
+int adjacent_pixels(int y, int x)
 {
     int adjacent_counter = 0;
 // loop through pixels around it

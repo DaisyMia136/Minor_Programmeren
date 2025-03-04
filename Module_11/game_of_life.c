@@ -87,7 +87,12 @@ void update_board(void)
                 
                 // check if it will die
             }
-            
+            else
+            {
+                // dead 
+                
+                // check if will aliven 
+            }
             
             
             

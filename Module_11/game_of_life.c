@@ -30,8 +30,7 @@ int main(int argc, string argv[])
     
     // print board
     print_board();
-    
-    
+
     while(true)
     {
         // update board

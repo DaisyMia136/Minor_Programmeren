@@ -27,7 +27,6 @@ int main(void)
 {
     // initiat board
     init_board();
-    
     // print board
     print_board();
     // clear screen

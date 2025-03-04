@@ -28,7 +28,6 @@ int main(void)
     // initiat board
     init_board();
     
-        printf("while might works");
     // print board
     print_board();
     

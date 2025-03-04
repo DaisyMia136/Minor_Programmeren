@@ -52,6 +52,10 @@ void init_board(void)
     board[15][56] = '#';
 }
 
+void print_board(void)
+{
+    
+}
 
 
 

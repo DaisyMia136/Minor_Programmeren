@@ -18,6 +18,7 @@ int main(int argc, string argv[])
 {
     // initiat board
     
+    
     while(true)
     {
         // update board

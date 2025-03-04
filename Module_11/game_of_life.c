@@ -30,7 +30,10 @@ int main(int argc, string argv[])
 }
 
 // functions
-
+void init_board(void)
+{
+    
+}
 
 
 

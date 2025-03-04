@@ -119,6 +119,7 @@ void update_board(void)
                 if (adjacent_counter == 3)
                 {
                     // log current pixel to aliven
+                    
                 }
             }
         }

@@ -25,6 +25,7 @@ static char log[Y_MAX][X_MAX];
 // main script
 int main(void)
 {
+    printf("while might works");
     // initiat board
     init_board();
     

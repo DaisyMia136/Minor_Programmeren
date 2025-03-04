@@ -29,7 +29,7 @@ int main(int argc, string argv[])
     init_board();
     
     // print board
-    print_board();
+    // print_board();
 
     while (true)
     {

@@ -6,7 +6,8 @@
 #include <time.h>
 
 // function prototypes
-
+void init_board(void)
+void print_board(void)
 
 
 // global variables and structs

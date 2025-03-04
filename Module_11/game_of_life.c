@@ -22,6 +22,7 @@ int main(int argc, string argv[])
     init_board();
     
     // print board
+    
     while(true)
     {
         // update board

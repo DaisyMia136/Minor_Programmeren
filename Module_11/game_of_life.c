@@ -35,7 +35,8 @@ int main(void)
     
     while (true)
     {
-        
+        printf("\n\n ik ben hier :)");
+
         // update board
         update_board();
         // clear screen

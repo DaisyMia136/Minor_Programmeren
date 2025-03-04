@@ -19,6 +19,7 @@ static char board[Y_MAX][X_MAX];
 int main(int argc, string argv[])
 {
     // initiat board
+    init_board();
     
     // print board
     while(true)

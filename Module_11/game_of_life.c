@@ -30,8 +30,6 @@ int main(void)
     print_board();
     // clear screen
     clear_screen();
-    fflush(stdout);
-    
     terra_sleep(1000);
     
     

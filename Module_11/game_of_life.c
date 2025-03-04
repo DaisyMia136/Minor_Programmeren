@@ -43,7 +43,7 @@ void init_board(void)
     }
     
     board[15][55] = '#';
-    
+    board[16][55] = '#';
     
 }
 

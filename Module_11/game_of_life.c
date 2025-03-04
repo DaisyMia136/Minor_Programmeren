@@ -105,6 +105,7 @@ void update_board(void)
                 {
                     // log current pixel to die 
                 }
+                else if (adjacent_counter )
             }
             else
             {

@@ -136,9 +136,6 @@ void update_board(void)
             log[y][x] = ' ';
         }
     }
-   
-    
-    
 }
 
 

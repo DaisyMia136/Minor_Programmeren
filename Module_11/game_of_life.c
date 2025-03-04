@@ -26,14 +26,14 @@ static char log[Y_MAX][X_MAX];
 int main(int argc, string argv[])
 {
     // initiat board
-    init_board();
+    // init_board();
     
     // print board
     // print_board();
 
     while (true)
     {
-        //printf("while works");
+        printf("while works");
         // update board
         update_board();
         // clear screen

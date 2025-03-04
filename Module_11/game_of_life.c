@@ -125,12 +125,14 @@ void update_board(void)
         }
     }
     
-    // do changes 
+    // do changes & clear log
     for (int y = 0; y < Y_MAX; y++)
     {
         for (int x = 0; x < X_MAX; x++)
         {
+            // do changes
             board[y][x] = log[y][x];
+            // clear log
             log[y][x] = ' ';
         }
     }

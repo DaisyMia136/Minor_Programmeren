@@ -36,7 +36,7 @@ int main(int argc, string argv[])
         // update board
         update_board();
         // clear screen
-        //clear_screen();
+        clear_screen();
         // print board 
         print_board();
         //sleep 

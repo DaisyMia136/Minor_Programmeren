@@ -130,7 +130,7 @@ void update_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            
+            board[y][x] = 
         }
     }
     //maybe for loop needed?

@@ -31,7 +31,7 @@ int main(int argc, string argv[])
     // print board
     print_board();
 
-    while(true)
+    while(1)
     {
         // update board
         update_board();

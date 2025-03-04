@@ -28,6 +28,7 @@ int main(void)
     init_board();
     // print board
     print_board();
+    printf("hooiiii");
     // clear screen
     terra_sleep(1000);
     

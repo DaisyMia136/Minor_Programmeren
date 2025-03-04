@@ -26,9 +26,10 @@ int main(void)
 {
     // initiat board
     init_board();
+        printf("hooiiii");
     // print board
     print_board();
-    printf("hooiiii");
+
     // clear screen
     terra_sleep(1000);
     

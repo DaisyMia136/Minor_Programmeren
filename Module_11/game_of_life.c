@@ -33,8 +33,8 @@ int main(void)
     terra_sleep(50);
     
     
-    //while (true)
-    //{
+    while (true)
+    {
         // update board
         update_board();
         // clear screen
@@ -43,7 +43,7 @@ int main(void)
         print_board();
         //sleep 
         terra_sleep(50);
-    //}
+    }
 }
 
 // functions

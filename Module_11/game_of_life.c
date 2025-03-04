@@ -126,7 +126,6 @@ void update_board(void)
         {
             // do changes
             board[y][x] = log[y][x];
-            //printf("%c", board[y][x]);
             // clear log
             log[y][x] = ' ';
         }

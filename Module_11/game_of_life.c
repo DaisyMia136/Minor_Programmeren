@@ -39,7 +39,7 @@ int main(void)
         update_board();
         // clear screen
         clear_screen();
-        terra_sleep(1000)
+        terra_sleep(1000);
         
         // print board 
         print_board();

@@ -130,7 +130,8 @@ void update_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            board[y][x] = 
+            board[y][x] = log[y][x];
+            log[y][x] = ' ';
         }
     }
     //maybe for loop needed?

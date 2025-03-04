@@ -66,7 +66,7 @@ void print_board(void)
     }
 }
 
-
+void clear_screen 
 
 
 

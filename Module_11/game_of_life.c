@@ -134,10 +134,7 @@ void update_board(void)
             log[y][x] = ' ';
         }
     }
-    //maybe for loop needed?
-    board[Y_MAX][X_MAX] = log[Y_MAX][X_MAX];
-    
-    // clear log 
+   
     
     
 }

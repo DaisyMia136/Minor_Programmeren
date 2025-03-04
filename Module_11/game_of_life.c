@@ -83,6 +83,7 @@ void clear_screen(void)
 
 void update_board(void)
 {
+    printf("ik ben hier :)")
     // save/log changes 
     for (int y = 0; y < Y_MAX; y++)
     {

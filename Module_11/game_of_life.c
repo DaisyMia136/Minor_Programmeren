@@ -30,10 +30,11 @@ int main(void)
     
     // print board
     print_board();
+    printf("while might works");
 
     while (true)
     {
-        printf("while works");
+        
         // update board
         update_board();
         // clear screen

@@ -44,7 +44,7 @@ int main(void)
         print_board();
         //sleep 
         terra_sleep(50);
-    }
+    //}
 }
 
 // functions

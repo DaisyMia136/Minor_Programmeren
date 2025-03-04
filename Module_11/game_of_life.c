@@ -31,6 +31,8 @@ int main(void)
     // print board
     print_board();
     
+    clear_screen();
+    
 printf("while might works");
     while (true)
     {

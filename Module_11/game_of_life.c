@@ -138,6 +138,7 @@ void update_board(void)
 
 int adjacent_pixels(int y, int x);
 {
+
 // loop through pixels around it
     for (int around_y = y - 1; around_y <= y + 1; y++)
     {

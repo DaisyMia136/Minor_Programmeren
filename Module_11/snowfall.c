@@ -56,7 +56,7 @@ void init_scene(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            scene[y][x] = 0; // 0 indicates no snowflake
+            scene[y][x] = ' '; // 0 indicates no snowflake
         }
     }
 }

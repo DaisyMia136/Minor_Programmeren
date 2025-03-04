@@ -148,7 +148,7 @@ void update_board(void)
     }
 }
 
-void adjacent_pixels(y, x);
+int adjacent_pixels(y, x);
 {
     
 }

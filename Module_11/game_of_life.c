@@ -33,11 +33,11 @@ int main(int argc, string argv[])
 
     while(true)
     {
-        printf("")
+        printf("While werkt")
         // update board
         update_board();
         // clear screen
-        clear_screen();
+        //clear_screen();
         // print board 
         print_board();
         //sleep 

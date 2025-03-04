@@ -32,7 +32,6 @@ int main(void)
     // clear screen
     clear_screen();
     
-    printf("while might works");
     while (true)
     {
         

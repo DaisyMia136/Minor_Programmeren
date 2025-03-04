@@ -16,7 +16,7 @@ void terra_sleep(int milliseconds);
 
 // global variables and structs
 #define X_MAX 115
-#define Y_MAX 30
+#define Y_MAX 15
 static char board[Y_MAX][X_MAX];
 static char log[Y_MAX][X_MAX];
 

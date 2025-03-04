@@ -42,7 +42,8 @@ void init_board(void)
         }
     }
     
-    board[15][]
+    board[15][55] = '#';
+    
     
 }
 

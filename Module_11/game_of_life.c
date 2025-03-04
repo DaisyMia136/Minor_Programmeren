@@ -12,6 +12,7 @@
 // global variables and structs
 #define X_MAX 115
 #define Y_MAX 30
+
 // main script
 int main(int argc, string argv[])
 {

@@ -32,6 +32,7 @@ int main(void)
     clear_screen();
     fflush(stdout);
     
+    
     while (true)
     {
         // update board

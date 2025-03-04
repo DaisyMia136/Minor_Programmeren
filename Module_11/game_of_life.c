@@ -85,6 +85,9 @@ void update_board(void)
             for (int around_y = y - 1; around_y <= y + 1; y++)
             {
                 for (int around_x = x - 1; around_x <= x + 1; x++)
+                {
+                    
+                }
             }
             
             

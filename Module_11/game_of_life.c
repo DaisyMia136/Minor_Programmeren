@@ -82,6 +82,8 @@ void update_board(void)
         {
             // define pixels around the current pixel 
             
+            
+            
             //define if current pixel is dead or alive
             if (board[y][x] == '#')
             {

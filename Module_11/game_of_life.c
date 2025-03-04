@@ -12,7 +12,12 @@
 // main script
 int main(int argc, string argv[])
 {
+    // initiat board
     
+    while(true)
+    {
+        
+    }
 }
 
 // functions

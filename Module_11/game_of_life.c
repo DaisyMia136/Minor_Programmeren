@@ -35,6 +35,7 @@ int main(void)
     
     while (true)
     {
+        
         // update board
         update_board();
         // clear screen

@@ -105,7 +105,7 @@ void update_board(void)
                 {
                     // log current pixel to die 
                 }
-                else if (adjacent_counter == 2 || adjacent_counter == 3)
+                else if (adjacent_counter == 2 || adjacent_counter == 3) // strictly unnecessary, but easier to read :)
                 {
                     
                 }

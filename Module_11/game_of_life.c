@@ -139,16 +139,16 @@ void update_board(void)
 int adjacent_pixels(y, x);
 {
 // loop through pixels around it
-        for (int around_y = y - 1; around_y <= y + 1; y++)
+    for (int around_y = y - 1; around_y <= y + 1; y++)
+    {
+        for (int around_x = x - 1; around_x <= x + 1; x++)
         {
-            for (int around_x = x - 1; around_x <= x + 1; x++)
+            if (board[around_y][around_x] == '#')
             {
-                if (board[around_y][around_x] == '#')
-                {
-                    adjacent_counter++;
-                }
+                adjacent_counter++;
             }
         }
+    }
 }
 
 

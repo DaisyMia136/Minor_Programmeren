@@ -91,9 +91,9 @@ void update_board(void)
 {
     printf("\n\n ik ben hier :)");
     // log changes 
-    for (int y = 0; y < Y_MAX; y++)
+    for (int y = 0; y > Y_MAX; y++)
     {
-        for (int x = 0; x < X_MAX; x++)
+        for (int x = 0; x > X_MAX; x++)
         {
             // define pixels around the current pixel 
             int adjacent_counter = adjacent_pixels(y, x);

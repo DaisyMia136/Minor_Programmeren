@@ -23,7 +23,7 @@ static char log[Y_MAX][X_MAX];
 
 
 // main script
-int main(int argc, string argv[])
+int main(void)
 {
     // initiat board
     // init_board();

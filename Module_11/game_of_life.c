@@ -31,7 +31,7 @@ int main(int argc, string argv[])
     // print board
     print_board();
 
-    while(true)
+    while (true)
     {
         printf("while works");
         // update board

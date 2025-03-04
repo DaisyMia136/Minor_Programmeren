@@ -103,7 +103,7 @@ void update_board(void)
                 // check if it will die
                 if (adjacent_counter == 0 || adjacent_counter == 1 || adjacent_counter >= 4)
                 {
-                    // log current pixel to 
+                    // log current pixel to die 
                 }
             }
             else

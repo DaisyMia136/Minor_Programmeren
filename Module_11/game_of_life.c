@@ -14,6 +14,7 @@ void print_board(void);
 #define X_MAX 115
 #define Y_MAX 30
 static char board[Y_MAX][X_MAX];
+static char log[Y_MAX][X_MAX];
 
 
 // main script
@@ -89,41 +90,34 @@ void update_board(void)
             {
                 for (int around_x = x - 1; around_x <= x + 1; x++)
                 {
-                    adjacent_counter++;
+                    if (board[around_y][around_x] == '#')
+                    {
+                        adjacent_counter++;
+                    }
                 }
             }
-            
-            
             
             //define if current pixel is dead or alive
             if (board[y][x] == '#')
             {
-                // alive 
-                
                 // check if it will die
                 if (adjacent_counter == 0 || adjacent_counter == 1 || adjacent_counter >= 4)
                 {
                     // log current pixel to die 
                 }
-                else if (adjacent_counter == 2 || adjacent_counter == 3) // strictly unnecessary, but easier to read :)
+                // or will stay alive
+                else if (adjacent_counter == 2 || adjacent_counter == 3) // unnecessary, but easier to read :)
                 {
                     // log current pixel to stay alive
                 }
             }
             else
             {
-                // dead 
-                
                 // check if will aliven 
-            }
-            
-            
-            
-            if (board[y][x] == '#' && 
-            (board[y - 1][x] == '#' || board[y + 1][x] == '#' || board[y][x - 1] == '#' || board[y][x + 1] == '#' || 
-            board[y - 1][x - 1] == '#' || board[y - 1][x + 1] == '#' || board[y + 1][x - 1] == '#' || board[y + 1][x + 1] == '#'))                                  
-            {
-                
+                if (adjacent_counter == 3)
+                {
+                    // log current pixel to aliven
+                }
             }
         }
     }

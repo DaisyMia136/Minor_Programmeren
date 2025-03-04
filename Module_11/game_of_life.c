@@ -26,10 +26,10 @@ static char log[Y_MAX][X_MAX];
 int main(void)
 {
     // initiat board
-    // init_board();
+    init_board();
     
     // print board
-    // print_board();
+    print_board();
 
     while (true)
     {

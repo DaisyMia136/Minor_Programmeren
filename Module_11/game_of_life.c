@@ -77,7 +77,6 @@ void print_board(void)
     }
     printf("\n");
     fflush(stdout);
-    return;
 }
 
 void clear_screen(void)

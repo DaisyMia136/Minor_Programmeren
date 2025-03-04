@@ -20,7 +20,7 @@ int main(int argc, string argv[])
 {
     // initiat board
     
-    
+    // print board
     while(true)
     {
         // update board

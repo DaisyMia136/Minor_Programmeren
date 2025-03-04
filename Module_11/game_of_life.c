@@ -37,7 +37,7 @@ int main(void)
         update_board();
         // clear screen
         clear_screen();
-        fflush(stdout);
+        //fflush(stdout);
         // print board 
         print_board();
         //sleep 

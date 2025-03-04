@@ -16,7 +16,11 @@ int main(int argc, string argv[])
     
     while(true)
     {
+        // update board
         
+        // clear screen
+        
+        // print board 
     }
 }
 

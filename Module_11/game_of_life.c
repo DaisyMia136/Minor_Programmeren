@@ -12,7 +12,7 @@
 // global variables and structs
 #define X_MAX 115
 #define Y_MAX 30
-static 
+static char board[];
 
 
 // main script

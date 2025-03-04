@@ -137,7 +137,6 @@ void update_board(void)
             log[y][x] = ' ';
         }
     }
-    return;
 }
 
 int adjacent_pixels(int y, int x)

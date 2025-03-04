@@ -31,7 +31,7 @@ int main(void)
     print_board();
 
     // clear screen
-    terra_sleep(1000);
+    terra_sleep(50);
     
     
     while (true)
@@ -43,7 +43,7 @@ int main(void)
         // print board 
         print_board();
         //sleep 
-        terra_sleep(1000);
+        terra_sleep(50);
     }
 }
 

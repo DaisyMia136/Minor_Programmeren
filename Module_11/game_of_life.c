@@ -104,7 +104,7 @@ void update_board(void)
                 if (adjacent_counter == 0 || adjacent_counter == 1 || adjacent_counter >= 4)
                 {
                     // log current pixel to die 
-                    log[y][x] = 
+                    log[y][x] = ' ';
                 }
                 // or will stay alive
                 else if (adjacent_counter == 2 || adjacent_counter == 3) // unnecessary, but easier to read :)

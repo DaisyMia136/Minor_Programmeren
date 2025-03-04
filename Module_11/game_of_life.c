@@ -33,6 +33,7 @@ int main(int argc, string argv[])
         // clear screen
         clear_screen();
         // print board 
+        print_board();
     }
 }
 

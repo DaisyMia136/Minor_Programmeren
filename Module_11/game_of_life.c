@@ -33,6 +33,7 @@ int main(int argc, string argv[])
 
     while(true)
     {
+        printf("")
         // update board
         update_board();
         // clear screen

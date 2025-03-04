@@ -82,9 +82,9 @@ void update_board(void)
         {
             // define pixels around the current pixel 
             // loop through pixels around it
-            for (int around = x - 1; around <= x + 1; x++)
+            for (int around_y = y - 1; around_y <= y + 1; y++)
             {
-                for
+                for (int around_x = )
             }
             
             

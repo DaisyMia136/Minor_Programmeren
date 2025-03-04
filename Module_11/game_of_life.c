@@ -39,7 +39,6 @@ int main(int argc, string argv[])
         clear_screen();
         // print board 
         print_board();
-        
         //sleep 
         terra_sleep(150);
 

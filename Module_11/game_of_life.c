@@ -75,7 +75,10 @@ void clear_screen(void)
 
 void update_board(void)
 {
-    // 
+    // save/log changes 
+    
+    
+    // do changes 
 }
 
 

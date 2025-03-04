@@ -26,7 +26,7 @@ int main(void)
 {
     // initiat board
     init_board();
-        printf("hooiiii");
+    
     // print board
     print_board();
 

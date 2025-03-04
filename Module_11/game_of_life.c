@@ -85,7 +85,7 @@ void clear_screen(void)
 
 void update_board(void)
 {
-    
+    int adjacent_counter = 0;
     // save/log changes 
     for (int y = 0; y < Y_MAX; y++)
     {

@@ -126,7 +126,7 @@ void update_board(void)
     }
     
     // do changes
-    board[Y_MAX][X_MAX]
+    board[Y_MAX][X_MAX] = log[Y_MAX][X_MAX];
 }
 
 

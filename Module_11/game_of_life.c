@@ -61,7 +61,7 @@ void print_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            printf("%i", board[y][x]);
+            printf("%c", board[y][x]);
         }
     }
 }

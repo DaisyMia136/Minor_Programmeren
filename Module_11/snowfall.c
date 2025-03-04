@@ -94,16 +94,12 @@ void clear_scene(void)
     
 void print_scene(void)
 {
-    int counter = 0;
     for (int y = 0; y < Y_MAX; y++)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            //printf("%i", counter);
-            //printf("%i", scene[y][x]);
 
             print_snowflake(scene[y][x]);
-            counter++;
         }
         printf("\n");
     }

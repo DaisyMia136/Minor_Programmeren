@@ -42,7 +42,7 @@ void init_board(void)
         }
     }
     
-    board[]
+    board[15][]
     
 }
 

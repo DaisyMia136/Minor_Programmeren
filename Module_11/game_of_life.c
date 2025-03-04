@@ -10,6 +10,7 @@ void init_board(void);
 void print_board(void);
 void clear_screen(void);
 void update_board(void);
+int adjacent_pixels(int y, int x);
 void terra_sleep(int milliseconds);
 
 

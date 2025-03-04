@@ -31,8 +31,8 @@ int main(void)
     // clear screen
     clear_screen();
     
-    //while (true)
-    //{
+    while (true)
+    {
         // update board
         update_board();
         // clear screen

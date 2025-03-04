@@ -30,7 +30,6 @@ int main(void)
     print_board();
     // clear screen
     clear_screen();
-    fflush(stdout);
     
     while (true)
     {

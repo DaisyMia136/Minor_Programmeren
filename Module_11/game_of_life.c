@@ -10,7 +10,7 @@
 // global variables and structs
 
 // main script
-int main(void)
+int main(argc, string argv[])
 {
     
 }

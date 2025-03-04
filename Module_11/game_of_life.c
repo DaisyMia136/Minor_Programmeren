@@ -91,7 +91,6 @@ void update_board(void)
             // define pixels around the current pixel 
             int adjacent_counter = adjacent_pixels(y, x);
             
-            // log 
             //define if current pixel is dead or alive
             if (board[y][x] == '#')
             {

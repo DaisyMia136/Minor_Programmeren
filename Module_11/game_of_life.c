@@ -101,7 +101,7 @@ void update_board(void)
                 // alive 
                 
                 // check if it will die
-                if (adjacent_counter == 0 || adjacent_counter == 1 || 
+                if (adjacent_counter == 0 || adjacent_counter == 1 || adjacent_counter >
             }
             else
             {

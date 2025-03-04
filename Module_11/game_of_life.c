@@ -72,7 +72,7 @@ void print_board(void)
             printf("%c", board[y][x]);
         }
     }
-        fflush(stdout);
+    fflush(stdout);
     return;
 }
 

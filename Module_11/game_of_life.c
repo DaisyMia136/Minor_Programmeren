@@ -25,10 +25,10 @@ static char log[Y_MAX][X_MAX];
 // main script
 int main(void)
 {
-    printf("while might works");
     // initiat board
     init_board();
     
+        printf("while might works");
     // print board
     print_board();
     

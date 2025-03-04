@@ -31,7 +31,7 @@ int main(void)
     print_board();
 
     // clear screen
-    //terra_sleep(50);
+    terra_sleep(50);
     
     
     //while (true)

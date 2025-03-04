@@ -89,7 +89,7 @@ void update_board(void)
 {
     printf("\n\n ik ben hier :)");
     // log changes 
-    for (int y = 0; y > Y_MAX; y++)
+    for (int y = 0; y < Y_MAX; y++)
     {
         for (int x = 0; x > X_MAX; x++)
         {

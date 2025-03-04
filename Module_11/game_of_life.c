@@ -80,7 +80,7 @@ void update_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            if (board[y][x] == '#' && (board[y - 1][x] == '#' || board[y + 1][x] == '#' || board[y][x] == '#')
+            if (board[y][x] == '#' && (board[y - 1][x] == '#' || board[y + 1][x] == '#' || board[y][x - 1] == '#')
         }
     }
     

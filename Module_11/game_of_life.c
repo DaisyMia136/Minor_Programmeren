@@ -76,7 +76,13 @@ void clear_screen(void)
 void update_board(void)
 {
     // save/log changes 
-    
+    for (int y = 0; y < Y_MAX; y++)
+    {
+        for (int x = 0; x < X_MAX; x++)
+        {
+            
+        }
+    }
     
     // do changes 
 }

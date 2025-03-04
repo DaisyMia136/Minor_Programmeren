@@ -81,7 +81,12 @@ void update_board(void)
         for (int x = 0; x < X_MAX; x++)
         {
             //define if current pixel is dead or alive
-            if ()
+            if (board[y][x] == '#')
+            {
+                // alive 
+                
+                // check if it will die
+            }
             
             
             

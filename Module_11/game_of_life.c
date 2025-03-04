@@ -10,7 +10,7 @@ void init_board(void);
 void print_board(void);
 void clear_screen(void);
 void update_board(void);
-void terra_sleep(int milliseconds)
+void terra_sleep(int milliseconds);
 
 
 

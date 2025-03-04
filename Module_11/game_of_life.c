@@ -41,7 +41,7 @@ int main(int argc, string argv[])
         print_board();
         
         //sleep 
-        void terra_sleep(int milliseconds)
+        terra_sleep(150);
 
         
     }

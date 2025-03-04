@@ -82,6 +82,7 @@ void clear_screen(void)
 {
     printf("\033[2J");
     printf("\033[%d;%dH", 0, 0);
+    
 }
 
 void update_board(void)

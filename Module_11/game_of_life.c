@@ -82,7 +82,7 @@ void update_board(void)
         {
             if (board[y][x] == '#' && 
             (board[y - 1][x] == '#' || board[y + 1][x] == '#' || board[y][x - 1] == '#' || board[y][x + 1] == '#' || 
-            board[y - 1][x - 1] == '#' || board[y - 1][x + 1] == '#' || board[y + 1][x - 1] == '#' || board[y + 1][x + 1] == '#')
+            board[y - 1][x - 1] == '#' || board[y - 1][x + 1] == '#' || board[y + 1][x - 1] == '#' || board[y + 1][x + 1] == '#'))                                  
             {
                 
             }

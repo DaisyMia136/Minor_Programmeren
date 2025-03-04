@@ -30,7 +30,7 @@ int main(void)
     
     // print board
     print_board();
-    printf("while might works");
+    
 
     while (true)
     {

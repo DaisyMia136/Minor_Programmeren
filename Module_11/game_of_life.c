@@ -85,14 +85,14 @@ void clear_screen(void)
 
 void update_board(void)
 {
-    int adjacent_counter = 0;
+    
     // save/log changes 
     for (int y = 0; y < Y_MAX; y++)
     {
         for (int x = 0; x < X_MAX; x++)
         {
             // define pixels around the current pixel 
-            adjacent_counter = adjacent_pixels(y, x);
+            int adjacent_counter = adjacent_pixels(y, x);
             //define if current pixel is dead or alive
             if (board[y][x] == '#')
             {

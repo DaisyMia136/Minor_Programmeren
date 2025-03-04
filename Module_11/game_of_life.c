@@ -93,7 +93,7 @@ void update_board(void)
         for (int x = 0; x < X_MAX; x++)
         {
             // define pixels around the current pixel 
-            
+            adjacent_pixel(board[])
             
             // loop through pixels around it
             for (int around_y = y - 1; around_y <= y + 1; y++)

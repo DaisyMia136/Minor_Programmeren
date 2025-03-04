@@ -101,6 +101,7 @@ void update_board(void)
                 // alive 
                 
                 // check if it will die
+                if (adjacent_counter == 0
             }
             else
             {

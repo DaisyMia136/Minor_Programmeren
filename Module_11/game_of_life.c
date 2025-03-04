@@ -8,6 +8,8 @@
 // function prototypes
 void init_board(void);
 void print_board(void);
+void clear_screen(void);
+void update_board(void);
 
 
 // global variables and structs

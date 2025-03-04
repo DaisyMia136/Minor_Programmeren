@@ -148,7 +148,10 @@ void update_board(void)
     }
 }
 
-void adjacent_pixels(y, x)
+void adjacent_pixels(y, x);
+{
+    
+}
 
 
 void terra_sleep(int milliseconds)

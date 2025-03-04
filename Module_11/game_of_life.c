@@ -76,7 +76,7 @@ void print_board(void)
         }
     }
     printf("\n");
-    printf("hooiiiii");
+    //printf("hooiiiii");
     fflush(stdout);
     return;
 }

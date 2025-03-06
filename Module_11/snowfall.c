@@ -48,7 +48,7 @@ int main(void)
         
         if (timestep%150 == 0)
         {
-            init_scene();
+            //init_scene();
         }
     }
     

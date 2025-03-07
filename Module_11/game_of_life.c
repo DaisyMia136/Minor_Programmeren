@@ -136,7 +136,7 @@ void update_board(void)
             // do changes
             board[y][x] = log[y][x];
             // clear log
-            log[y][x] = ' ';
+            log_1[y][x] = ' ';
         }
     }
 }

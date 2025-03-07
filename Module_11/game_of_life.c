@@ -40,11 +40,11 @@ int main(void)
         //sleep 
         terra_sleep(2000);
         
-        //update board
-        update_board();
-        
         // clear screen
         clear_screen();
+        
+        //update board
+        update_board();
     }
 }
 

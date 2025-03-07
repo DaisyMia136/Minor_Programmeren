@@ -39,11 +39,11 @@ int main(void)
     
     while (true)
     {
-        //update board
-        update_board();
-
         // print board 
         print_board();
+        
+        //update board
+        update_board();
         
         // clear screen
         clear_screen();

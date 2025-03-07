@@ -166,9 +166,9 @@ void update_board(void)
     }
     
     // do changes & clear log
-    for (int y = 1; y < Y_MAX - 1; y++)
+    for (int y = 0; y < Y_MAX; y++)
     {
-        for (int x = 1; x < X_MAX - 1; x++)
+        for (int x = 0; x < X_MAX; x++)
         {
             // do changes
             board[y][x] = log_1[y][x];

@@ -115,7 +115,7 @@ void print_board(void)
             {
                 printf("%c", board[y][x]);
             }
-            else if ()
+            else if (board[y][x] == '0')
             {
                 printf(" ");
             }

@@ -15,7 +15,7 @@ void terra_sleep(int milliseconds);
 
 
 // global variables and structs
-#define X_MAX 5
+#define X_MAX 
 #define Y_MAX 5
 #define COLOR "\033[32m"
 static char board[Y_MAX][X_MAX];

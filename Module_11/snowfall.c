@@ -83,7 +83,7 @@ void update_scene(void)
             if(y != Y_MAX -1 && scene[y][x] == 1 && scene[y + 1][x] != 1)
             {
                 scene[y][x] = 0;
-                scene[y + 1][x] = 1;
+                scene[y + 1][x + 1] = 1;
             }
         }
     }

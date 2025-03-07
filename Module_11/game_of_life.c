@@ -60,7 +60,7 @@ void init_board(void)
             }
             else if (x == 0 || x == X_MAX)
             {
-                
+                board[y][x] = '0';
             }
             board[y][x] = '*';
         }

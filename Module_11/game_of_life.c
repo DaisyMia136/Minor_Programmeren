@@ -180,6 +180,7 @@ void update_board(void)
             // do changes
             board[y][x] = log_1[y][x];
             // clear log
+            if ()
             log_1[y][x] = ' ';
         }
     }

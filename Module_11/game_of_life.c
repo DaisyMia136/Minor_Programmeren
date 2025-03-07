@@ -81,7 +81,6 @@ void print_board(void)
         }
     printf("\n");
     }
-
     fflush(stdout);
 }
 

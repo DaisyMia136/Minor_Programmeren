@@ -32,7 +32,7 @@ int main(void)
     print_board();
     
     //sleep
-    terra_sleep(200);
+    terra_sleep(2000);
     
     // clear screen
     clear_screen();
@@ -45,7 +45,7 @@ int main(void)
         print_board();
 
         //sleep 
-        terra_sleep(200);
+        terra_sleep(2000);
         
         // clear screen
         clear_screen();

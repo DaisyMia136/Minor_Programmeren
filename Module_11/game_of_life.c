@@ -34,7 +34,7 @@ int main(void)
     print_board();
     while (true)
     {
-                // clear screen
+        // clear screen
         clear_screen();
         
         //update board

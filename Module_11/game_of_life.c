@@ -39,6 +39,7 @@ int main(void)
     {
         // print board 
         print_board();
+        fflush(stdout);
         
         //sleep 
         terra_sleep(2000);
@@ -48,6 +49,7 @@ int main(void)
         
         // clear screen
         clear_screen();
+        fflush(stdout);
         
 
     }

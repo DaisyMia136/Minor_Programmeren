@@ -115,6 +115,10 @@ void print_board(void)
             {
                 printf("%c", board[y][x]);
             }
+            else 
+            {
+                printf(" ");
+            }
         }
     printf("\n");
     }

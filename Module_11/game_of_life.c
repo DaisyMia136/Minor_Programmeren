@@ -161,7 +161,6 @@ int adjacent_pixels(int y, int x)
                 printf("%c", board[around_y][around_x]);
             }
         }
-        printf("\n");
 
     }
     if (board[y][x] == '#')

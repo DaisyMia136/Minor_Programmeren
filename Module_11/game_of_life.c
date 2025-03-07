@@ -41,6 +41,10 @@ int main(void)
 
         // print board 
         print_board();
+        
+        // clear screen
+        clear_screen();
+        
         //sleep 
         terra_sleep(2000);
         

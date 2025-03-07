@@ -36,7 +36,7 @@ int main(void)
     
     while (true)
     {
-        printf("\n\n ik ben hier :)");
+        printf("\n ik ben hier :)");
         terra_sleep(5000);
 
         // update board

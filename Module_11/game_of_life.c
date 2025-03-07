@@ -141,6 +141,8 @@ void update_board(void)
         }
     }
         printf("\n\n ik ben hier :) :)\n");
+            fflush(stdout);
+
 
 }
 

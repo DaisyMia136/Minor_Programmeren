@@ -47,7 +47,7 @@ int main(void)
         //sleep 
         terra_sleep(2000);
         
-                // clear screen
+        // clear screen
         clear_screen();
     }
 }

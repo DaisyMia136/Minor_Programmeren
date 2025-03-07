@@ -80,7 +80,11 @@ void init_board(void)
     
     
     //plusje
-    
+    board[1][2] = '#';
+    board[2][2] = '#';
+    board[3][2] = '#';
+    board[2][1] = '#';
+    board[2][3] = '#';
     
     // hartje
     // board[14][55] = '#';

@@ -34,8 +34,8 @@ int main(void)
     terra_sleep(150);
     
     
-    //while (true)
-    //{
+    while (true)
+    {
         //update board
         update_board();
         // clear screen

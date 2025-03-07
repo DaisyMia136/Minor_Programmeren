@@ -138,8 +138,6 @@ void update_board(void)
             log_1[y][x] = ' ';
         }
     }
-        printf("\n\n ik ben hier :) :)\n");
-            fflush(stdout);
 
 
 }

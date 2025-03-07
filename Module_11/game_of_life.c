@@ -171,7 +171,7 @@ int adjacent_pixels(int y, int x)
             printf("\n");
 
     //printf("%i\n", adjacent_counter);
-    return ;
+    return adjacent_counter;
 }
 
 

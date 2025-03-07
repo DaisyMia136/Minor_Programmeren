@@ -60,7 +60,7 @@ void init_board(void)
     
     // initiate figure a cross in the middle
     board[2][3] = '#';
-    
+    board[2][3] = '#';
     
     // board[14][55] = '#';
     // board[15][55] = '#';

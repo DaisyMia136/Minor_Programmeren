@@ -90,7 +90,7 @@ void init_board(void)
     board[15][1] = '#';
     board[16][1] = '#';
     board[15][0] = '#';
-    board[15][56] = '#';
+    board[15][2] = '#';
     
     
     // hartje

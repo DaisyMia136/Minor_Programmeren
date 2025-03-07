@@ -139,7 +139,7 @@ int adjacent_pixels(int y, int x)
 {
     int adjacent_counter = 0;
 // loop through pixels around it
-    for (int around_y = y - 1; around_y < y + 1; around_y++)
+    for (int around_y = y - 1; around_y <= y + 1; around_y++)
     {
         for (int around_x = x - 1; around_x < x + 1; around_x++)
         {

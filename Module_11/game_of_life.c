@@ -36,12 +36,13 @@ int main(void)
     
     while (true)
     {
-        // clear screen
-        clear_screen();
         //update board
         update_board();
         // print board 
         print_board();
+        
+                // clear screen
+        clear_screen();
         //sleep 
         terra_sleep(2000);
     }

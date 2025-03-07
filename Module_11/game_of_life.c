@@ -143,7 +143,7 @@ int adjacent_pixels(int y, int x)
     {
         for (int around_x = x - 1; around_x <= x + 1; around_x++)
         {
-            y = ;
+            y = 2;
             x = 2;
             if (board[around_y][around_x] == '#' || board[around_y][around_x] == '*')
             {

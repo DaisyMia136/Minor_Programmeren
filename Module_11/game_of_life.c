@@ -39,7 +39,7 @@ int main(void)
         printf("\n ik ben hier :)\n");
         //terra_sleep(50);
 
-        // update board
+        update board
         //update_board();
         // clear screen
         //clear_screen();

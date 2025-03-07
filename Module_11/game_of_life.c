@@ -64,7 +64,7 @@ void init_board(void)
             }
             else
             {
-                board[y][x] = '*';
+                board[y][x] = ' ';
             }
         }
     }

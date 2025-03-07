@@ -160,7 +160,6 @@ int adjacent_pixels(int y, int x)
                 adjacent_counter++;
                 printf("%c", board[around_y][around_x]);
             }
-            
         }
         printf("\n");
 

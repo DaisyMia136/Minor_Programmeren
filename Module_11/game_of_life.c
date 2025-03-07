@@ -62,7 +62,10 @@ void init_board(void)
             {
                 board[y][x] = '0';
             }
-            board[y][x] = '*';
+            else
+            {
+                board[y][x] = '*';
+            }
         }
     }
     

@@ -133,7 +133,7 @@ void update_board(void)
                     log_1[y][x] = '#';
                 }
             }
-            else if (board[y][x] == ' ' && )
+            else if (board[y][x] == ' ' && adjacent_counter == 3)
             {
                 if (adjacent_counter == 3)
                 {

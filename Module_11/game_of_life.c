@@ -143,7 +143,7 @@ void update_board(void)
                     log_1[y][x] = ' ';
                 }
                 // or will stay alive
-                else if (adjacent_counter == 2 || adjacent_counter == 3) // unnecessary, but easier to read :)
+                else 
                 {
                     // log current pixel to stay alive
                     log_1[y][x] = '#';

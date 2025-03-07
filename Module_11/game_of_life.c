@@ -164,7 +164,7 @@ int adjacent_pixels(int y, int x)
         printf("\n");
 
     }
-    if ()
+    if (board[y][x] == )
             printf("\n");
 
     //printf("%i\n", adjacent_counter);

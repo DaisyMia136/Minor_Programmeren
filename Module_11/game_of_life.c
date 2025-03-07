@@ -37,7 +37,7 @@ int main(void)
         fflush(stdout);
         
         //sleep 
-        terra_sleep(1000);
+        terra_sleep(500);
         
         // clear screen
         clear_screen();

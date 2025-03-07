@@ -28,8 +28,8 @@ int main(void)
     // initiat board
     init_board();
     
-    print board
-    //print_board();
+    //print board
+    print_board();
     
     //terra_sleep(20);
     

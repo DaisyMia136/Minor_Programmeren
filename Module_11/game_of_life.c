@@ -54,7 +54,7 @@ void init_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            board[y][x] = ' ';
+            board[y][x] = '*';
         }
     }
     

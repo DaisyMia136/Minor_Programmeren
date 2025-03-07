@@ -29,7 +29,7 @@ int main(void)
     init_board();
     
     //print board
-    print_board();
+    //print_board();
     
     // clear screen
     clear_screen();

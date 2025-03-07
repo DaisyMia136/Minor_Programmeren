@@ -163,7 +163,7 @@ void update_board(void)
             {
                 log_1[y][x] = '#';
             }
-            else
+            else if ()
             {
                 log_1[y][x] = '0';
             }

@@ -29,6 +29,7 @@ int main(void)
     clear_screen();
     // initiat board
     init_board();
+    print_board();
 
     while (true)
     {

@@ -46,7 +46,7 @@ int main(void)
         // add time point 
         timestep++;
         
-        //if (timestep%150 == 0)
+        if (timestep%150 == 0)
         //{
             //init_scene();
         //}

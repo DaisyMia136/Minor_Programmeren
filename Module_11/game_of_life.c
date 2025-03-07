@@ -47,8 +47,6 @@ int main(void)
         // clear screen
         clear_screen();
         fflush(stdout);
-        
-
     }
 }
 

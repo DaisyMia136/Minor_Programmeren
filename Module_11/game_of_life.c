@@ -28,7 +28,7 @@ int main(void)
     // initiat board
     init_board();
     
-    // print board
+    print board
     //print_board();
     
     //terra_sleep(20);
@@ -37,7 +37,7 @@ int main(void)
     //while (true)
     //{
         //update board
-        update_board();
+        //update_board();
         // clear screen
         //clear_screen();
         // print board 

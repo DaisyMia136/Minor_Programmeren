@@ -19,7 +19,7 @@ void terra_sleep(int milliseconds);
 #define Y_MAX 20
 #define COLOR "\033[32m"
 static char board[Y_MAX][X_MAX];
-static char log[Y_MAX][X_MAX];
+static char log_1[Y_MAX][X_MAX];
 
 
 // main script

@@ -134,7 +134,7 @@ void update_board(void)
         for (int x = 0; x < X_MAX; x++)
         {
             // do changes
-            board[y][x] = log[y][x];
+            board[y][x] = log_1[y][x];
             // clear log
             log_1[y][x] = ' ';
         }

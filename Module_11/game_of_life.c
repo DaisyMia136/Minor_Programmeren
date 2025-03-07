@@ -130,7 +130,7 @@ void update_board(void)
             {
                 if (adjacent_counter == 3)
                 {
-                    
+                    log_1[y][x] = '#';
                 }
             }
         }

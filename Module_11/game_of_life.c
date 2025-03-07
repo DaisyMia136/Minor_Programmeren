@@ -86,7 +86,7 @@ void print_board(void)
 {
     for (int y = 1; y < Y_MAX - 1; y++)
     {
-        for (int x = 1; x < X_MAX; x++)
+        for (int x = 1; x < X_MAX - 1; x++)
         {
             printf("%c", board[y][x]);
         }

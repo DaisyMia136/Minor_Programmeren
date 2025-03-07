@@ -91,7 +91,7 @@ void clear_screen(void)
 
 void update_board(void)
 {
-    printf("\n\n ik ben hier ");
+    printf("\n\n ik ben hier \n");
     // log changes 
     for (int y = 0; y < Y_MAX; y++)
     {

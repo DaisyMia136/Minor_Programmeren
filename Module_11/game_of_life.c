@@ -77,11 +77,11 @@ void init_board(void)
     // board[2][1] = '#';
     // board[2][3] = '#';
     
-    board[14][1] = '#';
-    board[15][1] = '#';
-    board[16][1] = '#';
-    board[15][0] = '#';
-    board[15][2] = '#';
+    // board[14][1] = '#';
+    // board[15][1] = '#';
+    // board[16][1] = '#';
+    // board[15][0] = '#';
+    // board[15][2] = '#';
     
     
     //plusje

@@ -54,11 +54,11 @@ void init_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            if (y == 0 || y == Y_MAX)
+            if (y == 0 || y == Y_MAX - 1)
             {
                 board[y][x] = '0';
             }
-            else if (x == 0 || x == X_MAX)
+            else if (x == 0 || x == X_MAX - 1)
             {
                 board[y][x] = '0';
             }

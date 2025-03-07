@@ -131,7 +131,7 @@ void clear_screen(void)
 void update_board(void)
 {
     // log changes 
-    for (int y = 1; y < Y_MAX - 1; y++)
+    for (int y = 0; y < Y_MAX - 1; y++)
     {
         for (int x = 1; x < X_MAX - 1; x++)
         {

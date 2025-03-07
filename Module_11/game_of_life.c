@@ -72,8 +72,8 @@ void init_board(void)
     // board[2][1] = '#';
     // board[2][3] = '#';
     board[14][55] = '#';
-    board[15][53] = '#';
-    board[15][56] = '#';
+    board[13][53] = '#';
+    board[13][56] = '#';
     board[14][53] = '#';
     board[14][57] = '#';
     board[13][53] = '#';

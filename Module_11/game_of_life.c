@@ -29,9 +29,9 @@ int main(void)
     init_board();
     
     //print board
-    //print_board();
+    print_board();
     
-    //terra_sleep(20);
+    terra_sleep(150);
     
     
     //while (true)
@@ -39,11 +39,11 @@ int main(void)
         //update board
         update_board();
         // clear screen
-        //clear_screen();
+        clear_screen();
         // print board 
-        //print_board();
+        print_board();
         //sleep 
-        terra_sleep(1000);
+        terra_sleep(150);
     //}
 }
 

@@ -182,7 +182,7 @@ void update_board(void)
             // clear log
             if ((y == 0 || y == Y_MAX - 1) && (x == 0 || x == X_MAX - 1))
             {
-                board[y][x] = '0';
+                log_1[y][x] = '0';
             }
             else 
             {

@@ -40,11 +40,11 @@ int main(void)
         // print board 
         print_board();
         
-        //update board
-        update_board();
-        
         //sleep 
         terra_sleep(2000);
+        
+        //update board
+        update_board();
         
         // clear screen
         clear_screen();

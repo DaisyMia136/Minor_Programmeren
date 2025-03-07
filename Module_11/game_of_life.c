@@ -40,7 +40,6 @@ int main(void)
         update_board();
         // clear screen
         clear_screen();
-        
         // print board 
         print_board();
         //sleep 

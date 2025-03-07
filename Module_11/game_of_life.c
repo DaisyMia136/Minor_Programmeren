@@ -25,14 +25,15 @@ static char log_1[Y_MAX][X_MAX];
 // main script
 int main(void)
 {
+    // clear screen
+    clear_screen();
     // initiat board
     init_board();
     
     //print board
     //print_board();
     
-    // clear screen
-    clear_screen();
+
         
     while (true)
     {

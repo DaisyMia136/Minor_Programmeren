@@ -43,11 +43,11 @@ int main(void)
         //update board
         update_board();
         
-        // clear screen
-        clear_screen();
-        
         //sleep 
         terra_sleep(2000);
+        
+        // clear screen
+        clear_screen();
         
 
     }

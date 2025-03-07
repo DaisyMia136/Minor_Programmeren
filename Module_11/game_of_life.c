@@ -36,10 +36,11 @@ int main(void)
     
     while (true)
     {
+                // clear screen
+        clear_screen();
         //update board
         update_board();
-        // clear screen
-        clear_screen();
+
         // print board 
         print_board();
         //sleep 

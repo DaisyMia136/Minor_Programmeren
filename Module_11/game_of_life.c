@@ -54,7 +54,7 @@ void init_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            if (y == 0)
+            if (y == 0 || y == Y_MAX)
             {
                 board[y][x] = '0';
             }

@@ -37,7 +37,7 @@ int main(void)
     //while (true)
     //{
         //update board
-        //update_board();
+        update_board();
         // clear screen
         //clear_screen();
         // print board 

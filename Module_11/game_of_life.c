@@ -90,6 +90,7 @@ void print_board(void)
         {
             printf("%c", board[y][x]);
         }
+    printf("\n");
     }
     fflush(stdout);
 }

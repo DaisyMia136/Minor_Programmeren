@@ -183,8 +183,7 @@ void update_board(void)
             log_1[y][x] = ' ';
         }
     }
-
-
+        int adjacent_counter =0;
 
 }
 

@@ -163,7 +163,7 @@ void update_board(void)
             {
                 log_1[y][x] = '#';
             }
-            else if (y == 0 || y == Y_MAX - 1) && (x == 0 || x == X_MAX - 1)
+            else if ((y == 0 || y == Y_MAX - 1) && (x == 0 || x == X_MAX - 1)
             {
                 log_1[y][x] = '0';
             }

@@ -32,9 +32,6 @@ int main(void)
     
     //print board
     //print_board();
-    
-
-        
     while (true)
     {
         // print board 

@@ -118,15 +118,6 @@ void update_board(void)
                     log_1[y][x] = '#';
                 }
             }
-            else
-            {
-                // check if will aliven 
-                if (adjacent_counter == 3)
-                {
-                    // log current pixel to aliven
-                    log_1[y][x] = '#';
-                }
-            }
         }
     }
     

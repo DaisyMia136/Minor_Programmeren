@@ -113,7 +113,7 @@ void print_board(void)
         {
             if(board[y][x] == ' ' || board[y][x] == '#')
             {
-                printf("%c", board[y][x]);
+                printf("%c", log_1[y][x]);
             }
             else 
             {

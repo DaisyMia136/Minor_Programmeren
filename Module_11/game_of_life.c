@@ -168,7 +168,7 @@ void update_board(void)
                 log_1[y][x] = ' ';
             }
             
-            else if (board[y][x] == '0')
+            else
             {
                 log_1[y][x] = '0';
             }

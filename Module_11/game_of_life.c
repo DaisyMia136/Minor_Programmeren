@@ -29,7 +29,7 @@ int main(void)
     clear_screen();
     // initiat board
     init_board();
-    print_board();
+    print_board()
 
     while (true)
     {
@@ -112,7 +112,7 @@ void print_board(void)
     {
         for (int x = 0; x < X_MAX; x++)
         {
-            if(board[y][x] == '*' || board[y][x] == '#')
+            if(board[y][x] == ' ' || board[y][x] == '#')
             {
                 printf("%c", board[y][x]);
             }
@@ -150,7 +150,7 @@ void update_board(void)
                 if (adjacent_counter == 0 || adjacent_counter == 1 || adjacent_counter >= 4)
                 {
                     // log current pixel to die 
-                    log_1[y][x] = '*';
+                    log_1[y][x] = ' ';
                 }
                 // or will stay alive
                 else if (adjacent_counter == 2 || adjacent_counter == 3) // unnecessary, but easier to read :)
@@ -159,7 +159,7 @@ void update_board(void)
                     log_1[y][x] = '#';
                 }
             }
-            else if (board[y][x] == '*' && adjacent_counter == 3)
+            else if (board[y][x] == ' ' && adjacent_counter == 3)
             {
                 log_1[y][x] = '#';
             }

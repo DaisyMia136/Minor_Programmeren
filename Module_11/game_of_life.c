@@ -122,7 +122,7 @@ void update_board(void)
                 if (adjacent_counter == 3)
                 {
                     // log current pixel to aliven
-                    log[y][x] = '#';
+                    log_1[y][x] = '#';
                 }
             }
         }

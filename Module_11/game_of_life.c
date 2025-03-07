@@ -155,7 +155,7 @@ void update_board(void)
         }
     }
 
-print_board();
+
 }
 
 int adjacent_pixels(int y, int x)

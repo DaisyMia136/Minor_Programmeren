@@ -42,7 +42,7 @@ int main(void)
         //update board
         update_board();
         // print board 
-        //print_board();
+        print_board();
 
         //sleep 
         terra_sleep(2000);

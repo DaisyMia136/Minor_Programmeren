@@ -131,9 +131,9 @@ void clear_screen(void)
 void update_board(void)
 {
     // log changes 
-    for (int y = 0; y < Y_MAX - 1; y++)
+    for (int y = 0; y < Y_MAX; y++)
     {
-        for (int x = 1; x < X_MAX - 1; x++)
+        for (int x = 0; x < X_MAX; x++)
         {
             // define pixels around the current pixel 
             int adjacent_counter = adjacent_pixels(y, x);

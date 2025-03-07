@@ -135,10 +135,7 @@ void update_board(void)
             }
             else if (board[y][x] == ' ' && adjacent_counter == 3)
             {
-                if (adjacent_counter == 3)
-                {
-                    log_1[y][x] = '#';
-                }
+                log_1[y][x] = '#';
             }
         }
     }

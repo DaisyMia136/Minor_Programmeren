@@ -40,9 +40,9 @@ int main(void)
         //terra_sleep(50);
 
         // update board
-        update_board();
+        //update_board();
         // clear screen
-        clear_screen();
+        //clear_screen();
         // print board 
         print_board();
         //sleep 

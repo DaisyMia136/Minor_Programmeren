@@ -112,9 +112,12 @@ void print_board(void)
 {
     for (int y = 0; y < Y_MAX; y++)
     {
-        for (int x = 1; x < X_MAX - 1; x++)
+        for (int x = 0; x < X_MAX; x++)
         {
-            printf("%c", board[y][x]);
+            if(board[y][x] == ' ' || board[y][x] == '#')
+            {
+                printf("%c", board[y][x]);
+            }
         }
     printf("\n");
     }

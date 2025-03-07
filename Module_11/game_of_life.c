@@ -113,18 +113,18 @@ void update_board(void)
             int adjacent_counter = adjacent_pixels(y, x);
             if (board[y][x] == '#')
             {
-            
-            //define if current pixel is dead or alive
-            if (adjacent_counter == 0 || adjacent_counter == 1 || adjacent_counter >= 4)
-            {
-                // log current pixel to die 
-                log_1[y][x] = ' ';
-            }
-            // or will stay alive
-            else if (adjacent_counter == 2 || adjacent_counter == 3) // unnecessary, but easier to read :)
-            {
-                // log current pixel to stay alive
-                log_1[y][x] = '#';
+                //define if current pixel is dead or alive
+                if (adjacent_counter == 0 || adjacent_counter == 1 || adjacent_counter >= 4)
+                {
+                    // log current pixel to die 
+                    log_1[y][x] = ' ';
+                }
+                // or will stay alive
+                else if (adjacent_counter == 2 || adjacent_counter == 3) // unnecessary, but easier to read :)
+                {
+                    // log current pixel to stay alive
+                    log_1[y][x] = '#';
+                }
             }
         }
     }

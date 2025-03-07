@@ -31,9 +31,15 @@ int main(void)
     init_board();
     
     //print board
-    //print_board();
+    print_board();
     while (true)
     {
+                // clear screen
+        clear_screen();
+        
+        //update board
+        update_board();
+        
         // print board 
         print_board();
         fflush(stdout);
@@ -41,11 +47,7 @@ int main(void)
         //sleep 
         terra_sleep(2000);
         
-        // clear screen
-        clear_screen();
-        
-        //update board
-        update_board();
+
     }
 }
 

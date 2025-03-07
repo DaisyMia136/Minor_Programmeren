@@ -35,7 +35,7 @@ int main(void)
     terra_sleep(2000);
     
     // clear screen
-    clear_screen();
+    //clear_screen();
     
     while (true)
     {

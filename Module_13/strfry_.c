@@ -57,12 +57,12 @@ void strfry_(char *string, int length)
                     j = 0;
                 }
                 else if (index_random == random_array[j]) // if present generate a new number + start again
-            {
-                printf("found a double: %i\n", index_random);
-                index_random = (random() / ((double) RAND_MAX + 1)) * length;
-                //printf("%i", index_random);
-                j = 0;
-            }
+                {
+                    printf("found a double: %i\n", index_random);
+                    index_random = (random() / ((double) RAND_MAX + 1)) * length;
+                    //printf("%i", index_random);
+                    j = 0;
+                }
                 
             }
             else if (index_random == random_array[j]) // if present generate a new number + start again

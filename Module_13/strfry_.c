@@ -40,7 +40,7 @@ void strfry(char *string, int length)
     for(int i = 0; i < length; i++)
     {
         // make random number
-        index_random = (rand() / ((double) RAND_MAX + 1)) * length;
+        index_random = (random() / ((double) RAND_MAX + 1)) * length;
 
         // check if it is present in the array (while)
         for(int j = 0; j <= length; j++)

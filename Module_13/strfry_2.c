@@ -23,5 +23,7 @@ int main(int argc, char *argv[])
     
     word = strfry_(word);
     
-    
+}
+
+
     

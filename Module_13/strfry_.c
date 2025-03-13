@@ -43,21 +43,18 @@ void strfry_(char *string, int length)
         // make random number
         index_random = (random() / ((double) RAND_MAX + 1)) * length;
         printf("new index: %i\n", index_random);
-        
         // check if it is present in the array (while)
-        //for(int j = 0; j < length; j++)
-        //{
+        for(int j = 0; j < length; j++)
+        {
             //printf("%i", j);
-            int j = 0;
-            while (index_random == random_array[j]) // if present generate a new number + start again
+        if (index_random == random_array[j]) // if present generate a new number + start again
             {
                 printf("found a double: %i\n", index_random);
                 index_random = (random() / ((double) RAND_MAX + 1)) * length;
-                printf("%i", index_random);
-                j++;
+                //printf("%i", index_random);
+                j = 0;
             }
-            //j = -1;
-        //}
+        }
         random_array[i] = index_random;
     }
 

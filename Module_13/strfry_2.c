@@ -25,5 +25,6 @@ int main(int argc, char *argv[])
     
 }
 
+char * strfry_(char *string);
 
     

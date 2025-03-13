@@ -36,7 +36,7 @@ void strfry_(char *string, int length)
     int random_array[length];
     int index_random = 0;
 
-    for (int array = 0; array <= length; array++)
+    for (int array = 0; array < length; array++)
     {
         random_array[array] = length + 2;
         printf("%i", random_array[array]);

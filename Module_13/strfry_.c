@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
     char *word = argv[1];
     printf("%s", word);
 
-srandom(time(NULL));
     strfry(word, length);
 
 }

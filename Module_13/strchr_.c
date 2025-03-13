@@ -14,6 +14,9 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
+    if (argc[2] == '\0')
+    
+    
     // 
     char *pointer = strchr_(argv[1], argv[2]);
     

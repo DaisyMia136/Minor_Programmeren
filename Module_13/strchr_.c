@@ -36,7 +36,7 @@ char * strchr_(char *word, char *letter)
         }
         else if (word[i] == '\0')
         {
-            
+            return NULL;
         }
     }
     if (index_letter > lenght)

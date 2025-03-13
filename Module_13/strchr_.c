@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
     
     // 
     int letter = atoi(argv[2]);
+    printf("%c", letter);
     
     char *pointer = strchr_(argv[1], letter);
     

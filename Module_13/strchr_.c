@@ -34,6 +34,7 @@ char * strchr_(char *word, char *letter)
             index_letter = i;
             break;
         }
+        else if (word[i] == '')
     }
     if (index_letter > lenght)
     {

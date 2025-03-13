@@ -18,4 +18,7 @@ int main(int argc, char *argv[])
 }
 
 // functions
-char * strchr_()
+char * strchr_(char *word, char letter)
+{
+    
+}

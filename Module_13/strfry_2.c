@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     srandom(time(NULL));
     char *word = argv[1];
     
-    char * strfry_(char *string);
+    word = strfry_(word);
     
     
     

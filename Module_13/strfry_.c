@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    // calc string length
+    
     // randomised seed
     srandom(time(NULL));
     char *word = argv[1];

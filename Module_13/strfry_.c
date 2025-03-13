@@ -50,7 +50,7 @@ void strfry_(char *string, int length)
         // check if it is present in the array (while)
         for(int j = 0; j < length; j++)
         {
-            //printf("%i", j);
+            printf("%i", random_array[j - 1]);
             if (j == 0)
             {
                 j = 1;

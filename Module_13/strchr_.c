@@ -41,7 +41,7 @@ char * strchr_(char *word, char *letter)
             break;
         }
     }
-    if (index_letter > lenght)
+    if (index_letter > lenght + 2)
     {
         return NULL;
     }

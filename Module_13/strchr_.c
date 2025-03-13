@@ -32,7 +32,7 @@ char * strchr_(char *word, char *letter)
     int lenght = strlen(word);
     int index_letter = lenght + 2;
     // loop through word and find the first instance of letter
-    for (int i = 0; i < lenght; i++)
+    for (int i = 0; i <= lenght; i++)
     {
         //printf("%c", word[i]);
         if (word[i] == letter[0])

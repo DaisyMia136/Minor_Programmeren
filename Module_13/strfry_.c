@@ -66,10 +66,10 @@ void strfry_(char *string, int length)
     //printf("%s", new_string);
 
     // check if array contains uniq numbers
-    //for(int k = 0; k < length; k++)
-    //{
-        //printf("%i", random_array[k]);
-    //}
+    for(int k = 0; k < length; k++)
+    {
+        printf("%i", random_array[k]);
+    }
 
     // initialise variables in the loop
     int new_index = 0;

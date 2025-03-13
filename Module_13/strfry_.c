@@ -71,7 +71,7 @@ void strfry_(char *string, int length)
     {
         new_string[k] = ' ';
     }
-    
+    new_string[length] = '\0';
     
     //printf("%s", new_string);
 

@@ -35,7 +35,7 @@ char * strchr_(char *word, int letter)
     for (int i = 0; i < lenght; i++)
     {
         //printf("%c", word[i]);
-        if (word[i] == letter[0])
+        if (word[i] == letter)
         {
             index_letter = i;
             break;

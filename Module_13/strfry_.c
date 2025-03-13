@@ -32,6 +32,7 @@ void strfry_(char *string, int length)
     // randomised seed
     srandom(time(NULL));
    
+    int length = strlen(argv[1]);
     // initialise array with length of string
     int random_array[length];
     int index_random = 0;

@@ -49,6 +49,10 @@ char * strchr_(char *word, char *letter)
         return NULL;
     }
     
+    if (&word[0 + index_letter] == NULL)
+    {
+       return NULL; 
+    }
     // return pointer to first instance of letter
     return &word[0 + index_letter];
     

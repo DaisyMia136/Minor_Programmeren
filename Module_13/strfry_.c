@@ -93,7 +93,7 @@ void strfry_(char *string, int length)
         //printf("%c\n", string[new_character]);
 
         new_string[new_character] = string[new_index];
-        printf("%c", new_string[new_character]);
+        //printf("%c", new_string[new_character]);
     }
     printf("\n");
 }

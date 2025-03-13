@@ -54,6 +54,7 @@ void strfry_(char *string, int length)
                 //printf("%i", index_random);
                 j++;
             }
+            
         }
         random_array[i] = index_random;
     }

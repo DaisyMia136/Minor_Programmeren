@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include
+#include <string.h>
 
 // function prototypes
 char * strchr_(char *word, char letter);

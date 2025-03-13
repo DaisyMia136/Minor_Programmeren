@@ -18,4 +18,4 @@ int main(int argc, char *argv[])
 }
 
 // functions
-
+char * strchr_()

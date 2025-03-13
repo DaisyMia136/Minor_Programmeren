@@ -30,7 +30,7 @@ void strfry_(char *string, int length)
 {
     //printf("ik ben hier");
     // randomised seed
-    srandom(time(NULL));
+
    
     int length = strlen(string);
     // initialise array with length of string

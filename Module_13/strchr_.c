@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     }
     
     // 
-    char *pointer = strchr_(argv[1], argv[2]);
+    char *letter = strchr_(argv[1], argv[2]);
     
     if (pointer == NULL)
     {

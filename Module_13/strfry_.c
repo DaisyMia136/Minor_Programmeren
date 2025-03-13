@@ -39,7 +39,7 @@ void strfry_(char *string, int length)
     for (int array = 0; array < length; array++)
     {
         random_array[array] = length + 2;
-        printf("%i", random_array[array]);
+        //printf("%i", random_array[array]);
     }
     
     // fill this array with uniq random numbers between 0 and strlen - 1

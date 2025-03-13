@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 }
 
 // functions
-char * strchr_(char *word, char letter)
+char * strchr_(char *word, char *letter)
 {
     int lenght = strlen_word;
     int index_letter = lenght + 2

@@ -33,7 +33,7 @@ void strfry(char *string, int length)
 
     // initialise array with length of string
     int random_array[length];
-    int index_random = 00;
+    int index_random = 0;
 
     // fill this array with uniq random numbers between 0 and strlen - 1
     for(int i = 0; i < length; i++)

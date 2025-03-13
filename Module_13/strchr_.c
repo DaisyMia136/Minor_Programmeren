@@ -24,7 +24,7 @@ char * strchr_(char *word, char letter)
     lenght = strlen_word;
     int index_letter = lenght + 2
     // loop through word and find the first instance of letter
-    for (int i = 0, n = strlen(word); i < n; i++)
+    for (int i = 0; i < lenght; i++)
     {
         if (word[i] == letter)
         {
@@ -32,7 +32,11 @@ char * strchr_(char *word, char letter)
             break;
         }
     }
-    if (index_letter > n)
+    if (index_letter > lenght)
+    {
+        return NULL;
+    }
+    
     
     
 }

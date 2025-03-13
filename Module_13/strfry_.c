@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 // functions
 void strfry(char *string, int length)
 {
+     printf("ik ben hier"); // %i", length);
     // randomised seed
     srandom(time(NULL));
 

@@ -56,6 +56,7 @@ void strfry_(char *string, int length)
                     //printf("%i", index_random);
                     j = 0;
                 }
+                
             }
             else if (index_random == random_array[j]) // if present generate a new number + start again
             {

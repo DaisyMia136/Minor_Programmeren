@@ -58,7 +58,7 @@ void strfry_(char *string, int length)
                 //printf("%i", index_random);
                 if (j == length)
                 {
-                    j == 0
+                    j = 0;
                 }
             }
         }

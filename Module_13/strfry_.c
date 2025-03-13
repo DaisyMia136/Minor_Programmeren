@@ -42,7 +42,7 @@ void strfry_(char *string, int length)
     {
         // make random number
         index_random = (random() / ((double) RAND_MAX + 1)) * length;
-
+        printf("found a double: %i\n", index_random);
         // check if it is present in the array (while)
         for(int j = 0; j < length; j++)
         {

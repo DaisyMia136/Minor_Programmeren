@@ -17,7 +17,10 @@ int main(int argc, char *argv[])
     // 
     char *pointer = strchr_(argv[1], argv[2]);
     
-    if ()
+    if (*pointer == NULL)
+    {
+        return 1;
+    }
     //printf("%s", pointer);
     
 }

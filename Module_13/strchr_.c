@@ -6,7 +6,9 @@
 // main script
 int main(int argc, char *argv[])
 {
+    // input checks
     
+    // strchr function
 }
 
 // functions

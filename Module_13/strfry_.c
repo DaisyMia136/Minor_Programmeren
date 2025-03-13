@@ -56,9 +56,9 @@ void strfry(char *string, int length)
     }
 
     char new_string[length];
-    for (int i = 0; i < length; i++)
+    for (int k = 0; k < length; k++)
     {
-        new_string[i] = ' ';
+        new_string[k] = ' ';
     }
     //printf("%s", new_string);
 

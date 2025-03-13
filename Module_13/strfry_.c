@@ -34,7 +34,7 @@ void strfry_(char *string, int length)
    
     // initialise array with length of string
     int random_array[length];
-    for ()
+    for (int array = 0; array < length; array)
     
     int index_random = 0;
 

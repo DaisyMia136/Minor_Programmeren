@@ -41,7 +41,7 @@ void strfry_(char *string, int length)
     for(int i = 0; i < length; i++)
     {
         // make random number
-        index_random = (random() / ((double) RAND_MAX + 1)) * length + 1;
+        index_random = (random() / ((double) RAND_MAX + 1)) * length;
         printf("new index: %i\n", index_random);
         // check if it is present in the array (while)
         for(int j = 0; j < length; j++)

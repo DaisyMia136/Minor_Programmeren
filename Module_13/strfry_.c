@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     char *word = argv[1];
     printf("%i", lenght);
 
-    strfry(word, length);
+    //strfry(word, length);
 
 }
 

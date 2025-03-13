@@ -31,7 +31,7 @@ char * strchr_(char *word, char letter)
             break;
         }
     }
-    if (index_letter == )
+    if (index_letter >  )
     
     
 }

@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     }
     
     // 
-    strchr_()
+    strchr_(argv[1], argv[2]);
     
 }
 

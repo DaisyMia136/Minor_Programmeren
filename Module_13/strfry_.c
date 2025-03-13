@@ -91,7 +91,6 @@ void strfry_(char *string, int length)
         new_index = random_array[new_character];
         //printf("%i", new_index);
         //printf("%c\n", string[new_character]);
-
         new_string[new_character] = string[new_index];
         //printf("%c", new_string[new_character]);
     }

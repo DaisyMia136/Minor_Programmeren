@@ -4,7 +4,7 @@
 #include <time.h>
 
 // function prototypes
-void strfry(char *string, int length);
+void strfry_(char *string, int length);
 
 // main script
 int main(int argc, char *argv[])

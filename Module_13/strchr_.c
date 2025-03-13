@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 // function prototypes
+char * strchr_(char *word, char letter);
 
 // main script
 int main(int argc, char *argv[])

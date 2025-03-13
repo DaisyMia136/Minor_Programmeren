@@ -39,31 +39,27 @@ void strfry_(char *string, int length)
         random_array[array] = length + 2;
     }
     
-    
     int index_random = 0;
-    // fill this array with uniq random numbers between 0 and strlen
+
+
+    // fill this array with uniq random numbers between 0 and strlen - 1
     for(int i = 0; i < length; i++)
     {
         // make random number
         index_random = (random() / ((double) RAND_MAX + 1)) * length;
-        //printf("new index: %i\n", index_random);
+        printf("new index: %i\n", index_random);
         // check if it is present in the array (while)
-        //for(int j = 0; j < length; j++)
-        //{
+        for(int j = 0; j < length; j++)
+        {
             //printf("%i", j);
-            int j = 0;
-            while (index_random == random_array[j]) // if present generate a new number + start again
+            while (index_random == random_array[j] && j < length) // if present generate a new number + start again
             {
                 printf("found a double: %i\n", index_random);
                 index_random = (random() / ((double) RAND_MAX + 1)) * length;
                 //printf("%i", index_random);
                 j++;
-                if (j == length)
-                {
-                    j = 0;
-                }
             }
-        //}
+        }
         random_array[i] = index_random;
     }
 

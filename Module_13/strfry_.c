@@ -36,7 +36,7 @@ void strfry_(char *string, int length)
     int random_array[length];
     for (int array = 0; array < length; array++)
     {
-        random_array[array] = lenght + 1;
+        random_array[array] = length + 1;
     }
     
     int index_random = 0;

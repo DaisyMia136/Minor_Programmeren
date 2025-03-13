@@ -39,6 +39,6 @@ char * strchr_(char *word, char *letter)
     }
     
     // return pointer to first instance of letter
-    return word[0 + index_letter];
+    return &word[0 + index_letter];
     
 }

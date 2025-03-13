@@ -52,6 +52,7 @@ void strfry_(char *string, int length)
                 //printf("found a double: %i\n", index_random);
                 index_random = (random() / ((double) RAND_MAX + 1)) * length;
                 j = 0;
+                j--;
             }
         }
         random_array[i] = index_random;

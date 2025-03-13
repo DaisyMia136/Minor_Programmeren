@@ -72,6 +72,7 @@ void strfry_(char *string, int length)
         new_string[k] = ' ';
     }
     
+    
     //printf("%s", new_string);
 
     // check if array contains uniq numbers

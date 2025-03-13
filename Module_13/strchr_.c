@@ -7,7 +7,11 @@
 int main(int argc, char *argv[])
 {
     // input checks
-    
+    if (argc < 2)
+    {
+        printf("not enough input arguments")
+        
+    }
     
 }
 

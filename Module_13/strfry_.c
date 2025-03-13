@@ -43,7 +43,7 @@ void strfry(char *string, int length)
         index_random = (random() / ((double) RAND_MAX + 1)) * length;
 
         // check if it is present in the array (while)
-        for(int j = 0; j < length; j++)
+        for(int j = 0; j <= length; j++)
         {
             if (index_random == random_array[j]) // if present generate a new number + start again
             {

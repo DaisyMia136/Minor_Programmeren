@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     // calc string length
     int length = strlen(argv[1]);
     char *word = argv[1];
-    printf("%i", length);
+    printf("%s", word);
 
     //strfry(word, length);
 

@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 void strfry(char *string, int length)
 {
     // randomised seed
-    srand(time(NULL));
+    srandom(time(NULL));
 
     // initialise array with length of string
     int random_array[length];

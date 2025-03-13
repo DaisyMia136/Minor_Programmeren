@@ -44,7 +44,7 @@ void strfry_(char *string, int length)
     // fill this array with uniq random numbers between 0 and strlen - 1
     for(int i = 0; i < length; i++)
     {
-        // make random number
+        // make random number between 0 and length
         index_random = (random() / ((double) RAND_MAX + 1)) * length;
         //printf("new index: %i\n", index_random);
         // check if it is present in the array (while)

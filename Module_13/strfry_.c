@@ -48,8 +48,8 @@ void strfry_(char *string, int length)
         index_random = (random() / ((double) RAND_MAX + 1)) * length;
         //printf("new index: %i\n", index_random);
         // check if it is present in the array (while)
-        for(int j = 0; j < length; j++)
-        {
+        //for(int j = 0; j < length; j++)
+        //{
             //printf("%i", j);
             while (index_random == random_array[j]) // if present generate a new number + start again
             {
@@ -62,7 +62,7 @@ void strfry_(char *string, int length)
                     j = 0;
                 }
             }
-        }
+        //}
         random_array[i] = index_random;
     }
 

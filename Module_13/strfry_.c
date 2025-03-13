@@ -79,7 +79,7 @@ void strfry(char *string, int length)
         // get new index from the array
         new_index = random_array[new_character];
         //printf("%i", new_index);
-        //printf("%c\n", string[new_character]);
+        printf("%c\n", string[new_character]);
 
         new_string[new_character] = string[new_index];
         printf("%c", new_string[new_character]);

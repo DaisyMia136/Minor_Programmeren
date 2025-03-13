@@ -26,7 +26,7 @@ char * strchr_(char *word, char letter)
     {
         if (word[i] == letter)
         {
-            
+            index_letter = i;
             break;
         }
     }

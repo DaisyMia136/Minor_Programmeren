@@ -26,5 +26,10 @@ int main(int argc, char *argv[])
 }
 
 char * strfry_(char *string);
-
+{
+    // calc string length
+    int length = strlen(string);
+    
+    
+}
     

@@ -53,8 +53,6 @@ void strfry(char *string, int length)
             }
         }
         random_array[i] = index_random;
-
-
     }
 
     char new_string[length];

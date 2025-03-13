@@ -50,11 +50,12 @@ void strfry_(char *string, int length)
         // check if it is present in the array (while)
         for(int j = 0; j < length; j++)
         {
-            printf("%i", random_array[j - 1]);
+            
             if (j == 0)
             {
                 j = 1;
             }
+            printf("%i", random_array[j - 1]);
             if (index_random == random_array[j - 1]) // if present generate a new number + start again
             {
                 //printf("found a double: %i\n", index_random);

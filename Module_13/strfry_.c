@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 }
 
 // functions
-void strfry(char *string, int length)
+void strfry_(char *string, int length)
 {
     printf("ik ben hier");
     // randomised seed

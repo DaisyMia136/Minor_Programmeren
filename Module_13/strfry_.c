@@ -29,10 +29,7 @@ int main(int argc, char *argv[])
 // functions
 void strfry_(char *string)
 {
-    //printf("ik ben hier");
-    
-
-   
+    // calc string length
     int length = strlen(string);
     // initialise array with length of string
     int random_array[length];

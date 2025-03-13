@@ -45,6 +45,7 @@ char * strchr_(char *word, char *letter)
     {
         return NULL;
     }
+    
     //printf("%c", word[index_letter]);
     // return pointer to first instance of letter
     return &word[index_letter];

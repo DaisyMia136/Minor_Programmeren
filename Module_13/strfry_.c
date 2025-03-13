@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 void strfry_(char *string)
 {
     //printf("ik ben hier");
-    // randomised seed
+    
 
    
     int length = strlen(string);

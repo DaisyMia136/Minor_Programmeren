@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     
     if (pointer == NULL)
     {
-        //return 1;
+        return 1;
     }
     
     printf("%s\n", pointer);

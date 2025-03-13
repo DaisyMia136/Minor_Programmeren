@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     // 
     letter = atoi(argv[2]);
     
-    char *pointer = strchr_(argv[1], argv[2]);
+    char *pointer = strchr_(argv[1], letter);
     
     if (pointer == NULL)
     {

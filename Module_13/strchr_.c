@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     char letter = argv[2][0];
     //printf("%i", letter);
     
-    char *pointer = strchr_(argv[1], 98);
+    char *pointer = strchr_(argv[1], letter);
     
     if (pointer == NULL)
     {

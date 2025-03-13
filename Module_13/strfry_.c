@@ -33,8 +33,9 @@ void strfry(char *string, int length)
 
     // initialise array with length of string
     int random_array[length];
-    int ind
-    ex_random = 0;
+    int index_random = 0;
+    
+    printf("ik ben hier! \n")
 
     // fill this array with uniq random numbers between 0 and strlen - 1
     for(int i = 0; i < length; i++)

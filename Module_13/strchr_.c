@@ -17,6 +17,7 @@ int main(int argc, char *argv[])
     // 
     char *pointer = strchr_(argv[1], argv[2]);
     
+    if ()
     //printf("%s", pointer);
     
 }

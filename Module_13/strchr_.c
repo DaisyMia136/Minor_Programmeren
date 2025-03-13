@@ -34,7 +34,10 @@ char * strchr_(char *word, char *letter)
             index_letter = i;
             break;
         }
-        else if (word[i] == '')
+        else if (word[i] == '\0')
+        {
+            
+        }
     }
     if (index_letter > lenght)
     {

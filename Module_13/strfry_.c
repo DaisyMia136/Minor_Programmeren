@@ -47,6 +47,7 @@ void strfry_(char *string, int length)
         for(int j = 0; j < length; j++)
         {
             //printf("%i", j);
+            
             if (index_random == random_array[j]) // if present generate a new number + start again
             {
                 printf("found a double: %i\n", index_random);

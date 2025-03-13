@@ -15,7 +15,9 @@ int main(int argc, char *argv[])
     }
     
     if (argc[2] == '\0')
-    
+    {
+        printf"
+    }
     
     // 
     char *pointer = strchr_(argv[1], argv[2]);

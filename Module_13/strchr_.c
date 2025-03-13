@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     char letter = argv[2][0];
     //printf("%i", letter);
     
-    if (letter == '\0')
+    if ( == '\0')
     {
         return 0;
     }

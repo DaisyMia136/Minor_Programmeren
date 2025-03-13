@@ -41,6 +41,7 @@ void strfry_(char *string, int length)
     {
         random_array[array] = length + 2;
     }
+    
     // fill this array with uniq random numbers between 0 and strlen - 1
     for(int i = 0; i < length; i++)
     {

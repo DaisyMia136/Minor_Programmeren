@@ -21,12 +21,12 @@ int main(int argc, char *argv[])
     char *word = argv[1];
     //printf("%s", word);
 
-    strfry_(word, length);
+    strfry_(word);
 
 }
 
 // functions
-void strfry_(char *string, int length)
+void strfry_(char *string)
 {
     //printf("ik ben hier");
     // randomised seed

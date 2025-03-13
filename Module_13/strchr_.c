@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
-    if (strcmp(argv[2], \0')
+    if (strcmp(argv[2], \0) == 0)
     {
         return 0;
     }

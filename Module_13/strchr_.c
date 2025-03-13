@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
-    // 
+    
     //printf("%i", letter);
     
     char *pointer = strchr_(argv[1], letter);

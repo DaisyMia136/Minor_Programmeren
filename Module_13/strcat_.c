@@ -65,7 +65,7 @@ char * strcat_(char * string_1, char *string_2)
     for (int letter = 1; letter <= lenght_2; letter++ && i++)
     {
         //printf("%i", letter);
-        output_string[i] = string_2[letter];
+        string_1[i] = string_2[letter];
     }
     
     printf("%s\n", string_1);        

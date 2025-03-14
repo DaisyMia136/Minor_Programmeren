@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
         
     // free requested memory 
     int lenght = strlen(argv[1]);
-    free(*new_string);
+    free(new_string);
 }
 
 // functions

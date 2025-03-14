@@ -97,6 +97,6 @@ void strfry_(char *string)
     
     printf("%s\n", new_string);
     
-    return
+    return 
 }
 

@@ -24,7 +24,8 @@ char *strsep_(char *string, char *delimiter)
     length = strlen(string);
     
     // loop through string until delimiter is found
-    for (int i = 0; i < length)
+    for (int i = 0; i < length; i++)
+    {
         // when delimiter is found change current pointer to delimiter pointer + 1
         
     // return old pointer 

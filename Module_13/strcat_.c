@@ -62,7 +62,7 @@ char * strcat_(char * string_1, char *string_2)
     string_1[i] = str_2[0];
     i++;
 
-    // loop through string_2
+    // loop through string_2 and add it after string_1
     for (int letter = 1; letter <= lenght_2; letter++ && i++)
     {
         // paste letters to output_string (from when string 1 left of)

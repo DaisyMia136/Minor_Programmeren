@@ -14,8 +14,11 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
-    
+    char *new_string = strdup(argv[1]);
 }
 
 // functions
 char *strdup(char *string)
+{
+    
+}

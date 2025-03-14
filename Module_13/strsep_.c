@@ -3,6 +3,7 @@
 #include <string.h>
 
 // function prototypes
+char *strsep_(char *)
 
 // main script
 int main(int argc, char *argv[])

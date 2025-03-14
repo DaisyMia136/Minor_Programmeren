@@ -49,7 +49,7 @@ char * strcat_(char * string_1, char *string_2)
     {
         string_1[j] = '*';
     }
-    string_1[lenght_1 + lenght_2 + 1] = '\0'; // because one strend is removed, add 
+    string_1[lenght_1 + lenght_2 + 1] = '\0'; // because one strend is removed, add on additional strend at the end of the combined string
 
     // loop through string_1 until \0 is found
     int i = 0;

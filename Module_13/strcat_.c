@@ -61,8 +61,7 @@ char * strcat_(char * string_1, char *string_2)
     // add the first letter of the second word (my loops were rude to me, so I fixed it like this :( )
     string_1[i] = str_2[0];
     i++;
-    
-    //printf("%i", i);
+
     // loop through string_2
     for (int letter = 1; letter <= lenght_2; letter++ && i++)
     {

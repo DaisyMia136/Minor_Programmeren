@@ -31,6 +31,7 @@ char *strdup(char *string)
     // get memory from malloc | new_string is a string a length of string
     char *new_string = malloc(lenght);
     
+    // loop through 
     
     
     

@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-// functions
+// function prototypes
 
 // main script
+{
+    
+}
 
+
+// functions

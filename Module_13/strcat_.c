@@ -67,7 +67,7 @@ char * strcat_(char * string_1, char *string_2)
         string_1[i] = str_2[letter];
     }
     
-    printf("%s\n", string_1);        
+    //printf("%s\n", string_1);        
     // loop through string_2
         // paste letters to output_string (from when string 1 left of)
         

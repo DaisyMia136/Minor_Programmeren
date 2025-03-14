@@ -44,7 +44,7 @@ char * strcat_(char * string_1, char *string_2)
     // initialise output_string
 
 
-    for (int j = 0; j < lenght_1 + lenght_2; j++)
+    for (int j = 0; j < output_lenght; j++)
     {
         string_1[j] = '*';
     }

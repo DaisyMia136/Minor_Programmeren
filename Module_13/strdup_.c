@@ -22,5 +22,10 @@ char *strdup(char *string)
 {
     // calc strlen of string
     
-    // get memory 
+    // get memory from malloc
+    
+    
+    
+    // free requested memory 
+    
 }

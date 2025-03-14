@@ -64,6 +64,6 @@ char * strcat_(char * string_1, char *string_2)
         
         
     // return output string
-    return string_1;
+    return output_string;
 }
 

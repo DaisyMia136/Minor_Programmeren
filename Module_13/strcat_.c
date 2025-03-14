@@ -42,6 +42,7 @@ char * strcat_(char * string_1, char *string_2)
     
     // loop through string_1 until \0 is found
     int i = 0;
+    
     while (string_1[i] != '\0')
     {
         // paste letters to output_string

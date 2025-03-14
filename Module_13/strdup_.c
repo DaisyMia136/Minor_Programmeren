@@ -3,7 +3,7 @@
 #include <string.h>
 
 // function prototypes
-char *strdup()
+char *strdup(char *string);
 
 // main script
 int main(int argc, char *argv[])

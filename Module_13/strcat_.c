@@ -55,10 +55,10 @@ char * strcat_(char * string_1, char *string_2)
     int i = 0;
     for (i = 0; i < lenght_1; i++)
     {
-        // paste letters to output_string
+        // paste letters to string_1
         string_1[i] = str_1[i];
     }
-    
+    // add the first letter of the second word (my loops were rude to me, so I fixed it like this :()
     string_1[i] = str_2[0];
     i++;
     

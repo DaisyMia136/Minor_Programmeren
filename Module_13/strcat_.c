@@ -21,6 +21,9 @@ int main(int argc, char *argv[])
 // functions
 char * strcat_(char * string_1, char *string_2)
 {
+    // save string_1 in new variable
+    
+    
     // calc strlen of both strings
     int lenght_1 = strlen(string_1);
     int lenght_2 = strlen(string_2);

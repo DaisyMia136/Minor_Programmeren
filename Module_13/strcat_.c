@@ -31,7 +31,7 @@ char * strcat_(char * string_1, char *string_2)
     //printf("%i", lenght_2);
     //printf("%i", output_lenght);   
     
-    printf("%s\n", string_2);
+    
     
     // save string_1 in new variable
     char str_1[lenght_1];
@@ -43,7 +43,7 @@ char * strcat_(char * string_1, char *string_2)
     
     // initialise output_string
 
-
+printf("%s\n", string_2);
     for (int j = 0; j < lenght_1 + lenght_2; j++)
     {
         string_1[j] = '*';

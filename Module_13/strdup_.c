@@ -37,7 +37,7 @@ char *strdup_(char *string)
         new_string[i] = string[1];
     }
     
-    return &new_string;
+    return new_string;
     
     
 

@@ -29,7 +29,7 @@ char *strdup_(char *string)
     int lenght = strlen(string);
     
     // get memory from malloc | new_string is a string a length of string
-    char *new_string = malloc(lenght);
+    char *new_string = malloc(lenght + 1);
     
     // loop through string and add pointers from new_string to string letter
     for (int i = 0; i < lenght; i++)

@@ -25,7 +25,7 @@ char * strcat_(char * string_1, char *string_2)
     int lenght_2 = strlen(string_2);
     
     // initialise output_string
-    char * output_string[lenght_1 + lenght_2 - 1];
+    char *output_string[lenght_1 + lenght_2 - 1];
     for (int j = 0; j < lenght_1 + lenght_2 - 2; j++)
     {
         output_string[j] = ' ';

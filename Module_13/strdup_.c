@@ -35,7 +35,7 @@ char *strdup_(char *string)
     for (int i = 0; i < lenght; i++)
     {
         new_string[i] = string[i];
-        printf("%i%c", new_string[i]);
+        printf("%i%c\n", i, new_string[i]);
     }
     
     return new_string;

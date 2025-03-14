@@ -37,7 +37,7 @@ char * strcat_(char * string_1, char *string_2)
     {
         str_1[str_1_letter] = string_1[str_1_letter];
     }
-    printf("%s", str_1);
+    //printf("%s", str_1);
     
     // initialise output_string
     char output_string[(lenght_1 + lenght_2 - 1)];

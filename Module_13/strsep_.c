@@ -23,6 +23,8 @@ char *strsep_(char *string, char *delimiter)
     // calc strlen of string
     
     // loop through string until delimiter is found
-        // when delimiter is found change current pointer to 
+        // when delimiter is found change current pointer to delimiter pointer + 1
+        
+    // return old pointer 
     
 }

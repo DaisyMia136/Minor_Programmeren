@@ -20,5 +20,7 @@ int main(int argc, char *argv[])
 // functions
 char *strdup(char *string)
 {
+    // calc strlen of string
     
+    // get memory 
 }

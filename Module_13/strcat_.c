@@ -52,7 +52,7 @@ char * strcat_(char * string_1, char *string_2)
     
     for (int letter = 0; letter < lenght_2; letter++ && i++)
     {
-        output_string[i] = string_1[i];
+        output_string[i] = string_2[letter];
     }
     printf("%s\n", output_string);        
     // loop through string_2

@@ -9,7 +9,7 @@ char *strdup_(char *string);
 int main(int argc, char *argv[])
 {
     // input checks
-    if (argc < 1)
+    if (argc = 1)
     {
         printf("not enough input arguments");
     }

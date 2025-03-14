@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 // functions
 char * strcat_(char * string_1, char *string_2)
 {
-    // save string_1 in new variable
+    
     
     // calc strlen of both strings
     int lenght_1 = strlen(string_1);
@@ -30,7 +30,10 @@ char * strcat_(char * string_1, char *string_2)
     //printf("%i", lenght_1);
     //printf("%i", lenght_2);
     //printf("%i", output_lenght);   
-
+    
+    // save string_1 in new variable
+    
+    
     
     // initialise output_string
     char output_string[(lenght_1 + lenght_2 - 1)];

@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 }
 
 // functions
-char *strdup(char *string)
+char *strdup_(char *string)
 {
     // calc strlen of string
     int lenght = strlen(argv[1]);

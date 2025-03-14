@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
     
         
     // free requested memory 
-    strlen
+    lenght = strlen(argv[1]);
+    free(lenght);
 }
 
 // functions

@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
 // functions
 char * strcat_(char * string_1, char *string_2)
 {
-    // loop through 
+    // loop through string_1 until 
 }
 

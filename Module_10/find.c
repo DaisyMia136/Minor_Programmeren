@@ -98,8 +98,6 @@ void generate_sequential_numbers(int arr[], int n)
         arr[j] = j;
         //printf("%i\n", arr[j]);
     }
-    
-    
     return;
 }
 

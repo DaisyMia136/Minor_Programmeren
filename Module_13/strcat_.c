@@ -41,12 +41,10 @@ char * strcat_(char * string_1, char *string_2)
     //printf("%s\n", output_string);
     
     // loop through string_1 until \0 is found
-    int i = 0;
     for (int i = 0; i <= lenght_1; i++)
     {
         // paste letters to output_string
         output_string[i] = string_1[i];
-        i++;
     }
     //printf("%c", string_2[0]);
     for (int letter = 0; letter <= lenght_2; letter++ && i++)

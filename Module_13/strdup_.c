@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
-    char *new_string = strdup(argv[1]);
+    char *new_string = strdup_(argv[1]);
     
         
     // free requested memory 

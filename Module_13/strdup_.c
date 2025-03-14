@@ -31,7 +31,11 @@ char *strdup(char *string)
     // get memory from malloc | new_string is a string a length of string
     char *new_string = malloc(lenght);
     
-    // loop through string and add pointers from new_string to 
+    // loop through string and add pointers from new_string to string letter
+    for (int i = 0; i < lenght; i++)
+    {
+        
+    }
     
     
     

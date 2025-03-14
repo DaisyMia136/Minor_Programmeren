@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 char *strsep_(char *string, char *delimiter)
 {
     // calc strlen of string
-    lenght
+    length 
     
     // loop through string until delimiter is found
         // when delimiter is found change current pointer to delimiter pointer + 1

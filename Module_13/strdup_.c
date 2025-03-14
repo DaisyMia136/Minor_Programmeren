@@ -15,6 +15,10 @@ int main(int argc, char *argv[])
     }
     
     char *new_string = strdup(argv[1]);
+    
+        
+    // free requested memory 
+    strlen
 }
 
 // functions

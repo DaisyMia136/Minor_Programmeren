@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
         printf("not enough input argumnets");
     }
     
+    strcat_
     
 }
 

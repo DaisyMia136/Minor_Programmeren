@@ -18,4 +18,7 @@ int main(int argc, char *argv[])
 }
 
 // functions
-
+char *strsep_(char *string, char *delimiter)
+{
+    
+}

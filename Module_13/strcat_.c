@@ -49,7 +49,6 @@ char * strcat_(char * string_1, char *string_2)
         i++;
     }
     //printf("%c", string_2[0]);
-    i++;
     for (int letter = 0; letter <= lenght_2; letter++ && i++)
     {
         output_string[i] = string_2[letter];

@@ -3,6 +3,7 @@
 #include <string.h>
 
 // function prototypes
+strdup
 
 // main script
 int main(int argc, char *argv[])
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
-    strdup
+    
 }
 
 // functions

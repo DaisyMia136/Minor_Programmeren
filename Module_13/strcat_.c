@@ -33,7 +33,7 @@ char * strcat_(char * string_1, char *string_2)
     
     // save string_1 in new variable
     char str_1[lenght_1];
-    for (str_1_letter )
+    for (int str_1_letter =0 ; str_ )
     
     
     // initialise output_string

@@ -49,7 +49,7 @@ char * strcat_(char * string_1, char *string_2)
     {
         string_1[j] = '*';
     }
-    string_1[lenght_1 + lenght_2 + 1] = '\0';
+    string_1[lenght_1 + lenght_2 + 1] = '\0'; // 
 
     // loop through string_1 until \0 is found
     int i = 0;

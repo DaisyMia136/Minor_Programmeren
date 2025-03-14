@@ -48,13 +48,13 @@ char * strcat_(char * string_1, char *string_2)
         output_string[i] = string_1[i];
         i++;
     }
-    printf("%s\n", output_string);
+
     
     for (int letter = 0; letter < lenght_2; letter++ && i++)
     {
         output_string[i] = string_1[i];
     }
-        
+    printf("%s\n", output_string);        
     // loop through string_2
         // paste letters to output_string (from when string 1 left of)
         

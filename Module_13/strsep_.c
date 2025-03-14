@@ -27,7 +27,7 @@ char *strsep_(char *string, char *delimiter)
     for (int i = 0; i < length; i++)
     {
         // when delimiter is found change current pointer to delimiter pointer + 1
-        if (strcmp(string[i] == delimiter[0])
+        if (strcmp(string[i], delimiter[0]) == 0)
         {
             
         }

@@ -24,6 +24,10 @@ char * strcat_(char * string_1, char *string_2)
     lenght_2 = strlen(string_2);
     
     // loop through string_1 until \0 is found
+    while (character != '\0')
+    {
+        output_string[i]
+    }
         // paste letters to output_string
         
     // loop through string_2

@@ -24,10 +24,13 @@ char * strcat_(char * string_1, char *string_2)
     lenght_2 = strlen(string_2);
     
     // loop through string_1 until \0 is found
+    int i = 0;
     while (character != '\0')
     {
-        output_string[i]
+        output_string[i] = string_1[i];
+        i++;
     }
+    printf("%s", output_string);
         // paste letters to output_string
         
     // loop through string_2

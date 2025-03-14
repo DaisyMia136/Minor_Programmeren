@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
         printf("not enough input argumnets");
     }
     
-    combined_string = strcat_(argv[1], argv[2])
+    combined_string = strcat_(argv[1], argv[2]);
     
 }
 

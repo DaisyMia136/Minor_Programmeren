@@ -25,7 +25,7 @@ char * strcat_(char * string_1, char *string_2)
     int lenght_2 = strlen(string_2);
     
     // initialise output_string
-    char * 
+    char * output_string[length_1 + length_2 - 1];
     
     // loop through string_1 until \0 is found
     int i = 0;

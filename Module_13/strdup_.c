@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     
     char *new_string = strdup_(argv[1]);
     
-        
+    
     // free requested memory 
     int lenght = strlen(argv[1]);
     free(new_string);

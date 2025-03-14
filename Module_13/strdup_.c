@@ -29,6 +29,8 @@ char *strdup(char *string)
     int lenght = strlen(argv[1]);
     
     // get memory from malloc
+    malloc(lenght);
+    
     
     
     

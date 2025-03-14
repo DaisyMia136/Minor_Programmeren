@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
     
     char *combined_string = strcat_(argv[1], argv[2]);
     
+    printf("%s", combined_string);
 }
 
 // functions

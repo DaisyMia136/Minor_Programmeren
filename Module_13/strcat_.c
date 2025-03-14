@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // function prototypes
 char * strcat_(char * string_1, char *string_2);
@@ -20,8 +21,8 @@ int main(int argc, char *argv[])
 char * strcat_(char * string_1, char *string_2)
 {
     // calc strlen of both strings
-    lenght_1 = strlen(string_1);
-    lenght_2 = strlen(string_2);
+    int lenght_1 = strlen(string_1);
+    int lenght_2 = strlen(string_2);
     
     // loop through string_1 until \0 is found
     int i = 0;

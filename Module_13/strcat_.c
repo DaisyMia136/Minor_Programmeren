@@ -34,7 +34,7 @@ char * strcat_(char * string_1, char *string_2)
         output_string[i] = &string_1[i];
         i++;
     }
-    printf("%p\n", &output_string);
+    printf("%p\n", *output_string);
         // paste letters to output_string
         
     // loop through string_2

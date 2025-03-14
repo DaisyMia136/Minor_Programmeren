@@ -32,7 +32,8 @@ char * strcat_(char * string_1, char *string_2)
     //printf("%i", output_lenght);   
     
     // save string_1 in new variable
-    
+    char str_1[lenght_1];
+    for ()
     
     
     // initialise output_string

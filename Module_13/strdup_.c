@@ -34,7 +34,7 @@ char *strdup(char *string)
     // loop through string and add pointers from new_string to string letter
     for (int i = 0; i < lenght; i++)
     {
-        
+        new_string[i] = string[1];
     }
     
     

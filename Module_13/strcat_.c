@@ -26,7 +26,8 @@ char * strcat_(char * string_1, char *string_2)
     
     // initialise output_string
     char * output_string[lenght_1 + lenght_2 - 1];
-    for (int j = 0; j < )
+    for (int j = 0; j < lenght_1 + lenght_2 - 1)
+    {
     
     // loop through string_1 until \0 is found
     int i = 0;

@@ -50,6 +50,7 @@ char * strcat_(char * string_1, char *string_2)
     
     output_string[i] = string_2[0];
     i++;
+    
     //printf("%i", i);
     for (int letter = 1; letter <= lenght_2; letter++ && i++)
     {

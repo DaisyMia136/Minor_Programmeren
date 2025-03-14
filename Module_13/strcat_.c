@@ -57,7 +57,7 @@ char * strcat_(char * string_1, char *string_2)
         string_1[i] = str_1[i];
     }
     
-    string_1[i] = string_2[0];
+    string_1[i] = str_2[0];
     i++;
     
     //printf("%i", i);

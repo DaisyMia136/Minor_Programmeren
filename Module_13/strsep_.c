@@ -3,7 +3,7 @@
 #include <string.h>
 
 // function prototypes
-char *strsep_(char *string, char *delimiter)
+char *strsep_(char *string, char *delimiter);
 
 // main script
 int main(int argc, char *argv[])

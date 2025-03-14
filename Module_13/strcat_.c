@@ -28,7 +28,7 @@ char * strcat_(char * string_1, char *string_2)
     int i = 0;
     while (string_1[i] != '\0')
     {
-        output_string[i] = string_1[i];
+        char *output_string[i] = string_1[i];
         i++;
     }
     printf("%s\n", output_string);

@@ -39,7 +39,7 @@ char * strcat_(char * string_1, char *string_2)
     char str_2[lenght_2];
     for (int str_2_letter = 0; str_2_letter < lenght_2 ; str_2_letter++)
     {
-        str_1[str_1_letter] = string_1[str_2_letter];
+        str_1[str_1_letter] = string_2[str_2_letter];
     }
     
 

@@ -40,7 +40,8 @@ char * strcat_(char * string_1, char *string_2)
     //printf("%s", str_1);
     
     // initialise output_string
-    char output_string[(lenght_1 + lenght_2 - 1)];
+
+
     for (int j = 0; j < lenght_1 + lenght_2; j++)
     {
         string_1[j] = '*';

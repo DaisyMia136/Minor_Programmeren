@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     char letter = argv[2][0];
     //printf("%i", letter);
     
-    char *pointer = strchr_(argv[1], letter);
+    char *pointer = strrchr_(argv[1], letter);
     
     if (pointer == NULL)
     {
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 }
 
 // functions
-char * strchr_(char *word, int letter)
+char * strrchr_(char *word, int letter)
 {
     int lenght = strlen(word);
     int index_letter = lenght + 2;

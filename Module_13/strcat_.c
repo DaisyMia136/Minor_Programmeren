@@ -22,6 +22,6 @@ char * strcat_(char * string_1, char *string_2)
     // loop through string_1 until \0 is found
         // paste letters to output_string
         
-    
+    // loop through string_2
 }
 

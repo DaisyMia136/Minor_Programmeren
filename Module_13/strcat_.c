@@ -24,11 +24,14 @@ char * strcat_(char * string_1, char *string_2)
     int lenght_1 = strlen(string_1);
     int lenght_2 = strlen(string_2);
     
+    // initialise output_string
+    char * 
+    
     // loop through string_1 until \0 is found
     int i = 0;
     while (string_1[i] != '\0')
     {
-        char *output_string[i] = string_1[i];
+        output_string[i] = string_1[i];
         i++;
     }
     printf("%s\n", output_string);

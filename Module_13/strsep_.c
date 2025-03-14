@@ -20,5 +20,9 @@ int main(int argc, char *argv[])
 // functions
 char *strsep_(char *string, char *delimiter)
 {
+    // calc strlen of string
+    
+    // loop through string until delimiter is found
+    
     
 }

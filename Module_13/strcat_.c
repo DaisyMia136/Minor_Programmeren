@@ -29,8 +29,6 @@ char * strcat_(char * string_1, char *string_2)
     //printf("%i", lenght_2);
     //printf("%i", output_lenght);   
     
-    
-    
     // save string_1 in new variable
     char str_1[lenght_1];
     for (int str_1_letter = 0; str_1_letter < lenght_1 ; str_1_letter++)

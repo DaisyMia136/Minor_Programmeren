@@ -4,7 +4,7 @@
 #include <time.h>
 
 // function prototypes
-void strfry_(char *string);
+char * strfry_(char *string);
 
 // main script
 int main(int argc, char *argv[])
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 }
 
 // functions
-void strfry_(char *string)
+char * strfry_(char *string)
 {
     // calc string length
     int length = strlen(string);

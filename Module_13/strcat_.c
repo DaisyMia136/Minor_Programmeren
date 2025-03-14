@@ -41,7 +41,7 @@ char * strcat_(char * string_1, char *string_2)
     {
         str_1[str_2_letter] = string_2[str_2_letter];
     }
-    //printf("%s", str_1);    
+    //printf("%s", str_2);    
 
     for (int j = 0; j < output_lenght; j++)
     {

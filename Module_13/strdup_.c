@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
-    
+    strdup
 }
 
 // functions

@@ -55,7 +55,7 @@ char * strcat_(char * string_1, char *string_2)
     for (i = 0; i < lenght_1; i++)
     {
         // paste letters to output_string
-        output_string[i] = string_1[i];
+        string_1[i] = str_1[i];
     }
     
     output_string[i] = string_2[0];

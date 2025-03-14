@@ -36,9 +36,6 @@ char * strcat_(char * string_1, char *string_2)
         str_1[str_1_letter] = string_1[str_1_letter];
     }
     //printf("%s", str_1);
-    
-    // initialise output_string
-
 
     for (int j = 0; j < output_lenght; j++)
     {

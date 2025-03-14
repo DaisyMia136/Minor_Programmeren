@@ -25,7 +25,9 @@ char * strcat_(char * string_1, char *string_2)
     int lenght_1 = strlen(string_1);
     int lenght_2 = strlen(string_2);
     printf("%i", lenght_1);
-    
+    printf("%i", lenght_1);
+    printf("%i", lenght_2);
+
     
     // initialise output_string
     char output_string[(lenght_1 + lenght_2 - 1)];

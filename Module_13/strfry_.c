@@ -96,8 +96,6 @@ char * strfry_(char *string)
     }
     
     string = new_string;
-    
     return string;
-    //printf("%s\n", new_string);
 }
 

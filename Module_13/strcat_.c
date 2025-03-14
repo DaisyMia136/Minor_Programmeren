@@ -21,3 +21,4 @@ char * strcat_(char * string_1, char *string_2)
 {
     
 }
+

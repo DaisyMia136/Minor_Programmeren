@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     
         
     // free requested memory 
-    lenght = strlen(argv[1]);
+    int lenght = strlen(argv[1]);
     free(lenght);
 }
 
@@ -26,8 +26,10 @@ int main(int argc, char *argv[])
 char *strdup(char *string)
 {
     // calc strlen of string
+    int lenght = strlen(argv[1]);
     
     // get memory from malloc
+    
     
     
 

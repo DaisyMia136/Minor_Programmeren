@@ -44,11 +44,12 @@ char * strcat_(char * string_1, char *string_2)
     int i = 0;
     while (string_1[i] != '\0')
     {
+        // paste letters to output_string
         output_string[i] = string_1[i];
         i++;
     }
     printf("%s\n", output_string);
-        // paste letters to output_string
+
         
     // loop through string_2
         // paste letters to output_string (from when string 1 left of)

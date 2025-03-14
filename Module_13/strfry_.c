@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
     //printf("%s", word);
 
     strfry_(word);
+    printf
 
 }
 

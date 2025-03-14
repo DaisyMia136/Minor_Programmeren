@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 // function prototypes
+char * strcat_(char * string_1, char *string_2);
 
 // main script
 int main(int argc, char *argv[])

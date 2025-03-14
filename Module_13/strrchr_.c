@@ -40,7 +40,7 @@ char * strchr_(char *word, int letter)
         if (word[i] == letter)
         {
             index_letter = i;
-
+            
         }
     }
     if (index_letter > lenght)

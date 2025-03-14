@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 char *strdup_(char *string)
 {
     // calc strlen of string
-    int lenght = strlen(argv[1]);
+    int lenght = strlen(string);
     
     // get memory from malloc | new_string is a string a length of string
     char *new_string = malloc(lenght);

@@ -44,7 +44,7 @@ char * strcat_(char * string_1, char *string_2)
     }
 
 
-    // 
+    // combine string_1 and string_2 in 
     for (int j = 0; j < output_lenght; j++)
     {
         string_1[j] = '*';

@@ -24,7 +24,7 @@ char * strcat_(char * string_1, char *string_2)
     // calc strlen of both strings
     int lenght_1 = strlen(string_1);
     int lenght_2 = strlen(string_2);
-    output_lenght = lenght_1 + lenght_2;
+    int output_lenght = lenght_1 + lenght_2;
     printf("%i", lenght_1);
     printf("%i", lenght_2);
     printf("%i", output_lenght);   

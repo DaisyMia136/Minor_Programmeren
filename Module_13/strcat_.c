@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 char * strcat_(char * string_1, char *string_2)
 {
     // save string_1 in new variable
-    
+    str_1 = string_1;
     
     // calc strlen of both strings
     int lenght_1 = strlen(string_1);

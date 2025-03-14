@@ -19,6 +19,10 @@ int main(int argc, char *argv[])
 // functions
 char * strcat_(char * string_1, char *string_2)
 {
+    // calc strlen of both strings
+    lenght_1 = strlen(string_1);
+    lenght_2 = strlen(string_2);
+    
     // loop through string_1 until \0 is found
         // paste letters to output_string
         

@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     //printf("%s", word);
 
     word = strfry_(word);
-    printf(%s)
+    printf("%s", word);
 
 }
 

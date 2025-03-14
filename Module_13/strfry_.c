@@ -94,7 +94,7 @@ void strfry_(char *string)
         //printf("%c", new_string[new_character]);
     }
     
-    
+    new_string = 
     printf("%s\n", new_string);
 }
 

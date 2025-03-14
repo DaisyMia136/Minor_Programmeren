@@ -28,7 +28,7 @@ char *strdup(char *string)
     // calc strlen of string
     int lenght = strlen(argv[1]);
     
-    // get memory from malloc
+    // get memory from malloc | 
     char *new_string = malloc(lenght);
     
     

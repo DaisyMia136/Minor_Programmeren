@@ -43,8 +43,11 @@ char *strsep_(char *string, char *delimiter)
         {
             string[i] = '\0';
             //printf("%s", string);
+            
+            // copy pointer to new_string
+            string = new_string
         }
     }
     // return old pointer 
-    return string;
+    return new_string;
 }

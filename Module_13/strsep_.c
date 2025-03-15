@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     
     printf("%s", new_string);
     
-    
+    new_new_string = strsep_(new_string, argv[2]);
 }
 
 // functions

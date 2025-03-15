@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
         printf("not enough input arguments");
     }
     
-    char *string = strsep_(argv[1], argv[2]);
+    char *new_string = strsep_(argv[1], argv[2]);
     
     printf("%s", argv[1]);
 }

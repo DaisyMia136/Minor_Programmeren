@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     
     char *string = strsep_(argv[1], argv[2]);
     
-    printf("%s", string);
+    printf("%s", argv[1]);
 }
 
 // functions

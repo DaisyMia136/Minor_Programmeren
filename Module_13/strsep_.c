@@ -32,7 +32,7 @@ char *strsep_(char *string, char *delimiter)
         for (int j = 0; j < length_delim; j++)
         {
             compare[j] = string[i + j];
-            printf("%c\n", compare[j]);
+            //printf("%c\n", compare[j]);
         }
         //printf("%s\n", string);
         // when delimiter is found change current pointer to delimiter pointer + 1

@@ -33,7 +33,7 @@ char *strsep_(char *string, char *delimiter)
         for (int j = 0; j < length_delim; j++)
         {
             compare[j] = string[i + j];
-            segement[j] = string[i + j];
+            segment[j] = string[i + j];
             //printf("%c\n", compare[j]);
         }
         //printf("%s\n", compare);

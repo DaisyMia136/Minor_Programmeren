@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     printf("%s", new_string);
     
     new_new_string = strsep_(new_string, argv[2]);
-    printf("%s", new_string);
+    printf("%s", new_new_string);
 }
 
 // functions

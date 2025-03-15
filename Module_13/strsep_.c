@@ -42,7 +42,7 @@ char *strsep_(char *string, char *delimiter)
         if (strcmp(compare, delimiter) == 0)
         {
             string[i] = '\0';
-            printf("%s", string);
+            //printf("%s", string);
         }
     }
     // return old pointer 

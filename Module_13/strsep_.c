@@ -45,5 +45,5 @@ char *strsep_(char *string, char *delimiter)
         }
     }
 
-    return NULL;
+    return string;
 }

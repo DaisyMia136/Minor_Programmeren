@@ -35,7 +35,7 @@ char *strsep_(char *string, char *delimiter)
             if (string[i] == delimiter[j])
             {
                 string[i] = '\0';
-                printf("%s", string);
+                //printf("%s", string);
                 
                 // copy pointer to new_string
                 new_string = &string[i + 1];

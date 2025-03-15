@@ -8,7 +8,7 @@ int main(void)
     printf("%i\n", decimal);
 } 
 
-int to_decimal(int bit1, int bit2, int bit3, int bit4int bit1, int bit2, int bit3, int bit4) 
+int to_decimal(int bit1, int bit2, int bit3, int bit4, int bit1, int bit2, int bit3, int bit4) 
 { 
     int decimal = bit1 * 8 + bit2 * 4 + bit3 * 2 + bit4;
     return decimal;

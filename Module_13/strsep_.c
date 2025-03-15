@@ -41,7 +41,7 @@ char *strsep_(char *string, char *delimiter)
         printf("%s\n", segment);
         
         // when delimiter is found change current pointer to delimiter pointer + 1
-        if (strcmp(segment, compare) == 0)
+        if (strcmp(compare, ) == 0)
         {
             string[i + length_delim] = '\0';
             //printf("%s", string);

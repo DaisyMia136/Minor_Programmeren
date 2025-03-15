@@ -46,7 +46,7 @@ char *strsep_(char *string, char *delimiter)
             //printf("%s", string);
             
             // copy pointer to new_string
-            string = new_string
+            string = new_string;
         }
     }
     // return old pointer 

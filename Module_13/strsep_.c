@@ -36,7 +36,7 @@ char *strsep_(char *string, char *delimiter)
         }
         printf("%s\n", compare);
         // when delimiter is found change current pointer to delimiter pointer + 1
-        if (strcmp(string[i], delimiter[0]) == 0)
+        if (strcmp(string[i], compare) == 0)
         //{
             
         //}

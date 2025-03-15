@@ -33,7 +33,7 @@ char *strsep_(char *string, char *delimiter)
     {
         for (int j = 0; j < length_delim; j++)
         // when delimiter is found change current pointer to delimiter pointer + 1
-        if (
+        if (string[i] == 
             )
         {
             string[i] = '\0';

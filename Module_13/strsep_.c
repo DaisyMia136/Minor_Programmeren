@@ -32,6 +32,7 @@ char *strsep_(char *string, char *delimiter)
     for (int i = 0; i < length; i++)
     {
         for (int j = 0; j < length_delim; j++)
+        {
         // when delimiter is found change current pointer to delimiter pointer + 1
         if (string[i] == delimiter[j])
         {
@@ -41,6 +42,7 @@ char *strsep_(char *string, char *delimiter)
             // copy pointer to new_string
             new_string = &string[i + length_delim];
             break;
+        }
         }
     }
     // return old pointer 

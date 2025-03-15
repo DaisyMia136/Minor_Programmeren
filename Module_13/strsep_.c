@@ -38,13 +38,13 @@ char *strsep_(char *string, char *delimiter)
             segment[j] = string[i + j];
             //printf("%c\n", compare[j]);
         }
-        //printf("%s\n", segment);
+        printf("%s\n", segment);
         
         // when delimiter is found change current pointer to delimiter pointer + 1
         if (strcmp(segment, compare) == 0)
         {
             string[i + length_delim] = '\0';
-            printf("%s", string);
+            //printf("%s", string);
         }
     }
     // return old pointer 

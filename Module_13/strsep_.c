@@ -27,7 +27,6 @@ char *strsep_(char *string, char *delimiter)
     int length = strlen(string);
     int length_delim = strlen(delimiter);
     char compare[length_delim];
-    char segment[length_delim]; 
     
     // loop through string until delimiter is found
     for (int i = 0; i < length; i++)

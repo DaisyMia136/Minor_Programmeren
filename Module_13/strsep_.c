@@ -29,7 +29,7 @@ char *strsep_(char *string, char *delimiter)
     // loop through string until delimiter is found
     for (int i = 0; i < length; i++)
     {
-        for (int j = 0; j < length_delim; j++)
+        for (int j = 1; j < length_delim; j++)
         {
             compare[j] = string[i + j];
         }

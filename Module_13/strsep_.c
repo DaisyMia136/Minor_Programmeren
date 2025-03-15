@@ -23,6 +23,7 @@ char *strsep_(char *string, char *delimiter)
     // check how many character the delimiter is.
     // calc strlen of string
     length = strlen(string);
+    length_delim = strlen(delimiter);
     
     // loop through string until delimiter is found
     for (int i = 0; i < length; i++)

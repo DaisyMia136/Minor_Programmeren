@@ -40,7 +40,7 @@ char *strsep_(char *string, char *delimiter)
                 //printf("%s", string);
                 
                 // copy pointer to new_string
-                new_string = &string[i + length_delim];
+                new_string = &string[i];
                 break;
             }
         }

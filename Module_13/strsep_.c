@@ -46,5 +46,5 @@ char *strsep_(char *string, char *delimiter)
         }
     }
     // return old pointer 
-    return new_string;
+    return NULL;
 }

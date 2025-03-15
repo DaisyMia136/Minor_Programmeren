@@ -34,7 +34,8 @@ char *strsep_(char *string, char *delimiter)
             compare[j] = string[i + j];
             //printf("%c\n", compare[j]);
         }
-        printf("%s\n", compare);
+        //printf("%s\n", compare);
+        
         // when delimiter is found change current pointer to delimiter pointer + 1
         if (strcmp(string[i], compare) == 0)
         //{

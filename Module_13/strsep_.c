@@ -44,7 +44,6 @@ char *strsep_(char *string, char *delimiter)
         if (strcmp(segment, compare) == 0)
         {
             string[i + length_delim] = '\0';
-            string[i * length_delim];
         }
     }
     // return old pointer 

@@ -53,10 +53,6 @@ char *strsep_(char **string, char *delimiter)
     {
         *string = NULL;
     }
-    else 
-    {
-        
-    }
     
     // return pointer to new pointer 
     return token_start;

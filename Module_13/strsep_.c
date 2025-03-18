@@ -31,6 +31,7 @@ char *strsep_(char *string, char *delimiter)
     int length = strlen(string);
     int length_delim = strlen(delimiter);
     //char *new_string = NULL;
+    int token = 0;
     
     // loop through string until delimiter is found
     for (int i = 0; i < length; i++)

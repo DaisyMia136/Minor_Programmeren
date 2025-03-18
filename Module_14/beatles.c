@@ -46,13 +46,10 @@ int main()
 // Step 3: create a print function
 void print_struct(struct musician john[4])
 {
-    for (int i = 0; i < 4; i++)
-    {
-        printf("Name:       %s\n", john[i].name);
-        printf("Instrument: %s\n", john[i].instrument);
-        printf("Born:       %i\n", john[i].year_born);
-        printf("\n");
-    }
+    printf("Name:       %s\n", john[i].name);
+    printf("Instrument: %s\n", john[i].instrument);
+    printf("Born:       %i\n", john[i].year_born);
+    printf("\n");
 }
 
 

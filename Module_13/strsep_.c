@@ -37,7 +37,7 @@ char *strsep_(char **string, char *delimiter)
             // when delimiter is found change current pointer to delimiter pointer + 1
             if (string[0][i] == delimiter[j])
             {
-                string[i] = '\0';
+                string[0][i] = '\0';
                 new_token = i + 1;
                 // update second pointer to i + 1
                 

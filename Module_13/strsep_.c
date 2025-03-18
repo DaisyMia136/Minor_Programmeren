@@ -44,9 +44,9 @@ char *strsep_(char *string, char *delimiter)
                 //printf("%s", string);
                 
                 // copy pointer to new_string
-                new_string = &string[i + 1];
+                //new_string = &string[i + 1];
                 // return old pointer 
-                return new_string;
+                return &string[i + 1];
             }
         }
     }

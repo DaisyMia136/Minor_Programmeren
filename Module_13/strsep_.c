@@ -40,7 +40,7 @@ char *strsep_(char **string, char *delimiter)
             {
                 string[0][i] = '\0';
                 new_token = i + 1; 
-                string[1][0] = string[1][new_token];
+                string[0][0] = string[1][new_token];
                 i = length;
 
             }

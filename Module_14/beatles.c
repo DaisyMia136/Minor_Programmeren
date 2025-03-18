@@ -49,7 +49,7 @@ void print_struct(struct musician john)
 {
     for (int i = 0; i < 4; i++)
     {
-        printf("Name:       %s\n", john.name);
+        printf("Name:       %s\n", john[i].name);
         printf("Instrument: %s\n", john.instrument);
         printf("Born:       %i\n", john.year_born);
         printf("\n");

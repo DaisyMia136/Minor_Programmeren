@@ -43,7 +43,7 @@ char *strsep_(char *string, char *delimiter)
             {
                 string[i] = '\0';
                 new_string = i + 1; 
-                string
+                *string = string(new_string);
                 i = length;
 
             }

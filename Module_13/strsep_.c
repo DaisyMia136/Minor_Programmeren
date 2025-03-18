@@ -21,7 +21,10 @@ int main(int argc, char *argv[])
 // functions
 char *strsep_(char *string, char *delimiter)
 {
-    
+    if(string == NULL)
+    {
+        return NULL;
+    }
     
     // check how many character the delimiter is.
     // calc strlen of string

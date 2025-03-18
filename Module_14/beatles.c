@@ -32,7 +32,7 @@ void print_struct(struct musician john)
 {
     printf("Name: %s", john.name);
     printf("Instrument: %s", john.instrument);
-    printf("Born: %s", john.name);
+    printf("Born: %s", john.year_born);
 }
 
 

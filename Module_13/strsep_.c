@@ -42,7 +42,7 @@ char *strsep_(char **string, char *delimiter)
                 // update second pointer to i + 1
                 token_start = &string[0][new_token];
                 i = length;
-                printf("%s\n", string);
+                printf("%p\n", string);
 
             }
         }

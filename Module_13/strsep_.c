@@ -38,7 +38,6 @@ char *strsep_(char *string, char *delimiter)
                 string[i] = '\0';
                 // return pointer to new pointer 
                 return &string[i + 1];
-                
             }
         }
     }

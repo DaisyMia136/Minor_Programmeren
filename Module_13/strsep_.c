@@ -42,7 +42,7 @@ char *strsep_(char *string, char *delimiter)
                 // return old pointer 
                 if(i < length - 1)
                 {
-                    return string[i + 1];
+                    return &string[i + 1];
                 }
             }
         }

@@ -30,6 +30,9 @@ int main()
     john[2].instrument = "guitar, vocals";
     john[2].year_born = 1943;
     
+    john[3].name = "George";
+    john[3].instrument = "guitar, vocals";
+    john[3].year_born = 1943;
     
     
     // Step 4: Call the print function on 'john'

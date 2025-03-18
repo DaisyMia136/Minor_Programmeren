@@ -29,7 +29,7 @@ int main()
 void print_struct(struct musician)
 {
     char *print_name = john.name
-    printf("Name: %s", print)
+    printf("Name: %s", print_name);
 }
 
 

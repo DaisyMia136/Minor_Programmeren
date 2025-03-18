@@ -49,15 +49,14 @@ char *strsep_(char **string, char *delimiter)
             }
         }
     }
-    else 
-    {
-        *string = NULL;
-    }
     if(new_token > 0)
     {
         // return pointer to new pointer 
         return token_start;
     }
-    
+    else 
+    {
+        *string = NULL;
+    }
     return token_start;
 }

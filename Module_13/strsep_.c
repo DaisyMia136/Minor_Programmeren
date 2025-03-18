@@ -23,7 +23,7 @@ char *strsep_(char **string, char *delimiter)
 {
     // check how many character the delimiter is.
     // calc strlen of string
-    int length = strlen(string);
+    int length = strlen(string[0]);
     int length_delim = strlen(delimiter);
     //char *new_string = NULL;
     int new_token = 0;

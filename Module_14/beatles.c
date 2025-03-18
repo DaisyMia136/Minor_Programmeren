@@ -23,7 +23,7 @@ int main()
     john[0].year_born = 1940;
     
     // Step 4: Call the print function on 'john'
-    print_struct(struct musician john)
+    print_struct( john)
 }
 
 // functions

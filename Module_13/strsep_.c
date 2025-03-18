@@ -57,7 +57,6 @@ char *strsep_(char **string, char *delimiter)
     else 
     {
         *string = NULL;
-        return *string;
     }
     return token_start;
 }

@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 // function prototypes
-void print_struct(struct);
+void print_struct(struct musician);
 
 struct musician 
 {
@@ -26,7 +26,7 @@ int main()
 
 // functions
 // Step 3: create a print function
-void print_struct(struct)
+void print_struct(struct musician)
 {
     char *print_name = john.name;
     printf("Name: %s", print_name);

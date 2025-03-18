@@ -36,7 +36,6 @@ char *strsep_(char *string, char *delimiter)
             if (string[i] == delimiter[j])
             {
                 string[i] = '\0';
-
                 // return pointer to new pointer 
                 return &string[i + 1];
                 

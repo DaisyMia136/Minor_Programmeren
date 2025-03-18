@@ -43,11 +43,10 @@ char *strsep_(char *string, char *delimiter)
             {
                 string[i] = '\0';
                 token = i; 
-                // return pointer to new pointer 
-                return &string[i + 1];
+
             }
         }
     }
-
-    return string;
+    // return pointer to new pointer 
+    return &string[i + 1];
 }

@@ -28,10 +28,7 @@ int main()
 // Step 3: create a print function
 void print_struct(struct musician)
 {
-    for (int i = 0; i < 3; i++)
-    {
-        char *print = john.
-    }
+    char *print = john.
 }
 
 

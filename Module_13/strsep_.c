@@ -25,7 +25,6 @@ char *strsep_(char **string, char *delimiter)
     // calc strlen of string
     int length = strlen(string[0]);
     int length_delim = strlen(delimiter);
-    //char *new_string = NULL;
     char *token_start = *string;
     int new_token = 0;
     

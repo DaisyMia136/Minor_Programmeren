@@ -38,7 +38,8 @@ int main()
     // Step 4: Call the print function on 'john'
     for (int i = 0; i < 4; i++)
     {
-    print_struct(beatles);
+        print_struct(beatles);
+    }
     
 }
 

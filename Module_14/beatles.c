@@ -15,7 +15,7 @@ int main()
     // Step 2: Set the fields to the appropriate values
     john.name = "John";
     john.instrument = "guitar, vocals";
-    
+    john.year_born = 
     
     // Step 4: Call the print function on 'john'
 

@@ -49,7 +49,6 @@ char *strsep_(char **string, char *delimiter)
             }
         }
     }
-
     if(new_token == 0)
     {
         *string = NULL;

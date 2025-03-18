@@ -40,8 +40,7 @@ char *strsep_(char **string, char *delimiter)
                 string[0][i] = '\0';
                 new_token = i + 1;
                 // update second pointer to i + 1
-                
-                &string = string[0][i];
+                &string = string[0][i + 1];
                 i = length;
 
             }

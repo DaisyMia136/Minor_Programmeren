@@ -51,7 +51,7 @@ char *strsep_(char *string, char *delimiter)
     if(end_string > 0)
     {
         // return pointer to new pointer 
-        return &string[end_string];
+        return &string[new_string];
     }
     else 
     {

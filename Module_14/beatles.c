@@ -30,7 +30,7 @@ void print_struct(struct musician)
 {
     for (int i = 0; i < 3; i++)
     {
-        char *print = 
+        char *print = john.
     }
 }
 

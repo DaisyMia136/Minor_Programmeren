@@ -52,12 +52,13 @@ char *strsep_(char **string, char *delimiter)
     if(new_token == 0)
     {
         *string = NULL;
-        // return pointer to new pointer 
-        return token_start;
     }
     else 
     {
         
+    }
+            // return pointer to new pointer 
+        return token_start;
     }
     return token_start;
 }

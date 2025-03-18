@@ -13,7 +13,8 @@ int main()
     // Step 1: Create a 'john' variable
     struct musician john;
     // Step 2: Set the fields to the appropriate values
-    john.name = "John"
+    john.name = "John";
+    
     // Step 4: Call the print function on 'john'
 
 }

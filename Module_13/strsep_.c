@@ -41,6 +41,7 @@ char *strsep_(char **string, char *delimiter)
                 new_token = i + 1;
                 // update second pointer to i + 1
                 *string = string[new_token];
+                
                 //token_start = &string[0][new_token];
                 i = length;
                 printf("%s\n", *string);

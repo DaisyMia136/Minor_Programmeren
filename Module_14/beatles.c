@@ -22,3 +22,6 @@ int main()
 }
 
 // Step 3: create a print function
+void print_struct()
+
+

@@ -31,8 +31,8 @@ int main()
     beatles[2].year_born = 1943;
     
     beatlese = "Ringo";
-    john[3].instrument = "drums";
-    john[3].year_born = 1940;
+    beatles[3].instrument = "drums";
+    beatles[3].year_born = 1940;
     
     
     // Step 4: Call the print function on 'john'

@@ -18,15 +18,15 @@ int main()
     // Step 1: Create a 'john' variable
     struct musician beatles[4];
     // Step 2: Set the fields to the appropriate values
-    john[0].name = "John";
-    john[0].instrument = "guitar, vocals";
-    john[0].year_born = 1940;
+    beatles[0].name = "John";
+    beatles[0].instrument = "guitar, vocals";
+    beatles[0].year_born = 1940;
     
-    john[1].name = "Paul";
-    john[1].instrument = "bass, vocals";
-    john[1].year_born = 1942;
+    beatles[1].name = "Paul";
+    beatles[1].instrument = "bass, vocals";
+    beatles[1].year_born = 1942;
     
-    john[2].name = "George";
+    beatles[2].name = "George";
     john[2].instrument = "guitar, vocals";
     john[2].year_born = 1943;
     

@@ -31,8 +31,8 @@ int main()
 void print_struct(struct musician john)
 {
     printf("Name: %s\n", john.name);
-    printf("Instrument: %s", john.instrument);
-    printf("Born: %i", john.year_born);
+    printf("Instrument: %s\n", john.instrument);
+    printf("Born: %i\n", john.year_born);
 }
 
 

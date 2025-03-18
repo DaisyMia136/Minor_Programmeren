@@ -11,6 +11,7 @@ struct musician
 int main()
 {
     // Step 1: Create a 'john' variable
+    
     // Step 2: Set the fields to the appropriate values
     // Step 4: Call the print function on 'john'
 

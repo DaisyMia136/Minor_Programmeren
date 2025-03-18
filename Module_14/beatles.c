@@ -30,7 +30,7 @@ int main()
 // Step 3: create a print function
 void print_struct(struct musician john)
 {
-    printf("Name: %s", john.name);
+    printf("Name: %s\n", john.name);
     printf("Instrument: %s", john.instrument);
     printf("Born: %i", john.year_born);
 }

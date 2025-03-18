@@ -16,7 +16,7 @@ void print_struct(struct musician beatles[4]);
 int main()
 {
     // Step 1: Create a 'john' variable
-    struct musician john[4];
+    struct musician beatles[4];
     // Step 2: Set the fields to the appropriate values
     john[0].name = "John";
     john[0].instrument = "guitar, vocals";

@@ -32,6 +32,7 @@ void print_struct(struct musician john)
 {
     printf("Name: %s", john.name);
     
+    
 }
 
 

@@ -34,7 +34,7 @@ char *strsep_(char **string, char *delimiter)
         for (int j = 0; j < length_delim; j++)
         {
             // when delimiter is found change current pointer to delimiter pointer + 1
-            if (string[i] == delimiter[j])
+            if (string[0][i] == delimiter[j])
             {
                 string[0][i] = '\0';
                 new_token = i + 1; 

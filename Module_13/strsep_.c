@@ -42,8 +42,8 @@ char *strsep_(char *string, char *delimiter)
             if (string[i] == delimiter[j])
             {
                 string[i] = '\0';
-                &string[new_string];
                 new_string = i + 1; 
+                &string[new_string];
                 i = length;
 
             }

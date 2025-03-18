@@ -26,9 +26,9 @@ int main()
     john[1].instrument = "bass, vocals";
     john[1].year_born = 1942;
     
-    john[1].name = "Paul";
-    john[1].instrument = "bass, vocals";
-    john[1].year_born = 1942;
+    john[2].name = "Paul";
+    john[2].instrument = "bass, vocals";
+    john[2].year_born = 1942;
     
     // Step 4: Call the print function on 'john'
     print_struct(john[0]);

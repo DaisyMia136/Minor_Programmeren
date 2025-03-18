@@ -27,7 +27,7 @@ int main()
     beatles[1].year_born = 1942;
     
     beatles[2].name = "George";
-    john[2].instrument = "guitar, vocals";
+    beatles[2].instrument = "guitar, vocals";
     john[2].year_born = 1943;
     
     john[3].name = "Ringo";

@@ -49,10 +49,11 @@ char *strsep_(char **string, char *delimiter)
             }
         }
     }
-    printf("%s\n", *string);
+
     if(new_token == 0)
     {
         *string = NULL;
+            printf("%s\n", *string);
     }
     
     // return pointer to new pointer 

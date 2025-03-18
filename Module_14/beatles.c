@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 // function prototypes
-void print_struct(struct musician john);
+void print_struct(struct);
 
 struct musician 
 {

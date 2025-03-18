@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
 
+// function prototypes
+void print_struct(struct musician);
+
 struct musician 
 {
     string name;

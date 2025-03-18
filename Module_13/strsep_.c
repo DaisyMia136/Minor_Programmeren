@@ -40,7 +40,10 @@ char *strsep_(char *string, char *delimiter)
                 // copy pointer to new_string
                 //new_string = &string[i + 1];
                 // return old pointer 
-                return &string[i + 1];
+                if(i < length -1)
+                {
+                    return &string[i + 1];
+                }
             }
         }
     }

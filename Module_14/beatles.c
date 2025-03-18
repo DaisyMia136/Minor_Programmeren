@@ -26,7 +26,7 @@ int main()
 
 // functions
 // Step 3: create a print function
-void print_struct(struct musician john)
+void print_struct(struct)
 {
     char *print_name = john.name;
     printf("Name: %s", print_name);

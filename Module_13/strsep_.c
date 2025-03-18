@@ -48,5 +48,5 @@ char *strsep_(char *string, char *delimiter)
         }
     }
 
-    return &string[];
+    return NULL;
 }

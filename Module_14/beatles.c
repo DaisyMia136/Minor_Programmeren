@@ -14,7 +14,9 @@ int main()
     struct musician john;
     // Step 2: Set the fields to the appropriate values
     john.name = "John";
-    john.instrument = ""
+    john.instrument = "guitar, vocals";
+    
+    
     // Step 4: Call the print function on 'john'
 
 }

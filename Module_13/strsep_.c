@@ -52,4 +52,9 @@ char *strsep_(char *string, char *delimiter)
     {
         // return pointer to new pointer 
         return &string[end_string + 1];
+    }
+    else 
+    {
+        return NULL;
+    }
 }

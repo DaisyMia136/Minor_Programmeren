@@ -11,7 +11,7 @@ struct musician
 };
 
 // function prototypes
-void print_struct(struct musician beatles[4]);
+void print_struct(struct musician beatles);
 
 int main()
 {
@@ -45,7 +45,7 @@ int main()
 
 // functions
 // Step 3: create a print function
-void print_struct(struct musician john[4])
+void print_struct(struct musician john)
 {
     printf("Name:       %s\n", john.name);
     printf("Instrument: %s\n", john.instrument);

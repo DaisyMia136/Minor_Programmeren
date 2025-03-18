@@ -30,7 +30,7 @@ int main()
     beatles[2].instrument = "guitar, vocals";
     beatles[2].year_born = 1943;
     
-    beatlese = "Ringo";
+    beatles[3].name = "Ringo";
     beatles[3].instrument = "drums";
     beatles[3].year_born = 1940;
     

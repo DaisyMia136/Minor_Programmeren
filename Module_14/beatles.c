@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-// function prototypes
-void print_struct(struct musician);
+
 
 struct musician 
 {
@@ -10,6 +9,9 @@ struct musician
     string instrument;
     int year_born;
 };
+
+// function prototypes
+void print_struct(struct musician);
 
 int main()
 {

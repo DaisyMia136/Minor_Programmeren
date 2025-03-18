@@ -54,6 +54,6 @@ char *strsep_(char **string, char *delimiter)
     }
     else 
     {
-        return NULL;
+        NULL;
     }
 }

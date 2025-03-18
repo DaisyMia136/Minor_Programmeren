@@ -49,7 +49,7 @@ char *strsep_(char *string, char *delimiter)
             }
         }
     }
-    if(new_string > 0)
+    if(new_token > 0)
     {
         // return pointer to new pointer 
         return string; //&string[new_string];

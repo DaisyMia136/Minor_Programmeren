@@ -38,7 +38,7 @@ char *strsep_(char *string, char *delimiter)
             {
                 string[i] = '\0';
                 new_token = i + 1; 
-                //*string = string[new_token];
+                *string = string[new_token];
                 i = length;
 
             }

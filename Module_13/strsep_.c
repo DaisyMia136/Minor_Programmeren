@@ -44,7 +44,7 @@ char *strsep_(char **string, char *delimiter)
                 
                 //token_start = &string[0][new_token];
                 i = length;
-                //printf("%s\n", *string);
+                printf("%s\n", *string);
 
             }
         }

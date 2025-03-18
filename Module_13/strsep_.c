@@ -57,8 +57,8 @@ char *strsep_(char **string, char *delimiter)
     {
         
     }
-            // return pointer to new pointer 
-        return token_start;
-    }
+    
+    // return pointer to new pointer 
     return token_start;
+    
 }

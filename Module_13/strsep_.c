@@ -6,7 +6,7 @@
 char *strsep_(char **string, char *delimiter);
 
 // main script
-int main(int argc, char **argv[])
+int main(int argc, char **argv)
 {
     // input checks
     if (argc < 2)

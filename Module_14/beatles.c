@@ -11,7 +11,7 @@ struct musician
 };
 
 // function prototypes
-void print_struct(struct musician john);
+void print_struct(struct musician john[4]);
 
 int main()
 {

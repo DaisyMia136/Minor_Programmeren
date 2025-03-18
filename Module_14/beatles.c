@@ -37,9 +37,9 @@ int main()
     
     // Step 4: Call the print function on 'john'
     print_struct(john[0]);
-    print_struct(john[1]);
-    print_struct(john[2]);
-    print_struct(john[3]);
+    //print_struct(john[1]);
+    //print_struct(john[2]);
+    //print_struct(john[3]);
     
 }
 

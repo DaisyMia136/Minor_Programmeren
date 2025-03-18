@@ -43,7 +43,7 @@ char *strsep_(char *string, char *delimiter)
             {
                 string[i] = '\0';
                 new_token = i + 1; 
-                *string = string[new_token];
+                //*string = string[new_token];
                 i = length;
 
             }
@@ -52,7 +52,7 @@ char *strsep_(char *string, char *delimiter)
     if(new_token > 0)
     {
         // return pointer to new pointer 
-        return &string[new_string];
+        return &string[new_token];
     }
     else 
     {

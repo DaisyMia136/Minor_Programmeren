@@ -44,10 +44,10 @@ char *strsep_(char *string, char *delimiter)
                 {
                     return &string[i + 1];
                 }
-                return NULL;
+                
             }
         }
     }
 
-    
+    return NULL;
 }

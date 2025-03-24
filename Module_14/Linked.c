@@ -45,7 +45,7 @@ void insert(int number)
     node *temp = head
     while (temp != NULL)
     {
-        temp 
+        temp = 
     }
     head = n;
     head->next = n;

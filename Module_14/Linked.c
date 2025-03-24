@@ -70,7 +70,7 @@ int number = 0;
             //printf("%i", j);
             temp = temp->next;
             number = temp->number;
-            printf("%i", number);
+            //printf("%i", number);
             j++;
         }
         

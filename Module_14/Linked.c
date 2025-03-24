@@ -67,6 +67,7 @@ int number = 0;
         node *temp = head->next; 
         while (j != i)
         {
+            
             number = temp->number;
             temp = temp->next;
             j++;

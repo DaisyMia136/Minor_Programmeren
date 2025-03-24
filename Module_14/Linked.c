@@ -47,7 +47,7 @@ void insert(int number)
     }
     head = n;
     
-    printf("%i", )
+    printf("%i", head->number)
 }
 
 // prints a linked list

@@ -83,7 +83,7 @@ int number = 0;
         else
         {
             // do print comma
-            printf(" %i,", int number);
+            printf(" %i,", number);
         }
     }
     

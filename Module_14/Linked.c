@@ -21,7 +21,7 @@ int main (void)
 
     for (int i = 0; i < n; i++) 
     {
-        printf("%i", i);
+        printf("%i", array[i]);
         insert(array[i]);
     }
 

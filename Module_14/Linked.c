@@ -42,7 +42,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     
-    printf("%i", (*n).number);
+  
     
     n = head->next;
     while (n != NULL)
@@ -50,7 +50,7 @@ void insert(int number)
         n = n->next; 
     }
     head = n;
-    
+    printf("%i", (*n).number);
     
 }
 

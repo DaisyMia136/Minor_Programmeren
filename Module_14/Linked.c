@@ -42,7 +42,10 @@ void insert(int number)
         (*n).next = NULL;
     }
     
-    
+    while (head != NULL)
+    {
+        
+    }
     head = n;
     head->next = n;
     head->next->next = n;

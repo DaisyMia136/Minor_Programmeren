@@ -16,7 +16,7 @@ struct node *head = NULL;
 
 int main (void)
 {
-    int array[] = {};
+    int array[] = {2,3,4,5};
     int n = sizeof(array)/sizeof(int);
 
     for (int i = 0; i < n; i++) 

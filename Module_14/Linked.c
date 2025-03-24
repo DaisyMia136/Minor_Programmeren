@@ -59,6 +59,5 @@ void print_list(int length)
     // TODO: your code here
     
     
-
     printf("]\n");
 }

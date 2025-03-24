@@ -67,7 +67,7 @@ void print_list(int length)
         {
             //printf("%i", j);
             temp = temp->next;
-                    int number = temp->number;
+            int number = temp->number;
         printf("%i", number);
             j++;
         }

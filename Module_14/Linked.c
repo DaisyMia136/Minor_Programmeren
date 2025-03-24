@@ -68,7 +68,7 @@ void print_list(int length)
             //printf("%i", j);
             temp = temp->next;
             int number = temp->number;
-        printf("%i", number);
+            printf("%i", number);
             j++;
         }
         
@@ -77,7 +77,7 @@ void print_list(int length)
         if (i == 1)// last number in list
         {
             // dont print comma
-            printf(" %i ", number);
+            printf(" %i ", int number);
         }
         else
         {

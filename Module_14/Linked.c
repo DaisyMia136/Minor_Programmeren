@@ -60,7 +60,7 @@ void print_list(int length)
     for(int i = length; i > 0; i--)
     {
         
-        // find last 
+        // find last content of list 
         
         if (i == length - 1)// last number in list
         {

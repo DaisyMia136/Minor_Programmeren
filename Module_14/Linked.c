@@ -34,7 +34,9 @@ void insert(int number)
     node *list = NULL;
     
     // make a pointer to a temporary node element
-    node *n = malloc(sizeof(node))
+    node *n = malloc(sizeof(node));
+    
+    
     
 }
 

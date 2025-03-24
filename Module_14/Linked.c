@@ -65,6 +65,7 @@ void print_list(int length)
         node *temp = head; 
         while (j != i)
         {
+            printf("%i", j)
             temp = temp->next;
             j++;
         }

@@ -42,9 +42,10 @@ void insert(int number)
         (*n).next = NULL;
     }
     
+    node *temp = 
     while (temp != NULL)
     {
-        
+        temp 
     }
     head = n;
     head->next = n;

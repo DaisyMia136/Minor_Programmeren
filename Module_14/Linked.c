@@ -44,6 +44,7 @@ void insert(int number)
     node *temp = head;
     while (temp != NULL)
     {
+        printf("hoiii");
         temp = temp->next; 
         
     }

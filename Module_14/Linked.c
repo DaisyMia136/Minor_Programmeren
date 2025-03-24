@@ -29,6 +29,8 @@ int main (void)
 void insert(int number)
 {
     // TODO: your code here
+    
+    
 }
 
 // prints a linked list

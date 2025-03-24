@@ -39,7 +39,7 @@ void insert(int number)
     // check if memory for n was successfully found
     if (n != NULL)
     {
-        (*n).
+        (*n).number 
     }
     
 }

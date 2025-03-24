@@ -72,8 +72,6 @@ int number = 0;
             j++;
         }
         
-
-        
         if (i == 1)// last number in list
         {
             // dont print comma

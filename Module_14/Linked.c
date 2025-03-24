@@ -69,7 +69,6 @@ int number = 0;
         {
             temp = temp->next;
             number = temp->number;
-            //printf("%i", number);
             j++;
         }
         

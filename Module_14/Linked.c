@@ -61,7 +61,7 @@ void print_list(int length)
     {
         
         // find last content of list 
-        j = 0;
+        int j = 0;
         node *temp = head; 
         while (j != i)
         {

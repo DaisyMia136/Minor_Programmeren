@@ -25,7 +25,7 @@ int main (void)
         insert(array[i]);
     }
 
-    print_list();
+    print_list(sizeof(array));
 }
 
 void insert(int number)

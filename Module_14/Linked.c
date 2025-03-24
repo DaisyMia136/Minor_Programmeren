@@ -49,7 +49,7 @@ void insert(int number)
     }
     temp = n;
     
-    printf("%i", );
+    printf("%i", node->);
     
 }
 

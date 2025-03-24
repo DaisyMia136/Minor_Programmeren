@@ -50,7 +50,7 @@ void insert(int number)
 }
 
 // prints a linked list
-void print_list()
+void print_list(int length)
 {
     struct node *cursor = head;
 

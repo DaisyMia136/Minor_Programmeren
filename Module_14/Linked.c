@@ -41,7 +41,7 @@ void insert(int number)
         (*n).number = number;
         (*n).next = NULL;
     }
-    
+    printf("")
     n = head->next;
     while (n != NULL)
     {

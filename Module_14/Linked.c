@@ -9,7 +9,7 @@ typedef struct node
 } node;
 
 void insert(int number);
-void print_list();
+void print_list(int length);
 
 // pointer to the head node
 struct node *head = NULL;

@@ -69,7 +69,7 @@ int number = 0;
         {
             if (i == 1)
             {
-                number = temp.number;
+                number = temp->number;
             }
             else
             {

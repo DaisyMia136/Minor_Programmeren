@@ -46,6 +46,8 @@ void insert(int number)
             n->next = head;
     }
     head = n;
+    
+    printf("")
 }
 
 // prints a linked list

@@ -36,6 +36,7 @@ void insert(int number)
     // make temporary node element
     
     
+    
 }
 
 // prints a linked list

@@ -24,7 +24,7 @@ int main (void)
         //printf("%i", array[i]);
         insert(array[i]);
     }
-    printf("%i", head->next->number);
+    //printf("%i", head->next->number);
 
     print_list(n);
 }

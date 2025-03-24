@@ -68,6 +68,7 @@ int number = 0;
         while (j != i)
         {
             if (i == 1)
+            
             temp = temp->next;
             number = temp->number;
             j++;

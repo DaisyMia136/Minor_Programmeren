@@ -42,7 +42,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     
-    node *temp = 
+    node *temp = head
     while (temp != NULL)
     {
         temp 

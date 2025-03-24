@@ -65,7 +65,7 @@ int number = 0;
         // find last content of list 
         int j = 1;
         node *temp = head; 
-        while (j != i + 1)
+        while (j != i)
         {
             //printf("%i", j);
             temp = temp->next;

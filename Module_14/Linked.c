@@ -47,7 +47,7 @@ void insert(int number)
         }
         head = n;
         
-        printf("%i", n->next->number);
+        printf("%i", head->next->number);
     }
 }
 

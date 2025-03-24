@@ -41,8 +41,9 @@ void insert(int number)
         (*n).number = number;
         (*n).next = NULL;
     }
+    if ()
     n->next = head;
-    head = list
+    head = list;
 }
 
 // prints a linked list

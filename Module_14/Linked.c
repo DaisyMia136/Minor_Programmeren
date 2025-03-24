@@ -19,7 +19,8 @@ int main (void)
     int array[] = {};
     int n = sizeof(array)/sizeof(int);
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         insert(array[i]);
     }
 

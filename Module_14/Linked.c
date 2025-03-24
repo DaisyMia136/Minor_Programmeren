@@ -57,7 +57,7 @@ void print_list(int length)
     printf("\n[");
 
     // TODO: your code here
-    for(int i = length; i < length; i++)
+    for(int i = length; i > 0; i--)
     {
         
         // find last 

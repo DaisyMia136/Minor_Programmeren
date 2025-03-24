@@ -61,6 +61,7 @@ void print_list(int length)
     {
         
         // find last content of list 
+        (while )
         
         if (i == length - 1)// last number in list
         {

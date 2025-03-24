@@ -45,7 +45,7 @@ void insert(int number)
     {
             n->next = head;
     }
-    head = list;
+    head = n;
 }
 
 // prints a linked list

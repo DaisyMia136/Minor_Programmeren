@@ -42,7 +42,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     n->next = head;
-    
+    head = list
 }
 
 // prints a linked list

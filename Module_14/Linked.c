@@ -62,7 +62,7 @@ void print_list(int length)
         
         
         
-        if ()// last number
+        if (i == length - 1)// last number
         {
             // dont print comma
         }

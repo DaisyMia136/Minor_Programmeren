@@ -49,9 +49,9 @@ void insert(int number)
     
     while (n != NULL)
     {
-        n = n->next; 
+        //n = n->next; 
     }
-    head = n;
+    //head = n;
     printf("%i", (*head).number);
     
 }

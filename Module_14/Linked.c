@@ -42,7 +42,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     
-    while (head != NULL)
+    while (temp != NULL)
     {
         
     }

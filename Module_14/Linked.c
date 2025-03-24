@@ -71,7 +71,7 @@ void print_list(int length)
         }
         
         int number = temp->number;
-        
+        pr
         
         if (i == 1)// last number in list
         {

@@ -64,7 +64,7 @@ int number = 0;
         
         // find last content of list 
         int j = 1;
-        node *temp = head; 
+        node *temp = head->next; 
         while (j != i)
         {
             number = temp->number;

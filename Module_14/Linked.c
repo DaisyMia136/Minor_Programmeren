@@ -41,8 +41,11 @@ void insert(int number)
         (*n).next = NULL;
     }
     
+    while (temp != NULL)
+    {
+        
+    }
     
-    head = n; 
     
 }
 

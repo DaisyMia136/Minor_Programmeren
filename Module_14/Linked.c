@@ -43,9 +43,8 @@ void insert(int number)
     }
     if (n->next != NULL)
     {
-        
+            n->next = head;
     }
-    n->next = head;
     head = list;
 }
 

@@ -41,7 +41,10 @@ void insert(int number)
         (*n).number = number;
         (*n).next = NULL;
     }
-    if ()
+    if (n->next == NULL)
+    {
+        
+    }
     n->next = head;
     head = list;
 }

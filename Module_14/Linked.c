@@ -42,7 +42,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     
-    printf("%p", (*n).number);
+    printf("%p", (*n).next);
     
     n = head->next;
     while (n != NULL)

@@ -41,6 +41,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     
+    temp = head;
     while (temp != NULL)
     {
         temp = head->next; 

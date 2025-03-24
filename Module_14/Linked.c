@@ -59,7 +59,7 @@ void print_list(int length)
     // TODO: your code here
     for(int i = 0; i < length; i++)
     {
-        
+        if ()
     }
     
     printf("]\n");

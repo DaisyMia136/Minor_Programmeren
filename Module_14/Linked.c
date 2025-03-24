@@ -65,6 +65,7 @@ void print_list(int length)
         while (j != i)
         {
             
+            j++
         }
         
         

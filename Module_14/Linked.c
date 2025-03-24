@@ -79,6 +79,7 @@ void print_list(int length)
         else
         {
             // do print comma
+            
         }
     }
     

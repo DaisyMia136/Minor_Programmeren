@@ -66,7 +66,7 @@ void print_list(int length)
         while (j != i)
         {
             temp = temp->next;
-            j++
+            j++;
         }
         int number = temp->number;
         

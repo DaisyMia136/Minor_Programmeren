@@ -30,7 +30,10 @@ int main (void)
 void insert(int number)
 {
     // TODO: your code here
+    // make pointer to list
     node *list = NULL;
+    
+    // make temporary node element
     
     
 }

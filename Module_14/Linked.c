@@ -56,6 +56,7 @@ void print_list(int length)
 
     printf("\n[");
 
+int number = 0;
     // TODO: your code here
     for(int i = length; i > 0; i--)
     {

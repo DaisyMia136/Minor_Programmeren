@@ -57,7 +57,10 @@ void print_list(int length)
     printf("\n[");
 
     // TODO: your code here
-    
+    for(int i = 0; i < length; i++)
+    {
+        
+    }
     
     printf("]\n");
 }

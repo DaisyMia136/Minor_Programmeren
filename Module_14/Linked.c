@@ -46,8 +46,6 @@ void insert(int number)
             n->next = head;
         }
         head = n;
-        
-        printf("%i", head->next->number);
     }
 }
 

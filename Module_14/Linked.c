@@ -47,6 +47,9 @@ void insert(int number)
     {
         temp = temp_>next;
     }
+    
+    
+    
     head = n;
     head->next = n;
     head->next->next = n;

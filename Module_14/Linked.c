@@ -71,7 +71,7 @@ void print_list(int length)
         }
         
         int number = temp->number;
-        pr
+        printf("%i", number);
         
         if (i == 1)// last number in list
         {

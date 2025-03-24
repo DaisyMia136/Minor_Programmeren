@@ -42,7 +42,7 @@ void insert(int number)
         n->number = number;
         n->next = NULL;
         
-        if (head == NULL)
+        if (head != NULL)
         {
             n->next = head;
         }

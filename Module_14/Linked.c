@@ -40,6 +40,7 @@ void insert(int number)
     if (n != NULL)
     {
         (*n).number = number;
+        (*n).next = NULL;
     }
     
 }

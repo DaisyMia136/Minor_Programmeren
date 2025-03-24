@@ -43,15 +43,6 @@ void insert(int number)
     }
     n->next = head;
     
-    node *temp = head;
-    while (temp != NULL)
-    {
-        temp = temp->next;
-    }
-     
-    
-    printf("%i", );
-    
 }
 
 // prints a linked list

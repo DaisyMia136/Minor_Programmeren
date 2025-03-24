@@ -67,8 +67,8 @@ int number = 0;
         node *temp = head; 
         while (j != i)
         {
-            temp = temp->next;
             number = temp->number;
+            temp = temp->next;
             j++;
         }
         

@@ -30,9 +30,7 @@ int main (void)
 void insert(int number)
 {
     // TODO: your code here
-    // make pointer to list
-    node *list = NULL;
-    
+
     // make a pointer to a temporary node element
     node *n = malloc(sizeof(node));
     

@@ -44,7 +44,7 @@ void insert(int number)
     temp = head;
     while (temp != NULL)
     {
-        temp = head->next; 
+        temp = next->next; 
         
     }
     

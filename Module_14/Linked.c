@@ -43,7 +43,8 @@ void insert(int number)
     
     while (temp != NULL)
     {
-        temp = head->next;  
+        temp = head->next; 
+        
     }
     
     

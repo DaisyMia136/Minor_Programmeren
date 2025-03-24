@@ -59,7 +59,17 @@ void print_list(int length)
     // TODO: your code here
     for(int i = 0; i < length; i++)
     {
-        if ()
+        
+        
+        
+        if ()// last number
+        {
+            // dont print comma
+        }
+        else
+        {
+            // do print comma
+        }
     }
     
     printf("]\n");

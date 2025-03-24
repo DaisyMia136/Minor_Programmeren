@@ -63,7 +63,7 @@ int number = 0;
     {
         
         // find last content of list 
-        int j = 1;
+        int j = 0;
         node *temp = head; 
         while (j != i)
         {

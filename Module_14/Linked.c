@@ -39,8 +39,8 @@ void insert(int number)
     // check if memory for n was successfully found
     if (n != NULL)
     {
-        (*n).number = number;
-        (*n).next = NULL;
+        n->number = number;
+        n->next = NULL;
         
         if (head->next != NULL)
         {

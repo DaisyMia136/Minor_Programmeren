@@ -64,12 +64,12 @@ int number = 0;
         
         // find last content of list 
         int j = 1;
-        node *temp = head->next; 
+        node *temp = head; 
         while (j != i)
         {
-            
-            number = temp->number;
+            if (i == 1)
             temp = temp->next;
+            number = temp->number;
             j++;
         }
         

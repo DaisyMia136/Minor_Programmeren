@@ -68,7 +68,7 @@ void print_list(int length)
             temp = temp->next;
             j++
         }
-        temp
+        int number = temp
         
         
         if (i == length - 1)// last number in list

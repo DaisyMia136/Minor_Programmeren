@@ -41,7 +41,7 @@ void insert(int number)
         (*n).number = number;
         (*n).next = NULL;
     }
-    if (n->next == NULL)
+    if (n->next != NULL)
     {
         
     }

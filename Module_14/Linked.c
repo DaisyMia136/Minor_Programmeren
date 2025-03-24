@@ -41,7 +41,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     
-    node *n = head->next;
+    n = head->next;
     while (n != NULL)
     {
         n = temp->next; 

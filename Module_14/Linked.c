@@ -71,8 +71,11 @@ int number = 0;
             {
                 number = temp->number;
             }
-            temp = temp->next;
-            number = temp->number;
+            else
+            {
+                temp = temp->next;
+                number = temp->number;
+            }
             j++;
         }
         

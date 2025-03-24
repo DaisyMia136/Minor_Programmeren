@@ -47,10 +47,10 @@ void insert(int number)
     //n = head->next;
     head->next = n;
     
-    while (n != NULL)
-    {
+    //while (n != NULL)
+    //{
         //n = n->next; 
-    }
+    //}
     //head = n;
     printf("%i", (*head).number);
     

@@ -75,7 +75,7 @@ void print_list(int length)
         if (i == 1)// last number in list
         {
             // dont print comma
-            printf(" %i", number);
+            printf(" %i ", number);
         }
         else
         {

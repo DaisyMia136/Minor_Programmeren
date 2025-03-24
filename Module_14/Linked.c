@@ -49,7 +49,7 @@ void insert(int number)
     {
         n = n->next; 
     }
-    n = head;
+    head = n;
     
     
 }

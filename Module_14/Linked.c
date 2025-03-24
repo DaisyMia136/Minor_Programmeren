@@ -43,6 +43,8 @@ void insert(int number)
         (*n).next = NULL;
     }
     
+    
+    
 }
 
 // prints a linked list

@@ -43,7 +43,7 @@ void insert(int number)
         (*n).next = NULL;
     }
     
-    list = 
+    list = n; 
     
 }
 

@@ -30,7 +30,8 @@ int main (void)
 void insert(int number)
 {
     // TODO: your code here
-    node *list
+    node *list = NULL;
+    
     
 }
 

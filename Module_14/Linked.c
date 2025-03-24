@@ -36,7 +36,7 @@ void insert(int number)
     // make a pointer to a temporary node element
     node *n = malloc(sizeof(node));
     
-    
+    // check if 
     
 }
 

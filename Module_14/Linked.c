@@ -57,6 +57,8 @@ void print_list()
     printf("\n[");
 
     // TODO: your code here
+    
+    
 
     printf("]\n");
 }

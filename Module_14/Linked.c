@@ -72,7 +72,7 @@ void print_list(int length)
         int number = temp->number;
         
         
-        if (i == length + 1)// last number in list
+        if (i == length)// last number in list
         {
             // dont print comma
             printf(" %i", number);

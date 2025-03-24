@@ -47,7 +47,7 @@ void insert(int number)
     {
         temp = temp->next;
     }
-    temp = n;
+    n->;
     
     printf("%i", );
     

@@ -34,8 +34,7 @@ void insert(int number)
     node *list = NULL;
     
     // make temporary node element
-    
-    
+    node n
     
 }
 

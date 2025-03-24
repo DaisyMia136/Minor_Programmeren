@@ -52,7 +52,7 @@ void insert(int number)
         //n = n->next; 
     //}
     //head = n;
-    printf("%i", (*head).number);
+    printf("%i", head->next->number);
     
 }
 

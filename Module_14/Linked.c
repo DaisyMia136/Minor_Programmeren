@@ -67,7 +67,6 @@ int number = 0;
         node *temp = head; 
         while (j != i)
         {
-            //printf("%i", j);
             temp = temp->next;
             number = temp->number;
             //printf("%i", number);

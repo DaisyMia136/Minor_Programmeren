@@ -43,6 +43,8 @@ void insert(int number)
     }
     
     head = n;
+    head->next = n;
+    head->next->next = n;
     
     printf("%i", head->next->number);
     

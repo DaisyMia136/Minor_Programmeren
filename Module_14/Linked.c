@@ -33,7 +33,7 @@ void insert(int number)
     // make pointer to list
     node *list = NULL;
     
-    // make temporary node element
+    // make a pointer to a temporary node element
     node *n
     
 }

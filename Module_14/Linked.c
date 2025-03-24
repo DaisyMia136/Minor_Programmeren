@@ -68,6 +68,7 @@ void print_list(int length)
             temp = temp->next;
             j++;
         }
+        
         int number = temp->number;
         
         

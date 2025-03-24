@@ -43,7 +43,7 @@ void insert(int number)
     
     while (temp != NULL)
     {
-        (*).next
+        (*node).next
     }
     
     

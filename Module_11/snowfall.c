@@ -5,7 +5,7 @@
 #include <time.h>
 
 // global variables
-    #define X_MAX 200
+    #define X_MAX 220
     #define Y_MAX 60
     #define new_snow 2
     #define COLOR "\033[32m"

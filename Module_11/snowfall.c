@@ -80,7 +80,7 @@ void update_scene(void)
         for (int x = X_MAX - 1; x >= 0; x--)
         {
             
-            if(scene[y][x] == 1&& y != Y_MAX -1 && scene[y + 1][x] != 1)
+            if(scene[y][x] == 1)//&& y != Y_MAX -1 && scene[y + 1][x] != 1)
             {
                 scene[y][x] = 0;
                 scene[y+ 1][x + 3] = 1;
